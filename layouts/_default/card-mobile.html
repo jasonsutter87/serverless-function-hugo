@@ -1,0 +1,41 @@
+<div class="post_article">
+  {{ $page := . }}
+    <div class="article_content-mobile">
+        <div class="row pb-3">
+            <div class="col-12">
+                <a href="{{ $page.RelPermalink }}" class="secondary-link-alt h5-heading">{{ $page.Title }}</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-auto">
+                <p class="mb-0">
+                  {{- with $page.Params.tags -}}
+                    {{- range . -}}
+                    <a class="secondary-link" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">
+                      {{ . }}
+                    </a>
+                    {{- end -}}
+                  {{- end -}}
+                </p>
+            </div>
+            <div class="col-auto px-0">
+                <p class="mb-0 px-1">|</p>
+            </div>
+            <div class="col-auto ">
+                <p class="mb-0">
+                    {{ math.Round (div (countwords .Content) 220.0) }} min read
+                </p>
+            </div>
+            <div class="col-auto px-0">
+                <p class="mb-0 px-1">|</p>
+            </div>
+            <div class="col-auto">
+                <p class="mb-0">
+                    <a href="{{ $page.RelPermalink }}" class="secondary-link" >Read Article</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>

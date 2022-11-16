@@ -1,0 +1,27 @@
+<!-- Primary Meta Tags -->
+<meta name="title" content="{{ .Title }}">
+<meta name="description" content="{{ .Description }}">
+<meta name="summary" content="{{ .Summary }}" >
+<meta name="date" content="{{ .Date }}" >
+
+<!-- Open Graph / Facebook -->
+<meta property="og:date" content="{{ .Date }}" />
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ .Description }}">
+<meta property="og:image" content="https://mandatedreportertraining.com{{ .Params.image  }}">
+<meta property="og:url" content="https://mandatedreportertraining.com{{ .Permalink }}">
+<meta property="og:site_name" content="Mandated Reporter Training" />
+<meta property="og:type" content="website">
+
+{{- if .Params.noIndex -}}
+<meta name="robots" content="noindex, nofollow">
+{{- else -}}
+<meta name="robots" content="index, follow">
+{{- end -}}
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://mandatedreportertraining.com{{ .Permalink }}">
+<meta property="twitter:title" content="{{ .Title }}">
+<meta property="twitter:description" content="{{ .Description }}">
+<meta property="twitter:image" content="https://mandatedreportertraining.com{{ .Params.image  }}">

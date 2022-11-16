@@ -1,0 +1,15 @@
+{{- $related := .Site.RegularPages.Related . -}}
+{{- with $related -}}
+      {{- range .| first 3 -}}
+          <div class="col-12 d-lg-none popular-blog-roll-article">
+              {{ .Render "blog-popular-item" }}
+          </div>
+      {{- end -}}
+
+
+      {{- range . | first 2 -}}
+      <div class="article item-post col-12 col-lg-6 mt-4 d-none d-lg-block">
+              {{ .Render "card" }}
+        </div>
+      {{- end -}}
+{{- end -}}

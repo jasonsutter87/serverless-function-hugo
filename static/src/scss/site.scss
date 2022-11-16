@@ -1,0 +1,693 @@
+//////////////////////////////////////////////////////////////
+//                                                          ||
+//                   HTML/Body/Containers                   ||
+//                                                          ||
+//////////////////////////////////////////////////////////////
+$green: #29b494; //Green
+$deepBlue: #1b2942; //DeepBlue
+$purple: #221945; //purple
+$yellow: #FFC03A; //Yellow
+$pink: #d57081;  //pink
+$faqGreen: #e7f5f2; //FAQ light Green
+
+$white: #ffffff; //White
+$light: #F4F4F4; //light grey
+$mid: #C1C1C1; //mid grey
+$mid-black: #808080; //mid grey
+$black: #171717; //black
+
+$font-size: 1rem;
+$line-height: 24px;
+
+$font-weight-300: 300;
+$font-weight-400: 400;
+$font-weight-500: 500;
+$font-weight-600: 600;
+$font-weight-700: 700;
+
+$btn-padding-size: 30px;
+$transition-speed: .5s;
+$gutter-size: 15px;
+
+//////////////////////////////////////////////////////////////
+//                                                          ||
+//                        Utilities                         ||
+//                                                          ||
+//////////////////////////////////////////////////////////////
+
+.sr-only {
+    border: 0;
+    clip: rect(0,0,0,0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+html, body {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif !important;
+    margin: 0;
+    font-weight: $font-weight-400;
+    line-height: $line-height;
+    color: $black;
+    text-align: left;
+    height: 100%;
+    transition: $transition-speed;
+    scroll-behavior: smooth;
+}
+
+.site-container-1340 {
+  padding-right: 15px;
+  padding-left: 15px;
+
+  @media (min-width: 992px) {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+    margin: auto;
+    position: relative;
+    max-width: 1340px;
+    width: 100%;
+}
+
+.site-container-992 {
+    padding-left: $gutter-size;
+    padding-right: $gutter-size;
+    margin: auto;
+    position: relative;
+    max-width: 992px;
+    width: 100%;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+
+  @media (min-width: 992px) {
+    padding-right: 50px !important;
+    padding-left: 50px !important;
+  }
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ul-reset {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    font-size: $font-size;
+    font-weight: $font-weight-400;
+    line-height: $line-height;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+ol li {
+    font-size: $font-size;
+    font-weight: $font-weight-400;
+    line-height: $line-height;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.col-lg-5col {
+ @media (min-width: 992px) {
+   flex: 0 0 auto !important;
+   width: 20% !important;
+ }
+}
+
+//////////////////////////////////////////////////////////////
+//                                                          ||
+//                        Text Colors                       ||
+//                                                          ||
+//////////////////////////////////////////////////////////////
+span.SubHead,
+.secondary-text {
+    color: $deepBlue !important;
+}
+
+.white-text {
+    color: $white !important;
+}
+
+.mid-black-text {
+  color: $mid-black !important;
+}
+
+.primary-text {
+  color: $purple !important;
+}
+
+.red-text {
+  color: red !important;
+}
+
+//////////////////////////////////////////////////////////////
+//                                                          ||
+//                         Links                            ||
+//                                                          ||
+//////////////////////////////////////////////////////////////
+.primary-link {
+    color: $green !important;
+    text-decoration: underline;
+    transition: $transition-speed !important;
+    font-weight: $font-weight-700;
+
+    &:hover,
+    &:active {
+        color: $deepBlue !important;
+    }
+}
+
+.primary-link-alt {
+    color: $green !important;
+    text-decoration: none;
+    transition: $transition-speed !important;
+    font-weight: $font-weight-700;
+
+    &:hover,
+    &:active {
+        color: $deepBlue !important;
+    }
+}
+
+.secondary-link {
+    color: $deepBlue !important;
+    text-decoration: underline;
+    transition: $transition-speed !important;
+    font-weight: $font-weight-700;
+
+    &:hover,
+    &:active {
+        color: $green !important;
+    }
+}
+
+
+.bold {
+  font-weight: $font-weight-700 !important;
+}
+
+//////////////////////////////////////////////////////////////
+//                                                          ||
+//                         Headers                          ||
+//                                                          ||
+//////////////////////////////////////////////////////////////
+h1, h2, h3, h4, h5, h6 {
+    color: unset;
+}
+
+h1,
+.h1-heading {
+    font-size: calc(#{$font-size} * 2.375) !important;
+    font-weight: $font-weight-700 !important;
+    line-height: calc(#{$line-height} * 1.666) !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h2,
+.h2-heading {
+    font-size: calc(#{$font-size} * 2) !important;
+    font-weight: $font-weight-700 !important;
+    line-height: calc(#{$line-height} * 1.666) !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h3,
+.h3-heading {
+    font-size: calc(#{$font-size} * 1.5) !important;
+    font-weight: $font-weight-600 !important;
+    line-height: calc(#{$line-height} * 1.25) !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+span.SubHead,
+h4,
+.h4-heading {
+    font-size: calc(#{$font-size} * 1.25) !important;
+    font-weight: $font-weight-600 !important;
+    line-height: calc(#{$line-height} * 1.1666) !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h5,
+.h5-heading {
+    font-size: $font-size !important;
+    font-weight: $font-weight-600 !important;
+    line-height: $line-height !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h6,
+.h6-heading {
+    font-size: calc(#{$font-size} * 3) !important;
+    font-weight: $font-weight-700 !important;
+    line-height: calc(#{$line-height} * 2.333) !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+p {
+    font-size: $font-size !important;
+    font-weight: $font-weight-400 !important;
+    line-height: $line-height !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.copywrite {
+    font-size: calc(#{$font-size} - 1px);
+}
+
+@media (min-width: 992px) {
+    h1,
+    .h1-heading {
+        font-size: calc(#{$font-size} * 2.625) !important;
+        font-weight: $font-weight-700 !important;
+        line-height: calc(#{$line-height} * 2.083) !important;
+        font-family: 'Montserrat', sans-serif !important;
+    }
+
+    h2,
+    .h2-heading {
+        font-size: calc(#{$font-size} * 2.25) !important;
+        font-weight: $font-weight-700 !important;
+        line-height: calc(#{$line-height} * 1.666) !important;
+        font-family: 'Montserrat', sans-serif !important;
+    }
+
+    h3,
+    .h3-heading {
+        font-size: calc(#{$font-size} * 1.75) !important;
+        font-weight: $font-weight-600 !important;
+        line-height: calc(#{$line-height} * 1.416) !important;
+        font-family: 'Montserrat', sans-serif !important;
+    }
+}
+
+//////////////////////////////////////////////////////////////
+//                                                          ||
+//                         Buttons                          ||
+//                                                          ||
+//////////////////////////////////////////////////////////////
+.btn-size-lg {
+    padding: 0 20px;
+    height: 60px;
+}
+
+.btn-size-sm {
+    padding: 0 18px;
+    height: 40px;
+}
+
+.btn-primary {
+    transition: $transition-speed !important;
+    cursor: pointer !important;
+    background-color: $green !important;
+    font-weight: $font-weight-600 !important;
+    border-radius: 0px !important;
+    border: 2px solid $green !important;
+    color: $deepBlue !important;
+    line-height: $line-height;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: $font-size;
+    text-transform: capitalize;
+    text-decoration: none !important;
+
+    &:hover,
+    &:active {
+        background-color: $pink !important;
+        border: 2px solid $pink !important;
+        color: $purple !important;
+    }
+
+    &:focus{
+        box-shadow: none !important;
+    }
+}
+
+.btn-primary-alt {
+  transition: $transition-speed !important;
+  cursor: pointer !important;
+  background-color: $green !important;
+  font-weight: $font-weight-600 !important;
+  border-radius: 0px !important;
+  border: 2px solid $green !important;
+  color: $white !important;
+  line-height: $line-height;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $font-size;
+  text-transform: capitalize;
+  text-decoration: none !important;
+
+  &:hover,
+  &:active {
+      background-color: $pink !important;
+      border: 2px solid $pink !important;
+      color: $white !important;
+  }
+
+  &:focus{
+      box-shadow: none !important;
+  }
+}
+
+.btn-secondary {
+    transition: $transition-speed !important;
+    cursor: pointer !important;
+    background-color: $deepBlue !important;
+    font-weight: $font-weight-600 !important;
+    border-radius: 0px !important;
+    border: 2px solid $deepBlue !important;
+    color: $green !important;
+    line-height: $line-height;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: $font-size;
+    text-transform: capitalize;
+    text-decoration: none !important;
+
+    &:hover,
+    &:active {
+        background-color: $pink !important;
+        border: 2px solid $pink !important;
+        color: $deepBlue !important;
+    }
+
+    &:focus {
+        box-shadow: none !important;
+    }
+}
+
+.btn-secondary-alt {
+    transition: $transition-speed !important;
+    cursor: pointer !important;
+    background-color: $purple !important;
+    font-weight: $font-weight-600 !important;
+    border-radius: 0px !important;
+    border: 2px solid $deepBlue !important;
+    color: $white !important;
+    line-height: $line-height;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: $font-size;
+    text-transform: capitalize;
+    text-decoration: none !important;
+
+    &:hover,
+    &:active {
+        background-color: $green !important;
+        border: 2px solid $green !important;
+        color: $white !important;
+    }
+
+    &:focus {
+        box-shadow: none !important;
+    }
+}
+
+
+
+.btn-white {
+    transition: $transition-speed !important;
+    cursor: pointer !important;
+    background-color: $white !important;
+    font-weight: $font-weight-600 !important;
+    border-radius: 0px !important;
+    border: 2px solid $white !important;
+    color: $purple !important;
+    line-height: $line-height;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: $font-size;
+    text-transform: capitalize;
+    text-decoration: none !important;
+
+    &:hover,
+    &:active {
+        background-color: $purple !important;
+        border: 2px solid $purple !important;
+        color: $white !important;
+    }
+
+    &:focus {
+        box-shadow: none !important;
+    }
+}
+
+
+.btn-nav {
+  transition: $transition-speed !important;
+  cursor: pointer !important;
+  background-color: $purple !important;
+  font-weight: $font-weight-600 !important;
+  border-radius: 0px !important;
+  border: 2px solid $purple !important;
+  color: $white !important;
+  line-height: $line-height;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $font-size;
+  text-transform: capitalize;
+  text-decoration: none !important;
+
+  &:hover,
+  &:active {
+      background-color: $green !important;
+      border: 2px solid $green !important;
+      color: $white !important;
+  }
+
+  &:focus {
+      box-shadow: none !important;
+  }
+}
+
+//////////////////////////////////////////////////////////////
+//                                                          ||
+//                        Utilities                         ||
+//                                                          ||
+//////////////////////////////////////////////////////////////
+.z-15 {
+    z-index: 15;
+    position: relative;
+}
+
+.light-bg {
+  background-color: $light !important;
+}
+
+.faq-bg {
+  background-color: $faqGreen !important;
+}
+
+.pl-3 {
+  padding-left: 1rem !important;
+}
+//////////////////////////////////////////////////////////////
+//                                                          ||
+//                    Main Navigation                       ||
+//                                                          ||
+//////////////////////////////////////////////////////////////
+.main-navigation-states,
+.main-navigation {
+    z-index: 150;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    transition: .6s;
+    background-color: $white;
+    flex-direction: column;
+}
+
+.main-navigation-states{
+    z-index: 150;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    transition: .6s;
+    flex-direction: column;
+}
+
+.main-nav-top-row {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: $transition-speed !important;
+}
+
+.main-social-nav {
+    img {
+        transition: width 1s;
+    }
+}
+
+.main-navigation-scroll {
+    .main-nav-top-row {
+        height: 50px;
+    }
+
+    .main-social-nav {
+        img {
+            width: 100px;
+        }
+    }
+}
+
+.header-logo-svg-condensed {
+    width: 100px !important;
+
+    .cls-1 {
+        fill: $green !important;
+        opacity: 1 !important;
+    }
+
+    .cls-2 {
+        fill: $deepBlue !important;
+    }
+}
+
+.states-header-logo{
+    width: 100px !important;
+
+    .cls-1 {
+        fill: $green !important;
+        opacity: 1 !important;
+    }
+
+    .cls-2 {
+        fill: $deepBlue !important;
+    }
+}
+
+.main-nav-bottom-row {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid $mid;
+}
+
+.nav-link {
+    display: block;
+    padding: 0 1rem;
+    border: none;
+    background: none;
+    font-weight: $font-weight-600 !important;
+}
+
+.nav-menu-item {
+    background: transparent;
+    border: none;
+    padding: 0 .5rem;
+    transition: $transition-speed !important;
+
+
+    a {
+        color: $deepBlue;
+        transition: $transition-speed !important;
+        font-weight: $font-weight-600;
+        text-transform: uppercase;
+
+        &:hover,
+        &:active {
+            color: $green;
+        }
+    }
+}
+
+//////////////////////////////////////////////////////////////
+//                                                          ||
+//                   Mobile Navigation                      ||
+//                                                          ||
+//////////////////////////////////////////////////////////////
+.mobile-nav {
+    position: fixed;
+    height: 100vh;
+    top: -100vh;
+    right: 0;
+    width: 100vw;
+    overflow: auto;
+    margin: 0;
+    transition: $transition-speed;
+    background-color: $deepBlue;
+    z-index: 1600;
+}
+
+.mobile-nav-active {
+  .mobile-nav {
+    right: 0;
+    transition: $transition-speed;
+    top: 0;
+  }
+}
+
+.nav-btn-open,
+.nav-btn-open-state {
+    font-size: 2rem;
+    color: $deepBlue;
+}
+
+.mobile-nav-row {
+    height: 75px;
+    background-color: $white;
+}
+
+.mobile-nav-menu-item {
+    border-top: 1px solid $green;
+}
+
+.mobile-nav-menu-item:last-child {
+    border-bottom: 0;
+}
+
+.mobile-menu-news-link {
+
+  .mobile-nav-triangle {
+    color: $white;
+  }
+
+
+  &:active,
+  &:hover {
+    background-color: $white !important;
+    color: $deepBlue !important;
+
+
+    .mobile-nav-triangle {
+      color: $deepBlue !important;
+    }
+  }
+}
+
+.submenu-link {
+    color: $white !important;
+    text-transform: uppercase !important;
+    text-decoration: none !important;
+    padding: 0 16px;
+}
+
+//////////////////////////////////////////////////////////////
+//                                                          ||
+//                        Index                             ||
+//                                                          ||
+//////////////////////////////////////////////////////////////
