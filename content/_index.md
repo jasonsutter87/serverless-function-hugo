@@ -1,7 +1,6 @@
 ---
-title: 'Online Mandated Reporter Training'
-description: 'We get mandated reporters trained. Discover our learning management system (LMS), compliant courseware, and online training solutions.'
-image:  /images/assets/brand/mandated-reporter-training-meta-image.png
+title: 'Welcome to Impact Venture Capital'
+description: 'Superior investment returns through partnerships with game-changing entrepreneurs and industry-leading corporations. Unbound Natural Motion in VR Learn More about The technological backbone of a better economy. For everyone. Learn'
+image:  /images/assets/brand/impactvc-share-image.png
 priority: 1.0
-slick: true;
 ---
