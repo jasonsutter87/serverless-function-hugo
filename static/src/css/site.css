@@ -101,7 +101,7 @@ span.SubHead,
 }
 
 .primary-text {
-  color: #221945 !important;
+  color: #4d39e9 !important;
 }
 
 .red-text {
@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 h1,
 .h1-heading {
   font-size: calc(1rem * 2.375) !important;
-  font-weight: 700 !important;
+  font-weight: 700;
   line-height: calc(24px * 1.666) !important;
   font-family: "Montserrat", sans-serif !important;
 }
@@ -157,7 +157,7 @@ h1,
 h2,
 .h2-heading {
   font-size: calc(1rem * 2) !important;
-  font-weight: 700 !important;
+  font-weight: 700;
   line-height: calc(24px * 1.666) !important;
   font-family: "Montserrat", sans-serif !important;
 }
@@ -165,7 +165,7 @@ h2,
 h3,
 .h3-heading {
   font-size: calc(1rem * 1.5) !important;
-  font-weight: 600 !important;
+  font-weight: 600;
   line-height: calc(24px * 1.25) !important;
   font-family: "Montserrat", sans-serif !important;
   font-family: "Montserrat", sans-serif !important;
@@ -175,7 +175,7 @@ span.SubHead,
 h4,
 .h4-heading {
   font-size: calc(1rem * 1.25) !important;
-  font-weight: 600 !important;
+  font-weight: 600;
   line-height: calc(24px * 1.1666) !important;
   font-family: "Montserrat", sans-serif !important;
 }
@@ -183,7 +183,7 @@ h4,
 h5,
 .h5-heading {
   font-size: 1rem !important;
-  font-weight: 600 !important;
+  font-weight: 600;
   line-height: 24px !important;
   font-family: "Montserrat", sans-serif !important;
 }
@@ -191,14 +191,14 @@ h5,
 h6,
 .h6-heading {
   font-size: calc(1rem * 3) !important;
-  font-weight: 700 !important;
+  font-weight: 700;
   line-height: calc(24px * 2.333) !important;
   font-family: "Montserrat", sans-serif !important;
 }
 
 p {
   font-size: 1rem !important;
-  font-weight: 400 !important;
+  font-weight: 400;
   line-height: 24px !important;
   font-family: "Montserrat", sans-serif !important;
 }
@@ -259,7 +259,7 @@ p {
 .btn-primary:hover, .btn-primary:active {
   background-color: #d57081 !important;
   border: 2px solid #d57081 !important;
-  color: #221945 !important;
+  color: #4d39e9 !important;
 }
 .btn-primary:focus {
   box-shadow: none !important;
@@ -318,7 +318,7 @@ p {
 .btn-secondary-alt {
   transition: 0.5s !important;
   cursor: pointer !important;
-  background-color: #221945 !important;
+  background-color: #4d39e9 !important;
   font-weight: 600 !important;
   border-radius: 0px !important;
   border: 2px solid #1b2942 !important;
@@ -347,7 +347,7 @@ p {
   font-weight: 600 !important;
   border-radius: 0px !important;
   border: 2px solid #ffffff !important;
-  color: #221945 !important;
+  color: #4d39e9 !important;
   line-height: 24px;
   display: inline-flex;
   align-items: center;
@@ -357,8 +357,8 @@ p {
   text-decoration: none !important;
 }
 .btn-white:hover, .btn-white:active {
-  background-color: #221945 !important;
-  border: 2px solid #221945 !important;
+  background-color: #4d39e9 !important;
+  border: 2px solid #4d39e9 !important;
   color: #ffffff !important;
 }
 .btn-white:focus {
@@ -368,10 +368,10 @@ p {
 .btn-nav {
   transition: 0.5s !important;
   cursor: pointer !important;
-  background-color: #221945 !important;
+  background-color: #4d39e9 !important;
   font-weight: 600 !important;
   border-radius: 0px !important;
-  border: 2px solid #221945 !important;
+  border: 2px solid #4d39e9 !important;
   color: #ffffff !important;
   line-height: 24px;
   display: inline-flex;
@@ -480,14 +480,6 @@ p {
   border-bottom: 1px solid #C1C1C1;
 }
 
-.nav-link {
-  display: block;
-  padding: 0 1rem;
-  border: none;
-  background: none;
-  font-weight: 600 !important;
-}
-
 .nav-menu-item {
   background: transparent;
   border: none;
@@ -495,13 +487,28 @@ p {
   transition: 0.5s !important;
 }
 .nav-menu-item a {
-  color: #1b2942;
+  display: block;
+  padding: 0 1rem;
+  border: none;
+  background: none;
+  color: #171717;
   transition: 0.5s !important;
-  font-weight: 600;
+  font-weight: 400;
   text-transform: uppercase;
 }
 .nav-menu-item a:hover, .nav-menu-item a:active {
-  color: #29b494;
+  color: #4d39e9;
+}
+.nav-menu-item a:hover:after, .nav-menu-item a:active:after {
+  transform: scaleX(1);
+}
+.nav-menu-item a:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px #4d39e9;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  transform-origin: 100% 50%;
 }
 
 .mobile-nav {
