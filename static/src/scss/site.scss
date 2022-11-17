@@ -70,7 +70,7 @@ html, body {
 
     margin: auto;
     position: relative;
-    max-width: 1340px;
+    max-width: 1340px !important;
     width: 100%;
 }
 
@@ -324,11 +324,11 @@ p {
 .btn-primary {
     transition: $transition-speed !important;
     cursor: pointer !important;
-    background-color: $green !important;
+    background-color: $white !important;
     font-weight: $font-weight-600 !important;
     border-radius: 0px !important;
-    border: 2px solid $green !important;
-    color: $deepBlue !important;
+    border: 2px solid $white !important;
+    color: $purple !important;
     line-height: $line-height;
     display: inline-flex;
     align-items: center;
@@ -339,9 +339,9 @@ p {
 
     &:hover,
     &:active {
-        background-color: $pink !important;
-        border: 2px solid $pink !important;
-        color: $purple !important;
+        background-color: transparent !important;
+        border: 2px solid $white !important;
+        color: $white !important;
     }
 
     &:focus{
@@ -500,6 +500,11 @@ p {
 .z-15 {
     z-index: 15;
     position: relative;
+}
+
+
+.purple-bg {
+  background-color: $purple !important;
 }
 
 .light-bg {
@@ -704,116 +709,225 @@ p {
   text-align: center;
 }
 
-
-
-.item-a {
-  grid-area: spotlight1;
-}
-.item-b {
-  grid-area: strategy1;
-}
-.item-c {
-  grid-area: news1;
-}
-.item-d {
-  grid-area: spotlight2;
-}
-.item-e {
-  grid-area: spotlight3;
-}
-
-.item-f {
-  grid-area: companies1;
-
-  lottie-player {
-    width: 100%;
-    height: auto;
+#index-products-section{
+  .item-a {
+    grid-area: spotlight1;
   }
-}
-
-.item-g {
-  grid-area: people1;
-}
-
-.item-h {
-  grid-area: spotlight4;;
-}
-
-.item-j {
-  grid-area: strategy2;
-
-  lottie-player {
-    position: relative;
-    z-index: 5;
+  .item-b {
+    grid-area: strategy1;
   }
-  .background-image{
-    position: absolute;
-    top: calc(1rem + 1px);
-    left: 1rem;
-    right: 1rem;
-    bottom: 1rem;
-    z-index: 0;
-    background-image: url('/assets/cards/standard/stories/impactvc-news-TaskHuman-lands-20m-to-expand-virtual-coaching-platform-L.jpg');
+  .item-c {
+    grid-area: news1;
   }
-}
+  .item-d {
+    grid-area: spotlight2;
+  }
+  .item-e {
+    grid-area: spotlight3;
+  }
+  .item-f {
+    grid-area: companies1;
 
-.container {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: auto;
-  grid-auto-flow: row;
-  grid-template-areas:
-      "spotlight1 spotlight1  strategy1 strategy1"
-      "news1 news1  spotlight2 spotlight2"
-      "spotlight3 spotlight3  spotlight3 spotlight3"
-      "companies1 people1 spotlight4 spotlight4"
-      "strategy2 strategy2 spotlight4 spotlight4";
-
-.item {
-    align-items: stretch;
-    padding: 1rem;
-    height: 100%;
-    position: relative;
-
-
-    .top-left-grid-lines {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 35px;
-      height: auto;
-      z-index: 1;
-    }
-
-    .inner-text {
-      position: absolute;
-      top: 1rem;
-      right: 1rem;
-      left: 1rem;
-      bottom: 1rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      z-index: 15;
-      color: $white;
+    lottie-player {
       width: 100%;
-      text-align: center;
-      margin: 0 auto;
-      font-size: 2rem !important;
-      line-height: 2.25rem !important;
-    }
-
-    .regular {
-      max-width: 450px;
-    }
-
-    .wide{
-      max-width: 650px;
+      height: auto;
     }
   }
-
-  img {
-    object-fit: cover;
-    object-position: center center;
+  .item-g {
+    grid-area: people1;
   }
+  .item-h {
+    grid-area: spotlight4;;
+  }
+  .item-j {
+    grid-area: strategy2;
+
+    lottie-player {
+      position: relative;
+      z-index: 5;
+    }
+    .background-image{
+      position: absolute;
+      top: calc(1rem + 1px);
+      left: 1rem;
+      right: 1rem;
+      bottom: 1rem;
+      z-index: 0;
+      background-image: url('/assets/cards/standard/stories/impactvc-news-TaskHuman-lands-20m-to-expand-virtual-coaching-platform-L.jpg');
+    }
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "spotlight1 spotlight1  strategy1 strategy1"
+    "news1 news1  spotlight2 spotlight2"
+    "spotlight3 spotlight3  spotlight3 spotlight3"
+    "companies1 people1 spotlight4 spotlight4"
+    "strategy2 strategy2 spotlight4 spotlight4";
+    .item {
+        align-items: stretch;
+        padding: 1rem;
+        height: 100%;
+        position: relative;
+
+
+        .top-left-grid-lines {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 35px;
+          height: auto;
+          z-index: 1;
+        }
+
+        .top-middle-grid-lines {
+          position: absolute;
+          top: 0;
+          left: -1rem;
+          width: 35px;
+          height: auto;
+          z-index: 1;
+        }
+
+        .top-right-grid-lines {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 35px;
+          height: auto;
+          z-index: 1;
+        }
+
+        .middle-left-grid-lines {
+          position: absolute;
+          top: -1rem;
+          left: 0;
+          width: 35px;
+          height: auto;
+          z-index: 1;
+        }
+
+        .middle-middle-grid-lines {
+          position: absolute;
+          top: -1rem;
+          right: -1rem;
+          width: 35px;
+          height: auto;
+          z-index: 1;
+        }
+
+        .middle-right-grid-lines {
+          position: absolute;
+          top: -1rem;
+          right: 0;
+          width: 35px;
+          height: auto;
+          z-index: 1;
+        }
+
+        .bottom-left-grid-lines {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 35px;
+          height: auto;
+          z-index: 1;
+        }
+
+        .bottom-middle-grid-lines {
+          position: absolute;
+          bottom: 0;
+          left: -1rem;
+          width: 35px;
+          height: auto;
+          z-index: 1;
+        }
+
+        .bottom-right-grid-lines {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 35px;
+          height: auto;
+          z-index: 1;
+        }
+
+        .inner-text {
+          position: absolute;
+          top: 1rem;
+          right: 1rem;
+          left: 1rem;
+          bottom: 1rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          z-index: 15;
+          color: $white;
+          width: 100%;
+          text-align: center;
+          margin: 0 auto;
+          font-size: 2rem !important;
+          line-height: 2.25rem !important;
+        }
+
+        .regular {
+          max-width: 450px;
+        }
+
+        .wide{
+          max-width: 650px;
+        }
+      }
+
+      img {
+        object-fit: cover;
+        object-position: center center;
+      }
+    }
+
+}
+
+
+
+#site-cta-section {
+  padding: 50px 0;
+  margin: 0 1rem;
+  color: black;
+
+  .item-a {
+    grid-area: text;
+  }
+  .item-b {
+    grid-area: button;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "text button";
+
+    .item {
+        padding: 1rem;
+
+        .top-left-grid-lines {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 35px;
+          height: auto;
+          z-index: 1;
+        }
+
+
+
+      }
+  }
+
+
 }
