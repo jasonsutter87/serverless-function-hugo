@@ -74,6 +74,21 @@ html, body {
     width: 100%;
 }
 
+.site-container-1200 {
+  padding-right: 15px;
+  padding-left: 15px;
+
+  @media (min-width: 992px) {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+    margin: auto;
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+}
+
 .site-container-992 {
     padding-left: $gutter-size;
     padding-right: $gutter-size;
@@ -498,12 +513,15 @@ p {
 .pl-3 {
   padding-left: 1rem !important;
 }
+
+.border-bottom-mid {
+  border-bottom: 1px solid $mid;
+}
 //////////////////////////////////////////////////////////////
 //                                                          ||
 //                    Main Navigation                       ||
 //                                                          ||
 //////////////////////////////////////////////////////////////
-.main-navigation-states,
 .main-navigation {
     z-index: 150;
     position: fixed;
@@ -513,27 +531,11 @@ p {
     display: flex;
     transition: .6s;
     background-color: $white;
-    flex-direction: column;
-}
-
-.main-navigation-states{
-    z-index: 150;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    display: flex;
-    transition: .6s;
-    flex-direction: column;
-}
-
-.main-nav-top-row {
-    height: 75px;
-    display: flex;
     align-items: center;
-    justify-content: space-between;
-    transition: $transition-speed !important;
+    flex-direction: row;
+    height: 75px;
 }
+
 
 .main-social-nav {
     img {
@@ -703,3 +705,8 @@ p {
 //                        Index                             ||
 //                                                          ||
 //////////////////////////////////////////////////////////////
+#index-header-section {
+  margin-top: 75px;
+  padding: 50px 0;
+  text-align: center;
+}
