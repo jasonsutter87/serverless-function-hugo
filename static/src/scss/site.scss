@@ -775,6 +775,16 @@ p {
     height: 100%;
     position: relative;
 
+
+    .top-left-grid-lines {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 35px;
+      height: auto;
+      z-index: 1;
+    }
+
     .inner-text {
       position: absolute;
       top: 1rem;

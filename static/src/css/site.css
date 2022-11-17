@@ -633,6 +633,14 @@ p {
   height: 100%;
   position: relative;
 }
+.container .item .top-left-grid-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35px;
+  height: auto;
+  z-index: 1;
+}
 .container .item .inner-text {
   position: absolute;
   top: 1rem;
