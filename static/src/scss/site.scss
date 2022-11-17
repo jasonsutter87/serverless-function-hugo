@@ -737,6 +737,11 @@ p {
 .item-f {
   grid-area: companies1;
   background-color: lawngreen;
+
+  lottie-player {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .item-g {

@@ -603,6 +603,10 @@ p {
   grid-area: companies1;
   background-color: lawngreen;
 }
+.item-f lottie-player {
+  width: 100%;
+  height: auto;
+}
 
 .item-g {
   grid-area: people1;
