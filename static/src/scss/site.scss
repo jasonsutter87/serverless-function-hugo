@@ -710,3 +710,70 @@ p {
   padding: 50px 0;
   text-align: center;
 }
+
+
+
+.item-a {
+  grid-area: spotlight1;
+  background-color: green;
+}
+.item-b {
+  grid-area: strategy1;
+  background-color: coral;
+}
+.item-c {
+  grid-area: news1;
+  background-color: cadetblue;
+}
+.item-d {
+  grid-area: spotlight2;
+  background-color: darkkhaki;
+}
+.item-e {
+  grid-area: spotlight3;
+  background-color: fuchsia;
+}
+
+.item-f {
+  grid-area: companies1;
+  background-color: lawngreen;
+}
+
+.item-g {
+  grid-area: people1;
+  background-color: orange;
+}
+
+.item-h {
+  grid-area: spotlight4;
+  background-color: chocolate;
+}
+
+.item-j {
+  grid-area: strategy2;
+  background: lemonchiffon;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: auto;
+  grid-auto-flow: row;
+  grid-template-areas:
+      "spotlight1 spotlight1  strategy1 strategy1"
+      "news1 news1  spotlight2 spotlight2"
+      "spotlight3 spotlight3  spotlight3 spotlight3"
+      "companies1 people1 spotlight4 spotlight4"
+      "strategy2 strategy2 spotlight4 spotlight4";
+
+.item {
+    align-items: stretch;
+    padding: 1rem;
+    height: 100%
+  }
+
+  img {
+    object-fit: cover;
+    object-position: center center;
+  }
+}
