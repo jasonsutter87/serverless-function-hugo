@@ -606,6 +606,19 @@ p {
 .item-j {
   grid-area: strategy2;
 }
+.item-j lottie-player {
+  position: relative;
+  z-index: 5;
+}
+.item-j .background-image {
+  position: absolute;
+  top: calc(1rem + 1px);
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 0;
+  background-image: url("/assets/cards/standard/stories/impactvc-news-TaskHuman-lands-20m-to-expand-virtual-coaching-platform-L.jpg");
+}
 
 .container {
   display: grid;
@@ -618,6 +631,30 @@ p {
   align-items: stretch;
   padding: 1rem;
   height: 100%;
+  position: relative;
+}
+.container .item .inner-text {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  left: 1rem;
+  bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 15;
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 2rem !important;
+  line-height: 2.25rem !important;
+}
+.container .item .regular {
+  max-width: 450px;
+}
+.container .item .wide {
+  max-width: 650px;
 }
 .container img {
   object-fit: cover;
