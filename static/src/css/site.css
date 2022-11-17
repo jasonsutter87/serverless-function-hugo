@@ -451,15 +451,8 @@ p {
   width: 100px;
 }
 
-.header-logo-svg-condensed {
-  width: 100px !important;
-}
-.header-logo-svg-condensed .cls-1 {
-  fill: #29b494 !important;
-  opacity: 1 !important;
-}
-.header-logo-svg-condensed .cls-2 {
-  fill: #1b2942 !important;
+.header-logo img {
+  width: 125px;
 }
 
 .states-header-logo {
@@ -576,32 +569,26 @@ p {
 
 .item-a {
   grid-area: spotlight1;
-  background-color: green;
 }
 
 .item-b {
   grid-area: strategy1;
-  background-color: coral;
 }
 
 .item-c {
   grid-area: news1;
-  background-color: cadetblue;
 }
 
 .item-d {
   grid-area: spotlight2;
-  background-color: darkkhaki;
 }
 
 .item-e {
   grid-area: spotlight3;
-  background-color: fuchsia;
 }
 
 .item-f {
   grid-area: companies1;
-  background-color: lawngreen;
 }
 .item-f lottie-player {
   width: 100%;
@@ -610,17 +597,14 @@ p {
 
 .item-g {
   grid-area: people1;
-  background-color: orange;
 }
 
 .item-h {
   grid-area: spotlight4;
-  background-color: chocolate;
 }
 
 .item-j {
   grid-area: strategy2;
-  background: lemonchiffon;
 }
 
 .container {
