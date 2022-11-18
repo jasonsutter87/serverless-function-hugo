@@ -522,6 +522,13 @@ p {
 .border-bottom-mid {
   border-bottom: 1px solid $mid;
 }
+
+
+.d-lg-block {
+  @media (min-width: 992px) {
+    display: block !important;
+  }
+}
 //////////////////////////////////////////////////////////////
 //                                                          ||
 //                    Main Navigation                       ||

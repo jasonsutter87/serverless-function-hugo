@@ -430,6 +430,12 @@ p {
   border-bottom: 1px solid #C1C1C1;
 }
 
+@media (min-width: 992px) {
+  .d-lg-block {
+    display: block !important;
+  }
+}
+
 .main-navigation {
   z-index: 150;
   position: fixed;
