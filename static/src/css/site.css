@@ -617,10 +617,22 @@ p {
 }
 #index-products-section .container {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 100%;
   grid-template-rows: auto;
   grid-auto-flow: row;
-  grid-template-areas: "spotlight1 spotlight1  strategy1 strategy1" "news1 news1  spotlight2 spotlight2" "spotlight3 spotlight3  spotlight3 spotlight3" "companies1 people1 spotlight4 spotlight4" "strategy2 strategy2 spotlight4 spotlight4";
+  grid-template-areas: "spotlight1" "strategy1" "news1" "spotlight2" "spotlight3" "companies1" "people1" "spotlight4" "strategy2";
+}
+@media (min-width: 768px) {
+  #index-products-section .container {
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "spotlight1  strategy1" "spotlight2 spotlight2" "news1 people1" "spotlight3 people1" "spotlight4 spotlight4" "companies1  strategy2";
+  }
+}
+@media (min-width: 992px) {
+  #index-products-section .container {
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas: "spotlight1 spotlight1  strategy1 strategy1" "news1 news1  spotlight2 spotlight2" "spotlight3 spotlight3  spotlight3 spotlight3" "companies1 people1 spotlight4 spotlight4" "strategy2 strategy2 spotlight4 spotlight4";
+  }
 }
 #index-products-section .container .item {
   align-items: stretch;
