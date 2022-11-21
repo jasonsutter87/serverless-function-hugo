@@ -257,6 +257,9 @@ h1,
     font-weight: $font-weight-500;
     line-height: calc(#{$line-height} * 1.933333333333333) !important;
     font-family: 'Poppins', sans-serif !important;
+    &:before{
+      content: unset;
+    }
 
     @media (min-width: 992px) {}
 }
