@@ -37,11 +37,11 @@ html, body {
   }
 }
 
-.container-1340-override {
+.container-1316-override {
   max-width: 1316px !important;
 }
 
-.footer-container-override {
+.container-1416-override {
   max-width: 1415px !important;
 }
 
@@ -132,13 +132,13 @@ span.SubHead,
 }
 
 .primary-link {
-  color: #29b494 !important;
+  color: #4d39e9 !important;
   text-decoration: underline;
   transition: 0.5s !important;
   font-weight: 700;
 }
 .primary-link:hover, .primary-link:active {
-  color: #1b2942 !important;
+  color: #171717 !important;
 }
 
 .primary-link-alt {
@@ -175,7 +175,22 @@ h1,
   font-weight: 500;
   line-height: calc(30px * 2.133333333333333) !important;
   font-family: "Poppins", sans-serif !important;
+  position: relative;
 }
+h1::before,
+.h1-heading::before {
+  content: "";
+  height: 20px;
+  width: 100%;
+  position: absolute;
+  top: -25px;
+  left: 0px;
+  text-align: center;
+  right: 0;
+  margin: 0 auto;
+  background: repeating-linear-gradient(135deg, transparent, #4d39e9 1px, #4d39e9 1px, transparent 2px, transparent 8px);
+}
+
 .h1-home-heading {
   font-size: calc(18px * 2.444444444444444) !important;
   font-weight: 500;
@@ -231,7 +246,7 @@ p {
   line-height: calc(30px * 0.5333333333333333) !important;
   font-family: "Poppins", sans-serif !important;
 }
-.copywrite {
+.copyright {
   font-size: calc(18px * 0.7777777777777778) !important;
   line-height: calc(30px * 0.5333333333333333) !important;
 }
@@ -818,6 +833,15 @@ footer .footer-social a:hover, footer .footer-social a:active {
   position: relative;
 }
 
+#inner-page-title-section {
+  margin-top: 135px;
+  text-align: center;
+}
+#inner-page-title-section .h1-wrapepr {
+  display: flex;
+  justify-content: center;
+}
+
 #our-companies-section {
   padding-top: 50px;
 }
@@ -845,6 +869,10 @@ footer .footer-social a:hover, footer .footer-social a:active {
   color: #4d39e9;
 }
 
+#our-companies-logo-section {
+  margin-top: 50px;
+}
+
 #our-team-section {
   padding-top: 50px;
 }
@@ -870,6 +898,14 @@ footer .footer-social a:hover, footer .footer-social a:active {
 #our-team-section .active svg {
   fill: #4d39e9;
   color: #4d39e9;
+}
+
+.pressArticle {
+  padding: 1rem 2rem !important;
+  position: relative;
+}
+.pressArticle:not(:first-child) {
+  margin-top: 1.5rem;
 }
 
 /*# sourceMappingURL=site.css.map */

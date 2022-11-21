@@ -74,11 +74,11 @@ html, body {
     width: 100%;
 }
 
-.container-1340-override {
+.container-1316-override {
   max-width: 1316px !important;
 }
 
-.footer-container-override {
+.container-1416-override {
   max-width: 1415px !important;
 }
 
@@ -178,14 +178,14 @@ span.SubHead,
 //                                                          ||
 //////////////////////////////////////////////////////////////
 .primary-link {
-    color: $green !important;
+    color: $purple !important;
     text-decoration: underline;
     transition: $transition-speed !important;
     font-weight: $font-weight-700;
 
     &:hover,
     &:active {
-        color: $deepBlue !important;
+        color: $black !important;
     }
 }
 
@@ -233,8 +233,23 @@ h1,
     font-weight: $font-weight-500;
     line-height: calc(#{$line-height} * 2.133333333333333) !important;
     font-family: 'Poppins', sans-serif !important;
+    position: relative;
 
     @media (min-width: 992px) {}
+
+
+    &::before {
+    content: '';
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    top: -25px;
+    left: 0px;
+    text-align: center;
+    right: 0;
+    margin: 0 auto;
+    background: repeating-linear-gradient( 135deg, transparent, $purple 1px,  $purple 1px, transparent 2px, transparent 8px );
+  }
 }
 
 .h1-home-heading {
@@ -309,7 +324,7 @@ p {
   @media (min-width: 992px) {}
 }
 
-.copywrite {
+.copyright {
     font-size: calc(#{$font-size} * 0.7777777777777778) !important;
     line-height: calc(#{$line-height} * 0.5333333333333333) !important;
 }
@@ -1043,6 +1058,22 @@ footer {
       }
 }
 
+//////////////////////////////////////////////////////////////
+//                                                          ||
+//                          Inners                          ||
+//                                                          ||
+//////////////////////////////////////////////////////////////
+
+#inner-page-title-section {
+ margin-top: 135px;
+ text-align: center;
+
+
+ .h1-wrapepr {
+   display: flex;
+   justify-content: center;
+ }
+}
 
 //////////////////////////////////////////////////////////////
 //                                                          ||
@@ -1080,6 +1111,11 @@ footer {
       color: $purple;
     }
   }
+}
+
+
+#our-companies-logo-section {
+  margin-top: 50px;
 }
 
 
@@ -1121,4 +1157,20 @@ footer {
       color: $purple;
     }
   }
+}
+
+//////////////////////////////////////////////////////////////
+//                                                          ||
+//                         Press                            ||
+//                                                          ||
+//////////////////////////////////////////////////////////////
+
+.pressArticle {
+  padding: 1rem 2rem !important;
+  position: relative;
+
+  &:not(:first-child) {
+    margin-top: 1.5rem;
+  }
+
 }
