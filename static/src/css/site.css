@@ -504,6 +504,24 @@ p {
   transition: transform 250ms ease-in-out;
   transform-origin: 100% 50%;
 }
+.nav-menu-item a.active {
+  display: block;
+  padding: 0 1rem;
+  border: none;
+  background: none;
+  transition: 0.5s !important;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #4d39e9;
+}
+.nav-menu-item a.active:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px #4d39e9;
+  transform: scaleX(1);
+  transition: transform 250ms ease-in-out;
+  transform-origin: 100% 50%;
+}
 
 .mobile-nav {
   position: fixed;
@@ -597,6 +615,87 @@ footer .footer-social a:hover, footer .footer-social a:active {
   color: #4d39e9;
 }
 
+.top-left-grid-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35px !important;
+  height: auto;
+  z-index: 1;
+}
+
+.top-middle-grid-lines {
+  position: absolute;
+  top: 0;
+  left: -1rem;
+  width: 35px !important;
+  height: auto;
+  z-index: 1;
+}
+
+.top-right-grid-lines {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 35px !important;
+  height: auto;
+  z-index: 1;
+}
+
+.middle-left-grid-lines {
+  position: absolute;
+  top: -1rem;
+  left: 0;
+  width: 35px !important;
+  height: auto;
+  z-index: 1;
+}
+
+.middle-middle-grid-lines {
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  width: 35px !important;
+  height: auto;
+  z-index: 1;
+}
+
+.middle-right-grid-lines {
+  position: absolute;
+  top: -1rem;
+  right: 0;
+  width: 35px !important;
+  height: auto;
+  z-index: 1;
+}
+
+.bottom-left-grid-lines {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 35px !important;
+  height: auto;
+  z-index: 1;
+}
+
+.bottom-middle-grid-lines {
+  position: absolute;
+  bottom: 0;
+  left: -1rem;
+  width: 35px !important;
+  height: auto;
+  z-index: 1;
+}
+
+.bottom-right-grid-lines {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 35px !important;
+  height: auto;
+  z-index: 1;
+}
+
 #index-header-section {
   margin-top: 75px;
   padding: 50px 0;
@@ -672,78 +771,6 @@ footer .footer-social a:hover, footer .footer-social a:active {
   height: 100%;
   position: relative;
 }
-#index-products-section .container .item .top-left-grid-lines {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 35px;
-  height: auto;
-  z-index: 1;
-}
-#index-products-section .container .item .top-middle-grid-lines {
-  position: absolute;
-  top: 0;
-  left: -1rem;
-  width: 35px;
-  height: auto;
-  z-index: 1;
-}
-#index-products-section .container .item .top-right-grid-lines {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 35px;
-  height: auto;
-  z-index: 1;
-}
-#index-products-section .container .item .middle-left-grid-lines {
-  position: absolute;
-  top: -1rem;
-  left: 0;
-  width: 35px;
-  height: auto;
-  z-index: 1;
-}
-#index-products-section .container .item .middle-middle-grid-lines {
-  position: absolute;
-  top: -1rem;
-  right: -1rem;
-  width: 35px;
-  height: auto;
-  z-index: 1;
-}
-#index-products-section .container .item .middle-right-grid-lines {
-  position: absolute;
-  top: -1rem;
-  right: 0;
-  width: 35px;
-  height: auto;
-  z-index: 1;
-}
-#index-products-section .container .item .bottom-left-grid-lines {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 35px;
-  height: auto;
-  z-index: 1;
-}
-#index-products-section .container .item .bottom-middle-grid-lines {
-  position: absolute;
-  bottom: 0;
-  left: -1rem;
-  width: 35px;
-  height: auto;
-  z-index: 1;
-}
-#index-products-section .container .item .bottom-right-grid-lines {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 35px;
-  height: auto;
-  z-index: 1;
-}
 #index-products-section .container .item .inner-text {
   position: absolute;
   top: 1rem;
@@ -790,77 +817,47 @@ footer .footer-social a:hover, footer .footer-social a:active {
   height: 100%;
   position: relative;
 }
-#site-cta-section .container .item .top-left-grid-lines {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 35px;
-  height: auto;
-  z-index: 1;
+
+#our-companies-section {
+  padding-top: 50px;
 }
-#site-cta-section .container .item .top-middle-grid-lines {
-  position: absolute;
-  top: 0;
-  left: -1rem;
-  width: 35px;
-  height: auto;
-  z-index: 1;
+#our-companies-section .company-toggle-row {
+  border-top: 1px solid #808080;
+  border-bottom: 1px solid #808080;
+  padding: 0.25rem 0;
 }
-#site-cta-section .container .item .top-right-grid-lines {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 35px;
-  height: auto;
-  z-index: 1;
+#our-companies-section .companies-toggle-button {
+  color: #808080;
+  background: transparent;
+  border: none;
 }
-#site-cta-section .container .item .middle-left-grid-lines {
-  position: absolute;
-  top: -1rem;
-  left: 0;
-  width: 35px;
-  height: auto;
-  z-index: 1;
+#our-companies-section .active {
+  color: #171717;
 }
-#site-cta-section .container .item .middle-middle-grid-lines {
-  position: absolute;
-  top: -1rem;
-  right: -1rem;
-  width: 35px;
-  height: auto;
-  z-index: 1;
+#our-companies-section .active svg {
+  fill: #4d39e9;
+  color: #4d39e9;
 }
-#site-cta-section .container .item .middle-right-grid-lines {
-  position: absolute;
-  top: -1rem;
-  right: 0;
-  width: 35px;
-  height: auto;
-  z-index: 1;
+
+#our-team-section {
+  padding-top: 50px;
 }
-#site-cta-section .container .item .bottom-left-grid-lines {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 35px;
-  height: auto;
-  z-index: 1;
+#our-team-section .team-toggle-row {
+  border-top: 1px solid #808080;
+  border-bottom: 1px solid #808080;
+  padding: 0.25rem 0;
 }
-#site-cta-section .container .item .bottom-middle-grid-lines {
-  position: absolute;
-  bottom: 0;
-  left: -1rem;
-  width: 35px;
-  height: auto;
-  z-index: 1;
+#our-team-section .team-toggle-button {
+  color: #808080;
+  background: transparent;
+  border: none;
 }
-#site-cta-section .container .item .bottom-right-grid-lines {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 35px;
-  height: auto;
-  z-index: 1;
+#our-team-section .active {
+  color: #171717;
+}
+#our-team-section .active svg {
+  fill: #4d39e9;
+  color: #4d39e9;
 }
 
 /*# sourceMappingURL=site.css.map */

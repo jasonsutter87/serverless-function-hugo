@@ -1,14 +1,30 @@
 setTimeout(function(){
   $(function () {
-      var url = "http://localhost:1313/";
-      var url_mid = url.split('/')[3]
-      if (url_mid == "") {
-          url_mid = 'home'
+      let setLocationActive = () => {
+            let location = window.location.href.split('http://localhost:1313/')[1]
+              switch(location)  {
+              case '':
+                break;
+              case 'our-company/':
+                $('#nav-our-company').addClass('active')
+                break;
+              case 'our-team/':
+                $('#nav-our-team').addClass('active')
+                break;
+              case 'investment-strategy/':
+                $('#nav-investment-strategy').addClass('active')
+                break;
+              case 'press/':
+                $('#nav-press').addClass('active')
+                break;
+              default:
+                break;
+            }
       }
 
-      var url_replaced = url_mid.replace(/\//g, "-").concat('-page-active')
-      $('body').addClass(url_replaced);
-      let splitCookie = document.cookie.split(';');
+
+
+
 
       $('body').on('click', '.products-toggle', function (e) {
         e.preventDefault();
@@ -43,50 +59,49 @@ setTimeout(function(){
       })
 
 
-
       $('.nav-menu-toggle-btn').on('click', function (e) {
           e.preventDefault();
           $('body').addClass('mobile-nav-active')
       })
 
-      //Toggle Navigation Menu
-      $(window).on("scroll", function () {
-          if (50 <= window.scrollY) {
-              $("body").addClass("main-navigation-scroll")
-              $('.header-logo-svg-condensed').removeClass('d-none')
-              $('.header-logo-svg').addClass('d-none')
-          } else {
-              $("body").removeClass("main-navigation-scroll")
-              $('.header-logo-svg-condensed').addClass('d-none')
-              $('.header-logo-svg').removeClass('d-none')
-          }
+      // //Toggle Navigation Menu
+      // $(window).on("scroll", function () {
+      //     if (50 <= window.scrollY) {
+      //         $("body").addClass("main-navigation-scroll")
+      //         $('.header-logo-svg-condensed').removeClass('d-none')
+      //         $('.header-logo-svg').addClass('d-none')
+      //     } else {
+      //         $("body").removeClass("main-navigation-scroll")
+      //         $('.header-logo-svg-condensed').addClass('d-none')
+      //         $('.header-logo-svg').removeClass('d-none')
+      //     }
+      //
+      //
+      //
+      //     let screenHeight = window.innerHeight
+      //     let navbarSize = 542;
+      //
+      //     if (window.scrollY >= (screenHeight - navbarSize)) {
+      //
+      //         $('#subnav-links-row').addClass('blog-nav-fixed')
+      //
+      //         $('#blog-nav').find('.site-container-1512').css('padding-left', '30px')
+      //         $('#blog-nav').find('.site-container-1512').css('padding-right', '30px')
+      //
+      //     } else {
+      //         if ($('#subnav-links-row').hasClass('blog-nav-fixed')) {
+      //             $('#subnav-links-row').removeClass('blog-nav-fixed')
+      //             $('#blog-nav').find('.site-container-1512').css('padding-left', '0')
+      //             $('#blog-nav').find('.site-container-1512').css('padding-right', '0')
+      //         }
+      //     }
+      // })
 
 
-
-          let screenHeight = window.innerHeight
-          let navbarSize = 542;
-
-          if (window.scrollY >= (screenHeight - navbarSize)) {
-
-              $('#subnav-links-row').addClass('blog-nav-fixed')
-
-              $('#blog-nav').find('.site-container-1512').css('padding-left', '30px')
-              $('#blog-nav').find('.site-container-1512').css('padding-right', '30px')
-
-          } else {
-              if ($('#subnav-links-row').hasClass('blog-nav-fixed')) {
-                  $('#subnav-links-row').removeClass('blog-nav-fixed')
-                  $('#blog-nav').find('.site-container-1512').css('padding-left', '0')
-                  $('#blog-nav').find('.site-container-1512').css('padding-right', '0')
-              }
-          }
-      })
-
-
-      //lazy load images
-      $.each($('img'), function (i, val) {
-          $(val).addClass('b-lazy')
-      })
+      // //lazy load images
+      // $.each($('img'), function (i, val) {
+      //     $(val).addClass('b-lazy')
+      // })
 
     if( window.location.href.split('/blog/').length > 1) {
 
@@ -99,9 +114,9 @@ setTimeout(function(){
     }
 
 
-  
 
-
+      //runner
+      setLocationActive()
 
 
 

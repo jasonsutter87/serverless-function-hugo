@@ -640,6 +640,30 @@ p {
           transform-origin:100% 50%;
         }
     }
+
+
+    a.active {
+        display: block;
+        padding: 0 1rem;
+        border: none;
+        background: none;
+        transition: $transition-speed !important;
+        font-weight: $font-weight-400;
+        text-transform: uppercase;
+        color: $purple;
+
+
+
+
+        &:after {
+          display:block;
+          content: '';
+          border-bottom: solid 3px $purple;
+          transform: scaleX(1);
+          transition: transform 250ms ease-in-out;
+          transform-origin:100% 50%;
+        }
+    }
 }
 
 //////////////////////////////////////////////////////////////
@@ -772,6 +796,87 @@ footer {
 //                        Index                             ||
 //                                                          ||
 //////////////////////////////////////////////////////////////
+.top-left-grid-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35px !important;
+  height: auto;
+  z-index: 1;
+}
+
+.top-middle-grid-lines {
+  position: absolute;
+  top: 0;
+  left: -1rem;
+  width: 35px !important;
+  height: auto;
+  z-index: 1;
+}
+
+.top-right-grid-lines {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 35px !important;
+  height: auto;
+  z-index: 1;
+}
+
+.middle-left-grid-lines {
+  position: absolute;
+  top: -1rem;
+  left: 0;
+  width: 35px !important;
+  height: auto;
+  z-index: 1;
+}
+
+.middle-middle-grid-lines {
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  width: 35px !important;
+  height: auto;
+  z-index: 1;
+}
+
+.middle-right-grid-lines {
+  position: absolute;
+  top: -1rem;
+  right: 0;
+  width: 35px !important;
+  height: auto;
+  z-index: 1;
+}
+
+.bottom-left-grid-lines {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 35px !important;
+  height: auto;
+  z-index: 1;
+}
+
+.bottom-middle-grid-lines {
+  position: absolute;
+  bottom: 0;
+  left: -1rem;
+  width: 35px !important;
+  height: auto;
+  z-index: 1;
+}
+
+.bottom-right-grid-lines {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 35px !important;
+  height: auto;
+  z-index: 1;
+}
+
 #index-header-section {
   margin-top: 75px;
   padding: 50px 0;
@@ -869,86 +974,6 @@ footer {
         position: relative;
 
 
-        .top-left-grid-lines {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 35px;
-          height: auto;
-          z-index: 1;
-        }
-
-        .top-middle-grid-lines {
-          position: absolute;
-          top: 0;
-          left: -1rem;
-          width: 35px;
-          height: auto;
-          z-index: 1;
-        }
-
-        .top-right-grid-lines {
-          position: absolute;
-          top: 0;
-          right: 0;
-          width: 35px;
-          height: auto;
-          z-index: 1;
-        }
-
-        .middle-left-grid-lines {
-          position: absolute;
-          top: -1rem;
-          left: 0;
-          width: 35px;
-          height: auto;
-          z-index: 1;
-        }
-
-        .middle-middle-grid-lines {
-          position: absolute;
-          top: -1rem;
-          right: -1rem;
-          width: 35px;
-          height: auto;
-          z-index: 1;
-        }
-
-        .middle-right-grid-lines {
-          position: absolute;
-          top: -1rem;
-          right: 0;
-          width: 35px;
-          height: auto;
-          z-index: 1;
-        }
-
-        .bottom-left-grid-lines {
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          width: 35px;
-          height: auto;
-          z-index: 1;
-        }
-
-        .bottom-middle-grid-lines {
-          position: absolute;
-          bottom: 0;
-          left: -1rem;
-          width: 35px;
-          height: auto;
-          z-index: 1;
-        }
-
-        .bottom-right-grid-lines {
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 35px;
-          height: auto;
-          z-index: 1;
-        }
 
         .inner-text {
           position: absolute;
@@ -1009,89 +1034,75 @@ footer {
 
 
 
-        .top-left-grid-lines {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 35px;
-          height: auto;
-          z-index: 1;
-        }
 
-        .top-middle-grid-lines {
-          position: absolute;
-          top: 0;
-          left: -1rem;
-          width: 35px;
-          height: auto;
-          z-index: 1;
-        }
-
-        .top-right-grid-lines {
-          position: absolute;
-          top: 0;
-          right: 0;
-          width: 35px;
-          height: auto;
-          z-index: 1;
-        }
-
-        .middle-left-grid-lines {
-          position: absolute;
-          top: -1rem;
-          left: 0;
-          width: 35px;
-          height: auto;
-          z-index: 1;
-        }
-
-        .middle-middle-grid-lines {
-          position: absolute;
-          top: -1rem;
-          right: -1rem;
-          width: 35px;
-          height: auto;
-          z-index: 1;
-        }
-
-        .middle-right-grid-lines {
-          position: absolute;
-          top: -1rem;
-          right: 0;
-          width: 35px;
-          height: auto;
-          z-index: 1;
-        }
-
-        .bottom-left-grid-lines {
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          width: 35px;
-          height: auto;
-          z-index: 1;
-        }
-
-        .bottom-middle-grid-lines {
-          position: absolute;
-          bottom: 0;
-          left: -1rem;
-          width: 35px;
-          height: auto;
-          z-index: 1;
-        }
-
-        .bottom-right-grid-lines {
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 35px;
-          height: auto;
-          z-index: 1;
-        }
 
 
 
         }
       }
+}
+
+
+//////////////////////////////////////////////////////////////
+//                                                          ||
+//                        Companies                         ||
+//                                                          ||
+//////////////////////////////////////////////////////////////
+
+
+#our-companies-section{
+  padding-top: 50px;
+
+  .company-toggle-row {
+    border-top: 1px solid $mid-black;
+    border-bottom: 1px solid $mid-black;
+    padding: 0.25rem 0;
+  }
+
+  .companies-toggle-button {
+    color: $mid-black;
+    background: transparent;
+    border: none;
+
+  }
+  .active {
+    color: $black;
+    svg {
+      fill: $purple;
+      color: $purple;
+    }
+  }
+}
+
+
+
+//////////////////////////////////////////////////////////////
+//                                                          ||
+//                        Our Team                          ||
+//                                                          ||
+//////////////////////////////////////////////////////////////
+
+
+#our-team-section{
+  padding-top: 50px;
+
+  .team-toggle-row {
+    border-top: 1px solid $mid-black;
+    border-bottom: 1px solid $mid-black;
+    padding: 0.25rem 0;
+  }
+
+  .team-toggle-button {
+    color: $mid-black;
+    background: transparent;
+    border: none;
+
+  }
+  .active {
+    color: $black;
+    svg {
+      fill: $purple;
+      color: $purple;
+    }
+  }
 }
