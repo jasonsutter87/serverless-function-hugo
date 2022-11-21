@@ -1064,6 +1064,13 @@ footer {
     color: $mid-black;
     background: transparent;
     border: none;
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+    svg {
+      margin-right: 1rem;
+    }
 
   }
   .active {
@@ -1097,6 +1104,14 @@ footer {
     color: $mid-black;
     background: transparent;
     border: none;
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+
+    svg {
+      margin-right: 1rem;
+    }
 
   }
   .active {

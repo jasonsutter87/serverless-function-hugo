@@ -830,6 +830,12 @@ footer .footer-social a:hover, footer .footer-social a:active {
   color: #808080;
   background: transparent;
   border: none;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+#our-companies-section .companies-toggle-button svg {
+  margin-right: 1rem;
 }
 #our-companies-section .active {
   color: #171717;
@@ -851,6 +857,12 @@ footer .footer-social a:hover, footer .footer-social a:active {
   color: #808080;
   background: transparent;
   border: none;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+#our-team-section .team-toggle-button svg {
+  margin-right: 1rem;
 }
 #our-team-section .active {
   color: #171717;
