@@ -916,10 +916,11 @@ footer {
   .item-j {
     grid-area: strategy2;
 
-    lottie-player {
+    .lottie-risk-anamation {
       position: relative;
       z-index: 5;
     }
+
     .background-image{
       position: absolute;
       top: calc(1rem + 1px);

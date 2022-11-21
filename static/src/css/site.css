@@ -733,7 +733,7 @@ footer .footer-social a:hover, footer .footer-social a:active {
 #index-products-section .item-j {
   grid-area: strategy2;
 }
-#index-products-section .item-j lottie-player {
+#index-products-section .item-j .lottie-risk-anamation {
   position: relative;
   z-index: 5;
 }
