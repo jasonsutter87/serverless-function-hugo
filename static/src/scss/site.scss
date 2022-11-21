@@ -297,6 +297,14 @@ p {
     font-family: 'Poppins', sans-serif !important;
 }
 
+.nav-link {
+  font-size: calc(#{$font-size} * 0.7777777777777778) !important;
+  font-weight: $font-weight-500;
+  line-height: calc(#{$line-height} * 0.5333333333333333) !important;
+  font-family: 'Poppins', sans-serif !important;
+  @media (min-width: 992px) {}
+}
+
 .copywrite {
     font-size: calc(#{$font-size} * 0.7777777777777778);
     line-height: calc(#{$line-height} * 0.5333333333333333) !important;
