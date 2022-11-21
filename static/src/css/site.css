@@ -561,6 +561,9 @@ p {
   padding: 0 16px;
 }
 
+footer {
+  padding-top: 35px;
+}
 footer a {
   color: #171717;
   text-decoration: none;
