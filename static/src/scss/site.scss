@@ -227,6 +227,10 @@ span.SubHead,
 
 
 .bold {
+  font-weight: $font-weight-500 !important;
+}
+
+.bolder {
   font-weight: $font-weight-700 !important;
 }
 
