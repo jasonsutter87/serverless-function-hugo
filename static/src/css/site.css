@@ -911,4 +911,13 @@ footer .footer-social a:hover, footer .footer-social a:active {
   margin-top: 1.5rem;
 }
 
+#inner-terms-pages-section a {
+  color: #4d39e9;
+  font-weight: 500;
+  text-decoration: none;
+}
+#inner-terms-pages-section a:hover, #inner-terms-pages-section a:active {
+  color: #171717;
+}
+
 /*# sourceMappingURL=site.css.map */
