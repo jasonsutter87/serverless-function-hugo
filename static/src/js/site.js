@@ -7,11 +7,10 @@ setTimeout(function(){
               } else {
                 url = window.location.href.split('http://localhost:1313/')[1]
               }
-
               switch(url)  {
               case '':
                 break;
-              case 'our-company/':
+              case 'our-companies/':
                 $('#nav-our-company').addClass('active')
                 break;
               case 'our-team/':
@@ -27,9 +26,6 @@ setTimeout(function(){
                 break;
             }
       }
-
-
-
 
 
       $('body').on('click', '.products-toggle', function (e) {
