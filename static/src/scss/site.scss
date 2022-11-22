@@ -333,6 +333,11 @@ p {
 }
 
 
+.tickerText {
+  font-size: calc(#{$font-size} * 0.6666666666666667) !important;
+  line-height: calc(#{$line-height} * 0.5333333333333333) !important;
+}
+
 //////////////////////////////////////////////////////////////
 //                                                          ||
 //                         Buttons                          ||

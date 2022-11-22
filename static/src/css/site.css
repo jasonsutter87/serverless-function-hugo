@@ -254,6 +254,11 @@ p {
   line-height: calc(30px * 0.5333333333333333) !important;
 }
 
+.tickerText {
+  font-size: calc(18px * 0.6666666666666667) !important;
+  line-height: calc(30px * 0.5333333333333333) !important;
+}
+
 .btn-size-lg {
   padding: 0 20px;
 }
