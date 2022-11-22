@@ -424,31 +424,31 @@ p {
 }
 
 .btn-secondary {
-    transition: $transition-speed !important;
-    cursor: pointer !important;
-    background-color: $deepBlue !important;
-    font-weight: $font-weight-500 !important;
-    border-radius: 0px !important;
-    border: 2px solid $deepBlue !important;
-    color: $green !important;
-    line-height: $line-height;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: $font-size;
-    text-transform: capitalize;
-    text-decoration: none !important;
+  transition: $transition-speed !important;
+  cursor: pointer !important;
+  background-color: $purple !important;
+  font-weight: $font-weight-500 !important;
+  border-radius: 0px !important;
+  border: 2px solid $purple !important;
+  color: $white !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  text-decoration: none !important;
+  font-size: calc(#{$font-size} * 1.444444444444444) !important;
+  line-height: calc(#{$line-height} * 0.9333333333333333) !important;
 
-    &:hover,
-    &:active {
-        background-color: $pink !important;
-        border: 2px solid $pink !important;
-        color: $deepBlue !important;
-    }
+  &:hover,
+  &:active {
+      background-color: transparent !important;
+      border: 2px solid $purple !important;
+      color: $purple !important;
+  }
 
-    &:focus {
-        box-shadow: none !important;
-    }
+  &:focus{
+      box-shadow: none !important;
+  }
 }
 
 .btn-secondary-alt {
@@ -1310,5 +1310,16 @@ footer {
 
   &:focus{
     box-shadow: unset !important;
+  }
+}
+
+.add-founders-btn{
+  background: transparent;
+  border: 0;
+  color: $purple;
+
+  &:active,
+  &:hover {
+    color: $black;
   }
 }

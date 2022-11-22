@@ -75,20 +75,53 @@ noCTA: true
       <div class="row" id="extra-founders">
       </div>
 
-      <div class="row">
-        <div class="col-12"></div>
+      <div class="row py-4">
+        <div class="col-12">
+          <button class="add-founders-btn">
+            <i class="far fa-plus"></i> Add Founder
+          </button>
+        </div>
       </div>
 
 
       <div class="row">
-        <div class="col-12"></div>
-        <div class="col-12"></div>
-        <div class="col-12"></div>
+        <div class="col-12 mt-4">
+          <label class="sr-only" for="where is your startup located">Where is your startup located?</label>
+          <div class="field-container  form-group-form-input-style">
+            <input class="form-input-style email form-control" name="where is your startup located" type="email" placeholder="Where is your startup located?" required>
+          </div>
+        </div>
+        <div class="col-12 mt-4">
+          <label class="sr-only" for="Briefly describe your product">Briefly describe your product </label>
+          <div class="field-container  form-group-form-input-style">
+            <textarea name="Briefly describe your product" rows="1" cols="80" class="form-input-style email form-control"  placeholder="Briefly describe your product " required maxlength="100"></textarea>
+            <sub>(100 characters)</sub>
+          </div>
+        </div>
+        <div class="col-12 mt-4">
+          <label class="sr-only" for="What problem is your product solving?">What problem is your product solving?</label>
+          <div class="field-container  form-group-form-input-style">
+            <textarea name="What problem is your product solving" rows="1" cols="80" class="form-input-style email form-control"  placeholder="What problem is your product solving?" required maxlength="100"></textarea>
+            <sub>(100 characters)</sub>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <p>Are you primarily a software or a hardware company?</p>
+
+          <input type="radio" id="software" name="company_type" value="software">
+          <input type="radio" id="hardware" name="company_type" value="hardware">
+
+        </div>
       </div>
 
 
       <div class="row">
-        <div class="col-12"></div>
+        <div class="col-12 text-center justify-content-center">
+          <button type="submit" class="btn-secondary btn-size-sm">Submit</button>
+        </div>
       </div>
     </form>
   </div>
@@ -97,4 +130,45 @@ noCTA: true
 
 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<script>
+  setTimeout(() =>{
+    $(() => {
+      $('.add-founders-btn').on('click', e => {
+        e.preventDefault()
+
+        $('#extra-founders').append(`
+
+        <div class="col-12 mt-4">
+          <h6 class="bold">Founder</h6>
+        </div>
+        <div class="col-12 col-lg-6 mt-4">
+          <label class="sr-only" for="startup name">Founder's First Name</label>
+          <div class="field-container  form-group-form-input-style">
+            <input class="form-input-style email form-control" name="Founders First Name" type="text" placeholder="First Name" required>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 mt-4">
+          <label class="sr-only" for="startup name">Founder's Last Name</label>
+          <div class="field-container  form-group-form-input-style">
+            <input class="form-input-style email form-control" name="Founders Last Name" type="text" placeholder="Last Name" required>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 mt-4">
+          <label class="sr-only" for="startup name">Founder's Email</label>
+          <div class="field-container  form-group-form-input-style">
+            <input class="form-input-style email form-control" name="Founders Email" type="email" placeholder="Email" required>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 mt-4">
+          <label class="sr-only" for="startup name">Founder's Role</label>
+          <div class="field-container  form-group-form-input-style">
+            <input class="form-input-style email form-control" name="Founders Role" type="text" placeholder="Role" required>
+          </div>
+        `)
+
+      })
+
+
+    })
+  },500)
+</script>
