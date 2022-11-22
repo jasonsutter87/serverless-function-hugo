@@ -975,4 +975,13 @@ footer .footer-social a:hover, footer .footer-social a:active {
   color: #171717;
 }
 
+.inner-investment-strategy-section {
+  padding-top: 50px;
+}
+.inner-investment-strategy-section lottie-player {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=site.css.map */

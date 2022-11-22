@@ -1276,3 +1276,19 @@ footer {
     }
   }
 }
+
+//////////////////////////////////////////////////////////////
+//                                                          ||
+//                  investment strategy                     ||
+//                                                          ||
+//////////////////////////////////////////////////////////////
+
+.inner-investment-strategy-section {
+    padding-top: 50px;
+
+    lottie-player {
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+}
