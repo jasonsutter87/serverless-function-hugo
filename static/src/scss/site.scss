@@ -842,6 +842,17 @@ footer {
   z-index: 1;
 }
 
+.top-middle-grid-lines-company {
+  position: absolute;
+  top: 0;
+  left: 35px;
+  right: 0;
+  margin: 0 auto;
+  width: 35px !important;
+  height: auto;
+  z-index: 1;
+}
+
 .top-right-grid-lines {
   position: absolute;
   top: 0;
@@ -891,6 +902,17 @@ footer {
   position: absolute;
   bottom: 0;
   left: -1rem;
+  width: 35px !important;
+  height: auto;
+  z-index: 1;
+}
+
+.bottom-middle-grid-lines-company {
+  position: absolute;
+  bottom: 0;
+  left: 35px;
+  right: 0;
+  margin: 0 auto;
   width: 35px !important;
   height: auto;
   z-index: 1;
