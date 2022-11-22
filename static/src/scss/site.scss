@@ -1292,3 +1292,19 @@ footer {
       margin: 0 auto;
     }
 }
+
+//////////////////////////////////////////////////////////////
+//                                                          ||
+//                      connect: ;                          ||
+//                                                          ||
+//////////////////////////////////////////////////////////////
+
+.form-input-style{
+  border: 0 !important;
+  border-bottom: 1px solid $black !important;
+  border-radius: 0 !important;
+
+  &:focus{
+    box-shadow: unset !important;
+  }
+}

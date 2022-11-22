@@ -984,4 +984,13 @@ footer .footer-social a:hover, footer .footer-social a:active {
   margin: 0 auto;
 }
 
+.form-input-style {
+  border: 0 !important;
+  border-bottom: 1px solid #171717 !important;
+  border-radius: 0 !important;
+}
+.form-input-style:focus {
+  box-shadow: unset !important;
+}
+
 /*# sourceMappingURL=site.css.map */
