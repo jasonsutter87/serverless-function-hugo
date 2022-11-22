@@ -1,10 +1,11 @@
 setTimeout(function(){
   $(function () {
       let setLocationActive = () => {
+              let location
               if(window.location.href == 'https://impactvc.netlify.app/' ){
-                let location = window.location.href.split('https://impactvc.netlify.app/')[1]
+                location = window.location.href.split('https://impactvc.netlify.app/')[1]
               } else {
-                let location = window.location.href.split('http://localhost:1313/')[1]
+                location = window.location.href.split('http://localhost:1313/')[1]
               }
 
               switch(location)  {
