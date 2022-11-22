@@ -59,28 +59,36 @@ html, body {
     scroll-behavior: smooth;
 }
 
+.container {
+    padding: unset !important;
+}
+
+// .row {
+//   background-color: orange;
+// }
+
 .site-container-1340 {
   padding-right: 15px;
   padding-left: 15px;
 
   @media (min-width: 992px) {
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 50px !important;
+    padding-left: 50px !important;
   }
-
-    margin: auto;
-    position: relative;
-    max-width: 1340px !important;
-    width: 100%;
+  margin: auto;
+  position: relative;
+  max-width: 1340px !important;
+  width: 100%;
+  // background: green;
 }
 
-.container-1316-override {
-  max-width: 1316px !important;
-}
-
-.container-1416-override {
-  max-width: 1415px !important;
-}
+// .container-1316-override {
+//   max-width: 1316px !important;
+// }
+//
+// .container-1416-override {
+//   max-width: 1415px !important;
+// }
 
 .site-container-1200 {
   padding-right: 15px;
@@ -146,11 +154,10 @@ ol li {
  }
 }
 
-.px-6{
-  padding-right: 4rem !important;
-  padding-left: 4rem !important;
-}
-
+// .px-6{
+//   padding-right: 4rem !important;
+//   padding-left: 4rem !important;
+// }
 //////////////////////////////////////////////////////////////
 //                                                          ||
 //                        Text Colors                       ||
@@ -581,6 +588,7 @@ p {
     align-items: center;
     flex-direction: row;
     height: 75px;
+    // background: GRAY;
 }
 
 
@@ -1162,7 +1170,7 @@ footer {
 //////////////////////////////////////////////////////////////
 
 
-#our-team-section{
+#our-team-selection-section{
   padding-top: 50px;
 
   .team-toggle-row {
@@ -1227,5 +1235,44 @@ footer {
       color: $black;
     }
 
+  }
+}
+
+
+.team-memeber-link {
+  position: relative;
+  display: flex;
+
+  .team-memeber-content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.inner-team-member-page {
+  padding-top: 50px;
+
+  a.social {
+    font-size: 2rem;
+    color: $black;
+    font-weight: $font-weight-500;
+    text-decoration: none;
+
+    &:active,
+    &:hover {
+      color: $purple;
+    }
+  }
+  a:not(.social) {
+    color: $purple;
+    font-weight: $font-weight-500;
+    text-decoration: none;
+
+    &:active,
+    &:hover {
+      color: $black;
+    }
   }
 }

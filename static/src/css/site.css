@@ -22,6 +22,10 @@ html, body {
   scroll-behavior: smooth;
 }
 
+.container {
+  padding: unset !important;
+}
+
 .site-container-1340 {
   padding-right: 15px;
   padding-left: 15px;
@@ -32,17 +36,9 @@ html, body {
 }
 @media (min-width: 992px) {
   .site-container-1340 {
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 50px !important;
+    padding-left: 50px !important;
   }
-}
-
-.container-1316-override {
-  max-width: 1316px !important;
-}
-
-.container-1416-override {
-  max-width: 1415px !important;
 }
 
 .site-container-1200 {
@@ -108,11 +104,6 @@ ol li {
     flex: 0 0 auto !important;
     width: 20% !important;
   }
-}
-
-.px-6 {
-  padding-right: 4rem !important;
-  padding-left: 4rem !important;
 }
 
 span.SubHead,
@@ -908,15 +899,15 @@ footer .footer-social a:hover, footer .footer-social a:active {
   margin-top: 50px;
 }
 
-#our-team-section {
+#our-team-selection-section {
   padding-top: 50px;
 }
-#our-team-section .team-toggle-row {
+#our-team-selection-section .team-toggle-row {
   border-top: 1px solid #808080;
   border-bottom: 1px solid #808080;
   padding: 0.25rem 0;
 }
-#our-team-section .team-toggle-button {
+#our-team-selection-section .team-toggle-button {
   color: #808080;
   background: transparent;
   border: none;
@@ -924,13 +915,13 @@ footer .footer-social a:hover, footer .footer-social a:active {
   align-items: center;
   text-align: left;
 }
-#our-team-section .team-toggle-button svg {
+#our-team-selection-section .team-toggle-button svg {
   margin-right: 1rem;
 }
-#our-team-section .active {
+#our-team-selection-section .active {
   color: #171717;
 }
-#our-team-section .active svg {
+#our-team-selection-section .active svg {
   fill: #4d39e9;
   color: #4d39e9;
 }
@@ -949,6 +940,38 @@ footer .footer-social a:hover, footer .footer-social a:active {
   text-decoration: none;
 }
 #inner-terms-pages-section a:hover, #inner-terms-pages-section a:active {
+  color: #171717;
+}
+
+.team-memeber-link {
+  position: relative;
+  display: flex;
+}
+.team-memeber-link .team-memeber-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.inner-team-member-page {
+  padding-top: 50px;
+}
+.inner-team-member-page a.social {
+  font-size: 2rem;
+  color: #171717;
+  font-weight: 500;
+  text-decoration: none;
+}
+.inner-team-member-page a.social:active, .inner-team-member-page a.social:hover {
+  color: #4d39e9;
+}
+.inner-team-member-page a:not(.social) {
+  color: #4d39e9;
+  font-weight: 500;
+  text-decoration: none;
+}
+.inner-team-member-page a:not(.social):active, .inner-team-member-page a:not(.social):hover {
   color: #171717;
 }
 

@@ -1,0 +1,481 @@
+{{ define "main" }}
+<section id="inner-page-title-section">
+  <div class="site-container-1340">
+    <div class="row">
+      <div class="col-12">
+        <div class="h1-wrapepr">
+          <h1>Our Team</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="our-team-selection-section">
+  <div class="site-container-1340 container-1416-override">
+    <div class="row team-toggle-row">
+      <div class="col-12">
+        <ul class="ul-reset d-flex align-items-center justify-content-between">
+          <li><button id="InvestmentPartners" class="h5-heading team-toggle-button active" name="InvestmentPartners"><i class="fal fa-plus"  name="InvestmentPartners"></i> Investment Partners</button></li>
+          <li><button id="InvestmentTeam" class="h5-heading team-toggle-button" name="InvestmentTeam"><i class="fal fa-plus"  name="InvestmentTeam"></i> Investment Team</button></li>
+          <li><button id="VentureAdvisors" class="h5-heading team-toggle-button" name="VentureAdvisors"><i class="fal fa-plus" name="VentureAdvisors"></i> Venture Advisors</button></li>
+          <li><button id="EntrepreneurResidence" class="h5-heading team-toggle-button" name="EntrepreneurResidence"><i class="fal fa-plus" name="EntrepreneurResidence"></i> Entrepreneur in<br>Residence</button></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="our-team-section" class="mt-5">
+  <div class="site-container-1340 container-1316-override">
+    <lottie-player class="lottie-animation top-left-grid-lines"  src="https://lottie.host/f756b689-5736-47a9-a44b-8985c71be394/YlVA8YCC8K.json" background="transparent" speed="1"  autoplay></lottie-player>
+    <lottie-player class="lottie-animation top-right-grid-lines" src="https://lottie.host/f041c641-c628-4550-8ed8-041306f1aabf/QuvfuHb5Fk.json" background="transparent" speed="1" autoplay></lottie-player>
+
+    <lottie-player class="lottie-animation bottom-left-grid-lines" src="https://lottie.host/e484b534-6ae3-4528-942f-7604f581c7f9/IGo5pz2FTU.json" background="transparent" speed="1" autoplay></lottie-player>
+    <lottie-player class="lottie-animation bottom-right-grid-lines " src="https://lottie.host/9ebd8ff4-837d-4697-88dd-dd38916943aa/U4sBxKrnzF.json" background="transparent" speed="1" autoplay></lottie-player>
+
+    <div class="row py-5" id="team-memeber-row">
+    </div>
+  </div>
+</section>
+
+
+
+<script>
+  setTimeout(() =>{
+    $(() => {
+      let investmentParters = [
+          {
+            name: "Eric Ball",
+            title: "GENERAL PARTNER",
+            photo: "/assets/team/impact-venture-capital-team-eric-ball.jpg",
+            linkedin: "https://www.linkedin.com/in/eric-ball-ba688b3/",
+            twitter: "",
+            link:  "/eric-ball"
+
+          },
+          {
+            name:  "Jack Crawford",
+            title:  "GENERAL PARTNER",
+            photo: "/assets/team/impact-venture-capital-team-jack-crawford.jpg",
+            linkedin:  "https://www.linkedin.com/in/jackc2/",
+            twitter: "https://twitter.com/TheJackCrawford",
+            link: "/jack-crawford"
+          },
+          {
+            name: "Jean Mou",
+            title: "AI Software",
+            photo: "/assets/team/impact-venture-capital-jean-mou.jpg",
+            linkedin: "https://www.linkedin.com/in/jeanmou/",
+            twitter: "",
+            link: ""
+          },
+          {
+            name: "Yatish Mishra",
+            title: "AI Database & Chips",
+            photo: "/assets/team/impact-venture-capital-team-yatish-mishra.jpg",
+            linkedin: "https://www.linkedin.com/in/yatish-mishra-5508707/",
+            twitter: "",
+            link: ""
+          },
+          {
+            name: "Jan Geldmacher",
+            title: "AI TeleComm & Robotics",
+            photo: "/assets/team/impact-venture-capital-team-jan-geldmacher.jpg",
+            linkedin: "https://www.linkedin.com/in/jangeldmacher/",
+            twitter: "",
+            link: ""
+          }
+      ]
+      let investmentTeam = [
+          {
+            name: "Aaron Anderson",
+            title: "Principal",
+            photo: "/assets/team/impact-venture-capital-team-aaron-anderson.jpg",
+            linkedin: "",
+            twitter: "",
+            link: "/aaron-anderson"
+          },
+          {
+            name: "Pat Bumpus",
+            title: "Marketing, Investment Relations",
+            photo: "/assets/team/impact-venture-capital-team-patrick-bumpus.jpg",
+            linkedin: "",
+            twitter: "",
+            link: "/pat-bumpus"
+          },
+          {
+            name: "Erin Harrell",
+            title: "Principal",
+            photo: "/assets/team/impact-venture-capital-team-erin-harrell.jpg",
+            linkedin: "",
+            twitter: "https://www.linkedin.com/in/erin-l-harrell-433b7644/",
+            link: ""
+          }
+
+      ]
+      let ventureAdvisor = [
+          {
+            name: "Daniel Sheehan",
+            title: "SPAC Expert",
+            photo: "/assets/team/impact-venture-capital-team-daniel-sheehan.jpg",
+            linkedin: "https://www.linkedin.com/in/daniel-sheehan-66784a1/",
+            twitter: "",
+            link: ""
+          },
+          {
+            name: "Natasha De Masi",
+            title: "AI Fintech",
+            photo: "/assets/team/impact-venture-capital-team-natasha-de-masi.jpg",
+            linkedin: "https://www.linkedin.com/in/natasha-de-masi-sphr-9399511/",
+            twitter: "",
+            link: ""
+          },
+          {
+            name: "Dan Becker",
+            title: "AI MEdia & Fintech",
+            photo: "/assets/team/impact-venture-capital-team-dan-becker.jpg",
+            linkedin: "https://www.linkedin.com/in/becker-d/",
+            twitter: "",
+            link: ""
+          },
+          {
+            name: "Chris Hendricks",
+            title: "Ai Media",
+            photo: "/assets/team/impact-venture-capital-team-chris-hendricks.jpg",
+            linkedin: "https://www.linkedin.com/in/christianahendricks/",
+            twitter: "",
+            link: ""
+          },
+          {
+            name: "Dan Wadhwani",
+            title: "Ai Edtech",
+            photo: "/assets/team/impact-venture-capital-team-dan-wadhwani.jpg",
+            linkedin: "https://www.linkedin.com/in/danwadhwani/",
+            twitter: "",
+            link: ""
+          },
+          {
+            name: "Gary Hooper",
+            title: "Ai Heathtech",
+            photo: "/assets/team/impact-venture-capital-team-gary-hooper.jpg",
+            linkedin: "https://www.linkedin.com/in/gary-hooper-5b4772/",
+            twitter: "",
+            link: ""
+          },
+          {
+            name: "John Conley",
+            title: "AI Blockchain & Crypto",
+            photo: "/assets/team/impact-venture-capital-team-john-conley.jpg",
+            linkedin: "https://www.linkedin.com/in/john-conley-562486123/",
+            twitter: "",
+            link: ""
+          },
+          {
+            name: "John Finegan",
+            title: "AI Agtech",
+            photo: "/assets/team/impact-venture-capital-team-john-finegan.jpg",
+            linkedin: "https://www.linkedin.com/in/john-finegan-08b718/",
+            twitter: "",
+            link: ""
+          },
+          {
+            name: "Gary Simon",
+            title: "AI Cleantech",
+            photo: "/assets/team/impact-venture-capital-team-gary-simon.jpg",
+            linkedin: "https://www.linkedin.com/in/gary-simon-849653/",
+            twitter: "",
+            link: ""
+          },
+          {
+            name: "Kenneth Bossung",
+            title: "AI AR/VR",
+            photo: "/assets/team/impact-venture-capital-team-ken-bossung.jpg",
+            linkedin: "https://www.linkedin.com/in/kennethbossung/",
+            twitter: "",
+            link: ""
+          },
+          {
+            name: "Shigeru Nosaka",
+            title: "AI SAAS",
+            photo: "/assets/team/impact-venture-capital-team-shigeru-nosaka.jpg",
+            linkedin: "https://www.linkedin.com/in/shigeru-nosaka-953b2144/",
+            twitter: "",
+            link: ""
+          },
+          {
+            name: "Katalin Bártfai-Walcott",
+            title: "AI Deeptech",
+            photo: "/assets/team/impact-venture-capital-team-katalin-walcott.jpg",
+            linkedin: "https://www.linkedin.com/in/katalinbartfaiwalcott/",
+            twitter: "",
+            link: ""
+          },
+          {
+            name: "Manish Gupta",
+            title: "AI Hospiality",
+            photo: "/assets/team/impact-venture-capital-team-manish-gupta.jpg",
+            linkedin: "https://www.linkedin.com/in/manish-gupta-269242/",
+            twitter: "",
+            link: ""
+          },
+          {
+            name: "Shawn Garvey",
+            title: "Ai Energytech",
+            photo: "/assets/team/impact-venture-capital-team-shawn-garvey.jpg",
+            linkedin: "https://www.linkedin.com/in/shawn-garvey/",
+            twitter: "",
+            link: ""
+          },
+          {
+            name: "Ben Strom",
+            title: "Ai Finance",
+            photo: "/assets/team/impact-venture-capital-team-ben-strom.jpg",
+            linkedin: "https://www.linkedin.com/in/bens-ca/",
+            twitter: "",
+            link: ""
+          }
+      ]
+      let entrepreneurResidence = [
+        {
+          name: "Dan Wadhwani",
+          title: "Ai Edtech",
+          photo: "/assets/team/impact-venture-capital-team-dan-wadhwani.jpg",
+          linkedin: "https://www.linkedin.com/in/danwadhwani/",
+          twitter: "",
+          link: ""
+        },
+        {
+          name: "Gary Hooper",
+          title: "Ai Heathtech",
+          photo: "/assets/team/impact-venture-capital-team-gary-hooper.jpg",
+          linkedin: "https://www.linkedin.com/in/gary-hooper-5b4772/",
+          twitter: "",
+          link: ""
+        },
+        {
+          name: "John Conley",
+          title: "AI Blockchain & Crypto",
+          photo: "/assets/team/impact-venture-capital-team-john-conley.jpg",
+          linkedin: "https://www.linkedin.com/in/john-conley-562486123/",
+          twitter: "",
+          link: ""
+        },
+        {
+          name: "John Finegan",
+          title: "AI Agtech",
+          photo: "/assets/team/impact-venture-capital-team-john-finegan.jpg",
+          linkedin: "https://www.linkedin.com/in/john-finegan-08b718/",
+          twitter: "",
+          link: ""
+        },
+        {
+          name: "Gary Simon",
+          title: "AI Cleantech",
+          photo: "/assets/team/impact-venture-capital-team-gary-simon.jpg",
+          linkedin: "https://www.linkedin.com/in/gary-simon-849653/",
+          twitter: "",
+          link: ""
+        },
+        {
+          name: "Kenneth Bossung",
+          title: "AI AR/VR",
+          photo: "/assets/team/impact-venture-capital-team-ken-bossung.jpg",
+          linkedin: "https://www.linkedin.com/in/kennethbossung/",
+          twitter: "",
+          link: ""
+        },
+        {
+          name: "Shigeru Nosaka",
+          title: "AI SAAS",
+          photo: "/assets/team/impact-venture-capital-team-shigeru-nosaka.jpg",
+          linkedin: "https://www.linkedin.com/in/shigeru-nosaka-953b2144/",
+          twitter: "",
+          link: ""
+        },
+        {
+          name: "Katalin Bártfai-Walcott",
+          title: "AI Deeptech",
+          photo: "/assets/team/impact-venture-capital-team-katalin-walcott.jpg",
+          linkedin: "https://www.linkedin.com/in/katalinbartfaiwalcott/",
+          twitter: "",
+          link: ""
+        },
+        {
+          name: "Manish Gupta",
+          title: "AI Hospiality",
+          photo: "/assets/team/impact-venture-capital-team-manish-gupta.jpg",
+          linkedin: "https://www.linkedin.com/in/manish-gupta-269242/",
+          twitter: "",
+          link: ""
+        },
+        {
+          name: "Shawn Garvey",
+          title: "Ai Energytech",
+          photo: "/assets/team/impact-venture-capital-team-shawn-garvey.jpg",
+          linkedin: "https://www.linkedin.com/in/shawn-garvey/",
+          twitter: "",
+          link: ""
+        },
+        {
+          name: "Ben Strom",
+          title: "Ai Finance",
+          photo: "/assets/team/impact-venture-capital-team-ben-strom.jpg",
+          linkedin: "https://www.linkedin.com/in/bens-ca/",
+          twitter: "",
+          link: ""
+        }
+      ]
+
+
+      let initLoad = () => {
+        investmentParters.forEach((val, inx) => {
+            if(val.link == '') {
+              $('#team-memeber-row').append(`
+              <div class="col-12 col-lg-6 mt-4 text-center">
+                <a href="${val.linkedin}" class="team-memeber-link" target="_blank">
+                  <img src="${val.photo}" alt="${val.name}" class="w-100">
+                  <div class="team-memeber-content">
+                    <h5 class="white-text">${val.name}</h5>
+                    <h6 class="white-text">${val.title}</h6>
+                  </div>
+                </a>
+              </div>
+              `)
+
+            } else {
+              $('#team-memeber-row').append(`
+              <div class="col-12 col-lg-6 mt-4 text-center">
+                <a href="/our-team/${val.link}" class="team-memeber-link">
+                  <img src="${val.photo}" alt="${val.name}" class="w-100">
+                  <div class="team-memeber-content">
+                    <h5 class="white-text">${val.name}</h5>
+                    <h6 class="white-text">${val.title}</h6>
+                  </div>
+                </a>
+              </div>
+              `)
+            }
+        })
+      }
+
+      $('#InvestmentPartners').on('click', e => {
+        e.preventDefault();
+        $('#team-memeber-row').empty();
+        initLoad();
+      })
+
+      $('#InvestmentTeam').on('click', e => {
+        e.preventDefault();
+        $('#team-memeber-row').empty();
+
+        investmentTeam.forEach((val, inx) => {
+            if(!val.link) {
+              $('#team-memeber-row').append(`
+              <div class="col-12 col-lg-6 mt-4 text-center">
+                <a href="${val.linkedin}" class="team-memeber-link">
+                  <img src="${val.photo}" alt="${val.name}" class="w-100">
+                  <div class="team-memeber-content">
+                    <h5 class="white-text">${val.name}</h5>
+                    <h6 class="white-text">${val.title}</h6>
+                  </div>
+                </a>
+              </div>
+              `)
+
+            } else {
+              $('#team-memeber-row').append(`
+              <div class="col-12 col-lg-6 mt-4 text-center">
+                <a href="/our-team/${val.link}" class="team-memeber-link">
+                  <img src="${val.photo}" alt="${val.name}" class="w-100">
+                  <div class="team-memeber-content">
+                    <h5 class="white-text">${val.name}</h5>
+                    <h6 class="white-text">${val.title}</h6>
+                  </div>
+                </a>
+              </div>
+              `)
+            }
+        })
+      })
+
+      $('#VentureAdvisors').on('click', e => {
+        e.preventDefault();
+        $('#team-memeber-row').empty();
+
+        ventureAdvisor.forEach((val, inx) => {
+            if(!val.link) {
+              $('#team-memeber-row').append(`
+                <div class="col-12 col-lg-3 mt-4 text-center">
+                  <a href="${val.linkedin}" class="team-memeber-link">
+                    <img src="${val.photo}" alt="${val.name}" class="w-100">
+                    <div class="team-memeber-content">
+                      <h6 class="white-text mb-0">${val.name}</h6>
+                      <p class="white-text">${val.title}</p>
+                    </div>
+                  </a>
+                </div>
+              `)
+            } else {
+              $('#team-memeber-row').append(`
+              <div class="col-12 col-lg-3 mt-4 text-center">
+                <a href="/our-team/${val.link}" class="team-memeber-link">
+                  <img src="${val.photo}" alt="${val.name}" class="w-100">
+                  <div class="team-memeber-content">
+                    <h6 class="white-text mb-0">${val.name}</h6>
+                    <p class="white-text">${val.title}</p>
+                  </div>
+                </a>
+              </div>
+              `)
+            }
+        })
+      })
+
+      $('#EntrepreneurResidence').on('click', e => {
+        e.preventDefault();
+        $('#team-memeber-row').empty();
+
+        entrepreneurResidence.forEach((val, inx) => {
+            if(!val.link) {
+              $('#team-memeber-row').append(`
+                <div class="col-12 col-lg-3 mt-4 text-center">
+                  <a href="${val.linkedin}" class="team-memeber-link">
+                    <img src="${val.photo}" alt="${val.name}" class="w-100">
+                    <div class="team-memeber-content">
+                      <h5 class="white-text">${val.name}</h5>
+                      <h6 class="white-text">${val.title}</h6>
+                    </div>
+                  </a>
+                </div>
+              `)
+
+            } else {
+              $('#team-memeber-row').append(`
+              <div class="col-12 col-lg-3 mt-4 text-center">
+                <a href="/our-team/${val.link}" class="team-memeber-link">
+                  <img src="${val.photo}" alt="${val.name}" class="w-100">
+                  <div class="team-memeber-content">
+                    <h5 class="white-text">${val.name}</h5>
+                    <h6 class="white-text">${val.title}</h6>
+                  </div>
+                </a>
+              </div>
+              `)
+            }
+        })
+      })
+
+      $('.team-toggle-button').on('click', e => {
+        e.preventDefault();
+        $('.team-toggle-button').removeClass('active')
+        let id = $(e.target).attr('name')
+        $(`#${id}`).addClass('active')
+      })
+
+      //runner
+      initLoad();
+    })
+  },500)
+</script>
+{{ end }}
