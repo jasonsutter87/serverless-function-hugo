@@ -360,7 +360,7 @@ p {
 //                                                          ||
 //////////////////////////////////////////////////////////////
 .btn-size-lg {
-    padding: 0 20px;
+    padding: 5px 20px;
 }
 
 .btn-size-sm {
@@ -398,29 +398,37 @@ p {
 .btn-primary-alt {
   transition: $transition-speed !important;
   cursor: pointer !important;
-  background-color: $green !important;
+  background-color: transparent !important;
   font-weight: $font-weight-500 !important;
   border-radius: 0px !important;
-  border: 2px solid $green !important;
-  color: $white !important;
-  line-height: $line-height;
+  border: 2px solid $mid-black !important;
+  color: $mid-black !important;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: $font-size;
   text-transform: capitalize;
   text-decoration: none !important;
+  font-size: calc(#{$font-size} * 1) !important;
+  line-height: calc(#{$line-height} * 1) !important;
 
   &:hover,
   &:active {
-      background-color: $pink !important;
-      border: 2px solid $pink !important;
+      background-color: $purple !important;
+      border: 2px solid $purple !important;
       color: $white !important;
   }
 
   &:focus{
       box-shadow: none !important;
   }
+}
+
+
+.btn-primary-alt.active {
+  background-color: $purple !important;
+  border: 2px solid $purple !important;
+  color: $white !important;
+
 }
 
 .btn-secondary {

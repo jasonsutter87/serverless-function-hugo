@@ -109,18 +109,25 @@ noCTA: true
         </div>
       </div>
 
-      <div class="row">
+      <div class="row mt-4">
         <div class="col-12">
           <p>Are you primarily a software or a hardware company?</p>
+          <div class="d-none">
+            <input type="radio" id="software-radio" name="company_type" value="software">
+            <input type="radio" id="hardware-radio" name="company_type" value="hardware">
+          </div>
 
-          <input type="radio" id="software" name="company_type" value="software">
-          <input type="radio" id="hardware" name="company_type" value="hardware">
+
+          <div>
+            <button class="btn-primary-alt btn-size-lg" id="software-btn">Software</button>
+            <button class="btn-primary-alt btn-size-lg" id="hardware-btn">Hardware</button>
+          </div>
 
         </div>
       </div>
 
 
-      <div class="row">
+      <div class="row mt-5">
         <div class="col-12 text-center justify-content-center">
           <button type="submit" class="btn-secondary btn-size-sm">Submit</button>
         </div>
@@ -170,6 +177,42 @@ noCTA: true
           </div>
         `)
 
+      })
+
+
+      $('#software-btn').on('click', e => {
+        e.preventDefault();
+
+        if($('#hardware-radio').prop('checked') == true) {
+          $('#hardware-radio').prop('checked', false);
+          $('#hardware-btn').removeClass('active')
+        }
+
+        if($('#software-radio').prop('checked') == true) {
+          $('#software-radio').prop('checked', false);
+          $('#software-btn').removeClass('active')
+        } else {
+          $('#software-radio').click()
+          $('#software-btn').addClass('active')
+        }
+      })
+
+
+      $('#hardware-btn').on('click', e => {
+        e.preventDefault();
+
+        if($('#software-radio').prop('checked') == true) {
+          $('#software-radio').prop('checked', false);
+          $('#software-btn').removeClass('active')
+        }
+
+        if($('#hardware-radio').prop('checked') == true) {
+          $('#hardware-radio').prop('checked', false);
+          $('#hardware-btn').removeClass('active')
+        } else {
+          $('#hardware-radio').click()
+          $('#hardware-btn').addClass('active')
+        }
       })
 
 
