@@ -202,7 +202,7 @@ span.SubHead,
 
 .black-link {
     color: $black !important;
-    text-decoration: underline;
+    text-decoration: none;
     transition: $transition-speed !important;
     font-weight: $font-weight-500;
     text-transform: uppercase;
@@ -1355,6 +1355,16 @@ footer {
 }
 
 .blog-page-content {
+
+  hr{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  h5, h6 {
+    margin-top: 2rem;
+  }
+
   a {
     color: $purple !important;
     text-decoration: none;
