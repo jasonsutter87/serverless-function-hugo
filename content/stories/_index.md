@@ -1,6 +1,6 @@
 ---
-  title: '1687 NFT Club Reads and Resources'
-  description: 'Learn more about the NFT and Web3 community on the 1687 blog. Explore resources from the 1687 NFT club.'
-  image: /images/assets/brand/1687-meta-image.jpg
+  title: 'Stories'
+  description: 'Superior investment returns through partnerships with game-changing entrepreneurs and industry-leading corporations. Unbound Natural Motion in VR Learn More about The technological backbone of a better economy. For everyone. Learn'
+  image:  /images/assets/brand/impactvc-share-image.png
   priority: 1.0
 ---

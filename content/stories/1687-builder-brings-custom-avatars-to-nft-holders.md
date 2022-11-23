@@ -1,78 +1,39 @@
 ---
-title: 1687 Builder Brings Custom Avatars to NFT Holders
-description: Find out how 1687 is using an algorithmic builder to create custom
-  avatars for members of this NFT club.
-summary: Find out how 1687 is using an algorithmic builder to create custom
-  avatars for members of this NFT club.
-slug: 1687 builder brings custom avatars to nft holders
-alt: A preview of the 1687 Club custom NFT avatar builder.
+title: Company, Alef, Unveils the Alef Flying Car, the First and Only Drivable Flying Car with Vertical
+description: Company, Alef, Unveils the Alef Flying Car, the First and Only Drivable Flying Car with Vertical
+summary: Company, Alef, Unveils the Alef Flying Car, the First and Only Drivable Flying Car with Vertical
+slug: flying-cars
+alt: Company, Alef, Unveils the Alef Flying Car, the First and Only Drivable Flying Car with Vertical
 tags:
-  - NFTs
-  - 1687 Club
-  - Custom Avatar Builder
-image: /images/uploads/1687-builder.jpg
+  - spotlight
+image: /images/uploads/impactvc-share-images.jpg
 priority: "0.5"
 date: 2022-03-25T22:09:54.979Z
 pagetype: Article
 ---
-1687 is unveiling a builder that allows token holders to customize their own avatars for a truly personalized PFP experience.
 
-1687 is an NFT club of creatives, artists, entrepreneurs, and influencers working together to produce projects that bring more inclusivity and diverse representation to Web3.
+Impact Venture Capital Portfolio Company, Alef, Unveils the Alef Flying Car, the First and Only Drivable Flying Car with Vertical Takeoff and Landing
 
-To gain access to the NFT club, members had to purchase one (or more) of the initial 1,687 tokens that were minted in 2022. Each token functions as a key to the club. Once inside the club, members have access to artists, influencers, marketing, and Web3 and app development resources to launch collaborations and projects.
+Nov 02, 2022 (PRNewswire via COMTEX) — PR Newswire
 
-## 1687 Builder Brings Custom PFP Avatars to NFT Holders
+MENLO PARK, Calif., Nov. 2, 2022
 
-Unlike mass-produced generative NFT collections—whose sole purpose is to sell out fast—the initial 1687 membership tokens are intended to be kept by their holders.
+MENLO PARK, Calif., Nov. 2, 2022 /PRNewswire/ — [Alef Aeronautics](https://alef.aero/), an advanced technology company creating alternative transportation solutions for surging traffic trends, introduced the Alef “Model A”, the only flying car with street driving and vertical take-off. The Alef Model A flying car fits within existing urban infrastructure for driving and parking. The company plans to begin production and initiate first deliveries in Q4 of 2025.
 
-The [women who founded 1687](https://1687club.com/team/) decided to offer club members the opportunity to personalize their “key to the club” tokens.
+The first Alef flying car is available for pre-sale to consumers now for $300K, with $150 regular queue or $1,500 priority queue deposit, on https://alef.aero.
 
-After all, the only thing better than a key to the VIP room is a personalized key with your picture on it.
+The Alef “Model A” flying car has a driving range of 200 miles and a flight range of 110 miles. It has a distributed electric propulsion system, no exposed propellers, extensive software flight stabilization, and safety system, elevon stabilization system, and all-wheel driving. Key safety components include triple to octuple redundancy of all key components, real-time thousand-point diagnostics, pre-flight reject start diagnostics, obstacle detection, and avoidance among others.
 
-1687 took a page out of the NFT generative art playbook and then improved the process to allow its members the opportunity to customize their avatars.
+The Alef founding team of Constantine Kisly, Pavel Markin, Oleg Petrov, and Jim Dukhovny has over 70 years of experience in engineering and technology development and has been working on the Alef flying car since 2015. It earned early support from distinguished investors and industry veterans, led by Tim Draper (who, among others, was one of the first venture capitalists to invest in Tesla), former head of Defense Advanced Research Projects Agency (DARPA) and Ford Aerospace Dr. Anthony Tether, NBA star Luis Scola, Bugatti designer Hirash Razaghi and others.
 
-The entire process starts with a library of digital attributes and an online builder.
+Alef’s CEO Jim Dukhovny says, “The Alef Model is a modern solution for both urban and rural transportation needs in the 21st century because it is the fastest and most convenient transport ever created from the point of origin to the final destination. By enabling consumers to choose driving or flying mode, the Alef flying car allows the optimal path depending on road conditions, weather, and infrastructure.”
 
-## How the 1687 Builder Works
+“I accepted Tim Draper’s invitation to a private demonstration of the Alef prototype vehicle in the Fall of 2021. I watched the car lift straight up like a drone, then rotate into a biplane, and immediately fly on. I felt like I was witness to a Kitty Hawk moment,” recalled Eric Ball, Impact Venture Capital Founding General Partner.
 
-To understand how the 1687 builder works, it helps to understand how many NFT artists use an algorithm to create generative collections of 10,000 (or more) NFTs.
+Alef has been test-driving and test-flying the Alef full-size prototype since 2019.
 
-### How computer algorithms produce generative art
+With additional models in development, Alef is working towards the four-person sedan, Alef “Model Z” scheduled for introduction in 2035 priced at $35K. It will be capable of flying 300+ miles with a driving range of 220+ miles.
 
-Mass-produced collections of randomly-generated NFTs are the norm in NFT marketplaces.
+**About Alef:** Alef, based in Santa Clara, California, is a sustainable electric transportation company designing and developing a road-legal passenger car capable of achieving vertical takeoff and forward flight. Alef’s goal is to enable faster, easier commutes and alleviate the burden of urban congestion through the use of proprietary technology that elevates the vehicle safely and quietly above everyday traffic.
 
-NFT artists can create a collection of 10,000 randomly-generated pieces of art by starting with a singular base character. Then, an algorithmic program quickly mass-produces these collections by randomly selecting attributes such as facial expressions, clothing, and hats. Once a combination of traits has been expressed, it gets “locked down” and no subsequent NFTs can have that same unique combination.
-
-After purchasing an NFT from these generative collections, the holder then discovers what randomized piece of art they’ve ended up with.
-
-It’s a “you get what you get” process in terms of art, sort of like putting a coin into a gumball machine and hoping you like what comes out.
-
-### How 1687 produces custom avatars
-
-The first 1687 collection starts with a base character and library of digital attributes, just like many other NFT collections.
-
-But here’s where the comparison ends.
-
-Because the first choice a 1687 holder makes is what type of character best represents them.
-
-The 1687 membership tokens are a big-cat theme. These Apex predators—lions, tigers, cheetahs, leopards, cougars, jaguars, and snow leopards—represent majesty, success, strength, power, and influence. Club members begin the process by deciding which big cat is the best representation of themselves (or their brand).
-
-The builder then allows the NFT holder to further customize their avatar, choosing attributes such as background, eye color, gestures, clothing, and accessories.
-
-Once the NFT holder has completed their avatar, the builder “locks down” that particular set of traits so the exact combination of features can’t be selected again.
-
-There are limited numbers assigned to the different traits in the builder, with some being rare or super rare, while others are more widely available.
-
-1687 artists release new limited-availability features and accessories into the builder for token holders, as well.
-
-The 1687 builder uses much of the same functionality as generative art collections, however, it stands apart from the crowd by allowing users to choose the attributes it generates.
-
-## 1687 Prioritizes Members Over Mass-Production
-
-While other creators are doubling down on the mass-production generative art model in order to follow in the footsteps (and hopeful success) of collections like [Bored Apes](https://twitter.com/BoredApeYC) and [CryptoPunks](https://twitter.com/larvalabs), the 1687 membership tokens are meant for a different kind of collector.
-
-1687 members are welcome to sell or trade their membership tokens, however, their membership and club access transfer away whenever they do so. Most club members intend to keep their membership “key” and, therefore, have a strong desire to create an avatar that shows off their creativity and individuality.
-
-For 1687, it’s all about the members.
-
-Follow [1687 on Twitter](https://twitter.com/1687Club) for the latest updates on limited edition drops and new collaborative collections from our members.
+**About Impact Venture Capital** [Impact Venture Capital](https://impactvc.com/) is a Silicon Valley-based early-stage venture capital firm that invests alongside corporate venture groups and top-tier investors in early-stage technology startups with a focus on artificial intelligence applied to security, finance, digital health, and other fast-growing industry sectors.
