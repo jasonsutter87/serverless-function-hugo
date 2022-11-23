@@ -1031,6 +1031,18 @@ footer .footer-social a:hover, footer .footer-social a:active {
   margin-top: 118px;
 }
 
+.blog-roll-title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
 .blog-page-content hr {
   margin-top: 2rem;
   margin-bottom: 2rem;

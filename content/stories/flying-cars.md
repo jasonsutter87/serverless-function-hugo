@@ -7,6 +7,7 @@ alt: Company, Alef, Unveils the Alef Flying Car, the First and Only Drivable Fly
 tags:
   - spotlight
 image: /images/uploads/Company-Alef-Unveils-the-Alef-Flying-Car-the-First-and-Only-Drivable-Flying-featured.jpg
+thumb: /images/uploads/Company-Alef-Unveils-the-Alef-Flying-Car-the-First-and-Only-Drivable-Flying-thumb.jpg
 priority: "0.5"
 date: 2022-03-25T22:09:54.979Z
 pagetype: Article

@@ -1354,6 +1354,19 @@ footer {
     margin-top: 118px;
 }
 
+
+.blog-roll-title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  color: $white;
+  text-align: center;
+  display: flex; 
+  align-items: center;
+}
+
 .blog-page-content {
 
   hr{
