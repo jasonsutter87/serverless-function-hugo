@@ -6,19 +6,13 @@ slug: flying-cars
 alt: Company, Alef, Unveils the Alef Flying Car, the First and Only Drivable Flying Car with Vertical
 tags:
   - spotlight
-image: /images/uploads/impactvc-share-images.jpg
+image: /images/uploads/Company-Alef-Unveils-the-Alef-Flying-Car-the-First-and-Only-Drivable-Flying-featured.jpg
 priority: "0.5"
 date: 2022-03-25T22:09:54.979Z
 pagetype: Article
 ---
 
-Impact Venture Capital Portfolio Company, Alef, Unveils the Alef Flying Car, the First and Only Drivable Flying Car with Vertical Takeoff and Landing
-
-Nov 02, 2022 (PRNewswire via COMTEX) — PR Newswire
-
-MENLO PARK, Calif., Nov. 2, 2022
-
-MENLO PARK, Calif., Nov. 2, 2022 /PRNewswire/ — [Alef Aeronautics](https://alef.aero/), an advanced technology company creating alternative transportation solutions for surging traffic trends, introduced the Alef “Model A”, the only flying car with street driving and vertical take-off. The Alef Model A flying car fits within existing urban infrastructure for driving and parking. The company plans to begin production and initiate first deliveries in Q4 of 2025.
+[Alef Aeronautics](https://alef.aero/), an advanced technology company creating alternative transportation solutions for surging traffic trends, introduced the Alef “Model A”, the only flying car with street driving and vertical take-off. The Alef Model A flying car fits within existing urban infrastructure for driving and parking. The company plans to begin production and initiate first deliveries in Q4 of 2025.
 
 The first Alef flying car is available for pre-sale to consumers now for $300K, with $150 regular queue or $1,500 priority queue deposit, on https://alef.aero.
 

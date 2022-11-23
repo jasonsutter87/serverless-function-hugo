@@ -154,10 +154,9 @@ ol li {
  }
 }
 
-// .px-6{
-//   padding-right: 4rem !important;
-//   padding-left: 4rem !important;
-// }
+.mr-2{
+  margin-right: .25rem !important;
+}
 //////////////////////////////////////////////////////////////
 //                                                          ||
 //                        Text Colors                       ||
@@ -198,6 +197,19 @@ span.SubHead,
     &:hover,
     &:active {
         color: $black !important;
+    }
+}
+
+.black-link {
+    color: $black !important;
+    text-decoration: underline;
+    transition: $transition-speed !important;
+    font-weight: $font-weight-500;
+    text-transform: uppercase;
+
+    &:hover,
+    &:active {
+        color: $purple !important;
     }
 }
 
@@ -1329,5 +1341,29 @@ footer {
   &:active,
   &:hover {
     color: $black;
+  }
+}
+
+//////////////////////////////////////////////////////////////
+//                                                          ||
+//                      blog                                ||
+//                                                          ||
+//////////////////////////////////////////////////////////////
+
+#blog-nav-section {
+    margin-top: 118px;
+}
+
+.blog-page-content {
+  a {
+    color: $purple !important;
+    text-decoration: none;
+    transition: $transition-speed !important;
+    font-weight: $font-weight-700;
+
+    &:hover,
+    &:active {
+        color: $black !important;
+    }
   }
 }
