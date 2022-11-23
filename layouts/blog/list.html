@@ -1,0 +1,23 @@
+{{ define "main" }}
+    <section id="inner-page-header-section" class="d-none d-lg-flex">
+      <div class="site-container-1340">
+        <div class="row">
+          <div class="col-12">
+            <h1>Blog</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog-page-section">
+      <div class="site-container-1340">
+        <div class="row row-cols-1 row-cols-lg-3">
+          {{ range .Pages }}
+          <div class="col mb-3">
+            {{ .Render "card" }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+{{ end }}
