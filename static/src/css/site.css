@@ -115,7 +115,7 @@ span.SubHead,
 
 .primary-link {
   color: #4d39e9 !important;
-  text-decoration: underline;
+  text-decoration: none;
   transition: 0.5s !important;
   font-weight: 700;
 }
