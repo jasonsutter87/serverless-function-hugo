@@ -6,8 +6,8 @@ slug: movement-platform
 alt: MOVEMENT PLATFORM FOR THE METAVERSE WITH NEW CHIEF REVENUE OFFICER
 tags:
   - news
-image: https://picsum.photos/id/17/800/600
-thumb: https://picsum.photos/id/17/860/600
+mainImage: https://picsum.photos/id/17/800/600
+thumbImage: https://picsum.photos/id/17/860/600
 priority: "0.5"
 date: 2022-03-25T22:09:54.979Z
 pagetype: Article
