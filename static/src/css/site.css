@@ -681,7 +681,7 @@ footer .footer-social a:hover, footer .footer-social a:active {
 .top-middle-grid-lines-company {
   position: absolute;
   top: 0;
-  left: 35px;
+  left: 0;
   right: 0;
   margin: 0 auto;
   width: 35px !important;
@@ -746,7 +746,7 @@ footer .footer-social a:hover, footer .footer-social a:active {
 .bottom-middle-grid-lines-company {
   position: absolute;
   bottom: 0;
-  left: 35px;
+  left: 0;
   right: 0;
   margin: 0 auto;
   width: 35px !important;
