@@ -10,7 +10,7 @@ alt: Virtualness founders, Kirthiga Reddy and Saurabh Doshi
 tags:
   - Investment
 priority: "0.5"
-date: 2022-11-28T21:44:11.751Z
+date: 2022-11-27T21:44:00.000Z
 pagetype: article
 ---
 SAN FRANCISCO, Nov. 17, 2022 /PRNewswire/ — Virtualness, a mobile-first platform designed to help creators and brands navigate the complex world of Web3, announced today it has secured over $8M in seed funding. The fundraise was led by Blockchange Ventures, and joined by Polygon Ventures, Micron Ventures, Impact Venture Capital, VC3 DAO, Carolyn Everson, Randi Zuckerberg, Nusier Yassin (Nas Daily), Amit Jain, Harsh Jain, Shayamal Vallabhjee, Stacy Brown-Philpot, Tom Cheung and other thought-leaders.
