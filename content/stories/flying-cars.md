@@ -1,15 +1,20 @@
 ---
-title: Company, Alef, Unveils the Alef Flying Car, the First and Only Drivable Flying Car with Vertical
-description: Company, Alef, Unveils the Alef Flying Car, the First and Only Drivable Flying Car with Vertical
-summary: Company, Alef, Unveils the Alef Flying Car, the First and Only Drivable Flying Car with Vertical
-slug: flying-cars
-alt: Company, Alef, Unveils the Alef Flying Car, the First and Only Drivable Flying Car with Vertical
-tags:
-  - spotlight
+title: Impact Venture Capital Portfolio Company, Alef, Unveils the Alef Flying Car
+description: Impact Venture Capital Portfolio Company, Alef, Unveils the Alef
+  Flying Car, the First and Only Drivable Flying Car with Vertical Takeoff and
+  Landing
+slug: alef unveils first and only drivable flying car with vertical takeoff and
+  landing
 mainImage: /images/uploads/Company-Alef-Unveils-the-Alef-Flying-Car-the-First-and-Only-Drivable-Flying-featured.jpg
 thumbImage: /images/uploads/Company-Alef-Unveils-the-Alef-Flying-Car-the-First-and-Only-Drivable-Flying-thumb.jpg
+alt: Company, Alef, Unveils the Alef Flying Car, the First and Only Drivable
+  Flying Car with Vertical
 priority: "0.5"
-date: 2022-03-25T22:09:54.979Z
+summary: Company, Alef, Unveils the Alef Flying Car, the First and Only Drivable
+  Flying Car with Vertical
+tags:
+  - spotlight
+date: 2022-11-02T22:09:54.979Z
 pagetype: Article
 ---
 
