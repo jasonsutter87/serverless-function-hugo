@@ -858,6 +858,13 @@ footer .footer-social a:hover, footer .footer-social a:active {
      object-position: center center;
 }
 
+.index-stories-category {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  z-index: 5;
+}
+
 #site-cta-section {
   color: #ffffff;
   margin-top: 50px;
