@@ -667,6 +667,8 @@ footer .footer-social a:hover, footer .footer-social a:active {
   width: 35px !important;
   height: auto;
   z-index: 1;
+  opacity: 0;
+  transition: 0.3s;
 }
 
 .top-middle-grid-lines {
@@ -676,6 +678,8 @@ footer .footer-social a:hover, footer .footer-social a:active {
   width: 35px !important;
   height: auto;
   z-index: 1;
+  opacity: 0;
+  transition: 0.3s;
 }
 
 .top-middle-grid-lines-company {
@@ -687,6 +691,8 @@ footer .footer-social a:hover, footer .footer-social a:active {
   width: 35px !important;
   height: auto;
   z-index: 1;
+  opacity: 0;
+  transition: 0.3s;
 }
 
 .top-right-grid-lines {
@@ -696,6 +702,8 @@ footer .footer-social a:hover, footer .footer-social a:active {
   width: 35px !important;
   height: auto;
   z-index: 1;
+  opacity: 0;
+  transition: 0.3s;
 }
 
 .middle-left-grid-lines {
@@ -705,6 +713,8 @@ footer .footer-social a:hover, footer .footer-social a:active {
   width: 35px !important;
   height: auto;
   z-index: 1;
+  opacity: 0;
+  transition: 0.3s;
 }
 
 .middle-middle-grid-lines {
@@ -714,6 +724,8 @@ footer .footer-social a:hover, footer .footer-social a:active {
   width: 35px !important;
   height: auto;
   z-index: 1;
+  opacity: 0;
+  transition: 0.3s;
 }
 
 .middle-right-grid-lines {
@@ -723,6 +735,8 @@ footer .footer-social a:hover, footer .footer-social a:active {
   width: 35px !important;
   height: auto;
   z-index: 1;
+  opacity: 0;
+  transition: 0.3s;
 }
 
 .bottom-left-grid-lines {
@@ -732,6 +746,8 @@ footer .footer-social a:hover, footer .footer-social a:active {
   width: 35px !important;
   height: auto;
   z-index: 1;
+  opacity: 0;
+  transition: 0.3s;
 }
 
 .bottom-middle-grid-lines {
@@ -741,6 +757,8 @@ footer .footer-social a:hover, footer .footer-social a:active {
   width: 35px !important;
   height: auto;
   z-index: 1;
+  opacity: 0;
+  transition: 0.3s;
 }
 
 .bottom-middle-grid-lines-company {
@@ -752,6 +770,8 @@ footer .footer-social a:hover, footer .footer-social a:active {
   width: 35px !important;
   height: auto;
   z-index: 1;
+  opacity: 0;
+  transition: 0.3s;
 }
 
 .bottom-right-grid-lines {
@@ -761,6 +781,8 @@ footer .footer-social a:hover, footer .footer-social a:active {
   width: 35px !important;
   height: auto;
   z-index: 1;
+  opacity: 0;
+  transition: 0.3s;
 }
 
 #index-header-section {

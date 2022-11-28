@@ -66,6 +66,28 @@ setTimeout(function(){
           $('body').addClass('mobile-nav-active')
       })
 
+
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(item => {
+          if(item.isIntersecting) {
+            setTimeout(() =>{
+              $(item.target).css('opacity', 1)
+              // console.log(item)
+              // $(item.target).load()
+            }, 750)
+          }
+        })
+      })
+
+      const allGridLines = document.querySelectorAll('.lottie-animation');
+      allGridLines.forEach(el => observer.observe(el))
+
+
+      
+
+
+
+
       // //Toggle Navigation Menu
       // $(window).on("scroll", function () {
       //     if (50 <= window.scrollY) {
