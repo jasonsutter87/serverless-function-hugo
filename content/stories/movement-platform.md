@@ -1,7 +1,7 @@
 ---
-title: Movement Platform for The Metaverse With New Chief Revenue Officer
-description: Movement Platform for The Metaverse With New Chief Revenue Officer
-slug: movement-platform
+title: Movement Platform for the Metaverse With New Chief Revenue Officer
+description: Movement Platform for the Metaverse With New Chief Revenue Officer
+slug: movement platform for the metaverse with new chief revenue officer
 mainImage: /images/uploads/movement-platform-for-the-metaverse-with-new-chief-revenue-featured.jpg
 thumbImage: /images/uploads/movement-platform-for-the-metaverse-with-new-chief-revenue-thumb.jpg
 alt: Image of smiling woman wearing VR goggles and experiencing the Infinadeck
