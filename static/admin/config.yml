@@ -23,7 +23,8 @@ collections:
     - {label: "Title", name: "title", widget: "string"}
     - {label: Description, name: description, widget: string}
     - {label: Slug, name: slug, widget: string}
-    - {label: Image, name: image, widget: image}
+    - {label: Main Image, name: mainImage, widget: image}
+    - {label: Thumb Image, name: thumbImage, widget: image}
     - {label: Alt, name: alt, widget: string}
     - {label: Tags, name: tags, widget: list}
     - {label: Priority, name: priority, widget: string,  default: '0.5'}
