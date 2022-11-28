@@ -9,7 +9,7 @@ alt: Image of smiling woman wearing VR goggles and experiencing the Infinadeck
 priority: "0.5"
 summary: MOVEMENT PLATFORM FOR THE METAVERSE WITH NEW CHIEF REVENUE OFFICER
 tags:
-  - news
+  - Investment
 date: 2022-03-25T22:09:54.979Z
 pagetype: Article
 ---
