@@ -7,9 +7,21 @@
   {{ $page := . }}
 
         <a href="{{ $page.RelPermalink }}" class="position-relative">
-
           <img src="{{ $page.Params.thumb }}" alt="{{ $page.Params.alt }}" class="w-100">
+        </a>
 
+          <div class="blog-category">
+            {{ with $page.Params.tags }}
+            {{ range . }}
+            <a class="white-link mr-2" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">
+              <i class="far fa-plus mr-2"></i>{{ . }}
+            </a>
+            {{ end }}
+            </p>
+         {{ end }}
+          </div>
+
+        <a href="{{ $page.RelPermalink }}" >
           <div class="blog-roll-title">
               <h5 class="w-75 mx-auto">{{ $page.Title }}</h5>
           </div>
