@@ -13,7 +13,7 @@ priority: "0.5"
 date: 2022-11-27T21:44:00.000Z
 pagetype: article
 ---
-SAN FRANCISCO, Nov. 17, 2022 /PRNewswire/ — Virtualness, a mobile-first platform designed to help creators and brands navigate the complex world of Web3, announced today it has secured over $8M in seed funding. The fundraise was led by Blockchange Ventures, and joined by Polygon Ventures, Micron Ventures, Impact Venture Capital, VC3 DAO, Carolyn Everson, Randi Zuckerberg, Nusier Yassin (Nas Daily), Amit Jain, Harsh Jain, Shayamal Vallabhjee, Stacy Brown-Philpot, Tom Cheung and other thought-leaders.
+**SAN FRANCISCO, Nov. 17, 2022 /PRNewswire/** — Virtualness, a mobile-first platform designed to help creators and brands navigate the complex world of Web3, announced today it has secured over $8M in seed funding. The fundraise was led by Blockchange Ventures, and joined by Polygon Ventures, Micron Ventures, Impact Venture Capital, VC3 DAO, Carolyn Everson, Randi Zuckerberg, Nusier Yassin (Nas Daily), Amit Jain, Harsh Jain, Shayamal Vallabhjee, Stacy Brown-Philpot, Tom Cheung and other thought-leaders.
 
 There are more than 300M creators worldwide, half of them joining the creator economy in the last two years. Despite this extraordinary migration, these creators lack even the most basic tools to scale their businesses and easily capture the value-creation opportunities that blockchain and Web3 represent. Centered on the ethos of "empathy at the core," Virtualness puts creators first, and is building the playbook for easy design, efficient sharing and seamless digital commerce.
 
