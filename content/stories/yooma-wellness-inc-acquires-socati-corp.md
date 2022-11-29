@@ -8,7 +8,7 @@ alt: Image of an array of cannabinoid and hemp-derived wellness products.
 tags:
   - Investment
 priority: "0.5"
-date: 2022-11-29T18:05:47.797Z
+date: 2021-03-25T17:05:00.000Z
 pagetype: article
 ---
 [PRESS RELEASE PR Newswire](https://markets.businessinsider.com/author/pr-newswire)
