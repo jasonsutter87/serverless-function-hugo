@@ -72,6 +72,9 @@ setTimeout(function(){
           if(item.isIntersecting) {
             setTimeout(() =>{
               $(item.target).css('opacity', 1)
+              let target = $(item.target)[0];
+              // console.log(target)
+              target.play();
               // console.log(item)
               // $(item.target).load()
             }, 750)

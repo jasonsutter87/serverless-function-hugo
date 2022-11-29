@@ -1138,6 +1138,17 @@ footer .footer-social a:hover, footer .footer-social a:active {
   color: #171717 !important;
 }
 
+.subscribe-card {
+  background-color: #4d39e9;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 #impactTV-page-section iframe {
   width: 100%;
   height: 320px;
