@@ -23,7 +23,7 @@ Hello everyone, I'm Ken Bossung, the CEO of Infinadeck. I have been a business a
 
 We have created a device that will change the world and the way people do many things now and in the future. Imagine a treadmill that allows you to walk or run in any direction immersed in a virtual world. Imagine yourself being able to go to….any park, any city, any trail, any museum, or play any game….anywhere in the world without leaving your own home. The Infinadeck has made that a reality.
 
-![Screenshot of Infinadeck youtube video, The Next Step in VR Locomotion](/images/uploads/infinadeck-youtube-01.jpg "Youtube video, The Next Step in VR Locomotion")
+[![Screenshot of Infinadeck youtube video, The Next Step in VR Locomotion](/images/uploads/infinadeck-youtube-01.jpg "Youtube video, The Next Step in VR Locomotion")](https://www.youtube.com/watch?v=foHmSC-MeGA&t=36s)
 
 This was the last video published on Youtube 2 years ago
 
@@ -39,7 +39,7 @@ The way the unit works is not with many little treadmills, it's actually one ver
 
 While using The Infinadeck, there is limited or no effects of VR sickness. The natural movements from our omni-directional treadmill coupled with real-world references built into the Infinadeck system provide a stable comfortable experience. If you view the latest videos on our web-site, you will see it is natural and not slipping around on a surface. When the user stops walking, the device stops.
 
-![Screenshot image of youtube video, Infinadeck Move Beyond](/images/uploads/infinadeck-youtube-02.jpg "Youtube video, Infinadeck Move Beyond")
+[![Screenshot image of youtube video, Infinadeck Move Beyond](/images/uploads/infinadeck-youtube-02.jpg "Youtube video, Infinadeck Move Beyond")](https://www.youtube.com/watch?v=n40QnhIL6MU)
 
 This is the new video showcasing the new Infinadeck technology.
 
