@@ -1,4 +1,96 @@
 
+
+
+
+{{ if eq .Params.short true }}
+<div class="short-page-content">
+
+  <section id="site-cta-section">
+    <div class="site-container-1340 grid container px-lg-0">
+      <div class="item">
+        <lottie-player class="lottie-animation top-left-grid-lines"  src="https://lottie.host/f756b689-5736-47a9-a44b-8985c71be394/YlVA8YCC8K.json" background="transparent" speed="1"  autoplay></lottie-player>
+        <lottie-player class="lottie-animation top-right-grid-lines" src="https://lottie.host/f041c641-c628-4550-8ed8-041306f1aabf/QuvfuHb5Fk.json" background="transparent" speed="1" autoplay></lottie-player>
+  
+        <lottie-player class="lottie-animation bottom-left-grid-lines" src="https://lottie.host/e484b534-6ae3-4528-942f-7604f581c7f9/IGo5pz2FTU.json" background="transparent" speed="1" autoplay></lottie-player>
+        <lottie-player class="lottie-animation bottom-right-grid-lines " src="https://lottie.host/9ebd8ff4-837d-4697-88dd-dd38916943aa/U4sBxKrnzF.json" background="transparent" speed="1" autoplay></lottie-player>
+  
+          <div class="row align-items-center purple-bg cta-padding">
+            <div class="col-12 col-lg-6">
+              <p class="h4-heading mb-2">Got A Big Idea?</p>
+              <p class="h5-heading mb-2">Tell us more about your project.</p>
+              <p>We receive a lot of pitch decks, so it may take us a little while to get back to you if we think that there might be a fit. We hope to see you soon!</p>
+            </div>
+            <div class="col-12 col-lg-5 offset-lg-1">
+              <a href="/connect" class="btn-primary btn-size-sm">Connect</a>
+            </div>
+          </div>
+  
+      </div>
+    </div>
+  </section>
+ 
+  
+  <footer>
+      <div class="site-container-1340 container-1416-override">
+        <div class="row justify-content-between align-items-center py-3">
+          <div class="col-auto">
+            <a href="/" class="footer-logo">
+              <img src="/assets/brand/ImpactVC-logo.png" alt="">
+              <p class="sr-only">Impact VC</p>
+            </a>
+          </div>
+  
+          <div class="col-12 col-lg-auto">
+            <ul class="ul-reset d-flex">
+              <li class="footer-link copyright">
+                <a href="/privacy">Privacy</a>
+              </li>
+  
+              <li class="footer-link copyright">
+                <a href="/terms">Terms</a>
+              </li>
+  
+              <li class="footer-link copyright">
+                <a href="/accessibility">Accessibility</a>
+              </li>
+  
+              <li class="footer-link copyright">
+                <a href="/connect">Connect</a>
+              </li>
+  
+            </ul>
+          </div>
+        </div>
+  
+        <div class="row justify-content-between align-items-center pb-3">
+          <div class="col-auto">
+            <p class="copyright mb-0">&copy; {{ now.Format "2006"}} Impact Venture Capital | Made by
+              <a href="https://growdnd.com/" target="_blank">GROW</a>
+              <a href="https://growdnd.com/" target="_blank"><i class="far fa-external-link-alt"></i>
+              <span class="sr-only">exit link to GROW</span>
+            </a>
+          </p>
+          </div>
+          <div class="col-12 col-lg-auto">
+            <ul class="ul-reset d-flex">
+              <li class="footer-social">
+                <a href="https://www.facebook.com/impactVC/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              </li>
+  
+              <li class="footer-social">
+                <a href="https://twitter.com/VCimpact"  target="_blank"><i class="fab fa-twitter"></i></a>
+              </li>
+  
+              <li class="footer-social">
+                <a href="https://www.youtube.com/channel/UCXxumLFZkytZGG4INsbNOXg"  target="_blank"><i class="fab fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </footer> 
+</div>
+{{ else }}
 {{ if eq .Params.noCTA true }}
 {{ else }}
 <section id="site-cta-section">
@@ -31,8 +123,8 @@
       <div class="row justify-content-between align-items-center py-3">
         <div class="col-auto">
           <a href="/" class="footer-logo">
-             <img src="/assets/brand/ImpactVC-logo.png" alt="">
-             <p class="sr-only">Impact VC</p>
+            <img src="/assets/brand/ImpactVC-logo.png" alt="">
+            <p class="sr-only">Impact VC</p>
           </a>
         </div>
 
@@ -85,3 +177,7 @@
       </div>
     </div>
 </footer>
+
+
+{{ end}}
+

@@ -665,6 +665,18 @@ footer .footer-social a:hover, footer .footer-social a:active {
   color: #4d39e9;
 }
 
+.short-page {
+  overflow: hidden;
+}
+@media (min-height: 750px) {
+  .short-page .short-page-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
 .top-left-grid-lines {
   position: absolute;
   top: 0;

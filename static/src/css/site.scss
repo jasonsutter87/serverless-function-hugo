@@ -877,6 +877,20 @@ footer {
   }
 }
 
+
+.short-page {
+  overflow: hidden;
+
+  @media (min-height: 750px) {
+    .short-page-content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+  }
+}
+
 //////////////////////////////////////////////////////////////
 //                                                          ||
 //                        Index                             ||
