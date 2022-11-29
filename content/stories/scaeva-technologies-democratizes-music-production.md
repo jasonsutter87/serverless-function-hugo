@@ -1,7 +1,7 @@
 ---
 title: Scaeva Technologies Democratizes Music Production
 description: Scaeva Technologies Democratizes Music Production
-slug: scaeva technologies democratizes music production
+slug: scaeva-technologies-democratizes-music-production
 mainImage: /images/uploads/scaeva-technologies-democratizes-music-production-featured.jpg
 thumbImage: /images/uploads/scaeva-technologies-democratizes-music-production-thumb.jpg
 alt: Andrew Bojanic mixing with the Scaeva-Powered VSX on the beaches of Maui

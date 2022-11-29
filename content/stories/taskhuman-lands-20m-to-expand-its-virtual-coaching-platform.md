@@ -1,7 +1,7 @@
 ---
 title: TaskHuman Lands $20M to Expand its Virtual Coaching Platform
 description: TaskHuman Lands $20M to Expand its Virtual Coaching Platform
-slug: taskhuman lands 20m to expand its virtual coaching platform
+slug: taskhuman-lands-20m-to-expand-its-virtual-coaching-platform
 mainImage: /images/uploads/taskhuman-lands-20m-to-expand-its-virtual-coaching-platform-featured.jpg
 thumbImage: /images/uploads/taskhuman-lands-20m-to-expand-its-virtual-coaching-platform-thumb.jpg
 alt: Image of woman utilizing TaskHuman's virtual coaching platform on her

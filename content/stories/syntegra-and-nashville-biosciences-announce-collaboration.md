@@ -1,7 +1,7 @@
 ---
 title: Syntegra and Nashville Biosciences Announce Collaboration
 description: Syntegra and Nashville Biosciences Announce Collaboration
-slug: syntegra and nashville biosciences announce collaboration
+slug: syntegra-and-nashville-biosciences-announce-collaboration
 mainImage: /images/uploads/syntegra-and-nashville-biosciences-announce-collaboration-featured.jpg
 thumbImage: /images/uploads/syntegra-and-nashville-biosciences-announce-collaboration-thumb.jpg
 alt: Image of a diagram depicting Nashville Bioscience's areas of innovation.

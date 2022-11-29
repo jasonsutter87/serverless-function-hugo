@@ -1,7 +1,7 @@
 ---
 title: SoftBank leads USD $50M Series C Funding for Cornami
 description: SoftBank leads USD $50M Series C Funding for Cornami
-slug: softbank leads usd 50m series c funding for cornami
+slug: softbank-leads-usd-50m-series-c-funding-for-cornami
 mainImage: /images/uploads/softbank-leads-usd-50m-series-c-funding-for-cornami-featured.jpg
 thumbImage: /images/uploads/softbank-leads-usd-50m-series-c-funding-for-cornami-thumb.jpg
 alt: Conceptual image of artificial intelligence

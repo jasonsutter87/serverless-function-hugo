@@ -1,7 +1,7 @@
 ---
 title: Yooma Wellness Inc. Acquires Socati Corp.
 description: Yooma Wellness Inc. Acquires Socati Corp.
-slug: yooma wellness inc acquires socati corp
+slug: yooma-wellness-inc-acquires-socati-corp
 mainImage: /images/uploads/yooma-wellness-inc-acquires-socati-corp-featured.jpg
 thumbImage: /images/uploads/yooma-wellness-inc-acquires-socati-corp-thumb.jpg
 alt: Image of an array of cannabinoid and hemp-derived wellness products.

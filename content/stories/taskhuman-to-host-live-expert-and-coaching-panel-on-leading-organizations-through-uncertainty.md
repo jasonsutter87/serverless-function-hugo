@@ -3,8 +3,7 @@ title: TaskHuman to Host Live Expert and Coaching Panel on Leading Organizations
   Through Uncertainty
 description: TaskHuman to Host Live Expert and Coaching Panel on Leading
   Organizations Through Uncertainty
-slug: taskhuman to host live expert and coaching panel on leading organizations
-  through uncertainty
+slug: taskhuman-to-host-live-expert-and-coaching-panel-on-leading-organizations-through-uncertainty
 mainImage: /images/uploads/taskhuman-to-host-live-expert-and-coaching-panel-on-leading-organizations-through-uncertainty-featured.jpg
 thumbImage: /images/uploads/taskhuman-to-host-live-expert-and-coaching-panel-on-leading-organizations-through-uncertainty-thumb.jpg
 alt: Image of man looking at TaskHuman app on a phone screen.

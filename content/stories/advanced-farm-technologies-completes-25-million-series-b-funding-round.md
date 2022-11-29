@@ -1,7 +1,7 @@
 ---
 title: Advanced Farm Technologies Completes $25 Million Series B Funding Round
 description: Advanced Farm Technologies Completes $25 Million Series B Funding Round
-slug: advanced farm technologies completes 25 million series b funding round
+slug: advanced-farm-technologies-completes-25-million-series-b-funding-round
 mainImage: /images/uploads/advanced-farm-technologies-completes-25-million-series-b-funding-round-featured.jpg
 thumbImage: /images/uploads/advanced-farm-technologies-completes-25-million-series-b-funding-round-thumb.jpg
 alt: Image of Advanced Farm TX Strawberry Harvester picking strawberries in the

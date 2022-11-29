@@ -1,7 +1,7 @@
 ---
 title: Syntegra Raises $5.625 Million in Seed Financing
 description: Syntegra Raises $5.625 Million in Seed Financing
-slug: syntegra raises 5 point 625 million in seed financing
+slug: syntegra-raises-5-625-million-in-seed-financing
 mainImage: /images/uploads/syntegra-raises-5.625-million-in-seed-financing-featured.jpg
 thumbImage: /images/uploads/syntegra-raises-5.625-million-in-seed-financing-thumb.jpg
 alt: Conceptual image of health technology
