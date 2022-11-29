@@ -7,7 +7,7 @@ slug: gigaio raises 14 7 million in oversubscribed series b funding led by
   impact venture capital
 mainImage: /images/uploads/gigaio-raises-14.7-million-in-oversubscribed-series-b-funding-led-by-impact-venture-capital-featured.jpg
 thumbImage: /images/uploads/gigaio-raises-14.7-million-in-oversubscribed-series-b-funding-led-by-impact-venture-capital-thumb.jpg
-alt: Conceptual close up image of robotic eye.
+alt: Close up conceptual image of a robotic eye.
 tags:
   - Investment
 priority: "0.5"
