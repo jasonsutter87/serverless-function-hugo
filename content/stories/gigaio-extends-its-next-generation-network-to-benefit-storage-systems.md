@@ -5,6 +5,8 @@ slug: gigaio-extends-its-next-generation-network-to-benefit-storage-systems
 mainImage: /images/uploads/gigaio-extends-its-next-generation-network-to-benefit-storage-systems-featured.jpg
 thumbImage: /images/uploads/gigaio-extends-its-next-generation-network-to-benefit-storage-systems-thumb.jpg
 alt: Image of a large-scale data storage solution.
+tags:
+  - Investment
 priority: "0.5"
 date: 2019-09-09T22:33:08.206Z
 pagetype: article
