@@ -1414,7 +1414,8 @@ footer {
   .stories-toggle-row {
     border-top: 1px solid $mid-black;
     border-bottom: 1px solid $mid-black;
-    padding: 1rem 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .stories-category-link {
