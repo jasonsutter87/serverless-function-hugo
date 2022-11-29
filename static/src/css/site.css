@@ -474,8 +474,13 @@ p {
   align-items: center;
   flex-direction: row;
   width: 100%;
-  max-width: 1340px;
+  max-width: 1243px;
   margin: 0 auto;
+}
+@media (min-width: 1340px) {
+  .main-navigation {
+    max-width: 1340px;
+  }
 }
 
 .main-fixed {
