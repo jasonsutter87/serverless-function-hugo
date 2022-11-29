@@ -5,8 +5,10 @@ slug: gigaio-extends-its-next-generation-network-to-benefit-storage-systems
 mainImage: /images/uploads/gigaio-extends-its-next-generation-network-to-benefit-storage-systems-featured.jpg
 thumbImage: /images/uploads/gigaio-extends-its-next-generation-network-to-benefit-storage-systems-thumb.jpg
 alt: Image of a large-scale data storage solution.
+tags:
+  - Investment
 priority: "0.5"
-date: 2022-11-29T23:33:08.206Z
+date: 2019-09-09T22:33:08.206Z
 pagetype: article
 ---
 **SANTA CLARA, Calif., Aug. 6, 2019 /PRNewswire/** — Flash Memory Summit — GigaIO, the creators of the next-generation [data center network architecture and connectivity solutions](https://gigaio.com/), today introduced the FabreX™ implementation of Non-Volatile Memory Express over Fabrics (NVMe-oF) architecture, streamlining NVMe network communication and large-scale storage sharing with industry-leading low latency and high-bandwidth features.
