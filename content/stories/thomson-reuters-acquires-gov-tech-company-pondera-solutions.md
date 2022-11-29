@@ -8,7 +8,7 @@ alt: Conceptual image of the globe infused with data and technology.
 tags:
   - Investment
 priority: "0.5"
-date: 2022-11-29T21:54:20.139Z
+date: 2020-03-23T20:54:00.000Z
 pagetype: article
 ---
 The Ontario-based conglomerate Thomson Reuters now has Pondera's anti-fraud, waste and abuse platform in its suite of business intelligence tools, potentially giving health-care giants greater insight into bad actors.
