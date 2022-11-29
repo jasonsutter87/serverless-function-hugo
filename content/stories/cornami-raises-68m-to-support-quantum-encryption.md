@@ -1,7 +1,7 @@
 ---
 title: Cornami Raises $68M to Support Quantum Encryption
 description: Cornami Raises $68M to Support Quantum Encryption
-slug: cornami raises 68m to support quantum encryption
+slug: cornami-raises-68m-to-support-quantum-encryption
 mainImage: /images/uploads/cornami-raises-68m-to-support-quantum-encryption-featured.jpg
 thumbImage: /images/uploads/cornami-raises-68m-to-support-quantum-encryption-thumb.jpg
 alt: Science fiction image of cyborg using artificial intelligence.

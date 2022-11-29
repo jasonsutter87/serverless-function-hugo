@@ -3,8 +3,7 @@ title: Impact Venture Capital Portfolio Company, Alef, Unveils the Alef Flying C
 description: Impact Venture Capital Portfolio Company, Alef, Unveils the Alef
   Flying Car, the First and Only Drivable Flying Car with Vertical Takeoff and
   Landing
-slug: alef unveils first and only drivable flying car with vertical takeoff and
-  landing
+slug: alef-unveils-first-and-only-drivable-flying-car-with-vertical-takeoff-and-landing
 mainImage: /images/uploads/Company-Alef-Unveils-the-Alef-Flying-Car-the-First-and-Only-Drivable-Flying-featured.jpg
 thumbImage: /images/uploads/Company-Alef-Unveils-the-Alef-Flying-Car-the-First-and-Only-Drivable-Flying-thumb.jpg
 alt: Bird's-eye view of New York City

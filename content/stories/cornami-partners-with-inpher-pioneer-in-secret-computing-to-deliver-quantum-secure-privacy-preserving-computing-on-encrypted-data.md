@@ -3,7 +3,7 @@ title: Cornami Partners with Inpher, Pioneer in Secret Computing, to Deliver
   Quantum-Secure Privacy-Preserving Computing on Encrypted Data
 description: Cornami Partners with Inpher, Pioneer in Secret Computing, to
   Deliver Quantum-Secure Privacy-Preserving Computing on Encrypted Data
-slug: cornami partners with inpher pioneer in secret computing
+slug: cornami-partners-with-inpher-pioneer-in-secret-computing-to-deliver-quantum-secure-privacy-preserving-computing-on-encrypted-data
 mainImage: /images/uploads/cornami-partners-with-inpher-pioneer-in-secret-computing-featured.jpg
 thumbImage: /images/uploads/cornami-partners-with-inpher-pioneer-in-secret-computing-thumb.jpg
 alt: Image depicting scientific diagrams and equations regarding secret computing.

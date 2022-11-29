@@ -1,7 +1,7 @@
 ---
 title: Mental Wellness App Healium Wins NFLPA Pitch Day
 description: Mental Wellness App Healium Wins NFLPA Pitch Day
-slug: mental wellness app healium wins nflpa pitch day
+slug: mental-wellness-app-healium-wins-nflpa-pitch-day
 mainImage: /images/uploads/mental-wellness-app-healium-wins-nflpa-pitch-day-featured.jpg
 thumbImage: /images/uploads/mental-wellness-app-healium-wins-nflpa-pitch-day-thumb.jpg
 alt: Image of a woman meditating in an outdoor setting.

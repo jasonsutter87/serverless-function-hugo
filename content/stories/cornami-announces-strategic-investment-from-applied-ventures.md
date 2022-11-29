@@ -1,7 +1,7 @@
 ---
 title: Cornami Announces Strategic Investment from Applied Ventures
 description: Cornami Announces Strategic Investment from Applied Ventures
-slug: cornami announces strategic investment from applied ventures
+slug: cornami-announces-strategic-investment-from-applied-ventures
 mainImage: /images/uploads/cornami-announces-strategic-investment-from-applied-ventures-featured.jpg
 thumbImage: /images/uploads/cornami-announces-strategic-investment-from-applied-ventures-thumb.jpg
 alt: Conceptual image of artificial intelligence.

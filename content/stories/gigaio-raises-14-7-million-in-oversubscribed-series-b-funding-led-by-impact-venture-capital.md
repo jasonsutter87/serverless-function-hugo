@@ -3,8 +3,7 @@ title: GigaIO Raises $14.7 Million in Oversubscribed Series B Funding Led by
   Impact Venture Capital
 description: GigaIO Raises $14.7 Million in Oversubscribed Series B Funding Led
   by Impact Venture Capital
-slug: gigaio raises 14 7 million in oversubscribed series b funding led by
-  impact venture capital
+slug: gigaio-raises-14-7-million-in-oversubscribed-series-b-funding-led-by-impact-venture-capital
 mainImage: /images/uploads/gigaio-raises-14.7-million-in-oversubscribed-series-b-funding-led-by-impact-venture-capital-featured.jpg
 thumbImage: /images/uploads/gigaio-raises-14.7-million-in-oversubscribed-series-b-funding-led-by-impact-venture-capital-thumb.jpg
 alt: Close up conceptual image of a robotic eye.
