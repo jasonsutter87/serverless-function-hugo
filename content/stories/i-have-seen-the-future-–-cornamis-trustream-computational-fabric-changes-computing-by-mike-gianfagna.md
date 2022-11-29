@@ -2,7 +2,7 @@
 title: I Have Seen the Future – Cornami's TruStream Computational Fabric Changes
   Computing by Mike Gianfagna
 description: Cornami’s TruStream Computational Fabric Changes Computing by Mike Gianfagna
-slug: cornamis trustream computational fabric changes computing by mike gianfagna
+slug: cornamis-trustream-computational-fabric-changes-computing-by-mike-gianfagna
 mainImage: /images/uploads/i-have-seen-the-future-cornamis-trustream-computational-fabric-changes-computing-by-mike-gianfagna-featured.jpg
 thumbImage: /images/uploads/i-have-seen-the-future-cornamis-trustream-computational-fabric-changes-computing-by-mike-gianfagna-thumb.jpg
 alt: Conceptual image of a lock icon amidst a field of data.
