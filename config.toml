@@ -1,2 +1,7 @@
 baseURL = '/'
 languageCode = 'en-us'
+
+[[redirects]]
+	from = "/*"
+	to = "/404/"
+	status = 404
