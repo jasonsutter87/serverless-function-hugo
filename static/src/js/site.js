@@ -66,12 +66,12 @@ setTimeout(function(){
           $('body').addClass('mobile-nav-active')
       })
 
-    
+      let allGridLines = document.querySelectorAll('.lottie-animation');
+
       const observer = new IntersectionObserver(entries => {
         entries.forEach(item => {
           if(item.isIntersecting) {
-            if(document.documentElement.scrollTop == 0) {
-                 
+                  
             let target = $(item.target)[0];
             LottieInteractivity.create({
               player: target,
@@ -88,29 +88,39 @@ setTimeout(function(){
               ]
             })
 
-            } else {
+            // if(document.documentElement.scrollTop == 0) {
+
+            // } else {
                  
-            let target = $(item.target)[0];
-            LottieInteractivity.create({
-              player: target,
-              mode: "scroll",
-              actions: [
-                {
-                  state: "play",
-                },
-                {
-                  visibility:[1.0],
-                  type: 'stop',
-                  frame: [15],
-                }
-              ]
-            })
-            }
+            // let target = $(item.target)[0];
+ 
+            // LottieInteractivity.create({
+            //   player: target,
+            //   mode: "scroll",
+            //   actions: [
+            //     {
+            //       visibility: [0,1],
+            //       type: 'play',
+            //       frames: [0, 15],
+            //     },
+            //     {
+            //       visibility:[1.0],
+            //       type: 'pause',
+            //       frame: [15],
+            //     }
+            //   ]
+            // })
+         
+            
+            // // $(item.target).css('background-color', '#ff00001f')
+
+            // }
+         
+
           }
         })
       })
 
-      const allGridLines = document.querySelectorAll('.lottie-animation');
       allGridLines.forEach(el => observer.observe(el))
 
 
