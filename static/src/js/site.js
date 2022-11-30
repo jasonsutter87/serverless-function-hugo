@@ -66,18 +66,31 @@ setTimeout(function(){
           $('body').addClass('mobile-nav-active')
       })
 
+     
+      
 
       const observer = new IntersectionObserver(entries => {
         entries.forEach(item => {
           if(item.isIntersecting) {
-            setTimeout(() =>{
-              $(item.target).css('opacity', 1)
+            // setTimeout(() =>{
+              // $(item.target).css('opacity', 1)
               let target = $(item.target)[0];
+
+              LottieInteractivity.create({
+                player: target,
+                mode: "scroll",
+                actions: [
+                  {
+                    state: "play",
+                  },
+                  
+                ]
+              });
               // console.log(target)
-              target.play();
+              // target.play();
               // console.log(item)
               // $(item.target).load()
-            }, 750)
+            // }, 750)
           }
         })
       })
