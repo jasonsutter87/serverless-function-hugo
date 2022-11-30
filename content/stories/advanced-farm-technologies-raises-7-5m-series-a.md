@@ -5,6 +5,8 @@ slug: advanced-farm-technologies-raises-7-5m-series-a
 mainImage: /images/uploads/advanced-farm-technologies-raises-7.5m-series-a-featured.jpg
 thumbImage: /images/uploads/advanced-farm-technologies-raises-7.5m-series-a-thumb.jpg
 alt: Image of Advanced Farm Technologies' robotic strawberry picker.
+tags:
+  - Investment
 priority: "0.5"
 date: 2019-09-09T21:04:44.002Z
 pagetype: article
