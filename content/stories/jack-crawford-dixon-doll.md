@@ -1,5 +1,5 @@
 ---
-title: Jack Crawford & Dixon Doll
+title: Jack Crawford and Dixon Doll
 description: An edited transcript of a conversation with Jack Crawford about
   Impact Venture Capital.
 slug: jack-crawford-and-dixon-doll
