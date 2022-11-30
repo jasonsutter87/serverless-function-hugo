@@ -72,25 +72,50 @@ setTimeout(function(){
       const observer = new IntersectionObserver(entries => {
         entries.forEach(item => {
           if(item.isIntersecting) {
-            // setTimeout(() =>{
-              // $(item.target).css('opacity', 1)
-              let target = $(item.target)[0];
+            console.log(item)
 
-              LottieInteractivity.create({
-                player: target,
-                mode: "scroll",
-                actions: [
-                  {
-                    state: "play",
-                  },
-                  
-                ]
-              });
-              // console.log(target)
-              // target.play();
-              // console.log(item)
-              // $(item.target).load()
-            // }, 750)
+
+            if(document.documentElement.scrollTop == 0) {
+                 
+            let target = $(item.target)[0];
+            LottieInteractivity.create({
+              player: target,
+              mode: "load",
+              actions: [
+                {
+                  state: "play",
+                },
+                {
+                  visibility:[1.0],
+                  type: 'stop',
+                  frame: [15],
+                }
+              ]
+            })
+
+            } else {
+                 
+            let target = $(item.target)[0];
+            LottieInteractivity.create({
+              player: target,
+              mode: "scroll",
+              actions: [
+                {
+                  state: "play",
+                },
+                {
+                  visibility:[1.0],
+                  type: 'stop',
+                  frame: [15],
+                }
+              ]
+            })
+            
+            // $(item.target).css('background-color', 'red')
+
+            }
+         
+
           }
         })
       })
@@ -99,49 +124,6 @@ setTimeout(function(){
       allGridLines.forEach(el => observer.observe(el))
 
 
-      
-
-
-
-
-      // //Toggle Navigation Menu
-      // $(window).on("scroll", function () {
-      //     if (50 <= window.scrollY) {
-      //         $("body").addClass("main-navigation-scroll")
-      //         $('.header-logo-svg-condensed').removeClass('d-none')
-      //         $('.header-logo-svg').addClass('d-none')
-      //     } else {
-      //         $("body").removeClass("main-navigation-scroll")
-      //         $('.header-logo-svg-condensed').addClass('d-none')
-      //         $('.header-logo-svg').removeClass('d-none')
-      //     }
-      //
-      //
-      //
-      //     let screenHeight = window.innerHeight
-      //     let navbarSize = 542;
-      //
-      //     if (window.scrollY >= (screenHeight - navbarSize)) {
-      //
-      //         $('#subnav-links-row').addClass('blog-nav-fixed')
-      //
-      //         $('#blog-nav').find('.site-container-1512').css('padding-left', '30px')
-      //         $('#blog-nav').find('.site-container-1512').css('padding-right', '30px')
-      //
-      //     } else {
-      //         if ($('#subnav-links-row').hasClass('blog-nav-fixed')) {
-      //             $('#subnav-links-row').removeClass('blog-nav-fixed')
-      //             $('#blog-nav').find('.site-container-1512').css('padding-left', '0')
-      //             $('#blog-nav').find('.site-container-1512').css('padding-right', '0')
-      //         }
-      //     }
-      // })
-
-
-      // //lazy load images
-      // $.each($('img'), function (i, val) {
-      //     $(val).addClass('b-lazy')
-      // })
 
     if( window.location.href.split('/blog/').length > 1) {
 
@@ -157,7 +139,6 @@ setTimeout(function(){
 
       //runner
       setLocationActive()
-
 
 
 
