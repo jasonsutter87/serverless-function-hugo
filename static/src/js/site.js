@@ -66,15 +66,10 @@ setTimeout(function(){
           $('body').addClass('mobile-nav-active')
       })
 
-     
-      
-
+    
       const observer = new IntersectionObserver(entries => {
         entries.forEach(item => {
           if(item.isIntersecting) {
-            console.log(item)
-
-
             if(document.documentElement.scrollTop == 0) {
                  
             let target = $(item.target)[0];
@@ -110,12 +105,7 @@ setTimeout(function(){
                 }
               ]
             })
-            
-            // $(item.target).css('background-color', 'red')
-
             }
-         
-
           }
         })
       })
