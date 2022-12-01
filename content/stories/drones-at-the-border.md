@@ -11,6 +11,7 @@ tags:
 priority: "0.5"
 date: 2019-01-15T17:00:06.482Z
 pagetype: article
+share: true
 ---
 **LAS VEGAS** — Drone experts say the unmanned aircraft systems are the technology solution federal officers on the southern border want to see the Trump administration and Congress adopt.
 

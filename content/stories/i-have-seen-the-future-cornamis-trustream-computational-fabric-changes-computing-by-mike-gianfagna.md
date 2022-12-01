@@ -11,6 +11,7 @@ tags:
 priority: "0.5"
 date: 2021-11-05T18:05:00.000Z
 pagetype: article
+share: true
 ---
 Here is another installment regarding presentations at the Linley Fall Processor Conference. Every now and again, you see a presentation at an event like this that shakes you up.  Sometimes in a good way, sometimes not so much. I attended the Cornami presentation on its new TruStream computational fabric and I was definitely shaken up and in a good way. As I watched the presentation, I kept thinking that I was seeing the future. And that brough back memories of the 1964/1965 World's Fair in New York. I recall General Motors had a pavilion there who's tagline was "I Have Seen the Future". I did a little digging and found that they used the exact same tagline at the 1939 World's Fair, also in NY. Now that's long-range, consistent branding. Enough history. Back to how Cornami's TruStream computational fabric changes computing.
 

@@ -12,6 +12,7 @@ tags:
 priority: "0.5"
 date: 2016-10-12T16:55:58.325Z
 pagetype: article
+share: true
 ---
 **Burlingame, California** – Dixon Doll, Eric Ball, and Jack Crawford announced today that they are launching a new venture capital firm named Impact Venture Capital with California investment offices in Burlingame and Sacramento. Impact Venture Capital will also host a large-scale global venture summit event this year in California at the new Golden 1 Center, widely recognized as the most high-tech arena in the world.
 

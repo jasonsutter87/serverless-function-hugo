@@ -11,6 +11,7 @@ tags:
 priority: "0.5"
 date: 2022-06-30T21:37:06.387Z
 pagetype: article
+share: true
 ---
 [TaskHuman](http://taskhuman.com/), a professional development platform focused on coaching, today announced that it raised $20 million in Series B funding led by Madrona with participation from Impact Venture Capital, RingCentral Ventures, Sure Ventures, USVP, Gaingels, PeopleTech Angels, Propel(x) and Zoom Ventures. The latest infusion brings the company's total raised to $35 million, which CEO Ravi Swaminathan said is being put toward product development, marketing and sales efforts.
 

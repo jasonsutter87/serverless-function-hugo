@@ -11,6 +11,7 @@ tags:
 priority: "0.5"
 date: 2016-11-15T17:51:15.396Z
 pagetype: article
+share: true
 ---
 Sacramento's Impact Venture Capital has made its second investment, an undisclosed amount to a security company that uses autonomous drones.
 

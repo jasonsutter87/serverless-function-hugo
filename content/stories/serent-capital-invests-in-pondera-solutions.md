@@ -12,6 +12,7 @@ tags:
 priority: "0.5"
 date: 2017-06-09T16:37:44.978Z
 pagetype: article
+share: true
 ---
 **San Francisco, CA – June 09, 2017** — Serent Capital, a San Francisco-based private equity firm focused on investing in high-growth technology and services businesses, has made a growth investment in Pondera Solutions (Pondera), the leading software solution for combatting fraud, waste, and abuse in large government programs.
 

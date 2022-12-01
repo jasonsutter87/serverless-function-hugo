@@ -14,6 +14,7 @@ tags:
   - Investment
 date: 2022-11-02T22:09:54.979Z
 pagetype: Article
+share: true
 ---
 
 [Alef Aeronautics](https://alef.aero/), an advanced technology company creating alternative transportation solutions for surging traffic trends, introduced the Alef “Model A”, the only flying car with street driving and vertical take-off. The Alef Model A flying car fits within existing urban infrastructure for driving and parking. The company plans to begin production and initiate first deliveries in Q4 of 2025.

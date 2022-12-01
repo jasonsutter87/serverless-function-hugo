@@ -10,6 +10,7 @@ tags:
 priority: "0.5"
 date: 2019-10-09T22:20:15.587Z
 pagetype: article
+share: true
 ---
 We spoke with Jack Crawford, General Partner at Impact Venture Capital, to learn more about his firm.
 

@@ -12,6 +12,7 @@ tags:
 priority: "0.5"
 date: 2021-09-22T15:34:00.000Z
 pagetype: article
+share: true
 ---
 *Impact Venture Capital led funding round to fuel development of application-defined composable infrastructure market through accelerated sales and marketing efforts*
 

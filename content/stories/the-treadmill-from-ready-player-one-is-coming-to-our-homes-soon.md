@@ -10,6 +10,7 @@ tags:
 priority: "0.5"
 date: 2020-11-05T19:18:00.000Z
 pagetype: article
+share: true
 ---
 If you are in the VR field since some years, for sure you remember the hype when the [Infinadeck](https://infinadeck.com/) was revealed. It was a very big treadmill, offering true natural locomotion: with it, you didn't need weird movements like walking in place or slipping on a surface, but you could just walk like in real life to walk in VR. It seemed great from the videos, but its problems were its dimensions, because it was enormous, and its price (it was never revealed publicly, but rumors talked about $50-100K per unit).
 

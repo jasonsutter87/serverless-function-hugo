@@ -10,6 +10,7 @@ tags:
 priority: "0.5"
 date: 2019-09-09T21:04:44.002Z
 pagetype: article
+share: true
 ---
 [Advanced Farm Technologies](https://advanced.farm/) (AFT), an agtech robotics startup, has [raised a $7.5 million Series A round](https://www.businesswire.com/news/home/20190827005097/en/Yamaha-Motor-Ventures-Laboratory-Silicon-Valley-Leads) of funding led by Yamaha Motor Ventures & Laboratory Silicon Valley ("YMVSV"), the strategic business development and investment arm of Yamaha Motor Co., Ltd., with participation from Kubota Corporation, Catapult Ventures, and Impact Venture Capital. This brings the total amount raised by AFT to $9.2 million.
 

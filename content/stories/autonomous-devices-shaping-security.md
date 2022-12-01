@@ -9,6 +9,7 @@ alt: Image of a Nightingale Security drone on display.
 priority: "0.5"
 date: 2017-08-27T16:07:11.346Z
 pagetype: article
+share: true
 ---
 The Security Industry Association recently published a video featuring Cary Savas, VP, Marketing at Nightingale Security. Cary speaks about the role that drones and autonomous technology have in the security industry. SIA, founded in 1969, is committed to being a "catalyst for success within the global security industry through information, insight and influence" and is also the leading industry sponsor for ISC events.
 

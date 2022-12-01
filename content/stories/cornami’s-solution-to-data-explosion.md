@@ -12,6 +12,7 @@ tags:
 priority: "0.5"
 date: 2016-09-29T17:00:00.000Z
 pagetype: article
+share: true
 ---
 A couple of years ago, I wrote about a company called SVIRAL that appeared to have cracked one of the toughest problems in computing today — that of creating software programs that can effectively use multiple processing cores and threads without requiring programmers to have PhDs in computer science (see Startup Cracks MultiCore, Thread Programming Problem).
 

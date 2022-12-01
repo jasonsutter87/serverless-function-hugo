@@ -10,6 +10,7 @@ tags:
 priority: "0.5"
 date: 2020-01-09T22:41:00.000Z
 pagetype: article
+share: true
 ---
 A Rocklin-based company that offers an omnidirectional treadmill for virtual reality technology has received a round of funding led by Sacramento-founded Impact Venture Capital. Infinadeck will use the money to manufacture units and hire staff, as well as for marketing, sales and improvements in software, said Ken Bossung, CEO of the company. He declined to disclose of the value of the investment. Infinadeck holds patents on technology that allows a user to move in any direction at any human speed and remain centered in place on Infinadeck's treadmill, Bossung said. The company, founded by George Burger, was incorporated in 2013 in Rocklin. The Infinadeck was released in beta versions this year, and the newest production units began shipping at the end of last year. Infinadeck has 10 employees, and it manufactures its treadmill in Rocklin, Bossung said. He said the company should grow to 25 to 40 employees by the end of the year. The treadmills retail for between $40,000 and $60,000, depending on configuration. That price point has made the target customer for Infinadeck companies in the medical and enterprise training industries, as well as military applications, where the treadmill is used for VR training and simulation. They are also used in the oil and gas industry for VR training, Bossung said.
 

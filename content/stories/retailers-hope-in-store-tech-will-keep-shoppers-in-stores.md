@@ -10,6 +10,7 @@ tags:
 priority: "0.5"
 date: 2020-01-20T22:23:00.000Z
 pagetype: article
+share: true
 ---
 ## Old-guard retailers are looking for technology systems that can make visits to physical stores better or more relevant
 

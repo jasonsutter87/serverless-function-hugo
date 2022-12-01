@@ -12,6 +12,7 @@ tags:
 priority: "0.5"
 date: 2020-10-22T19:42:00.000Z
 pagetype: article
+share: true
 ---
 ## Quantum-Secure Privacy-Preserving Computing on Encrypted Data Sets Is Game Changer for Cloud Security
 

@@ -10,6 +10,7 @@ tags:
 priority: "0.5"
 date: 2021-01-19T18:51:00.000Z
 pagetype: article
+share: true
 ---
 **"A study by a Silicon Valley venture capitalist and university researchers shows investors may favor young male entrepreneurs, but their performance doesn't necessarily justify that preference," writes Alastair Goldfisher.**
 

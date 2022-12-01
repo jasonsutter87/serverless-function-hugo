@@ -9,6 +9,7 @@ alt: Image of a cyborg communicating the concept of innovative technology.
 priority: "0.5"
 date: 2016-09-20T16:00:03.656Z
 pagetype: article
+share: true
 ---
 Impact Venture Capital helped CORNAMI, a high-performance computing company, close Series B financing in the amount of $3 million. Formerly known as SVIRAL, CORNAMI develops innovative technology for highly efficient and accelerated multi-core programming.
 

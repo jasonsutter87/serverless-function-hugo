@@ -10,6 +10,7 @@ tags:
 priority: "0.5"
 date: 2021-10-28T23:42:00.000Z
 pagetype: article
+share: true
 ---
 Cornami has completed an early close to its currently over-subscribed USD50 million Series C financing led by SoftBank Vision Fund 2 to bring Fully Homomorphic Encryption (FHE) to market. 
 

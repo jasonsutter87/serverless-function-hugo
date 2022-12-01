@@ -10,6 +10,7 @@ tags:
 priority: "0.5"
 date: 2019-11-19T23:09:00.000Z
 pagetype: article
+share: true
 ---
 *Mark Zuckerberg and Bill Gates founded their pathbreaking companies when they were still in their teens. Steve Jobs founded Apple at 21. Their stories, which get a lot of media attention, have many believing that younger entrepreneurs are the most successful. However, research from Wharton management professor Daniel Kim shows they are exceptions to the rule, and that the average age of successful entrepreneurs is actually a lot older. The study, "[Age and High-growth Entrepreneurship](https://www.kellogg.northwestern.edu/faculty/jones-ben/htm/Age%20and%20High%20Growth%20Entrepreneurship.pdf)," determined the most successful founders in the United States are in their 40s. Javier Miranda, principal economist at the U.S. Census Bureau; Benjamin Jones, professor at the Kellogg School of Management at Northwestern University; and Pierre Azoulay, professor at MIT's Sloan School of Management and research associate at the National Bureau of Economic Research, co-authored the study. Kim sat down with Knowledge@Wharton to talk about why middle-aged entrepreneurs bring the benefit of experience to the founder's table. (Listen to the podcast at the top of this page.)*
 

@@ -10,6 +10,7 @@ tags:
 priority: "0.5"
 date: 2022-01-08T00:18:39.978Z
 pagetype: article
+share: true
 ---
 Syntegra, a leader in synthetic healthcare data generation, announced it has closed its seed financing, bringing in a total of $5.625 million. Syntegra's investors include Sweat Equity Ventures, Hike Ventures, Innovation Global Capital, Wisconn Valley Ventures, Village Global, Impact Venture Capital, GRIDS Capital, Berkeley Catalyst Fund, Launchpad Capital, Vastly Valuable Ventures and First Spark Ventures.
 

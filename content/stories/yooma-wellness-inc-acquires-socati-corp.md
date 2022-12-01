@@ -10,6 +10,7 @@ tags:
 priority: "0.5"
 date: 2021-03-25T17:05:00.000Z
 pagetype: article
+share: true
 ---
 [PRESS RELEASE PR Newswire](https://markets.businessinsider.com/author/pr-newswire)
 Mar. 22, 2021, 02:36 PM

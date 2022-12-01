@@ -10,6 +10,7 @@ tags:
 priority: "0.5"
 date: 2022-05-19T22:03:33.937Z
 pagetype: article
+share: true
 ---
 Today, fabless semiconductor company [Cornami ](https://cornami.com/)announced it has closed a $68 million series C funding round led by Softbank Vision Fund 2.
 

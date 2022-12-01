@@ -12,6 +12,7 @@ tags:
 priority: "0.5"
 date: 2022-10-06T21:23:00.000Z
 pagetype: article
+share: true
 ---
 **PALO ALTO, Calif., Oct. 06, 2022 (GLOBE NEWSWIRE)** — TaskHuman, the 1:1 digital coaching platform, today announced it will host a live, complimentary webinar titled "Lead and Succeed Through Uncertainty" on Wednesday, October 19, 2022 at 10 a.m. PDT / 1 p.m. EDT. Featuring a panel of three TaskHuman leadership coaches and experts, the webinar will showcase an in-depth discussion surrounding how leaders can navigate their teams through an unprecedented downturn.
 

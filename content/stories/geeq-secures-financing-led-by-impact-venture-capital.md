@@ -11,6 +11,7 @@ tags:
 priority: "0.5"
 date: 2020-10-26T19:31:00.000Z
 pagetype: article
+share: true
 ---
 **CPE News (10/23/2020)** – Geeq Corporation has closed an equity round of financing led by Impact Venture Capital. Financial terms were not disclosed.
 

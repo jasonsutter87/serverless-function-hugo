@@ -10,6 +10,7 @@ tags:
 priority: "0.5"
 date: 2020-02-20T22:04:00.000Z
 pagetype: article
+share: true
 ---
 Scaeva Technologies says it is focused on helping musical artists win back the estimated $20 billion in revenue they lost when music was digitized, while at the same time delivering a more authentic experience for fans.
 

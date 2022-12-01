@@ -12,6 +12,7 @@ tags:
 priority: "0.5"
 date: 2019-08-20T23:45:13.578Z
 pagetype: article
+share: true
 ---
 By [Mark Anderson](https://www.bizjournals.com/sacramento/bio/5171/Mark+Anderson) – Staff Writer, Sacramento Business Journal
 

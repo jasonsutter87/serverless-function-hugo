@@ -10,6 +10,7 @@ tags:
 priority: "0.5"
 date: 2022-05-02T22:47:38.750Z
 pagetype: article
+share: true
 ---
 Groundbreaking female-founded company signals a new approach to stress management powered by the body's electricity – – Six diverse-led companies competed for access to funding, mentorship, and NFLPA player marketing and group player rights.
 

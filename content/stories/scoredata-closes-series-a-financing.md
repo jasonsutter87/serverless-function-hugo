@@ -11,6 +11,7 @@ tags:
 priority: "0.5"
 date: 2020-06-22T20:14:00.000Z
 pagetype: article
+share: true
 ---
 [ScoreData](https://scoredata.com/), a Palo Alto, CA-based provider of an innovative predictive solutions development and deployment platform, closed a Series A financing round of undisclosed amount.
 

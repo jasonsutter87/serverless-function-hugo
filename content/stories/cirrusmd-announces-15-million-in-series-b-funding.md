@@ -10,6 +10,7 @@ tags:
 priority: "0.5"
 date: 2019-09-09T22:44:27.166Z
 pagetype: article
+share: true
 ---
 **DENVER, May 2, 2019 /PRNewswire/** — [CirrusMD](https://www.cirrusmd.com/), a chat-first virtual care solution, today announced that it has raised $15 million in a Series B round of funding led by [Drive Capital](https://www.drivecapital.com/), [Colorado Impact Fund](https://www.coloradoimpactfund.com/) and other prior investors, bringing total funding to-date to $26 million. This round of funding will carry the company through its next phase of growth, and drive product innovation to support current and future partners. The company also announced a new contract with [Iron Bow Technologies](https://ironbow.com/) as a subcontractor to the United States Department of Veteran Affairs (VA) for improved care access and delivery for the veteran community.
 

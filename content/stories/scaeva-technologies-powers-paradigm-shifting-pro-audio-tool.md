@@ -10,6 +10,7 @@ tags:
 priority: "0.5"
 date: 2021-12-11T18:57:00.000Z
 pagetype: article
+share: true
 ---
 [PRESS RELEASE PR Newswire](https://markets.businessinsider.com/author/pr-newswire)
 Dec. 10, 2020, 02:34 PM

@@ -11,6 +11,7 @@ tags:
 priority: "0.5"
 date: 2019-08-19T23:53:12.036Z
 pagetype: article
+share: true
 ---
 Impact Venture Capital has a first fund target of $100 million and a big-name general partner.
 

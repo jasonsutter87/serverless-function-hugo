@@ -10,6 +10,7 @@ tags:
 priority: "0.5"
 date: 2020-09-24T19:53:00.000Z
 pagetype: article
+share: true
 ---
 Just south of the New York Stock Exchange stands Goldman Sachs' former office tower. Most of the building has been taken over by WeWork, which provides workspaces for freelancers and small businesses. Getting off the elevator, one enters a large community space where hipster entrepreneurs lounge about drinking free coffee. At the end of a hallway of glass-encased offices sits a suite where one man seeks to change the U.S. corporate bond market.
 
