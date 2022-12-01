@@ -66,13 +66,6 @@
         <div class="col-12">
           {{ template "_internal/disqus.html" . }}
         </div>
-        {{- if .Site.Params.commento.enable -}}
-          <div class="col-12">
-            <div id="commento"></div>
-            <script src="{{ .Site.Params.commento.url }}"></script>
-          </div>
-        {{- end -}}
-
         </div>
       </div>
     </section>
