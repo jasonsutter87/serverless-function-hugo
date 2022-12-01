@@ -1,6 +1,9 @@
 ---
 title: Advanced Farm Technologies Completes $25 Million Series B Funding Round
-description: Advanced Farm Technologies Completes $25 Million Series B Funding Round
+description: Advanced Farm Technologies, Inc. has completed a Series B
+  investment round raising $25 million to support the company's growth in
+  strawberry harvesting and the adaptation of its technology to apple
+  harvesting.
 slug: advanced-farm-technologies-completes-25-million-series-b-funding-round
 mainImage: /images/uploads/advanced-farm-technologies-completes-25-million-series-b-funding-round-featured.jpg
 thumbImage: /images/uploads/advanced-farm-technologies-completes-25-million-series-b-funding-round-thumb.jpg
@@ -9,9 +12,9 @@ alt: Image of Advanced Farm TX Strawberry Harvester picking strawberries in the
 tags:
   - Investment
 priority: "0.5"
+share: true
 date: 2021-09-22T23:46:00.000Z
 pagetype: article
-share: true
 ---
 **DAVIS, Calif. – (BUSINESS WIRE) – September 21, 2021** – Advanced Farm Technologies, Inc., developers of robotic technology for farmers, announced today it has completed a Series B investment round raising $25 million to support the company's growth in strawberry harvesting and the adaptation of its technology to apple harvesting. The Series B funding round was led by Catapult Ventures and included all the Series A investors: Kubota Corporation, Yamaha Motor Corporation, and Impact Venture Capital.
 
