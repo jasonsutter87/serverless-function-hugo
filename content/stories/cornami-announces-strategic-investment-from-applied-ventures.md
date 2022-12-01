@@ -1,6 +1,8 @@
 ---
 title: Cornami Announces Strategic Investment from Applied Ventures
-description: Cornami Announces Strategic Investment from Applied Ventures
+description: Cornami announced that Applied Ventures, LLC has made a strategic
+  investment in the company's over-subscribed Series C financing led by SoftBank
+  Vision Fund 2.
 slug: cornami-announces-strategic-investment-from-applied-ventures
 mainImage: /images/uploads/cornami-announces-strategic-investment-from-applied-ventures-featured.jpg
 thumbImage: /images/uploads/cornami-announces-strategic-investment-from-applied-ventures-thumb.jpg
@@ -8,9 +10,9 @@ alt: Conceptual image of artificial intelligence.
 tags:
   - Investment
 priority: "0.5"
+share: true
 date: 2022-03-03T23:54:38.141Z
 pagetype: article
-share: true
 ---
 ## Real-Time Privacy-Preserving Computing on Encrypted Datasets Is Critical for Today's Digital Economy
 
