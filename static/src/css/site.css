@@ -1161,8 +1161,8 @@ footer .footer-social a:hover, footer .footer-social a:active {
   top: 20%;
 }
 .sharer .nav-item {
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 75px;
   background-color: #171717;
   display: flex;
   align-items: center;
@@ -1170,6 +1170,7 @@ footer .footer-social a:hover, footer .footer-social a:active {
 }
 .sharer .nav-item .nav-link {
   color: #ffffff;
+  font-size: 1.5rem !important;
 }
 .sharer .nav-item:hover {
   background-color: #4d39e9;
