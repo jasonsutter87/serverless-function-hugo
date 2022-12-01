@@ -1,6 +1,7 @@
 ---
 title: BondCliq Seeks To Change The Way Corporate Bond Market Trades
-description: BondCliq Seeks To Change The Way Corporate Bond Market Trades
+description: Chris White has built BondCliq, the first centralized, consolidated
+  quote system for U.S. corporate bonds.
 slug: bondcliq-seeks-to-change-the-way-corporate-bond-market-trades
 mainImage: /images/uploads/bondcliq-seeks-to-change-the-way-corporate-bond-market-trades-featured.jpg
 thumbImage: /images/uploads/bondcliq-seeks-to-change-the-way-corporate-bond-market-trades-thumb.jpg
@@ -8,9 +9,9 @@ alt: Image of the NASDAQ trading ticker.
 tags:
   - Investment
 priority: "0.5"
+share: true
 date: 2020-09-24T19:53:00.000Z
 pagetype: article
-share: true
 ---
 Just south of the New York Stock Exchange stands Goldman Sachs' former office tower. Most of the building has been taken over by WeWork, which provides workspaces for freelancers and small businesses. Getting off the elevator, one enters a large community space where hipster entrepreneurs lounge about drinking free coffee. At the end of a hallway of glass-encased offices sits a suite where one man seeks to change the U.S. corporate bond market.
 
