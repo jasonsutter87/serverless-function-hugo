@@ -15,7 +15,9 @@
         </div>
     </section>
 
-
+    <aside>
+      {{ partial "sharer.html" $page }}
+    </aside>
 
     <section class="site-container-992 pt-5">
       <div class="row">
@@ -33,7 +35,6 @@
         </div>
       </div>
     </section>
-
 
     <section class="site-container-992">
       <div class="row">
@@ -61,8 +62,6 @@
             {{- end -}}
           </div>
           {{- end -}}
-
-          {{ partial "sharer.html" . }}
         </div>
         <div class="col-12">
           {{ template "_internal/disqus.html" . }}

@@ -28,6 +28,7 @@ collections:
     - {label: Alt, name: alt, widget: string}
     - {label: Tags, name: tags, widget: list}
     - {label: Priority, name: priority, widget: string,  default: '0.5'}
+    - {label: Share, name: share, widget: boolean,  default: true }
     - {label: Popular, name: popular, widget: boolean, required: false}
     - {label: "Publish Date", name: "date", widget: "datetime"}
     - {label: "Page Type", name: "pagetype", widget: string,  default: 'article'}
