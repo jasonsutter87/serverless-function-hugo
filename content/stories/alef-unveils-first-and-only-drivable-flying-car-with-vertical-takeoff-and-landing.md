@@ -2,7 +2,7 @@
 title: Impact Venture Capital Portfolio Company, Alef, Unveils the Alef Flying Car
 description: Impact Venture Capital Portfolio Company, Alef, Unveils the Alef
   Flying Car, the First and Only Drivable Flying Car with Vertical Takeoff and
-  Landing
+  Landing.
 slug: alef-unveils-first-and-only-drivable-flying-car-with-vertical-takeoff-and-landing
 mainImage: /images/uploads/Company-Alef-Unveils-the-Alef-Flying-Car-the-First-and-Only-Drivable-Flying-featured.jpg
 thumbImage: /images/uploads/Company-Alef-Unveils-the-Alef-Flying-Car-the-First-and-Only-Drivable-Flying-thumb.jpg
@@ -12,9 +12,9 @@ summary: Company, Alef, Unveils the Alef Flying Car, the First and Only Drivable
   Flying Car with Vertical
 tags:
   - Investment
+share: true
 date: 2022-11-02T22:09:54.979Z
 pagetype: Article
-share: true
 ---
 
 [Alef Aeronautics](https://alef.aero/), an advanced technology company creating alternative transportation solutions for surging traffic trends, introduced the Alef “Model A”, the only flying car with street driving and vertical take-off. The Alef Model A flying car fits within existing urban infrastructure for driving and parking. The company plans to begin production and initiate first deliveries in Q4 of 2025.
