@@ -1,6 +1,7 @@
 ---
 title: Geeq Secures Financing Led by Impact Venture Capital
-description: Geeq secures financing led by Impact Venture Capital
+description: Geeq Corporation has closed an equity round of financing led by
+  Impact Venture Capital. Financial terms were not disclosed.
 slug: geeq-secures-financing-led-by-impact-venture-capital
 mainImage: /images/uploads/geeq-secures-financing-led-by-impact-venture-capital-featured.jpg
 thumbImage: /images/uploads/geeq-secures-financing-led-by-impact-venture-capital-thumb.jpg
@@ -9,9 +10,9 @@ alt: Image of the globe at night with the electric lights of metropolitan areas
 tags:
   - Investment
 priority: "0.5"
+share: true
 date: 2020-10-26T19:31:00.000Z
 pagetype: article
-share: true
 ---
 **CPE News (10/23/2020)** – Geeq Corporation has closed an equity round of financing led by Impact Venture Capital. Financial terms were not disclosed.
 
