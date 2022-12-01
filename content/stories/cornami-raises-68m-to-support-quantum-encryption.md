@@ -1,6 +1,7 @@
 ---
 title: Cornami Raises $68M to Support Quantum Encryption
-description: Cornami Raises $68M to Support Quantum Encryption
+description: Today, fabless semiconductor company Cornami announced it has
+  closed a $68 million series C funding round led by Softbank Vision Fund 2.
 slug: cornami-raises-68m-to-support-quantum-encryption
 mainImage: /images/uploads/cornami-raises-68m-to-support-quantum-encryption-featured.jpg
 thumbImage: /images/uploads/cornami-raises-68m-to-support-quantum-encryption-thumb.jpg
@@ -8,9 +9,9 @@ alt: Science fiction image of cyborg using artificial intelligence.
 tags:
   - Investment
 priority: "0.5"
+share: true
 date: 2022-05-19T22:03:33.937Z
 pagetype: article
-share: true
 ---
 Today, fabless semiconductor company [Cornami ](https://cornami.com/)announced it has closed a $68 million series C funding round led by Softbank Vision Fund 2.
 
