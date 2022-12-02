@@ -1,6 +1,8 @@
 ---
 title: Scaeva Technologies Powers Paradigm-Shifting Pro Audio Tool
-description: Scaeva Technologies Powers Paradigm-Shifting Pro Audio Tool
+description: Scaeva Technologies Inc., inventor of a ground-breaking new
+  approach to spatial audio rendering, celebrated its first public product
+  launch by selling headphones faster than they can make them.
 slug: scaeva technologies powers paradigm shifting pro audio tool
 mainImage: /images/uploads/scaeva-technologies-powers-paradigm-shifting-pro-audio-tool-featured.jpg
 thumbImage: /images/uploads/scaeva-technologies-powers-paradigm-shifting-pro-audio-tool-thumb.jpg
@@ -8,9 +10,9 @@ alt: An image of a deconstructed headphone
 tags:
   - Investment
 priority: "0.5"
+share: true
 date: 2021-12-11T18:57:00.000Z
 pagetype: article
-share: true
 ---
 [PRESS RELEASE PR Newswire](https://markets.businessinsider.com/author/pr-newswire)
 Dec. 10, 2020, 02:34 PM

@@ -1,6 +1,9 @@
 ---
 title: Scaeva’s pitch? Helping Musicians Make Money Through Innovation
-description: Scaeva’s pitch? Helping musicians make money through innovation
+description: Scaeva Technologies says it is focused on helping musical artists
+  win back the estimated $20 billion in revenue they lost when music was
+  digitized, while at the same time delivering a more authentic experience for
+  fans.
 slug: scaevas-pitch-helping-musicians-make-money-through-innovation
 mainImage: /images/uploads/scaevas-pitch-helping-musicians-make-money-through-innovation-featured.jpg
 thumbImage: /images/uploads/scaevas-pitch-helping-musicians-make-money-through-innovation-thumb.jpg
@@ -8,13 +11,13 @@ alt: Scaeva Technologies founder, Steve Curd.
 tags:
   - Investment
 priority: "0.5"
+share: true
 date: 2020-02-20T22:04:00.000Z
 pagetype: article
-share: true
 ---
 Scaeva Technologies says it is focused on helping musical artists win back the estimated $20 billion in revenue they lost when music was digitized, while at the same time delivering a more authentic experience for fans.
 
- One of its first products is an encryption tool that it says artists and labels can use to safely create content without fear of leaks and to target content to specific fans. Another is a headphone that it says independent artists can use to mix and master new content, without requiring the use of recording studios.
+One of its first products is an encryption tool that it says artists and labels can use to safely create content without fear of leaks and to target content to specific fans. Another is a headphone that it says independent artists can use to mix and master new content, without requiring the use of recording studios.
 
 Scaeva Technologies, founded by Steve and Wendy Curd, offers tools to help musicians get paid for their musical creations.
 

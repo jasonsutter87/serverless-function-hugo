@@ -1,6 +1,8 @@
 ---
 title: SoftBank leads USD $50M Series C Funding for Cornami
-description: SoftBank leads USD $50M Series C Funding for Cornami
+description: Cornami has completed an early close to its currently
+  over-subscribed USD50 million Series C financing led by SoftBank Vision Fund 2
+  to bring Fully Homomorphic Encryption (FHE) to market.
 slug: softbank-leads-usd-50m-series-c-funding-for-cornami
 mainImage: /images/uploads/softbank-leads-usd-50m-series-c-funding-for-cornami-featured.jpg
 thumbImage: /images/uploads/softbank-leads-usd-50m-series-c-funding-for-cornami-thumb.jpg
@@ -8,9 +10,9 @@ alt: Conceptual image of artificial intelligence
 tags:
   - Investment
 priority: "0.5"
+share: true
 date: 2021-10-28T23:42:00.000Z
 pagetype: article
-share: true
 ---
 Cornami has completed an early close to its currently over-subscribed USD50 million Series C financing led by SoftBank Vision Fund 2 to bring Fully Homomorphic Encryption (FHE) to market. 
 

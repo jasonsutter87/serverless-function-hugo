@@ -1,6 +1,9 @@
 ---
 title: TaskHuman Announces $9.5 million in Series A funding
-description: TaskHuman Announces $9.5 million in Series A funding
+description: TaskHuman, the 1:1 digital coaching platform, announced that it has
+  raised $9.5 million in Series A funding to advance its mission of organizing
+  the world's human experiences and expertise and bringing them to billions of
+  people worldwide over video call.
 slug: taskhuman-announces-9-5-million-in-series-a-funding
 mainImage: /images/uploads/taskhuman-announces-9.5-million-in-series-a-funding-featured.jpg
 thumbImage: /images/uploads/taskhuman-announces-9.5-million-in-series-a-funding-thumb.jpg
@@ -8,9 +11,9 @@ alt: Close up of man's hands using TaskHuman app on a phone.
 tags:
   - Investment
 priority: "0.5"
+share: true
 date: 2021-11-19T00:25:00.000Z
 pagetype: article
-share: true
 ---
 **PALO ALTO, Calif., Nov. 17, 2021 (GLOBE NEWSWIRE)** — [TaskHuman](https://www.globenewswire.com/Tracker?data=T-s4y4A_IJ1Ht38cOE0L1l7xMe-AiMHUewoAz4s8wZKRqmFclfQVeMJutTRlZ5-mCI7CqiEkB2fLX59QUUD5mg==), the 1:1 digital coaching platform, announced that it has raised $9.5 million in Series A funding to advance its mission of organizing the world's human experiences and expertise and bringing them to billions of people worldwide over video call.
 
