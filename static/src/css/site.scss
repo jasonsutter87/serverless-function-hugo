@@ -1554,3 +1554,18 @@ footer {
     }
   }
 }
+
+
+//////////////////////////////////////////////////////////////
+//                                                          ||
+//                      page aniamted                       ||
+//                                                          ||
+//////////////////////////////////////////////////////////////
+.opactity-antimation {
+  opacity: 0;
+  transition: .8s;
+}
+.opactity-antimation-active {
+  opacity: 1;
+}
+

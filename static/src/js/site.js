@@ -28,6 +28,29 @@ setTimeout(function(){
       }
 
 
+      let allItems = document.querySelectorAll('.opactity-antimation');
+
+      const observerAllItems = new IntersectionObserver(entries => {
+        entries.forEach(item => {
+          if(item.isIntersecting) {
+
+            if(document.documentElement.scrollTop == 0) {
+              $(item.target).addClass('opactity-antimation-active')
+            } else {
+                 setTimeout(() => {
+                  $(item.target).addClass('opactity-antimation-active')
+                 }, 500)
+            }
+
+
+          }
+        })
+      })
+
+      allItems.forEach(el => observerAllItems.observe(el))
+
+
+
       $('body').on('click', '.products-toggle', function (e) {
         e.preventDefault();
         $('#desktop-menu-bottom').toggleClass('d-none')
@@ -122,6 +145,9 @@ setTimeout(function(){
       })
 
       allGridLines.forEach(el => observer.observe(el))
+
+
+
 
 
 

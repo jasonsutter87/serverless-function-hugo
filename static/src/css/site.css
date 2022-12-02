@@ -1174,4 +1174,13 @@ footer .footer-social a:hover, footer .footer-social a:active {
 }
 .sharer .nav-item:hover {
   background-color: #4d39e9;
+}
+
+.opactity-antimation {
+  opacity: 0;
+  transition: 0.8s;
+}
+
+.opactity-antimation-active {
+  opacity: 1;
 }/*# sourceMappingURL=site.css.map */
