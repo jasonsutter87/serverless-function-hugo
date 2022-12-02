@@ -1,6 +1,9 @@
 ---
 title: Yooma Wellness Inc. Acquires Socati Corp.
-description: Yooma Wellness Inc. Acquires Socati Corp.
+description: Yooma Wellness Inc., an emerging marketer and distributor of
+  cannabinoid and hemp-derived wellness products, today announced that it
+  acquired Socati Corp.("Socati"), a U.S. based manufacturer and seller of
+  premium-quality cannabinoid ingredients and consumer products.
 slug: yooma-wellness-inc-acquires-socati-corp
 mainImage: /images/uploads/yooma-wellness-inc-acquires-socati-corp-featured.jpg
 thumbImage: /images/uploads/yooma-wellness-inc-acquires-socati-corp-thumb.jpg
@@ -8,9 +11,9 @@ alt: Image of an array of cannabinoid and hemp-derived wellness products.
 tags:
   - Investment
 priority: "0.5"
+share: true
 date: 2021-03-25T17:05:00.000Z
 pagetype: article
-share: true
 ---
 [PRESS RELEASE PR Newswire](https://markets.businessinsider.com/author/pr-newswire)
 Mar. 22, 2021, 02:36 PM
