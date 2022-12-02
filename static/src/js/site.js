@@ -8,24 +8,24 @@ setTimeout(function(){
                 url = window.location.href.split('http://localhost:1313/')[1]
               }
               switch(url)  {
-              case '':
-                break;
-              case 'our-companies/':
-                $('#nav-our-company').addClass('active')
-                break;
-              case 'our-team/':
-                $('#nav-our-team').addClass('active')
-                break;
-              case 'investment-strategy/':
-                $('#nav-investment-strategy').addClass('active')
-                break;
-              case 'press/':
-                $('#nav-press').addClass('active')
-                break;
-              default:
-                break;
-            }
-      }
+                case '':
+                  break;
+                case 'our-companies/':
+                  $('#nav-our-company').addClass('active')
+                  break;
+                case 'our-team/':
+                  $('#nav-our-team').addClass('active')
+                  break;
+                case 'investment-strategy/':
+                  $('#nav-investment-strategy').addClass('active')
+                  break;
+                case 'press/':
+                  $('#nav-press').addClass('active')
+                  break;
+                default:
+                  break;
+              }
+        }
 
 
       let allItems = document.querySelectorAll('.opactity-antimation');
@@ -94,52 +94,9 @@ setTimeout(function(){
       const observer = new IntersectionObserver(entries => {
         entries.forEach(item => {
           if(item.isIntersecting) {
-                  
-            let target = $(item.target)[0];
-            LottieInteractivity.create({
-              player: target,
-              mode: "load",
-              actions: [
-                {
-                  state: "play",
-                },
-                {
-                  visibility:[1.0],
-                  type: 'stop',
-                  frame: [15],
-                }
-              ]
-            })
-
-            // if(document.documentElement.scrollTop == 0) {
-
-            // } else {
-                 
-            // let target = $(item.target)[0];
- 
-            // LottieInteractivity.create({
-            //   player: target,
-            //   mode: "scroll",
-            //   actions: [
-            //     {
-            //       visibility: [0,1],
-            //       type: 'play',
-            //       frames: [0, 15],
-            //     },
-            //     {
-            //       visibility:[1.0],
-            //       type: 'pause',
-            //       frame: [15],
-            //     }
-            //   ]
-            // })
-         
-            
-            // // $(item.target).css('background-color', '#ff00001f')
-
-            // }
-         
-
+            if(document.documentElement.scrollTop == 0) {
+                window.scrollTo(0,1)
+             }
           }
         })
       })
