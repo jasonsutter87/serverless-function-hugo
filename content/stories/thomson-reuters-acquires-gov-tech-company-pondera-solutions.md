@@ -1,6 +1,8 @@
 ---
 title: Thomson Reuters Acquires Gov Tech Company Pondera Solutions
-description: Thomson Reuters Acquires Gov Tech Company Pondera Solutions
+description: The Ontario-based conglomerate Thomson Reuters now has Pondera's
+  anti-fraud, waste and abuse platform in its suite of business intelligence
+  tools, potentially giving health-care giants greater insight into bad actors.
 slug: thomson reuters acquires gov tech company pondera solutions
 mainImage: /images/uploads/thomson-reuters-acquires-gov-tech-company-pondera-solutions-featured.jpg
 thumbImage: /images/uploads/thomson-reuters-acquires-gov-tech-company-pondera-solutions-thumb.jpg
@@ -8,9 +10,9 @@ alt: Conceptual image of the globe infused with data and technology.
 tags:
   - Investment
 priority: "0.5"
+share: true
 date: 2020-03-23T20:54:00.000Z
 pagetype: article
-share: true
 ---
 The Ontario-based conglomerate Thomson Reuters now has Pondera's anti-fraud, waste and abuse platform in its suite of business intelligence tools, potentially giving health-care giants greater insight into bad actors.
 
