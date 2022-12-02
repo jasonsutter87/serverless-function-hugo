@@ -1,6 +1,8 @@
 ---
 title: Impact VC leads investment into retail sales technology
-description: Impact VC leads investment into retail sales technology
+description: Sacramento-based Impact Venture Capital has led an $11 million
+  financing round into Adroit Worldwide Media Inc., a retail sales technology
+  company.
 slug: impact-vc-leads-investment-into-retail-sales-technology
 mainImage: /images/uploads/impact-vc-leads-investment-into-retail-sales-technology-featured.jpg
 thumbImage: /images/uploads/impact-vc-leads-investment-into-retail-sales-technology-thumb.jpg
@@ -8,9 +10,9 @@ alt: Image of store using Adroit's digital smart-shelf technology.
 tags:
   - Investment
 priority: "0.5"
+share: true
 date: 2019-12-04T22:48:14.420Z
 pagetype: article
-share: true
 ---
 By [Mark Anderson](https://www.bizjournals.com/sacramento/bio/5171/Mark+Anderson)  – Staff Writer, Sacramento Business Journal
 
