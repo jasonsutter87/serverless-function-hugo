@@ -97,14 +97,25 @@ setTimeout(function(){
             if(document.documentElement.scrollTop == 0) {
                 window.scrollTo(0,1)
 
-                $(item.target).css('background-color', '#0016ff1f');
+                // $(item.target).css('background-color', '#0016ff1f');
                            
                   
               } else {
                  
-   
+                                     
+                let target = $(item.target)[0];
+                LottieInteractivity.create({
+                  player: target,
+                  mode: "scroll",
+                  actions: [
+                    {
+                        visibility: [0, 1.0],
+                        type: "playOnce"
+                    }
+                  ]
+                })
            
-              $(item.target).css('background-color', '#ff00001f')
+              // $(item.target).css('background-color', '#ff00001f')
              }
          
 
