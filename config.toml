@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://impactvc.netlify.app/'
 languageCode = 'en-us'
 
 [[redirects]]

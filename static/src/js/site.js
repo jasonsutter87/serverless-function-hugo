@@ -97,7 +97,7 @@ setTimeout(function(){
             if(document.documentElement.scrollTop == 0) {
                 window.scrollTo(0,1)
 
-                // $(item.target).css('background-color', '#0016ff1f');
+                $(item.target).css('background-color', '#0016ff1f');
                            
                   
               } else {
