@@ -1,6 +1,8 @@
 ---
 title: ScoreData Closes Series A Financing
-description: ScoreData Closes Series A Financing
+description: ScoreData, a Palo Alto, CA-based provider of an innovative
+  predictive solutions development and deployment platform, closed a Series A
+  financing round of undisclosed amount.
 slug: scoredata-closes-series-a-financing
 mainImage: /images/uploads/scoredata-closes-series-a-financing-featured.jpg
 thumbImage: /images/uploads/scoredata-closes-series-a-financing-thumb.jpg
@@ -9,9 +11,9 @@ alt: Illustration of data points being connected to form the shape of a person
 tags:
   - Investment
 priority: "0.5"
+share: true
 date: 2020-06-22T20:14:00.000Z
 pagetype: article
-share: true
 ---
 [ScoreData](https://scoredata.com/), a Palo Alto, CA-based provider of an innovative predictive solutions development and deployment platform, closed a Series A financing round of undisclosed amount.
 
