@@ -1,6 +1,8 @@
 ---
 title: Mental Wellness App Healium Wins NFLPA Pitch Day
-description: Mental Wellness App Healium Wins NFLPA Pitch Day
+description: Healium, an interactive, immersive media company that specializes
+  in biometrically controlled content powered by the user's wearables, won the
+  2022 NFLPA Pitch Day presented by Truist.
 slug: mental-wellness-app-healium-wins-nflpa-pitch-day
 mainImage: /images/uploads/mental-wellness-app-healium-wins-nflpa-pitch-day-featured.jpg
 thumbImage: /images/uploads/mental-wellness-app-healium-wins-nflpa-pitch-day-thumb.jpg
@@ -8,9 +10,9 @@ alt: Image of a woman meditating in an outdoor setting.
 tags:
   - Investment
 priority: "0.5"
+share: true
 date: 2022-05-02T22:47:38.750Z
 pagetype: article
-share: true
 ---
 Groundbreaking female-founded company signals a new approach to stress management powered by the body's electricity – – Six diverse-led companies competed for access to funding, mentorship, and NFLPA player marketing and group player rights.
 
