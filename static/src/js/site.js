@@ -96,7 +96,18 @@ setTimeout(function(){
           if(item.isIntersecting) {
             if(document.documentElement.scrollTop == 0) {
                 window.scrollTo(0,1)
+
+                $(item.target).css('background-color', '#0016ff1f');
+                           
+                  
+              } else {
+                 
+   
+           
+              $(item.target).css('background-color', '#ff00001f')
              }
+         
+
           }
         })
       })
