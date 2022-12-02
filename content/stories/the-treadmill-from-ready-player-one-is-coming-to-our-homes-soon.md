@@ -1,6 +1,7 @@
 ---
 title: The Treadmill from Ready Player One is Coming to our Homes Soon
-description: The treadmill from Ready Player One is coming to our homes soon.
+description: Infinadeck CEO, Ken Bossung speaks about his company's new
+  omnidirectional VR treadmill.
 slug: the-treadmill-from-ready-player-one-is-coming-to-our-homes-soon
 mainImage: /images/uploads/the-treadmill-from-ready-player-one-is-coming-to-our-homes-soon-featured.jpg
 thumbImage: /images/uploads/the-treadmill-from-ready-player-one-is-coming-to-our-homes-soon-thumb.jpg
@@ -8,9 +9,9 @@ alt: Image from Warner Bros film, Ready Player One
 tags:
   - Investment
 priority: "0.5"
+share: true
 date: 2020-11-05T19:18:00.000Z
 pagetype: article
-share: true
 ---
 If you are in the VR field since some years, for sure you remember the hype when the [Infinadeck](https://infinadeck.com/) was revealed. It was a very big treadmill, offering true natural locomotion: with it, you didn't need weird movements like walking in place or slipping on a surface, but you could just walk like in real life to walk in VR. It seemed great from the videos, but its problems were its dimensions, because it was enormous, and its price (it was never revealed publicly, but rumors talked about $50-100K per unit).
 
@@ -22,7 +23,7 @@ Hello everyone, I'm Ken Bossung, the CEO of Infinadeck. I have been a business a
 
 **Can you tell us something about Infinadeck?**
 
-We have created a device that will change the world and the way people do many things now and in the future. Imagine a treadmill that allows you to walk or run in any direction immersed in a virtual world. Imagine yourself being able to go to….any park, any city, any trail, any museum, or play any game….anywhere in the world without leaving your own home. The Infinadeck has made that a reality.
+We have created a device that will change the world and the way people do many things now and in the future. Imagine a treadmill that allows you to walk or run in any direction immersed in a virtual world. Imagine yourself being able to go to... any park, any city, any trail, any museum, or play any game... anywhere in the world without leaving your own home. The Infinadeck has made that a reality.
 
 [![Screenshot of Infinadeck youtube video, The Next Step in VR Locomotion](/images/uploads/infinadeck-youtube-01.jpg "Youtube video, The Next Step in VR Locomotion")](https://www.youtube.com/watch?v=foHmSC-MeGA&t=36s)
 
