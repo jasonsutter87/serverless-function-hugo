@@ -1,7 +1,7 @@
 ---
 title: Retailers Hope In-Store Tech Will Keep Shoppers in Stores
-description: "## Old-guard retailers are looking for technology systems that can
-  make visits to physical stores better or more relevant."
+description: Old-guard retailers are looking for technology systems that can
+  make visits to physical stores better or more relevant.
 slug: retailers-hope-in-store-tech-will-keep-shoppers-in-stores
 mainImage: /images/uploads/retailers-hope-in-store-tech-will-keep-shoppers-in-stores-featured.jpg
 thumbImage: /images/uploads/retailers-hope-in-store-tech-will-keep-shoppers-in-stores-thumb.jpg
