@@ -1,6 +1,7 @@
 ---
 title: Retailers Hope In-Store Tech Will Keep Shoppers in Stores
-description: Retailers Hope In-Store Tech Will Keep Shoppers in Stores
+description: "## Old-guard retailers are looking for technology systems that can
+  make visits to physical stores better or more relevant."
 slug: retailers-hope-in-store-tech-will-keep-shoppers-in-stores
 mainImage: /images/uploads/retailers-hope-in-store-tech-will-keep-shoppers-in-stores-featured.jpg
 thumbImage: /images/uploads/retailers-hope-in-store-tech-will-keep-shoppers-in-stores-thumb.jpg
@@ -8,9 +9,9 @@ alt: ore technology at the National Retail Federation show in New York
 tags:
   - Investment
 priority: "0.5"
+share: true
 date: 2020-01-20T22:23:00.000Z
 pagetype: article
-share: true
 ---
 ## Old-guard retailers are looking for technology systems that can make visits to physical stores better or more relevant
 
