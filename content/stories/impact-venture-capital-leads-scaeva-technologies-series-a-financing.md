@@ -1,6 +1,9 @@
 ---
-title: Impact Venture Capital Leads Scaeva Technologies' Series a Financing
-description: Impact Venture Capital Leads Scaeva Technologies' Series a Financing
+title: Impact Venture Capital Leads Scaeva Technologies' Series A Financing
+description: Scaeva Technologies Inc, inventor of ground-breaking new headphone
+  technology and the ScaevaSAFE content protection platform, announces that it
+  has closed its first institutional funding, with Impact Venture Capital
+  leading the round.
 slug: impact-venture-capital-leads-scaeva-technologies-series-a-financing
 mainImage: /images/uploads/impact-venture-capital-leads-scaeva-technologies-series-a-financing-featured.jpg
 thumbImage: /images/uploads/impact-venture-capital-leads-scaeva-technologies-series-a-financing-thumb.jpg
@@ -9,9 +12,9 @@ alt: Scaeva advisor, Krish Sharma, at the studio formerly known as the Sausalito
 tags:
   - Investment
 priority: "0.5"
+share: true
 date: 2020-01-23T22:13:00.000Z
 pagetype: article
-share: true
 ---
 **[AIT News Desk](https://www.aithority.com/author/ait-news-desk/)  22 Jan 2020** 
 
