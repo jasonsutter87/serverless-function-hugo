@@ -1,6 +1,8 @@
 ---
 title: Scaeva Technologies Democratizes Music Production
-description: Scaeva Technologies Democratizes Music Production
+description: Scaeva Technologies Inc., inventor of a ground-breaking new
+  approach to spatial audio rendering, enables artists to work from anywhere, on
+  their own terms.
 slug: scaeva-technologies-democratizes-music-production
 mainImage: /images/uploads/scaeva-technologies-democratizes-music-production-featured.jpg
 thumbImage: /images/uploads/scaeva-technologies-democratizes-music-production-thumb.jpg
@@ -8,9 +10,9 @@ alt: Andrew Bojanic mixing with the Scaeva-Powered VSX on the beaches of Maui
 tags:
   - Investment
 priority: "0.5"
+share: true
 date: 2021-08-13T16:00:00.000Z
 pagetype: article
-share: true
 ---
 ## Scaeva Empowers Independent Artists, Including Rock Group All Good Things
 
@@ -19,7 +21,7 @@ News Provided By\
 
 Aug 10, 2021, 09:02 ET
 
-**GILROY, Calif., Aug. 10, 2021 /PRNewswire/** — [Scaeva Technologies](https://c212.net/c/link/?t=0&l=en&o=3255034-1&h=1066878181&u=https%3A%2F%2Fscaevatech.com%2F&a=Scaeva+Technologies) Inc., inventor of a ground-breaking new approach to spatial audio rendering, enables artists to work from anywhere, on their own terms.
+**GILROY, Calif., Aug. 10, 2021 /PRNewswire/** — [Scaeva Technologies Inc.](https://scaevatech.com/), inventor of a ground-breaking new approach to spatial audio rendering, enables artists to work from anywhere, on their own terms.
 
 As one of the earliest users of Scaeva's spatial reproduction technology, Producer and multi-platinum artist Andrew Bojanic (All Good Things, Wizardz of Oz) quickly recognized the platform's potential to free independent artists to produce from anywhere. Scaeva democratized the business of music production by creating robust virtual tools for artists to professionally mix and master music without being tethered to the studio.
 
