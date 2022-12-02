@@ -1,8 +1,9 @@
 ---
 title: Former Meta and Viacom Executives Close Oversubscribed $8M Seed Round for
   Web3 Startup Virtualness
-description: Former Meta and Viacom Executives Close Oversubscribed $8M Seed
-  Round for Web3 Startup Virtualness
+description: Virtualness, a mobile-first platform designed to help creators and
+  brands navigate the complex world of Web3, announced today it has secured over
+  $8M in seed funding.
 slug: former-meta-and-viacom-executives-close-oversubscribed-8m-seed-round-for-web3-startup-virtualness
 mainImage: /images/uploads/executives-close-oversubscribed-8m-seed-round-for-web3-startup-featured.jpg
 thumbImage: /images/uploads/executives-close-oversubscribed-8m-seed-round-for-web3-startup-thumb.jpg
@@ -10,9 +11,9 @@ alt: Virtualness founders, Kirthiga Reddy and Saurabh Doshi
 tags:
   - Investment
 priority: "0.5"
+share: true
 date: 2022-11-27T21:44:00.000Z
 pagetype: article
-share: true
 ---
 **SAN FRANCISCO, Nov. 17, 2022 /PRNewswire/** — Virtualness, a mobile-first platform designed to help creators and brands navigate the complex world of Web3, announced today it has secured over $8M in seed funding. The fundraise was led by Blockchange Ventures, and joined by Polygon Ventures, Micron Ventures, Impact Venture Capital, VC3 DAO, Carolyn Everson, Randi Zuckerberg, Nusier Yassin (Nas Daily), Amit Jain, Harsh Jain, Shayamal Vallabhjee, Stacy Brown-Philpot, Tom Cheung and other thought-leaders.
 

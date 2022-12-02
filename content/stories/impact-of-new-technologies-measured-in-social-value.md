@@ -1,6 +1,7 @@
 ---
 title: Impact of New Technologies Measured in Social Value
-description: Impact of New Technologies Measured in Social Value
+description: Northern California startups have the potential to make lives
+  better for billions of people across the planet.
 slug: impact of new technologies measured in social value
 mainImage: /images/uploads/impact-of-new-technologies-measured-in-social-value.jpg
 thumbImage: /images/uploads/impact-of-new-technologies-measured-in-social-value-thumb.jpg
@@ -8,9 +9,9 @@ alt: Illustrated image of a man turning the globe on top of his finger.
 tags:
   - Investment
 priority: "0.5"
+share: true
 date: 2019-08-27T23:16:42.183Z
 pagetype: article
-share: true
 ---
 I had always considered myself something of a young, scrappy entrepreneur — you know, the quintessential "doer" with a bias for action. I launched my first company in 1993 and vividly remember riding the internet wave as it transformed absolutely everything. Of course, the fact that I remember that wave at all means I'm not so young, and while my heroic views of self proved a smidge optimistic, I do think my experience has provided me a bit of perspective.
 
