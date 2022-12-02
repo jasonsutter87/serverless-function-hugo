@@ -1,6 +1,7 @@
 ---
 title: "NVCA Member Spotlight: Impact Venture Capital"
-description: "NVCA Member Spotlight: Impact Venture Capital"
+description: NVCA speaks with Jack Crawford, General Partner at Impact Venture
+  Capital, to learn more about his firm.
 slug: nvca-member-spotlight-impact-venture-capital
 mainImage: /images/uploads/nvca-member-spotlight-impact-venture-capital-featured.jpg
 thumbImage: /images/uploads/nvca-member-spotlight-impact-venture-capital-thumb.jpg
@@ -8,9 +9,9 @@ alt: Image of Impact Venture Capital founders, Jack Crawford and Eric Ball.
 tags:
   - Investment
 priority: "0.5"
+share: true
 date: 2019-10-09T22:20:15.587Z
 pagetype: article
-share: true
 ---
 We spoke with Jack Crawford, General Partner at Impact Venture Capital, to learn more about his firm.
 
