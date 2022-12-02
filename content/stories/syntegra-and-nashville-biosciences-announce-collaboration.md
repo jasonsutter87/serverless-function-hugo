@@ -1,6 +1,9 @@
 ---
 title: Syntegra and Nashville Biosciences Announce Collaboration
-description: Syntegra and Nashville Biosciences Announce Collaboration
+description: Syntegra and Nashville Biosciences, a wholly owned subsidiary of
+  Vanderbilt University Medical Center (VUMC), announced a collaboration to
+  accelerate data driven innovation and research for drug discovery and
+  development.
 slug: syntegra-and-nashville-biosciences-announce-collaboration
 mainImage: /images/uploads/syntegra-and-nashville-biosciences-announce-collaboration-featured.jpg
 thumbImage: /images/uploads/syntegra-and-nashville-biosciences-announce-collaboration-thumb.jpg
@@ -8,9 +11,9 @@ alt: Image of a diagram depicting Nashville Bioscience's areas of innovation.
 tags:
   - Investment
 priority: "0.5"
+share: true
 date: 2021-05-25T16:53:00.000Z
 pagetype: article
-share: true
 ---
 **SAN FRANCISCO, April 27, 2021 /PRNewswire/** — Today Syntegra and Nashville Biosciences, a wholly owned subsidiary of Vanderbilt University Medical Center (VUMC), announced a collaboration to accelerate data driven innovation and research for drug discovery and development.
 
