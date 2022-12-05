@@ -992,6 +992,14 @@ footer .footer-social a:hover, footer .footer-social a:active {
   justify-content: center;
 }
 
+#authors-inner-page-title-section {
+  text-align: center;
+}
+#authors-inner-page-title-section .h1-wrapepr {
+  display: flex;
+  justify-content: center;
+}
+
 #our-companies-section {
   padding-top: 50px;
 }
