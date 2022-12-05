@@ -36,6 +36,58 @@
       <lottie-player class="lottie-animation bottom-right-grid-lines " src="https://lottie.host/9ebd8ff4-837d-4697-88dd-dd38916943aa/U4sBxKrnzF.json" background="transparent" speed="1" autoplay></lottie-player>
 
       <div class="row opactity-antimation" id="team-memeber-row">
+        <div class="row opactity-antimation" id="team-memeber-row">
+
+              <div class="col-12 col-md-6 mt-4 text-center">
+                <a href="/our-team/eric-ball" class="team-memeber-link">
+                  <img src="/assets/team/impact-venture-capital-team-eric-ball.jpg" alt="Eric Ball" class="w-100">
+                  <div class="team-memeber-content">
+                    <h5 class="white-text">Eric Ball</h5>
+                    <h6 class="white-text text-uppercase">GENERAL PARTNER</h6>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-12 col-md-6 mt-4 text-center">
+                <a href="/our-team//jack-crawford" class="team-memeber-link">
+                  <img src="/assets/team/impact-venture-capital-team-jack-crawford.jpg" alt="Jack Crawford" class="w-100">
+                  <div class="team-memeber-content">
+                    <h5 class="white-text">Jack Crawford</h5>
+                    <h6 class="white-text text-uppercase">GENERAL PARTNER</h6>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-12 col-md-6 mt-4 text-center">
+                <a href="https://www.linkedin.com/in/jeanmou/" class="team-memeber-link" target="_blank">
+                  <img src="/assets/team/impact-venture-capital-jean-mou.jpg" alt="Jean Mou" class="w-100">
+                  <div class="team-memeber-content">
+                    <h5 class="white-text">Jean Mou</h5>
+                    <h6 class="white-text text-uppercase">AI Software</h6>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-12 col-md-6 mt-4 text-center">
+                <a href="https://www.linkedin.com/in/yatish-mishra-5508707/" class="team-memeber-link" target="_blank">
+                  <img src="/assets/team/impact-venture-capital-team-yatish-mishra.jpg" alt="Yatish Mishra" class="w-100">
+                  <div class="team-memeber-content">
+                    <h5 class="white-text">Yatish Mishra</h5>
+                    <h6 class="white-text text-uppercase">AI Database &amp; Chips</h6>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-12 col-md-6 mt-4 text-center">
+                <a href="https://www.linkedin.com/in/jangeldmacher/" class="team-memeber-link" target="_blank">
+                  <img src="/assets/team/impact-venture-capital-team-jan-geldmacher.jpg" alt="Jan Geldmacher" class="w-100">
+                  <div class="team-memeber-content">
+                    <h5 class="white-text">Jan Geldmacher</h5>
+                    <h6 class="white-text text-uppercase">AI TeleComm &amp; Robotics</h6>
+                  </div>
+                </a>
+              </div>
+        </div>
       </div>
     </div>
   </div>
@@ -328,37 +380,6 @@
       ]
 
 
-      let initLoad = () => {
-        investmentParters.forEach((val, inx) => {
-            if(val.link == '') {
-              $('#team-memeber-row').append(`
-              <div class="col-12 col-md-6 mt-4 text-center">
-                <a href="${val.linkedin}" class="team-memeber-link" target="_blank" target="_blank">
-                  <img src="${val.photo}" alt="${val.name}" class="w-100">
-                  <div class="team-memeber-content">
-                    <h5 class="white-text">${val.name}</h5>
-                    <h6 class="white-text text-uppercase">${val.title}</h6>
-                  </div>
-                </a>
-              </div>
-              `)
-
-            } else {
-              $('#team-memeber-row').append(`
-              <div class="col-12 col-md-6 mt-4 text-center">
-                <a href="/our-team/${val.link}" class="team-memeber-link">
-                  <img src="${val.photo}" alt="${val.name}" class="w-100">
-                  <div class="team-memeber-content">
-                    <h5 class="white-text">${val.name}</h5>
-                    <h6 class="white-text text-uppercase">${val.title}</h6>
-                  </div>
-                </a>
-              </div>
-              `)
-            }
-        })
-      }
-
       $('#InvestmentPartners').on('click', e => {
         e.preventDefault();
         $('#team-memeber-row').empty();
@@ -473,8 +494,6 @@
         $(`#${id}`).addClass('active')
       })
 
-      //runner
-      initLoad();
     })
   },500)
 </script>
