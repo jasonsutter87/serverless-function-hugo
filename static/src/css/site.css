@@ -1006,7 +1006,8 @@ footer .footer-social a:hover, footer .footer-social a:active {
 #our-companies-section .company-toggle-row {
   border-top: 1px solid #808080;
   border-bottom: 1px solid #808080;
-  padding: 0.25rem 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 #our-companies-section .companies-toggle-button {
   color: #808080;
@@ -1041,7 +1042,8 @@ footer .footer-social a:hover, footer .footer-social a:active {
 #our-team-selection-section .team-toggle-row {
   border-top: 1px solid #808080;
   border-bottom: 1px solid #808080;
-  padding: 0.25rem 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 #our-team-selection-section .team-toggle-button {
   color: #808080;
