@@ -22,15 +22,8 @@
     <section class="site-container-992">
       <div class="row">
         <div class="col-12 text-center">
-            <p>By <a href="/our-team/pat-bumpus" class="primary-link">Pat Bumpus</a> | {{ $page.Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }} |
-             {{ with $page.Params.tags }}
-                {{ range . }}
-                <a class="primary-link mr-2" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">
-                  <i class="far fa-plus mr-2"></i>{{ . }}
-                </a>
-                {{ end }}
-                </p>
-             {{ end }}
+          {{ partial "authors.html" $page }}
+
           <h2 class="py-3">{{ $page.Title }}</h2>
         </div>
       </div>
