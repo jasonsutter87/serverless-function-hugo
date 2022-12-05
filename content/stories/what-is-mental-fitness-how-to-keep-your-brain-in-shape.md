@@ -50,7 +50,7 @@ The American Psychological Association [lists mental fitness exercises like mind
 
 By disengaging from negative thought cycles, you free your mind up to identify creative solutions to complex challenges. Mentally fit people often identify untried possibilities they hadn't considered before, which is one primary reason mental fitness enables us to see more options in life.
 
-Mentally fit people often experience the ability to maintain focus and solve complex problems , ultimately enabling them to get more done in less time. In fact, researchers at Columbia University Medical Center have shown that mental fitness and meditation [enables us to stay focused and increase our learning concentration](<enables us to stay focused and increase our learning concentration.>).
+Mentally fit people often experience the ability to maintain focus and solve complex problems, ultimately enabling them to get more done in less time. In fact, researchers at Columbia University Medical Center have shown that mental fitness and meditation [enables us to stay focused and increase our learning concentration](<enables us to stay focused and increase our learning concentration.>).
 
 ### 5. Elevated Levels of Empathy
 
