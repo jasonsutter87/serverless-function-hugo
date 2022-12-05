@@ -126,7 +126,7 @@ This style of meditation improves focus, memory, and decreases mind wandering–
 
 ### Quiet Mind Meditation for Athletes
 
-Quiet mind meditations enhance your awareness of your “self” and minimizes your internal “self-talk”, which grants ample room for more regenerative thoughts towards yourself.
+Quiet mind meditations enhance your awareness of your “self” and minimizes your internal "self-talk", which grants ample room for more regenerative thoughts towards yourself.
 
 With how pivotal a role self-confidence and pure, uninterrupted states of mind can be when it comes to sports performance, athletes understand how beneficial simply turning off your brain can be perhaps more than most.
 
