@@ -179,11 +179,18 @@ h1, h2, h3, h4, h5, h6 {
 
 h1,
 .h1-heading {
-  font-size: calc(18px * 3.111111111111111) !important;
+  font-size: calc(18px * 2.444444444444444) !important;
   font-weight: 500;
-  line-height: calc(30px * 2.133333333333333) !important;
+  line-height: calc(30px * 1.933333333333333) !important;
   font-family: "Poppins", sans-serif !important;
   position: relative;
+}
+@media (min-width: 992px) {
+  h1,
+  .h1-heading {
+    font-size: calc(18px * 3.111111111111111) !important;
+    line-height: calc(30px * 2.133333333333333) !important;
+  }
 }
 h1::before,
 .h1-heading::before {
@@ -200,55 +207,111 @@ h1::before,
 }
 
 .h1-home-heading {
-  font-size: calc(18px * 2.444444444444444) !important;
+  font-size: calc(18px * 2) !important;
   font-weight: 500;
-  line-height: calc(30px * 1.933333333333333) !important;
+  line-height: calc(30px * 1.466666666666667) !important;
   font-family: "Poppins", sans-serif !important;
 }
 .h1-home-heading:before {
   content: unset;
 }
+@media (min-width: 992px) {
+  .h1-home-heading {
+    font-size: calc(18px * 2.444444444444444) !important;
+    line-height: calc(30px * 1.933333333333333) !important;
+  }
+}
+
 h2,
 .h2-heading {
-  font-size: calc(18px * 2.444444444444444) !important;
-  font-weight: 500;
-  line-height: calc(30px * 1.666666666666667) !important;
-  font-family: "Poppins", sans-serif !important;
-}
-h3,
-.h3-heading {
-  font-size: calc(18px * 3) !important;
+  font-size: calc(18px * 2) !important;
   font-weight: 500;
   line-height: calc(30px * 1.466666666666667) !important;
   font-family: "Poppins", sans-serif !important;
 }
-span.SubHead,
-h4,
-.h4-heading {
+@media (min-width: 992px) {
+  h2,
+  .h2-heading {
+    font-size: calc(18px * 2.444444444444444) !important;
+    font-weight: 500;
+    line-height: calc(30px * 1.666666666666667) !important;
+    font-family: "Poppins", sans-serif !important;
+  }
+}
+
+h3,
+.h3-heading {
   font-size: calc(18px * 1.777777777777778) !important;
   font-weight: 500;
   line-height: calc(30px * 1.133333333333333) !important;
   font-family: "Poppins", sans-serif !important;
 }
-h5,
-.h5-heading {
+@media (min-width: 992px) {
+  h3,
+  .h3-heading {
+    font-size: calc(18px * 2) !important;
+    line-height: calc(30px * 1.466666666666667) !important;
+  }
+}
+
+span.SubHead,
+h4,
+.h4-heading {
   font-size: calc(18px * 1.444444444444444) !important;
   font-weight: 500;
   line-height: calc(30px * 0.9333333333333333) !important;
   font-family: "Poppins", sans-serif !important;
 }
-h6,
-.h6-heading {
+@media (min-width: 992px) {
+  span.SubHead,
+  h4,
+  .h4-heading {
+    font-size: calc(18px * 1.777777777777778) !important;
+    line-height: calc(30px * 1.133333333333333) !important;
+  }
+}
+
+h5,
+.h5-heading {
   font-size: calc(18px * 1.111111111111111) !important;
   font-weight: 500;
-  line-height: calc(30px * 0.73333333333333333) !important;
+  line-height: calc(30px * 0.7333333333333333) !important;
   font-family: "Poppins", sans-serif !important;
 }
-p {
+@media (min-width: 992px) {
+  h5,
+  .h5-heading {
+    font-size: calc(18px * 1.444444444444444) !important;
+    line-height: calc(30px * 0.9333333333333333) !important;
+  }
+}
+
+h6,
+.h6-heading {
   font-size: 18px !important;
-  font-weight: 400;
-  line-height: 30px !important;
+  font-weight: 500;
+  line-height: calc(30px * 0.6666666666666667) !important;
   font-family: "Poppins", sans-serif !important;
+}
+@media (min-width: 992px) {
+  h6,
+  .h6-heading {
+    font-size: calc(18px * 1.111111111111111) !important;
+    line-height: calc(30px * 0.73333333333333333) !important;
+  }
+}
+
+p {
+  font-size: calc(18px * 0.8888888888888889) !important;
+  font-weight: 400;
+  line-height: calc(30px * 0.8666666666666667) !important;
+  font-family: "Poppins", sans-serif !important;
+}
+@media (min-width: 992px) {
+  p {
+    font-size: 18px !important;
+    line-height: 30px !important;
+  }
 }
 
 .nav-link {
@@ -888,10 +951,8 @@ footer .footer-social a:hover, footer .footer-social a:active {
   max-width: 650px;
 }
 #index-products-section .container img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center center;
-     object-position: center center;
+  object-fit: cover;
+  object-position: center center;
 }
 
 .index-stories-category {
@@ -1183,4 +1244,6 @@ footer .footer-social a:hover, footer .footer-social a:active {
 
 .opactity-antimation-active {
   opacity: 1;
-}/*# sourceMappingURL=site.css.map */
+}
+
+/*# sourceMappingURL=site.css.map */

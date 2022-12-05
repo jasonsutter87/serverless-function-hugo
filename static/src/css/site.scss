@@ -63,42 +63,16 @@ html, body {
     padding: unset !important;
 }
 
-// .row {
-//   background-color: orange;
-// }
 
 .site-container-1340 {
-  // padding-right: 15px;
-  // padding-left: 15px;
-
-  // @media (min-width: 992px) {
-  //   padding-right: 50px !important;
-  //   padding-left: 50px !important;
-  // }
   margin: auto;
   position: relative;
   max-width: 1340px !important;
   width: 100%;
-  // background: green;
 }
 
-// .container-1316-override {
-//   max-width: 1316px !important;
-// }
-//
-// .container-1416-override {
-//   max-width: 1415px !important;
-// }
 
 .site-container-1200 {
-  // padding-right: 15px;
-  // padding-left: 15px;
-
-  // @media (min-width: 992px) {
-  //   padding-right: 50px;
-  //   padding-left: 50px;
-  // }
-
     margin: auto;
     position: relative;
     max-width: 1200px;
@@ -106,8 +80,6 @@ html, body {
 }
 
 .site-container-992 {
-    // padding-left: $gutter-size;
-    // padding-right: $gutter-size;
     margin: auto;
     position: relative;
     max-width: 992px;
@@ -270,13 +242,16 @@ h1, h2, h3, h4, h5, h6 {
 
 h1,
 .h1-heading {
-    font-size: calc(#{$font-size} * 3.111111111111111) !important;
+    font-size: calc(#{$font-size} * 2.444444444444444) !important;
     font-weight: $font-weight-500;
-    line-height: calc(#{$line-height} * 2.133333333333333) !important;
+    line-height: calc(#{$line-height} * 1.933333333333333) !important;
     font-family: 'Poppins', sans-serif !important;
     position: relative;
 
-    @media (min-width: 992px) {}
+    @media (min-width: 992px) {
+      font-size: calc(#{$font-size} * 3.111111111111111) !important;
+      line-height: calc(#{$line-height} * 2.133333333333333) !important;
+    }
 
 
     &::before {
@@ -294,70 +269,98 @@ h1,
 }
 
 .h1-home-heading {
-    font-size: calc(#{$font-size} * 2.444444444444444) !important;
+    font-size: calc(#{$font-size} * 2) !important;
     font-weight: $font-weight-500;
-    line-height: calc(#{$line-height} * 1.933333333333333) !important;
+    line-height: calc(#{$line-height} * 1.466666666666667) !important;
     font-family: 'Poppins', sans-serif !important;
     &:before{
       content: unset;
     }
 
-    @media (min-width: 992px) {}
+    @media (min-width: 992px) {
+      font-size: calc(#{$font-size} * 2.444444444444444) !important;
+      line-height: calc(#{$line-height} * 1.933333333333333) !important;
+    }
 }
 
 h2,
 .h2-heading {
-    font-size: calc(#{$font-size} * 2.444444444444444) !important;
-    font-weight: $font-weight-500;
-    line-height: calc(#{$line-height} * 1.666666666666667) !important;
-    font-family: 'Poppins', sans-serif !important;
-
-    @media (min-width: 992px) {}
-}
-
-h3,
-.h3-heading {
-    font-size: calc(#{$font-size} * 3) !important;
+    font-size: calc(#{$font-size} * 2) !important;
     font-weight: $font-weight-500;
     line-height: calc(#{$line-height} * 1.466666666666667) !important;
     font-family: 'Poppins', sans-serif !important;
 
-    @media (min-width: 992px) {}
+    @media (min-width: 992px) {
+      font-size: calc(#{$font-size} * 2.444444444444444) !important;
+      font-weight: $font-weight-500;
+      line-height: calc(#{$line-height} * 1.666666666666667) !important;
+      font-family: 'Poppins', sans-serif !important;
+    }
+}
+
+h3,
+.h3-heading {
+    font-size: calc(#{$font-size} * 1.777777777777778) !important;
+    font-weight: $font-weight-500;
+    line-height: calc(#{$line-height} * 1.133333333333333) !important;
+    font-family: 'Poppins', sans-serif !important;
+
+    @media (min-width: 992px) {
+      font-size: calc(#{$font-size} * 2) !important;
+      line-height: calc(#{$line-height} * 1.466666666666667) !important;
+    }
 }
 
 span.SubHead,
 h4,
 .h4-heading {
-    font-size: calc(#{$font-size} * 1.777777777777778) !important;
-    font-weight: $font-weight-500;
-    line-height: calc(#{$line-height} * 1.133333333333333) !important;
-    font-family: 'Poppins', sans-serif !important;
-    @media (min-width: 992px) {}
-}
-
-h5,
-.h5-heading {
     font-size: calc(#{$font-size} * 1.444444444444444) !important;
     font-weight: $font-weight-500;
     line-height: calc(#{$line-height} * 0.9333333333333333) !important;
     font-family: 'Poppins', sans-serif !important;
-    @media (min-width: 992px) {}
+
+    @media (min-width: 992px) {
+      font-size: calc(#{$font-size} * 1.777777777777778) !important;
+      line-height: calc(#{$line-height} * 1.133333333333333) !important;
+    }
+}
+
+h5,
+.h5-heading {
+    font-size: calc(#{$font-size} * 1.111111111111111) !important;
+    font-weight: $font-weight-500;
+    line-height: calc(#{$line-height} * 0.7333333333333333) !important;
+    font-family: 'Poppins', sans-serif !important;
+
+    @media (min-width: 992px) {
+      font-size: calc(#{$font-size} * 1.444444444444444) !important;
+      line-height: calc(#{$line-height} * 0.9333333333333333) !important;
+    }
 }
 
 h6,
 .h6-heading {
-    font-size: calc(#{$font-size} * 1.111111111111111) !important;
+    font-size: $font-size !important;
     font-weight: $font-weight-500;
-    line-height: calc(#{$line-height} * 0.73333333333333333) !important;
+    line-height: calc(#{$line-height} * 0.6666666666666667) !important;
     font-family: 'Poppins', sans-serif !important;
-    @media (min-width: 992px) {}
+
+    @media (min-width: 992px) {
+      font-size: calc(#{$font-size} * 1.111111111111111) !important;
+      line-height: calc(#{$line-height} * 0.73333333333333333) !important;
+    }
 }
 
 p {
-    font-size: $font-size !important;
+    font-size: calc(#{$font-size} * 0.8888888888888889) !important;
     font-weight: $font-weight-400;
-    line-height: $line-height !important;
+    line-height: calc(#{$line-height} * 0.8666666666666667) !important;
     font-family: 'Poppins', sans-serif !important;
+
+    @media (min-width: 992px) {
+      font-size: $font-size !important;
+      line-height: $line-height !important;
+    }
 }
 
 .nav-link {
@@ -628,7 +631,7 @@ p {
     max-width: 1243px;
     margin: 0 auto;
 
-    
+
   @media (min-width: 1340px) {
     max-width: 1340px;
   }
@@ -1470,7 +1473,7 @@ footer {
   bottom: 2rem;
   color: $white;
   text-align: center;
-  display: flex; 
+  display: flex;
   align-items: center;
   z-index: 2;
 }
@@ -1568,4 +1571,3 @@ footer {
 .opactity-antimation-active {
   opacity: 1;
 }
-
