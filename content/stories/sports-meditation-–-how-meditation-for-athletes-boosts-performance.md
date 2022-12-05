@@ -4,6 +4,7 @@ description: One way to reduce mental stress and exhaustion (while also
   improving overall physical performance) is through sports meditation and
   mental training for athletes.
 slug: sports-meditation-how-meditation-for-athletes-boosts-performance
+author: Healium
 mainImage: /images/uploads/sports-meditation-how-meditation-for-athletes-boosts-performance-featured.jpg
 thumbImage: /images/uploads/sports-meditation-how-meditation-for-athletes-boosts-performance-thumb.jpg
 alt: Image of a female athlete meditating.
