@@ -3,6 +3,7 @@ title: What Is Mental Fitness? How to Keep Your Brain in Shape
 description: Find out how mental fitness helps you make positive changes against
   influences like stress, anxiety, and other mental wellness issues.
 slug: what-is-mental-fitness-how-to-keep-your-brain-in-shape
+author: Healium
 mainImage: /images/uploads/what-is-mental-fitness-how-to-keep-your-brain-in-shape-featured.jpg
 thumbImage: /images/uploads/what-is-mental-fitness-how-to-keep-your-brain-in-shape-thumb.jpg
 alt: Conceptual image of a young man's thoughts being assembled like a jigsaw
