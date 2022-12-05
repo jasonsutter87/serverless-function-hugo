@@ -3,6 +3,7 @@ title: How Healium Works
 description: Utilize real-time data to train your brain so you can self-manage
   your anxiety, focus more intently, and sleep better.
 slug: how-healium-works
+author: Healium
 mainImage: /images/uploads/how-healium-works-featured.jpg
 thumbImage: /images/uploads/how-healium-works-thumb.jpg
 alt: Woman wearing VR goggles experiencing a virtual forest.
