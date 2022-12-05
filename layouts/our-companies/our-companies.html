@@ -10,7 +10,7 @@
       </div>
     </div>
   </section>
-  
+
   <section id="our-companies-section">
     <div class="site-container-1340 company-toggle-row">
         <div class="row">
@@ -27,25 +27,25 @@
       </div>
     </div>
   </section>
-  
+
   <section id="our-companies-logo-section">
     <div class="site-container-1340 container-1316-override">
       <lottie-player class="lottie-animation top-left-grid-lines"  src="https://lottie.host/f756b689-5736-47a9-a44b-8985c71be394/YlVA8YCC8K.json" background="transparent" speed="1"  autoplay></lottie-player>
       <lottie-player class="lottie-animation top-right-grid-lines" src="https://lottie.host/f041c641-c628-4550-8ed8-041306f1aabf/QuvfuHb5Fk.json" background="transparent" speed="1" autoplay></lottie-player>
-  
+
       <lottie-player class="lottie-animation top-middle-grid-lines-company d-none d-lg-block"  src="https://lottie.host/02c9751d-d330-4706-b633-57c32b93c220/A9ZDgC7vmX.json" background="transparent" speed="1"  autoplay></lottie-player>
       <lottie-player class="lottie-animation bottom-middle-grid-lines-company d-none d-lg-block"  src="https://lottie.host/c3504887-05c7-4c22-9aed-80dddf4b0622/8Fk2OfPBEc.json" background="transparent" speed="1" autoplay></lottie-player>
-  
+
       <lottie-player class="lottie-animation bottom-left-grid-lines" src="https://lottie.host/e484b534-6ae3-4528-942f-7604f581c7f9/IGo5pz2FTU.json" background="transparent" speed="1" autoplay></lottie-player>
       <lottie-player class="lottie-animation bottom-right-grid-lines " src="https://lottie.host/9ebd8ff4-837d-4697-88dd-dd38916943aa/U4sBxKrnzF.json" background="transparent" speed="1" autoplay></lottie-player>
-  
+
       <div class="row py-5 opactity-antimation" id="companies-logos-row">
       </div>
     </div>
   </section>
-  
-  
-  
+
+
+
   <section id="our-companies-spotlight-seection">
     <div class="site-container-1340">
 
@@ -62,11 +62,11 @@
             <div class="p-3 position-relative">
                     <lottie-player class="lottie-animation top-left-grid-lines"  src="https://lottie.host/f756b689-5736-47a9-a44b-8985c71be394/YlVA8YCC8K.json" background="transparent" speed="1"  ></lottie-player>
                     <lottie-player class="lottie-animation top-right-grid-lines" src="https://lottie.host/f041c641-c628-4550-8ed8-041306f1aabf/QuvfuHb5Fk.json" background="transparent" speed="1" ></lottie-player>
-                  
+
                     <lottie-player class="lottie-animation bottom-left-grid-lines" src="https://lottie.host/e484b534-6ae3-4528-942f-7604f581c7f9/IGo5pz2FTU.json" background="transparent" speed="1" ></lottie-player>
                     <lottie-player class="lottie-animation bottom-right-grid-lines " src="https://lottie.host/9ebd8ff4-837d-4697-88dd-dd38916943aa/U4sBxKrnzF.json" background="transparent" speed="1" ></lottie-player>
-                  
-                  
+
+
                     <a href="/stories/{{ .Slug }}" class="position-relative">
                      <img src="{{ .Params.ThumbImage }}" alt="{{ .Params.Alt }}" class="w-100 opactity-antimation">
                     </a>
@@ -81,24 +81,24 @@
                         </p>
                      {{ end }}
                       </div>
-            
-              
-            
+
+
+
                     <a href="/stories/{{ .Slug }}" >
                     <div class="blog-roll-title">
                         <h5 class="w-75 mx-auto">{{.Title }}</h5>
                     </div>
-                    </a> 
-               
-                  
+                    </a>
+
+
             </div>
         </div>
-  
+
         {{ end}}
       </div>
     </div>
   </section>
-  
+
   <script>
     setTimeout(() =>{
       $(() => {
@@ -157,9 +157,9 @@
             ticker: '',
             alt: 'arnica logo'
           }
-  
+
         ]
-  
+
         let enterpriseSasSCompanies = [
           {
             logo: '/assets/our-companies/logos/pondera-logo.png',
@@ -216,7 +216,7 @@
             alt: 'am logo',
           }
         ]
-  
+
         let consumerCompanies = [
           {
             logo: '/assets/our-companies/logos/gatekeeper-logo.png',
@@ -248,9 +248,9 @@
             ticker: '',
             alt: 'scaeva logo',
           }
-  
+
         ]
-  
+
         let infrastructureCompanies = [
           {
             logo: '/assets/our-companies/logos/cirrus-md-logo.png',
@@ -300,9 +300,9 @@
             ticker: '',
             alt: 'scoredata logo',
           }
-  
+
         ]
-  
+
         let exitedCompanies = [
           {
             logo: '/assets/our-companies/logos/pondera-logo.png',
@@ -335,19 +335,19 @@
             alt: 'am logo',
           }
         ]
-  
+
         let loadCompanies = () => {
           deepTech.forEach((val, inx) => {
               if(!val.aquired_by || !val.ticker) {
                 $('#companies-logos-row').append(`
-                <div class="col-4 col-lg-2 mt-4 text-center">
+                <div class="col-4 col-lg-2 py-4 text-center">
                   <img src="${val.logo}" alt="${val.alt}">
                 </div>
                 `)
-  
+
               } else {
                 $('#companies-logos-row').append(`
-                <div class="col-4 col-lg-2 mt-4 text-center">
+                <div class="col-4 col-lg-2 py-4 text-center">
                   <img src="${val.logo}" alt="${val.alt}">
                   <div class="text-center pt-3">
                     <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
@@ -356,20 +356,20 @@
                 </div>
                 `)
               }
-  
-  
+
+
           })
           enterpriseSasSCompanies.forEach((val, inx) => {
               if(!val.aquired_by || !val.ticker) {
                 $('#companies-logos-row').append(`
-                <div class="col-4 col-lg-2 mt-4 text-center">
+                <div class="col-4 col-lg-2  py-4 text-center">
                   <img src="${val.logo}" alt="${val.alt}">
                 </div>
                 `)
-  
+
               } else {
                 $('#companies-logos-row').append(`
-                <div class="col-4 col-lg-2 mt-4 text-center">
+                <div class="col-4 col-lg-2  py-4 text-center">
                   <img src="${val.logo}" alt="${val.alt}">
                   <div class="text-center pt-3">
                     <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
@@ -378,20 +378,20 @@
                 </div>
                 `)
               }
-  
-  
+
+
           })
           consumerCompanies.forEach((val, inx) => {
               if(!val.aquired_by || !val.ticker) {
                 $('#companies-logos-row').append(`
-                <div class="col-4 col-lg-2 mt-4 text-center">
+                <div class="col-4 col-lg-2 py-4 text-center">
                   <img src="${val.logo}" alt="${val.alt}">
                 </div>
                 `)
-  
+
               } else {
                 $('#companies-logos-row').append(`
-                <div class="col-4 col-lg-2 mt-4 text-center">
+                <div class="col-4 col-lg-2 py-4 text-center">
                   <img src="${val.logo}" alt="${val.alt}">
                   <div class="text-center pt-3">
                     <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
@@ -400,20 +400,20 @@
                 </div>
                 `)
               }
-  
-  
+
+
           })
           infrastructureCompanies.forEach((val, inx) => {
               if(!val.aquired_by || !val.ticker) {
                 $('#companies-logos-row').append(`
-                <div class="col-4 col-lg-2 mt-4 text-center">
+                <div class="col-4 col-lg-2 py-4 text-center">
                   <img src="${val.logo}" alt="${val.alt}">
                 </div>
                 `)
-  
+
               } else {
                 $('#companies-logos-row').append(`
-                <div class="col-4 col-lg-2 mt-4 text-center">
+                <div class="col-4 col-lg-2 py-4 text-center">
                   <img src="${val.logo}" alt="${val.alt}">
                   <div class="text-center pt-3">
                     <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
@@ -422,20 +422,20 @@
                 </div>
                 `)
               }
-  
-  
+
+
           })
           exitedCompanies.forEach((val, inx) => {
               if(!val.aquired_by || !val.ticker) {
                 $('#companies-logos-row').append(`
-                <div class="col-4 col-lg-2 mt-4 text-center">
+                <div class="col-4 col-lg-2 py-4 text-center">
                   <img src="${val.logo}" alt="${val.alt}">
                 </div>
                 `)
-  
+
               } else {
                 $('#companies-logos-row').append(`
-                <div class="col-4 col-lg-2 mt-4 text-center">
+                <div class="col-4 col-lg-2 py-4 text-center">
                   <img src="${val.logo}" alt="${val.alt}">
                   <div class="text-center pt-3">
                     <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
@@ -444,31 +444,31 @@
                 </div>
                 `)
               }
-  
-  
+
+
           })
         }
-  
+
         $('#allCompanies').on('click', e => {
           e.preventDefault();
           $('#companies-logos-row').empty();
           loadCompanies();
         })
-  
+
         $('#deepTechCompanies').on('click', e => {
           e.preventDefault();
           $('#companies-logos-row').empty();
           deepTech.forEach((val, inx) => {
               if(!val.aquired_by || !val.ticker) {
                 $('#companies-logos-row').append(`
-                <div class="col-4 col-lg-2 mt-4 text-center">
+                <div class="col-4 col-lg-2 py-4 text-center">
                   <img src="${val.logo}" alt="${val.alt}">
                 </div>
                 `)
-  
+
               } else {
                 $('#companies-logos-row').append(`
-                <div class="col-4 col-lg-2 mt-4 text-center">
+                <div class="col-4 col-lg-2 py-4 text-center">
                   <img src="${val.logo}" alt="${val.alt}">
                   <div class="text-center pt-3">
                     <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
@@ -477,25 +477,25 @@
                 </div>
                 `)
               }
-  
-  
+
+
           });
         })
-  
+
         $('#EnterpriseSasSCompanies').on('click', e => {
           e.preventDefault();
           $('#companies-logos-row').empty();
           enterpriseSasSCompanies.forEach((val, inx) => {
               if(!val.aquired_by || !val.ticker) {
                 $('#companies-logos-row').append(`
-                <div class="col-4 col-lg-2 mt-4 text-center">
+                <div class="col-4 col-lg-2 py-4 text-center">
                   <img src="${val.logo}" alt="${val.alt}">
                 </div>
                 `)
-  
+
               } else {
                 $('#companies-logos-row').append(`
-                <div class="col-4 col-lg-2 mt-4 text-center">
+                <div class="col-4 col-lg-2 py-4 text-center">
                   <img src="${val.logo}" alt="${val.alt}">
                   <div class="text-center pt-3">
                     <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
@@ -504,25 +504,25 @@
                 </div>
                 `)
               }
-  
-  
+
+
           });
         })
-  
+
         $('#ConsumerCompanies').on('click', e => {
           e.preventDefault();
           $('#companies-logos-row').empty();
           consumerCompanies.forEach((val, inx) => {
               if(!val.aquired_by || !val.ticker) {
                 $('#companies-logos-row').append(`
-                <div class="col-4 col-lg-2 mt-4 text-center">
+                <div class="col-4 col-lg-2 py-4 text-center">
                   <img src="${val.logo}" alt="${val.alt}">
                 </div>
                 `)
-  
+
               } else {
                 $('#companies-logos-row').append(`
-                <div class="col-4 col-lg-2 mt-4 text-center">
+                <div class="col-4 col-lg-2 py-4 text-center">
                   <img src="${val.logo}" alt="${val.alt}">
                   <div class="text-center pt-3">
                     <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
@@ -531,25 +531,25 @@
                 </div>
                 `)
               }
-  
-  
+
+
           });
         })
-  
+
         $('#InfrastructureCompanies').on('click', e => {
           e.preventDefault();
           $('#companies-logos-row').empty();
           infrastructureCompanies.forEach((val, inx) => {
               if(!val.aquired_by || !val.ticker) {
                 $('#companies-logos-row').append(`
-                <div class="col-4 col-lg-2 mt-4 text-center">
+                <div class="col-4 col-lg-2 py-4 text-center">
                   <img src="${val.logo}" alt="${val.alt}">
                 </div>
                 `)
-  
+
               } else {
                 $('#companies-logos-row').append(`
-                <div class="col-4 col-lg-2 mt-4 text-center">
+                <div class="col-4 col-lg-2 py-4 text-center">
                   <img src="${val.logo}" alt="${val.alt}">
                   <div class="text-center pt-3">
                     <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
@@ -558,25 +558,25 @@
                 </div>
                 `)
               }
-  
-  
+
+
           });
         })
-  
+
         $('#ExitedCompanies').on('click', e => {
           e.preventDefault();
           $('#companies-logos-row').empty();
           exitedCompanies.forEach((val, inx) => {
               if(!val.aquired_by || !val.ticker) {
                 $('#companies-logos-row').append(`
-                <div class="col-4 col-lg-2 mt-4 text-center">
+                <div class="col-4 col-lg-2 py-4 text-center">
                   <img src="${val.logo}" alt="${val.alt}">
                 </div>
                 `)
-  
+
               } else {
                 $('#companies-logos-row').append(`
-                <div class="col-4 col-lg-2 mt-4 text-center">
+                <div class="col-4 col-lg-2 py-4 text-center">
                   <img src="${val.logo}" alt="${val.alt}">
                   <div class="text-center pt-3">
                     <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
@@ -585,19 +585,19 @@
                 </div>
                 `)
               }
-  
-  
+
+
           });
         })
-  
+
         $('.companies-toggle-button').on('click', e => {
           e.preventDefault();
           $('.companies-toggle-button').removeClass('active')
           let id = $(e.target).attr('name')
           $(`#${id}`).addClass('active')
         })
-  
-  
+
+
         //runner
         loadCompanies()
       })
