@@ -92,6 +92,15 @@ ol li {
   margin-right: 0.25rem !important;
 }
 
+.t-c-l {
+  text-align: center !important;
+}
+@media (min-width: 992px) {
+  .t-c-l {
+    text-align: left !important;
+  }
+}
+
 span.SubHead,
 .secondary-text {
   color: #1b2942 !important;
@@ -855,9 +864,13 @@ footer .footer-social a:hover, footer .footer-social a:active {
 }
 
 #index-header-section {
-  margin-top: 75px;
-  padding: 50px 0;
   text-align: center;
+}
+@media (min-width: 992px) {
+  #index-header-section {
+    margin-top: 75px;
+    padding: 50px 0;
+  }
 }
 
 #index-products-section .item-a {
@@ -945,10 +958,20 @@ footer .footer-social a:hover, footer .footer-social a:active {
   margin: 0 auto;
 }
 #index-products-section .container .item .regular {
-  max-width: 450px;
+  max-width: 280px;
+}
+@media (min-width: 992px) {
+  #index-products-section .container .item .regular {
+    max-width: 450px;
+  }
 }
 #index-products-section .container .item .wide {
-  max-width: 650px;
+  max-width: 280px;
+}
+@media (min-width: 992px) {
+  #index-products-section .container .item .wide {
+    max-width: 650px;
+  }
 }
 #index-products-section .container img {
   object-fit: cover;

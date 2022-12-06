@@ -129,6 +129,15 @@ ol li {
 .mr-2{
   margin-right: .25rem !important;
 }
+
+
+.t-c-l {
+  text-align: center !important;
+
+  @media (min-width: 992px) {
+    text-align: left !important;
+  }
+}
 //////////////////////////////////////////////////////////////
 //                                                          ||
 //                        Text Colors                       ||
@@ -1025,9 +1034,12 @@ footer {
 }
 
 #index-header-section {
-  margin-top: 75px;
-  padding: 50px 0;
   text-align: center;
+
+  @media (min-width: 992px) {
+    margin-top: 75px;
+    padding: 50px 0;
+  }
 }
 
 #index-products-section{
@@ -1140,11 +1152,20 @@ footer {
         }
 
         .regular {
-          max-width: 450px;
+          max-width: 280px;
+
+          @media (min-width: 992px) {
+            max-width: 450px;
+          }
+
         }
 
         .wide{
-          max-width: 650px;
+          max-width: 280px;
+
+          @media (min-width: 992px) {
+            max-width: 650px;
+          }
         }
       }
 
