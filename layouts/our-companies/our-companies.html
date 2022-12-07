@@ -15,12 +15,13 @@
     <div class="site-container-1340 company-toggle-row">
         <div class="row">
             <div class="col-9 mx-auto">
-              <select name="cars" id="cars">
-                <option value="volvo">All</option>
-                <option value="saab">Deep Tech</option>
-                <option value="mercedes">Consumer</option>
-                <option value="audi">Infrastructure</option>
-                <option value="audi">Exited</option>
+              <select name="companySelect" id="companySelect">
+                <option value="all">All</option>
+                <option value="deeptech">Deep Tech</option>
+                <option value="EnterpriseSasSCompanies">Enterprise/SaaS</option>
+                <option value="consumer">Consumer</option>
+                <option value="infrastructure">Infrastructure</option>
+                <option value="exited">Exited</option>
               </select>
             </div>
             <div class="col-12 px-3  d-none d-lg-none">
@@ -493,118 +494,254 @@
           }
         ]
 
-        // let loadCompanies = () => {
-        //   deepTech.forEach((val, inx) => {
-        //       if(!val.aquired_by || !val.ticker) {
-        //         $('#companies-logos-row').append(`
-        //         <div class="col-6 col-lg-2 py-4 text-center">
-        //           <img src="${val.logo}" alt="${val.alt}">
-        //         </div>
-        //         `)
-        //
-        //       } else {
-        //         $('#companies-logos-row').append(`
-        //         <div class="col-6 col-lg-2 py-4 text-center">
-        //           <img src="${val.logo}" alt="${val.alt}">
-        //           <div class="text-center pt-3">
-        //             <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
-        //             <p class="tickerText mb-0">NASDAQ: ${val.ticker}</p>
-        //           </div>
-        //         </div>
-        //         `)
-        //       }
-        //
-        //
-        //   })
-        //   enterpriseSasSCompanies.forEach((val, inx) => {
-        //       if(!val.aquired_by || !val.ticker) {
-        //         $('#companies-logos-row').append(`
-        //         <div class="col-6 col-lg-2  py-4 text-center">
-        //           <img src="${val.logo}" alt="${val.alt}">
-        //         </div>
-        //         `)
-        //
-        //       } else {
-        //         $('#companies-logos-row').append(`
-        //         <div class="col-6 col-lg-2  py-4 text-center">
-        //           <img src="${val.logo}" alt="${val.alt}">
-        //           <div class="text-center pt-3">
-        //             <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
-        //             <p class="tickerText mb-0">NASDAQ: ${val.ticker}</p>
-        //           </div>
-        //         </div>
-        //         `)
-        //       }
-        //
-        //
-        //   })
-        //   consumerCompanies.forEach((val, inx) => {
-        //       if(!val.aquired_by || !val.ticker) {
-        //         $('#companies-logos-row').append(`
-        //         <div class="col-6 col-lg-2 py-4 text-center">
-        //           <img src="${val.logo}" alt="${val.alt}">
-        //         </div>
-        //         `)
-        //
-        //       } else {
-        //         $('#companies-logos-row').append(`
-        //         <div class="col-6 col-lg-2 py-4 text-center">
-        //           <img src="${val.logo}" alt="${val.alt}">
-        //           <div class="text-center pt-3">
-        //             <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
-        //             <p class="tickerText mb-0">NASDAQ: ${val.ticker}</p>
-        //           </div>
-        //         </div>
-        //         `)
-        //       }
-        //
-        //
-        //   })
-        //   infrastructureCompanies.forEach((val, inx) => {
-        //       if(!val.aquired_by || !val.ticker) {
-        //         $('#companies-logos-row').append(`
-        //         <div class="col-6 col-lg-2 py-4 text-center">
-        //           <img src="${val.logo}" alt="${val.alt}">
-        //         </div>
-        //         `)
-        //
-        //       } else {
-        //         $('#companies-logos-row').append(`
-        //         <div class="col-6 col-lg-2 py-4 text-center">
-        //           <img src="${val.logo}" alt="${val.alt}">
-        //           <div class="text-center pt-3">
-        //             <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
-        //             <p class="tickerText mb-0">NASDAQ: ${val.ticker}</p>
-        //           </div>
-        //         </div>
-        //         `)
-        //       }
-        //
-        //
-        //   })
-        //   exitedCompanies.forEach((val, inx) => {
-        //       if(!val.aquired_by || !val.ticker) {
-        //         $('#companies-logos-row').append(`
-        //         <div class="col-6 col-lg-2 py-4 text-center">
-        //           <img src="${val.logo}" alt="${val.alt}">
-        //         </div>
-        //         `)
-        //
-        //       } else {
-        //         $('#companies-logos-row').append(`
-        //         <div class="col-6 col-lg-2 py-4 text-center">
-        //           <img src="${val.logo}" alt="${val.alt}">
-        //           <div class="text-center pt-3">
-        //             <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
-        //             <p class="tickerText mb-0">NASDAQ: ${val.ticker}</p>
-        //           </div>
-        //         </div>
-        //         `)
-        //       }
-        //
-        //
-        //   })
-        // }
+        let loadCompanies = () => {
+          deepTech.forEach((val, inx) => {
+              if(!val.aquired_by || !val.ticker) {
+                $('#companies-logos-row').append(`
+                <div class="col-6 col-lg-2 py-4 text-center">
+                  <img src="${val.logo}" alt="${val.alt}">
+                </div>
+                `)
+
+              } else {
+                $('#companies-logos-row').append(`
+                <div class="col-6 col-lg-2 py-4 text-center">
+                  <img src="${val.logo}" alt="${val.alt}">
+                  <div class="text-center pt-3">
+                    <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
+                    <p class="tickerText mb-0">NASDAQ: ${val.ticker}</p>
+                  </div>
+                </div>
+                `)
+              }
+
+
+          })
+          enterpriseSasSCompanies.forEach((val, inx) => {
+              if(!val.aquired_by || !val.ticker) {
+                $('#companies-logos-row').append(`
+                <div class="col-6 col-lg-2  py-4 text-center">
+                  <img src="${val.logo}" alt="${val.alt}">
+                </div>
+                `)
+
+              } else {
+                $('#companies-logos-row').append(`
+                <div class="col-6 col-lg-2  py-4 text-center">
+                  <img src="${val.logo}" alt="${val.alt}">
+                  <div class="text-center pt-3">
+                    <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
+                    <p class="tickerText mb-0">NASDAQ: ${val.ticker}</p>
+                  </div>
+                </div>
+                `)
+              }
+
+
+          })
+          consumerCompanies.forEach((val, inx) => {
+              if(!val.aquired_by || !val.ticker) {
+                $('#companies-logos-row').append(`
+                <div class="col-6 col-lg-2 py-4 text-center">
+                  <img src="${val.logo}" alt="${val.alt}">
+                </div>
+                `)
+
+              } else {
+                $('#companies-logos-row').append(`
+                <div class="col-6 col-lg-2 py-4 text-center">
+                  <img src="${val.logo}" alt="${val.alt}">
+                  <div class="text-center pt-3">
+                    <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
+                    <p class="tickerText mb-0">NASDAQ: ${val.ticker}</p>
+                  </div>
+                </div>
+                `)
+              }
+
+
+          })
+          infrastructureCompanies.forEach((val, inx) => {
+              if(!val.aquired_by || !val.ticker) {
+                $('#companies-logos-row').append(`
+                <div class="col-6 col-lg-2 py-4 text-center">
+                  <img src="${val.logo}" alt="${val.alt}">
+                </div>
+                `)
+
+              } else {
+                $('#companies-logos-row').append(`
+                <div class="col-6 col-lg-2 py-4 text-center">
+                  <img src="${val.logo}" alt="${val.alt}">
+                  <div class="text-center pt-3">
+                    <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
+                    <p class="tickerText mb-0">NASDAQ: ${val.ticker}</p>
+                  </div>
+                </div>
+                `)
+              }
+
+
+          })
+          exitedCompanies.forEach((val, inx) => {
+              if(!val.aquired_by || !val.ticker) {
+                $('#companies-logos-row').append(`
+                <div class="col-6 col-lg-2 py-4 text-center">
+                  <img src="${val.logo}" alt="${val.alt}">
+                </div>
+                `)
+
+              } else {
+                $('#companies-logos-row').append(`
+                <div class="col-6 col-lg-2 py-4 text-center">
+                  <img src="${val.logo}" alt="${val.alt}">
+                  <div class="text-center pt-3">
+                    <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
+                    <p class="tickerText mb-0">NASDAQ: ${val.ticker}</p>
+                  </div>
+                </div>
+                `)
+              }
+
+
+          })
+        }
+
+
+        $('#companySelect').on('change', (e)=>{
+              switch(e.target.value) {
+                case "deeptech":
+                  $('#companies-logos-row').empty();
+                  deepTech.forEach((val, inx) => {
+                    if(!val.aquired_by || !val.ticker) {
+                      $('#companies-logos-row').append(`
+                      <div class="col-6 col-lg-2 py-4 text-center">
+                        <img src="${val.logo}" alt="${val.alt}">
+                      </div>
+                      `)
+
+                    } else {
+                      $('#companies-logos-row').append(`
+                      <div class="col-6 col-lg-2 py-4 text-center">
+                        <img src="${val.logo}" alt="${val.alt}">
+                        <div class="text-center pt-3">
+                          <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
+                          <p class="tickerText mb-0">NASDAQ: ${val.ticker}</p>
+                        </div>
+                      </div>
+                      `)
+                    }
+
+
+                });
+                  break;
+                case "enterpriseSasSCompanies":
+                  $('#companies-logos-row').empty();
+                  enterpriseSasSCompanies.forEach((val, inx) => {
+                      if(!val.aquired_by || !val.ticker) {
+                        $('#companies-logos-row').append(`
+                        <div class="col-6 col-lg-2 py-4 text-center">
+                          <img src="${val.logo}" alt="${val.alt}">
+                        </div>
+                        `)
+
+                      } else {
+                        $('#companies-logos-row').append(`
+                        <div class="col-6 col-lg-2 py-4 text-center">
+                          <img src="${val.logo}" alt="${val.alt}">
+                          <div class="text-center pt-3">
+                            <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
+                            <p class="tickerText mb-0">NASDAQ: ${val.ticker}</p>
+                          </div>
+                        </div>
+                        `)
+                      }
+
+
+                  });
+                  break;
+                case "consumer":
+                  $('#companies-logos-row').empty();
+                  consumerCompanies.forEach((val, inx) => {
+                      if(!val.aquired_by || !val.ticker) {
+                        $('#companies-logos-row').append(`
+                        <div class="col-6 col-lg-2 py-4 text-center">
+                          <img src="${val.logo}" alt="${val.alt}">
+                        </div>
+                        `)
+
+                      } else {
+                        $('#companies-logos-row').append(`
+                        <div class="col-6 col-lg-2 py-4 text-center">
+                          <img src="${val.logo}" alt="${val.alt}">
+                          <div class="text-center pt-3">
+                            <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
+                            <p class="tickerText mb-0">NASDAQ: ${val.ticker}</p>
+                          </div>
+                        </div>
+                        `)
+                      }
+
+
+                  });
+                  break;
+
+                case "infrastructure":
+                $('#companies-logos-row').empty();
+                infrastructureCompanies.forEach((val, inx) => {
+                    if(!val.aquired_by || !val.ticker) {
+                      $('#companies-logos-row').append(`
+                      <div class="col-6 col-lg-2 py-4 text-center">
+                        <img src="${val.logo}" alt="${val.alt}">
+                      </div>
+                      `)
+
+                    } else {
+                      $('#companies-logos-row').append(`
+                      <div class="col-6 col-lg-2 py-4 text-center">
+                        <img src="${val.logo}" alt="${val.alt}">
+                        <div class="text-center pt-3">
+                          <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
+                          <p class="tickerText mb-0">NASDAQ: ${val.ticker}</p>
+                        </div>
+                      </div>
+                      `)
+                    }
+
+
+                });
+                  break;
+
+                case "exited":
+                $('#companies-logos-row').empty();
+                exitedCompanies.forEach((val, inx) => {
+                    if(!val.aquired_by || !val.ticker) {
+                      $('#companies-logos-row').append(`
+                      <div class="col-6 col-lg-2 py-4 text-center">
+                        <img src="${val.logo}" alt="${val.alt}">
+                      </div>
+                      `)
+
+                    } else {
+                      $('#companies-logos-row').append(`
+                      <div class="col-6 col-lg-2 py-4 text-center">
+                        <img src="${val.logo}" alt="${val.alt}">
+                        <div class="text-center pt-3">
+                          <p class="tickerText mb-0">Aquired By: ${val.aquired_by}</p>
+                          <p class="tickerText mb-0">NASDAQ: ${val.ticker}</p>
+                        </div>
+                      </div>
+                      `)
+                    }
+
+
+                });
+                  break;
+                default:
+                $('#companies-logos-row').empty();
+                loadCompanies();
+              }
+          })
 
         $('#allCompanies').on('click', e => {
           e.preventDefault();
