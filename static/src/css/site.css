@@ -1322,13 +1322,16 @@ footer .footer-social a:hover, footer .footer-social a:active {
 
 .subscribe-card {
   background-color: #4d39e9;
-  height: 100%;
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
 }
 
 #impactTV-page-section iframe {
