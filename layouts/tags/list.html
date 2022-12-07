@@ -112,8 +112,12 @@
     let url = window.location.href.split('/tags/')[1]
     if(url == 'investment/'){
       document.getElementById('subnav-investment-btn').classList.add("active");
+      let option = $('#storiesSelect').find('option')[1]
+      $(option).prop("selected", true)
     } else {
       document.getElementById('subnav-spotlight-btn').classList.add("active");
+      let option = $('#storiesSelect').find('option')[2]
+      $(option).prop("selected", true)
     }
   },500)
   </script>
