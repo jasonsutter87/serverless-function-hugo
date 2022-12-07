@@ -26,8 +26,14 @@
             </li>
 
             <li>
-              <a href="/tags/investment/" class="h5-heading stories-category-link active">
+              <a href="/tags/investment/" class="h5-heading stories-category-link" id="subnav-investment-btn">
                 <i class="fal fa-plus" ></i>  Investment
+              </a>
+            </li>
+
+            <li>
+              <a href="/tags/spotlight/" class="h5-heading stories-category-link" id="subnav-spotlight-btn">
+                <i class="fal fa-plus" ></i>  Spotlight
               </a>
             </li>
 
@@ -68,4 +74,15 @@
       </div>
     </div>
   </section>
+
+
+  <script type="text/javascript">
+    let url = window.location.href.split('/tags/')[1]
+    if(url == 'investment/'){
+      document.getElementById('subnav-investment-btn').classList.add("active");
+    } else {
+      document.getElementById('subnav-spotlight-btn').classList.add("active");
+    }
+
+  </script>
 {{ end }}
