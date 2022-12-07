@@ -1030,7 +1030,12 @@ footer .footer-social a:hover, footer .footer-social a:active {
 
 #site-cta-section {
   color: #ffffff;
-  margin-top: 50px;
+  margin-top: 25px;
+}
+@media (min-width: 992px) {
+  #site-cta-section {
+    margin-top: 50px;
+  }
 }
 #site-cta-section .container {
   display: grid;

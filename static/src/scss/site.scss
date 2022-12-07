@@ -1236,7 +1236,11 @@ footer {
 
 #site-cta-section {
     color: $white;
+    margin-top: 25px;
+    
+    @media (min-width: 992px) {
     margin-top: 50px;
+    }
 
     .container {
       display: grid;
