@@ -1072,11 +1072,6 @@ footer .footer-social a:hover, footer .footer-social a:active {
   text-align: center;
   margin-top: 50px;
 }
-@media (min-width: 992px) {
-  #authors-inner-page-title-section {
-    margin-top: 118px;
-  }
-}
 #authors-inner-page-title-section a.social {
   font-size: 2rem;
   color: #171717;
