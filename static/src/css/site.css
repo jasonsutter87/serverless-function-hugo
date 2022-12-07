@@ -1029,7 +1029,12 @@ footer .footer-social a:hover, footer .footer-social a:active {
   grid-template-areas: "text button";
 }
 #site-cta-section .container .cta-padding {
-  padding: 65px 35px 35px 35px;
+  padding: 1rem;
+}
+@media (min-width: 992px) {
+  #site-cta-section .container .cta-padding {
+    padding: 65px 35px 35px 35px;
+  }
 }
 #site-cta-section .container .item {
   align-items: stretch;
