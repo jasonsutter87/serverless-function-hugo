@@ -1253,8 +1253,12 @@ footer {
 //////////////////////////////////////////////////////////////
 
 #inner-page-title-section {
- margin-top: 135px;
+ margin-top: 75px;
  text-align: center;
+
+ @media (min-width: 992px) {
+    margin-top: 135px;
+ }
 
 
  .h1-wrapepr {
@@ -1282,13 +1286,19 @@ footer {
 
 
 #our-companies-section{
-  padding-top: 50px;
+
+  @media (min-width: 992px) {
+    padding-top: 50px;
+  }
 
   .company-toggle-row {
-    border-top: 1px solid $mid-black;
-    border-bottom: 1px solid $mid-black;
     padding-top: 1rem;
     padding-bottom: 1rem;
+
+    @media (min-width: 992px) {
+      border-top: 1px solid $mid-black;
+      border-bottom: 1px solid $mid-black;
+    }
   }
 
   .companies-toggle-button {
@@ -1311,11 +1321,20 @@ footer {
       color: $purple;
     }
   }
+
+  select {
+    border: none;
+    border-bottom: 1px solid $mid-black;
+    width: 100%;
+  }
 }
 
 
 #our-companies-logo-section {
-  margin-top: 50px;
+  @media (min-width: 992px) {
+    margin-top: 50px;
+  }
+
 }
 
 

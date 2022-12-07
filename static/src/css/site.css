@@ -1027,8 +1027,13 @@ footer .footer-social a:hover, footer .footer-social a:active {
 }
 
 #inner-page-title-section {
-  margin-top: 135px;
+  margin-top: 75px;
   text-align: center;
+}
+@media (min-width: 992px) {
+  #inner-page-title-section {
+    margin-top: 135px;
+  }
 }
 #inner-page-title-section .h1-wrapepr {
   display: flex;
@@ -1043,14 +1048,20 @@ footer .footer-social a:hover, footer .footer-social a:active {
   justify-content: center;
 }
 
-#our-companies-section {
-  padding-top: 50px;
+@media (min-width: 992px) {
+  #our-companies-section {
+    padding-top: 50px;
+  }
 }
 #our-companies-section .company-toggle-row {
-  border-top: 1px solid #808080;
-  border-bottom: 1px solid #808080;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+@media (min-width: 992px) {
+  #our-companies-section .company-toggle-row {
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+  }
 }
 #our-companies-section .companies-toggle-button {
   color: #808080;
@@ -1070,9 +1081,16 @@ footer .footer-social a:hover, footer .footer-social a:active {
   fill: #4d39e9;
   color: #4d39e9;
 }
+#our-companies-section select {
+  border: none;
+  border-bottom: 1px solid #808080;
+  width: 100%;
+}
 
-#our-companies-logo-section {
-  margin-top: 50px;
+@media (min-width: 992px) {
+  #our-companies-logo-section {
+    margin-top: 50px;
+  }
 }
 
 #our-companies-spotlight-seection {
