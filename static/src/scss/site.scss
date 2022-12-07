@@ -400,10 +400,20 @@ p {
 //////////////////////////////////////////////////////////////
 .btn-size-lg {
     padding: 5px 20px;
+    width: 100%;
+
+    @media (min-width: 992px) {
+      width: unset;
+    }
 }
 
 .btn-size-sm {
     padding: 15px 60px;
+    width: 100%;
+
+    @media (min-width: 992px) {
+      width: unset;
+    }
 }
 
 .btn-primary {
