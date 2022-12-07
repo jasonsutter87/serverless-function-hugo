@@ -140,6 +140,17 @@ ol li {
 }
 
 
+.team-memeber-page-padding {
+  padding-left: 13px !important;
+  padding-right: 13px !important;
+
+  @media (min-width: 992px) {
+    padding-left: unset !important;
+    padding-right: unset !important;
+  }
+}
+
+
 //////////////////////////////////////////////////////////////
 //                                                          ||
 //                        Text Colors                       ||
@@ -1283,6 +1294,23 @@ footer {
 
 #authors-inner-page-title-section {
  text-align: center;
+ margin-top: 50px;
+
+ @media (min-width: 992px) {
+   margin-top: 118px
+ }
+
+ a.social {
+   font-size: 2rem;
+   color: $black;
+   font-weight: $font-weight-500;
+   text-decoration: none;
+
+   &:active,
+   &:hover {
+     color: $purple;
+   }
+ }
 
 
  .h1-wrapepr {
@@ -1550,7 +1578,11 @@ footer {
 //////////////////////////////////////////////////////////////
 
 #blog-nav-section {
-    margin-top: 118px;
+    margin-top: 25px;
+
+    @media (min-width: 992px) {
+      margin-top: 118px
+    }
 }
 
 

@@ -101,6 +101,17 @@ ol li {
   }
 }
 
+.team-memeber-page-padding {
+  padding-left: 13px !important;
+  padding-right: 13px !important;
+}
+@media (min-width: 992px) {
+  .team-memeber-page-padding {
+    padding-left: unset !important;
+    padding-right: unset !important;
+  }
+}
+
 span.SubHead,
 .secondary-text {
   color: #1b2942 !important;
@@ -1059,6 +1070,21 @@ footer .footer-social a:hover, footer .footer-social a:active {
 
 #authors-inner-page-title-section {
   text-align: center;
+  margin-top: 50px;
+}
+@media (min-width: 992px) {
+  #authors-inner-page-title-section {
+    margin-top: 118px;
+  }
+}
+#authors-inner-page-title-section a.social {
+  font-size: 2rem;
+  color: #171717;
+  font-weight: 500;
+  text-decoration: none;
+}
+#authors-inner-page-title-section a.social:active, #authors-inner-page-title-section a.social:hover {
+  color: #4d39e9;
 }
 #authors-inner-page-title-section .h1-wrapepr {
   display: flex;
@@ -1244,7 +1270,12 @@ footer .footer-social a:hover, footer .footer-social a:active {
 }
 
 #blog-nav-section {
-  margin-top: 118px;
+  margin-top: 25px;
+}
+@media (min-width: 992px) {
+  #blog-nav-section {
+    margin-top: 118px;
+  }
 }
 
 @media (min-width: 992px) {
