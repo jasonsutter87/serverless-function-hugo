@@ -1356,10 +1356,21 @@ footer {
   padding-top: 50px;
 
   .team-toggle-row {
-    border-top: 1px solid $mid-black;
-    border-bottom: 1px solid $mid-black;
     padding-top: 1rem;
     padding-bottom: 1rem;
+
+    @media (min-width: 992px) {
+      border-top: 1px solid $mid-black;
+      border-bottom: 1px solid $mid-black;
+    }
+
+    select {
+      border: none;
+      border-bottom: 1px solid $mid-black;
+      width: 100%;
+      background-color:  $white !important;
+      padding: 15px 0;
+    }
   }
 
   .team-toggle-button {

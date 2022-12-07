@@ -1103,10 +1103,21 @@ footer .footer-social a:hover, footer .footer-social a:active {
   padding-top: 50px;
 }
 #our-team-selection-section .team-toggle-row {
-  border-top: 1px solid #808080;
-  border-bottom: 1px solid #808080;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+@media (min-width: 992px) {
+  #our-team-selection-section .team-toggle-row {
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+  }
+}
+#our-team-selection-section .team-toggle-row select {
+  border: none;
+  border-bottom: 1px solid #808080;
+  width: 100%;
+  background-color: #ffffff !important;
+  padding: 15px 0;
 }
 #our-team-selection-section .team-toggle-button {
   color: #808080;
