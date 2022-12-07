@@ -282,7 +282,7 @@ h4,
 
 h5,
 .h5-heading {
-  font-size: calc(18px * 1.111111111111111) !important;
+  font-size: calc(18px * 1) !important;
   font-weight: 500;
   line-height: calc(30px * 0.7333333333333333) !important;
   font-family: "Poppins", sans-serif !important;
@@ -1284,15 +1284,16 @@ footer .footer-social a:hover, footer .footer-social a:active {
 
 .blog-roll-title {
   position: absolute;
-  top: 2rem;
-  right: 2rem;
-  left: 2rem;
-  bottom: 2rem;
+  top: 0;
+  right: 1rem;
+  left: 1rem;
+  bottom: 0;
   color: #ffffff;
   text-align: center;
   display: flex;
   align-items: center;
   z-index: 2;
+  padding: 0 2rem;
 }
 
 .blog-category {
