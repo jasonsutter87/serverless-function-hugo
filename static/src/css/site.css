@@ -1085,6 +1085,8 @@ footer .footer-social a:hover, footer .footer-social a:active {
   border: none;
   border-bottom: 1px solid #808080;
   width: 100%;
+  background-color: #ffffff !important;
+  padding: 15px 0;
 }
 
 @media (min-width: 992px) {
