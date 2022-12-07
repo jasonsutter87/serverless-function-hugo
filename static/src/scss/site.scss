@@ -138,6 +138,10 @@ ol li {
     text-align: left !important;
   }
 }
+
+.h-80{
+  height: 80% !important;
+}
 //////////////////////////////////////////////////////////////
 //                                                          ||
 //                        Text Colors                       ||
@@ -769,6 +773,16 @@ p {
 //                   Mobile Navigation                      ||
 //                                                          ||
 //////////////////////////////////////////////////////////////
+.nav-btn-close {
+  display: none;
+}
+
+.menu-mobile-border {
+  position: relative;
+  z-index: 15000;
+  border-bottom: 1px solid $mid-black
+}
+
 .mobile-nav {
     position: fixed;
     height: 100vh;
@@ -778,21 +792,39 @@ p {
     overflow: auto;
     margin: 0;
     transition: $transition-speed;
-    background-color: $deepBlue;
-    z-index: 1600;
+    background-color: $white;
+    z-index: 125;
+
+    button.submenu-link {
+    background: no-repeat;
+    border: none;
+  }
 }
 
 .mobile-nav-active {
   .mobile-nav {
     right: 0;
     transition: $transition-speed;
-    top: 0;
+    top: 75px;
+    border-top: 1px solid $mid-black;
+  }
+
+  .nav-btn-open {
+    display: none;
+  }
+
+  .nav-btn-close {
+    display: block;
   }
 }
 
+
+
+
+.nav-btn-close,
 .nav-btn-open,
 .nav-btn-open-state {
-    font-size: 2rem;
+    font-size: 1.65rem;
     color: $deepBlue;
 }
 
@@ -801,38 +833,32 @@ p {
     background-color: $white;
 }
 
-.mobile-nav-menu-item {
-    border-top: 1px solid $green;
-}
 
-.mobile-nav-menu-item:last-child {
-    border-bottom: 0;
-}
 
 .mobile-menu-news-link {
 
   .mobile-nav-triangle {
-    color: $white;
+    color: $black;
   }
 
 
   &:active,
   &:hover {
-    background-color: $white !important;
-    color: $deepBlue !important;
+    background-color: $purple !important;
+    color: $white !important;
 
 
     .mobile-nav-triangle {
-      color: $deepBlue !important;
+      color: $white !important;
     }
   }
 }
 
 .submenu-link {
-    color: $white !important;
+    color: $black !important;
     text-transform: uppercase !important;
     text-decoration: none !important;
-    padding: 0 16px;
+    padding: 0 30px;
 }
 
 
@@ -1035,6 +1061,7 @@ footer {
 
 #index-header-section {
   text-align: center;
+  padding-top: 25px;
 
   @media (min-width: 992px) {
     margin-top: 75px;

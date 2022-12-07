@@ -101,6 +101,10 @@ ol li {
   }
 }
 
+.h-80 {
+  height: 80% !important;
+}
+
 span.SubHead,
 .secondary-text {
   color: #1b2942 !important;
@@ -645,6 +649,16 @@ p {
   transform-origin: 100% 50%;
 }
 
+.nav-btn-close {
+  display: none;
+}
+
+.menu-mobile-border {
+  position: relative;
+  z-index: 15000;
+  border-bottom: 1px solid #808080;
+}
+
 .mobile-nav {
   position: fixed;
   height: 100vh;
@@ -654,19 +668,31 @@ p {
   overflow: auto;
   margin: 0;
   transition: 0.5s;
-  background-color: #1b2942;
-  z-index: 1600;
+  background-color: #ffffff;
+  z-index: 125;
+}
+.mobile-nav button.submenu-link {
+  background: no-repeat;
+  border: none;
 }
 
 .mobile-nav-active .mobile-nav {
   right: 0;
   transition: 0.5s;
-  top: 0;
+  top: 75px;
+  border-top: 1px solid #808080;
+}
+.mobile-nav-active .nav-btn-open {
+  display: none;
+}
+.mobile-nav-active .nav-btn-close {
+  display: block;
 }
 
+.nav-btn-close,
 .nav-btn-open,
 .nav-btn-open-state {
-  font-size: 2rem;
+  font-size: 1.65rem;
   color: #1b2942;
 }
 
@@ -675,30 +701,22 @@ p {
   background-color: #ffffff;
 }
 
-.mobile-nav-menu-item {
-  border-top: 1px solid #29b494;
-}
-
-.mobile-nav-menu-item:last-child {
-  border-bottom: 0;
-}
-
 .mobile-menu-news-link .mobile-nav-triangle {
-  color: #ffffff;
+  color: #171717;
 }
 .mobile-menu-news-link:active, .mobile-menu-news-link:hover {
-  background-color: #ffffff !important;
-  color: #1b2942 !important;
+  background-color: #4d39e9 !important;
+  color: #ffffff !important;
 }
 .mobile-menu-news-link:active .mobile-nav-triangle, .mobile-menu-news-link:hover .mobile-nav-triangle {
-  color: #1b2942 !important;
+  color: #ffffff !important;
 }
 
 .submenu-link {
-  color: #ffffff !important;
+  color: #171717 !important;
   text-transform: uppercase !important;
   text-decoration: none !important;
-  padding: 0 16px;
+  padding: 0 30px;
 }
 
 footer {
@@ -865,6 +883,7 @@ footer .footer-social a:hover, footer .footer-social a:active {
 
 #index-header-section {
   text-align: center;
+  padding-top: 25px;
 }
 @media (min-width: 992px) {
   #index-header-section {
