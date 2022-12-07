@@ -1106,10 +1106,8 @@ footer .footer-social a:hover, footer .footer-social a:active {
   padding: 15px 0;
 }
 
-@media (min-width: 992px) {
-  #our-companies-logo-section {
-    margin-top: 50px;
-  }
+#our-companies-logo-section {
+  margin-top: 50px;
 }
 
 #our-companies-spotlight-seection {
@@ -1157,10 +1155,8 @@ footer .footer-social a:hover, footer .footer-social a:active {
   color: #4d39e9;
 }
 
-@media (min-width: 992px) {
-  #our-team-section {
-    margin-top: 50px;
-  }
+#our-team-section {
+  margin-top: 50px;
 }
 
 .pressArticle {
