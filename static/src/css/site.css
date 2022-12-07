@@ -101,10 +101,6 @@ ol li {
   }
 }
 
-.h-80 {
-  height: 80% !important;
-}
-
 span.SubHead,
 .secondary-text {
   color: #1b2942 !important;
@@ -717,6 +713,11 @@ p {
   text-transform: uppercase !important;
   text-decoration: none !important;
   padding: 0 30px;
+}
+
+.mobile-menu-cta {
+  padding: 0 30px;
+  margin-top: 50px;
 }
 
 footer {
