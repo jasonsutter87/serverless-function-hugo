@@ -1159,6 +1159,14 @@ footer .footer-social a:hover, footer .footer-social a:active {
   margin-top: 50px;
 }
 
+#storiesSelect {
+  border: none;
+  border-bottom: 1px solid #808080;
+  width: 100%;
+  background-color: #ffffff !important;
+  padding: 15px 0;
+}
+
 .pressArticle {
   padding: 1rem 2rem !important;
   position: relative;
@@ -1239,14 +1247,20 @@ footer .footer-social a:hover, footer .footer-social a:active {
   margin-top: 118px;
 }
 
-#stories-category-selection-section {
-  padding-top: 50px;
+@media (min-width: 992px) {
+  #stories-category-selection-section {
+    padding-top: 50px;
+  }
 }
 #stories-category-selection-section .stories-toggle-row {
-  border-top: 1px solid #808080;
-  border-bottom: 1px solid #808080;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+@media (min-width: 992px) {
+  #stories-category-selection-section .stories-toggle-row {
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+  }
 }
 #stories-category-selection-section .stories-category-link {
   color: #808080;

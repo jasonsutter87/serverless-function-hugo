@@ -15,7 +15,15 @@
   <section id="stories-category-selection-section">
     <div class="site-container-1340 stories-toggle-row">
       <div class="row ">
-        <div class="col-12 px-3">
+        <div class="col-9 mx-auto d-lg-none">
+          <select name="storiesSelect" id="storiesSelect">
+            <option value="all">All</option>
+            <option value="Investment">Investment</option>
+            <option value="Spotlight">Spotlight</option>
+            <option value="impactTv">Impact TV</option>
+          </select>
+        </div>
+        <div class="col-12 px-3 d-none d-lg-block">
           <ul class="ul-reset d-flex align-items-center justify-content-between">
             <li>
               <a href="/stories" class="h5-heading stories-category-link active">
@@ -71,4 +79,40 @@
       </div>
     </div>
   </section>
+
+
+
+  <script>
+    setTimeout(() =>{
+      $(() => {
+
+
+      $('#storiesSelect').on('change', (e)=>{
+        console.log(e.target.value)
+              switch(e.target.value) {
+                case "Investment":
+                    window.location.href = '/tags/investment/';
+
+                  break;
+                case "Spotlight":
+                    window.location.href = '/tags/spotlight/';
+                  break;
+
+
+                case "impactTV":
+                    window.location.href = '/stories/';
+                  break;
+
+                case "exited":
+
+                  break;
+                default:
+                  window.location.href = '/impacttv/';
+              }
+          })
+
+
+      })
+    },500)
+  </script>
 {{ end }}
