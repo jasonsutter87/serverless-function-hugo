@@ -5,12 +5,12 @@
         <div class="col-12">
           <div class="h1-wrapepr">
             <h1>Stories</h1>
-            story
           </div>
         </div>
       </div>
     </div>
   </section>
+
 
   <section id="stories-category-selection-section">
     <div class="site-container-1340 stories-toggle-row">
@@ -88,28 +88,22 @@
 
 
       $('#storiesSelect').on('change', (e)=>{
-        console.log(e.target.value)
               switch(e.target.value) {
                 case "Investment":
                     window.location.href = '/tags/investment/';
-
                   break;
                 case "Spotlight":
                     window.location.href = '/tags/spotlight/';
                   break;
-
-
                 case "impactTV":
                     window.location.href = '/stories/';
                   break;
-
                 case "exited":
-
                   break;
                 default:
                   window.location.href = '/impacttv/';
               }
-          })
+    })
 
 
       })

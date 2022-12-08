@@ -15,6 +15,7 @@ priority: "0.5"
 share: true
 date: 2020-09-24T20:01:00.000Z
 pagetype: article
+author: Pat Bumpus
 ---
 **ATLANTA, Sept. 9, 2020 /PRNewswire/** — [Aptos](https://www.aptos.com/), a recognized market leader in retail technology solutions, announced today that it has completed its acquisition of Revionics, the leading provider of science-based pricing, promotion and competitive insight for innovative retailers. [Revionics](https://revionics.com/) will now be known as Revionics, an Aptos Company.
 

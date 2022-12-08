@@ -1,16 +1,16 @@
 {{ $page := . }}
 {{ if eq .Params.author "Healium" }}
-  <p>By <a href="https://www.tryhealium.com/" class="primary-link" target="_blank">Healium</a> | {{ $page.Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }} |
-   {{ with $page.Params.tags }}
-      {{ range . }}
-      <a class="primary-link mr-2" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">
-        <i class="far fa-plus mr-2"></i>{{ . }}
-      </a>
-      {{ end }}
-    </p>
-  {{ end }}
+<p>By <a href="/authors/healium" class="primary-link">Healium</a> | {{ $page.Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }} |
+ {{ with $page.Params.tags }}
+    {{ range . }}
+    <a class="primary-link mr-2" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">
+      <i class="far fa-plus mr-2"></i>{{ . }}
+    </a>
+    {{ end }}
+  </p>
+{{ end }}
 {{ else }}
-  <p>By <a href="/our-team/pat-bumpus" class="primary-link">Pat Bumpus</a> | {{ $page.Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }} |
+  <p>By <a href="/authors/pat-bumpus" class="primary-link">Pat Bumpus</a> | {{ $page.Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }} |
    {{ with $page.Params.tags }}
       {{ range . }}
       <a class="primary-link mr-2" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">

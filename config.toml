@@ -7,5 +7,5 @@ languageCode = 'en-us'
 	status = 404
 
 	[taxonomies]
-  	author = "authors"
-	 	tag = "tags"
+	  tag = "tags"
+	  author = "authors"
