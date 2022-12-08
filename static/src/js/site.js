@@ -89,6 +89,22 @@ setTimeout(function(){
           $('body').addClass('mobile-nav-active')
       })
 
+
+      $('#privacy-submenu-mobile').on('click', function (e) {
+          e.preventDefault();
+          $('body').addClass('privacy-nav-active')
+      })
+
+
+      $('#removePrivacyNav').on('click', function (e) {
+          e.preventDefault();
+          $('body').removeClass('privacy-nav-active')
+      })
+
+
+
+
+
       let allGridLines = document.querySelectorAll('.lottie-animation');
 
       const observer = new IntersectionObserver(entries => {
@@ -98,11 +114,11 @@ setTimeout(function(){
                 window.scrollTo(0,1)
 
                 // $(item.target).css('background-color', '#0016ff1f');
-                           
-                  
+
+
               } else {
-                 
-                                     
+
+
                 let target = $(item.target)[0];
                 LottieInteractivity.create({
                   player: target,
@@ -114,10 +130,10 @@ setTimeout(function(){
                     }
                   ]
                 })
-           
+
               // $(item.target).css('background-color', '#ff00001f')
              }
-         
+
 
           }
         })
