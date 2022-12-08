@@ -1720,22 +1720,37 @@ footer {
 }
 
 .sharer {
-  position: fixed;
-  left: 0;
-  top: 20%;
+  display: inline-flex;
+
+
+    @media (min-width: 992px) {
+      display: unset;
+      position: fixed;
+      left: 0;
+      top: 20%;
+    }
 
 
   .nav-item {
-    width: 75px;
-    height: 75px;
-    background-color: $black;
+
     display: flex;
     align-items: center;
     justify-content: center;
 
+    @media (min-width: 992px) {
+      width: 75px;
+      height: 75px;
+      background-color: $black;
+    }
+
     .nav-link {
-      color: $white;
-      font-size: 1.50rem !important;
+      color: $black;
+      font-size: 1.25rem !important;
+
+      @media (min-width: 992px) {
+        color: $white;
+        font-size: 1.50rem !important;
+      }
     }
 
 

@@ -1394,21 +1394,37 @@ footer .footer-social a:hover, footer .footer-social a:active {
 }
 
 .sharer {
-  position: fixed;
-  left: 0;
-  top: 20%;
+  display: inline-flex;
+}
+@media (min-width: 992px) {
+  .sharer {
+    display: unset;
+    position: fixed;
+    left: 0;
+    top: 20%;
+  }
 }
 .sharer .nav-item {
-  width: 75px;
-  height: 75px;
-  background-color: #171717;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+@media (min-width: 992px) {
+  .sharer .nav-item {
+    width: 75px;
+    height: 75px;
+    background-color: #171717;
+  }
+}
 .sharer .nav-item .nav-link {
-  color: #ffffff;
-  font-size: 1.5rem !important;
+  color: #171717;
+  font-size: 1.25rem !important;
+}
+@media (min-width: 992px) {
+  .sharer .nav-item .nav-link {
+    color: #ffffff;
+    font-size: 1.5rem !important;
+  }
 }
 .sharer .nav-item:hover {
   background-color: #4d39e9;
