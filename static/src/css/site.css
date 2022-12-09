@@ -105,12 +105,6 @@ ol li {
   padding-left: 13px !important;
   padding-right: 13px !important;
 }
-@media (min-width: 992px) {
-  .team-memeber-page-padding {
-    padding-left: unset !important;
-    padding-right: unset !important;
-  }
-}
 
 span.SubHead,
 .secondary-text {
