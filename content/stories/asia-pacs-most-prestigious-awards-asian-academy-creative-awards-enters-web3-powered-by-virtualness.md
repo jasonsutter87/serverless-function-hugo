@@ -11,7 +11,7 @@ thumbImage: /images/uploads/asian-academy-creative-awards-enters-web3-powered-by
 alt: Asian Academy Creative Awards logo alongside the "Goddess of Creativity"
   statuette.
 tags:
-  - investment
+  - spotlight
 priority: "0.5"
 share: true
 date: 2022-12-13T00:44:09.882Z
