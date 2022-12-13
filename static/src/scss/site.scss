@@ -1144,8 +1144,44 @@ footer {
   .item-h {
     grid-area: spotlight4;;
   }
-  .item-j {
+  .item-i {
     grid-area: strategy2;
+
+    .lottie-risk-anamation {
+      position: relative;
+      z-index: 5;
+    }
+
+    .background-image{
+      position: absolute;
+      top: calc(1rem + 1px);
+      left: 1rem;
+      right: 1rem;
+      bottom: 1rem;
+      z-index: 0;
+      background-image: url('/assets/cards/Large/impactvc-strategy-bkgd-02-L.jpg');
+    }
+  }
+  .item-j {
+    grid-area: strategy3;
+
+    .lottie-risk-anamation {
+      position: relative;
+      z-index: 5;
+    }
+
+    .background-image{
+      position: absolute;
+      top: calc(1rem + 1px);
+      left: 1rem;
+      right: 1rem;
+      bottom: 1rem;
+      z-index: 0;
+      background-image: url('/assets/cards/Large/impactvc-strategy-bkgd-02-L.jpg');
+    }
+  }
+  .item-k {
+    grid-area: news2;
 
     .lottie-risk-anamation {
       position: relative;
@@ -1194,7 +1230,8 @@ footer {
       "news1 news1  spotlight2 spotlight2"
       "spotlight3 spotlight3  spotlight3 spotlight3"
       "companies1 people1 spotlight4 spotlight4"
-      "strategy2 strategy2 spotlight4 spotlight4";
+      "strategy2 strategy2 spotlight4 spotlight4"
+      "strategy3 strategy3  news2 news2";
     }
 
 

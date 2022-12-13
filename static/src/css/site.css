@@ -959,14 +959,46 @@ footer .footer-social a:hover, footer .footer-social a:active {
 #index-products-section .item-h {
   grid-area: spotlight4;
 }
-#index-products-section .item-j {
+#index-products-section .item-i {
   grid-area: strategy2;
+}
+#index-products-section .item-i .lottie-risk-anamation {
+  position: relative;
+  z-index: 5;
+}
+#index-products-section .item-i .background-image {
+  position: absolute;
+  top: calc(1rem + 1px);
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 0;
+  background-image: url("/assets/cards/Large/impactvc-strategy-bkgd-02-L.jpg");
+}
+#index-products-section .item-j {
+  grid-area: strategy3;
 }
 #index-products-section .item-j .lottie-risk-anamation {
   position: relative;
   z-index: 5;
 }
 #index-products-section .item-j .background-image {
+  position: absolute;
+  top: calc(1rem + 1px);
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 0;
+  background-image: url("/assets/cards/Large/impactvc-strategy-bkgd-02-L.jpg");
+}
+#index-products-section .item-k {
+  grid-area: news2;
+}
+#index-products-section .item-k .lottie-risk-anamation {
+  position: relative;
+  z-index: 5;
+}
+#index-products-section .item-k .background-image {
   position: absolute;
   top: calc(1rem + 1px);
   left: 1rem;
@@ -991,7 +1023,7 @@ footer .footer-social a:hover, footer .footer-social a:active {
 @media (min-width: 992px) {
   #index-products-section .container {
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-areas: "spotlight1 spotlight1  strategy1 strategy1" "news1 news1  spotlight2 spotlight2" "spotlight3 spotlight3  spotlight3 spotlight3" "companies1 people1 spotlight4 spotlight4" "strategy2 strategy2 spotlight4 spotlight4";
+    grid-template-areas: "spotlight1 spotlight1  strategy1 strategy1" "news1 news1  spotlight2 spotlight2" "spotlight3 spotlight3  spotlight3 spotlight3" "companies1 people1 spotlight4 spotlight4" "strategy2 strategy2 spotlight4 spotlight4" "strategy3 strategy3  news2 news2";
   }
 }
 #index-products-section .container .item {
