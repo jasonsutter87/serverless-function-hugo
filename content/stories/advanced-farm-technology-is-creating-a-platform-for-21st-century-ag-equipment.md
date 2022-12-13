@@ -7,7 +7,7 @@ mainImage: /images/uploads/advanced-farm-technology-featured.jpg
 thumbImage: /images/uploads/advanced-farm-technology-thumb.jpg
 alt: Image of Advanced Farm strawberry Harvester
 tags:
-  - investment
+  - spotlight
 priority: "0.5"
 share: true
 date: 2022-12-13T19:44:52.439Z
