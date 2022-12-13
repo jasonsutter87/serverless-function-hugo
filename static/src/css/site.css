@@ -1383,6 +1383,11 @@ footer .footer-social a:hover, footer .footer-social a:active {
   z-index: 5;
 }
 
+.blog-page-content img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
 .blog-page-content hr {
   margin-top: 2rem;
   margin-bottom: 2rem;
