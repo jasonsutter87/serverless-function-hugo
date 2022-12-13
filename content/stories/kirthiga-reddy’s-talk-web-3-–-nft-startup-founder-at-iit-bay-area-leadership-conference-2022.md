@@ -16,6 +16,6 @@ share: true
 date: 2022-12-13T20:23:24.903Z
 pagetype: article
 ---
-![Preview of Kirthiga Reddy's 2022 IIT Bay Area Leadership Conference talk available to watch on YouTube.](/images/uploads/kirthiga-reddy-video-preview.jpg)
+[![Preview of Kirthiga Reddy's 2022 IIT Bay Area Leadership Conference talk available to watch on YouTube.](/images/uploads/kirthiga-reddy-video-preview.jpg)](https://www.youtube.com/watch?v=VdRANkqhO68)
 
 [W﻿atch on YouTube](https://www.youtube.com/watch?v=VdRANkqhO68)
