@@ -12,7 +12,7 @@ mainImage: /images/uploads/fully-homomorphic-encryption-fhe-in-healthcare-featur
 thumbImage: /images/uploads/fully-homomorphic-encryption-fhe-in-healthcare-thumb.jpg
 alt: Image of Dr. Vineet Chadha, FHE Engineering Manager, Cornami, Inc.
 tags:
-  - investment
+  - spotlight
 priority: "0.5"
 share: true
 date: 2022-12-13T00:12:32.753Z
