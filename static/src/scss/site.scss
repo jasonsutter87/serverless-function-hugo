@@ -1709,9 +1709,12 @@ footer {
 .blog-page-content {
 
   img {
-    width: 100%;
-    object-fit: cover;
+    width: 75%;
+    object-fit: contain;
     object-position: center;
+    margin: 0 auto;
+    display: flex;
+    padding: 25px 0;
   }
 
   hr{

@@ -1384,9 +1384,12 @@ footer .footer-social a:hover, footer .footer-social a:active {
 }
 
 .blog-page-content img {
-  width: 100%;
-  object-fit: cover;
+  width: 75%;
+  object-fit: contain;
   object-position: center;
+  margin: 0 auto;
+  display: flex;
+  padding: 25px 0;
 }
 .blog-page-content hr {
   margin-top: 2rem;
