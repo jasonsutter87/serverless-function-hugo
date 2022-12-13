@@ -11,7 +11,7 @@ thumbImage: /images/uploads/taskhuman-case-study-thumb.jpg
 alt: View of an online meeting on a laptop screen next to a mug of tea on a
   dining room table.
 tags:
-  - investment
+  - spotlight
 priority: "0.5"
 share: true
 date: 2022-12-12T23:59:18.525Z
