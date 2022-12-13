@@ -34,6 +34,4 @@ To realize the full benefits of automation on your ranch, use the advanced.farm 
 
 **"Advanced Farm has really helped me as a grower and my team really advance into the new realm."**
 
-– Matt Conroy
-General & District Manager
-Good Farms
+– Matt Conroy, General & District Manager Good Farms
