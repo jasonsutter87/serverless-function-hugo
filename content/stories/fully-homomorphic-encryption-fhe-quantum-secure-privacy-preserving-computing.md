@@ -8,7 +8,7 @@ mainImage: /images/uploads/fully-homomorphic-encryption-fhe-quantum-secure-priva
 thumbImage: /images/uploads/fully-homomorphic-encryption-fhe-quantum-secure-privacy-preserving-computing-thumb.jpg
 alt: Image of a hacker wearing a hoodie committing cybercrime.
 tags:
-  - investment
+  - spotlight
 priority: "0.5"
 share: true
 date: 2022-12-13T18:55:56.343Z
