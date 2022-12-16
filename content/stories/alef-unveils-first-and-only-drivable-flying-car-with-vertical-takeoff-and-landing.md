@@ -36,8 +36,8 @@ With additional models in development, Alef is working towards the four-person s
 
 * * *
 
-###### About Alef
+######## About Alef
 Alef, based in Santa Clara, California, is a sustainable electric transportation company designing and developing a road-legal passenger car capable of achieving vertical takeoff and forward flight. Alef’s goal is to enable faster, easier commutes and alleviate the burden of urban congestion through the use of proprietary technology that elevates the vehicle safely and quietly above everyday traffic.
 
-###### About Impact Venture Capital
+######## About Impact Venture Capital
 [Impact Venture Capital](https://impactvc.com/) is a Silicon Valley-based early-stage venture capital firm that invests alongside corporate venture groups and top-tier investors in early-stage technology startups with a focus on artificial intelligence applied to security, finance, digital health, and other fast-growing industry sectors.

@@ -37,6 +37,6 @@ Zuckerberg and Yassin serve as Advisors for the company, along with Ben Yu, CTO 
 
 Virtualness will roll out core capabilities for creators and brands when the platform launches in 2023.
 
-## About Virtualness
+#### About Virtualness
 
 Virtualness is a mobile-first platform designed to help creators and brands navigate the complex world of Web3. Founded in 2022 by industry leaders Kirthiga Reddy and Saurabh Doshi, Virtualness puts creators first and is building the playbook for easy design, efficient sharing and seamless digital commerce. Authenticated creators and brands can use Virtualness to design, mint and showcase branded digital collectibles; easily share across their social media channels; directly interact with their community; enable unique experiences and unlock new channels for monetization. Funding led by Blockchange Ventures with participation from Polygon Ventures, F7 Ventures, Micron Ventures, Oceans Ventures, Neythri Futures Fund, Carolyn Everson, Randi Zuckerberg, Nusier Yassin (Nas Daily), Nikki Farb, Stacy Brown-Philpot, and other thought-leaders. To learn more visit [virtualness.io](https://virtualness.io/).

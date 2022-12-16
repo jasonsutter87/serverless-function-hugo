@@ -23,7 +23,7 @@ But the impact of new technologies won't be measured in social media "likes" or 
 
 Consequently, we have a much broader vision of the impact technology can have in the future. Northern California startups have the potential to not only make our lives easier, but better — much better. And not just for wealthy Westerners, but for billions of people scattered across the planet.
 
-## Related: The Internet of You
+#### Related: The Internet of You
 
 Let me put this point into context. Right now, 795 million people around the world struggle to get enough food to eat. Our power plants and automobiles spew 32 billion metric tons of carbon into the atmosphere every year. The U.S. health care system — to say nothing of the rest of the world — wastes $750 billion annually due to factors such as excess administrative costs, inefficiencies and unnecessary service.
 
@@ -35,7 +35,7 @@ At Impact Venture Capital, we focus on the information technology companies serv
 
 We partner with major corporations to resource these efforts and ensure our startups are funded and sustainable for the long haul. We are deliberately headquartered in the heart of the Northern California global innovation economy, with offices in the Bay Area and here in the capital. By taking advantage of all that Northern California has to offer — including the technologies and capital of the Bay, the climate and policy expertise of the Central Valley, and the unparalleled research institutions of both — Impact will tap into the most exciting opportunities coming from our best labs or from our smallest garages.
 
-## Related: Real-World Application of the Internet of Things
+#### Related: Real-World Application of the Internet of Things
 
 As a local boy, I want to emphasize that Sacramento has a unique opportunity to be truly impactful in this new tech wave. The entrepreneurial ecosystem here is remarkably robust and full of diverse talent. The research coming from UC Davis, in particular, is world-class and relevant. And the opportunity to engage state government in these highly-regulated industries is an underappreciated asset.
 

@@ -42,6 +42,6 @@ GigaIO was incorporated in 2012 by Joey Maitra, then employed elsewhere, but was
 
 For more information about GigaIO, visit <https://gigaio.com/>.
 
-## About GigaIO
+#### About GigaIO
 
 Headquartered in Carlsbad, California, GigaIO democratizes AI and HPC architectures by delivering the elasticity of the cloud at a fraction of the TCO (Total Cost of Ownership). With its universal dynamic infrastructure fabric, FabreX™, and its innovative open architecture using industry-standard PCI Express/soon CXL technology, GigaIO breaks the constraints of the server box, liberating resources to shorten time to results. Data centers can scale up or scale out the performance of their systems, enabling their existing investment to flex as workloads and business change over time. For more information, contact [info@gigaio.com](<mailto: info@gigaio.com>) or visit [www.gigaio.com](https://bit.ly/3n0SepL). Follow GigaIO on [Twitter](https://twitter.com/giga_io) and [LinkedIn](https://www.linkedin.com/company/gigaionet.com).

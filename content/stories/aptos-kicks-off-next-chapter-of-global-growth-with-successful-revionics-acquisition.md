@@ -39,13 +39,13 @@ To serve this impressive customer roster, the company has approximately 1,450 re
 
 Aptos, a [portfolio company](https://www.aptos.com/news/aptos-acquisition-goldman-sachs) of the Merchant Banking Division (MBD) of The Goldman Sachs Group, Inc. and its affiliates, was represented by Fried Frank throughout the transaction. Revionics was supported in its sale to Aptos by Sidley.
 
-## About Aptos "Engaging Customers Differently"
+#### About Aptos "Engaging Customers Differently"
 
 In an era of virtually limitless choice, sustained competitive advantage only comes to retailers who engage customers differently — by truly understanding who they are, what they want and why they buy. At Aptos, we too believe that Engaging Customers Differently™ is critical to our success. We are committed to a deep understanding of each of our clients, to fulfilling their needs with the retail industry's most comprehensive omnichannel solutions, and to fostering long-term relationships built on tangible value and trust. More than 1,000 retail brands rely upon our Singular Commerce™ platform to deliver every shopper a personalized, empowered and seamless experience…no matter when, where or how they shop. [Learn more](https://www.aptos.com/)
 
 Follow Aptos on [LinkedIn](https://www.linkedin.com/company/aptos-retail/), [Twitter](https://twitter.com/Aptos_Retail) and [Facebook](https://www.facebook.com/AptosRetail).
 
-## About Revionics, an Aptos Company
+#### About Revionics, an Aptos Company
 
 Revionics, an Aptos Company, is a global provider of science-based pricing, promotion and competitive insight for innovative retailers. Revionics helps retailers around the world gain a competitive edge by managing and optimizing their pricing, promotions, markdowns and advanced analytics. Created by retail experts, Revionics' cloud-based SaaS solutions deliver amazing year-over-year ROI with an attractive total cost of ownership.
 

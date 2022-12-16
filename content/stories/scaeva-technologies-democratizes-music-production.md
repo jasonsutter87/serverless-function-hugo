@@ -14,7 +14,7 @@ share: true
 date: 2021-08-13T16:00:00.000Z
 pagetype: article
 ---
-## Scaeva Empowers Independent Artists, Including Rock Group All Good Things
+#### Scaeva Empowers Independent Artists, Including Rock Group All Good Things
 
 News Provided By\
 [Scaeva Technologies](https://www.prnewswire.com/news/scaeva-technologies/) 
@@ -29,10 +29,10 @@ Although Bojanic owns a well-equipped professional recording studio, he is often
 
 Scaeva Co-Founder and CEO, Steve Curd, indicates there are several new innovation announcements coming over the next several months.
 
-## About Andrew Bojanic
+#### About Andrew Bojanic
 
 Bojanic, along with wife Liz Hooper, have over three decades of experience in writing, recording, producing and mixing creating numerous gold and platinum tracks. After contributing their talents to Disney, and artists such as Britney Spears, Liz Phair, Olivia Newton John, Vanessa Hudgins, plus hundreds of independent up-and-coming artists, Andrew and Liz formed the rock band All Good Things in 2013 to critical acclaim. "For The Glory," one of the earliest tracks to pilot Scaeva technology, just broke #2 on Billboard's Rock Chart. You can track their tour dates online at allgoodthings.la/tour.
 
-## About Scaeva Technologies
+#### About Scaeva Technologies
 
 Leveraging advanced technologies, Scaeva's mission is to remove barriers to content creation, distribution and monetization. Based in Silicon Valley, Scaeva sits at the nexus of technology and entertainment. With a motley group of engineers, scientists, and artists, Scaeva develops powerful technologies at the core of professional audio tools. Their latest invention, InSitu Sound™, combines their proprietary Quadvolution™ spatial audio engine with precisely-tuned hardware, enabling artists to mix like they are still in the studio from anywhere.

@@ -23,10 +23,10 @@ Pondera's award-winning software is supported by their Special Investigations Un
 
 "We have been exploring investment opportunities in state & local government for some time and feel privileged to partner with Jon and the Pondera team," said David Kennedy, Partner at Serent Capital. "Pondera's impressive client base, strong track record in identifying and preventing fraud, and product leadership in the fraud detection and prevention space lay a terrific foundation for long-term success. We are excited to work with the team to help accelerate the success they have had."
 
-## About Pondera Solutions
+#### About Pondera Solutions
 
 Pondera Solutions was founded in 2011 with the singular focus of leveraging the power of cloud computing and advanced analytics to combat fraud, waste, and abuse in large government programs. Since that time, Pondera has helped clients, many of the largest state government programs in the country, to prevent and collect hundreds of millions of dollars in improper payments.Pondera offers a comprehensive cloud solution to help detect, investigate, and enforce fraud, waste, and abuse. The system combines program data with third party consumer and business data and then runs every business, beneficiary, and transaction through a series of procedural and prediction models.The system flags transactions that violate predetermined thresholds and sends an alert to an integrated dashboard "built by investigators, for investigators". Program integrity staff can then analyze the lead, use the system to investigate the lead, and even create and manage a case for ongoing enforcement activities. For more information, visit the company's website at [www.ponderasolutions.com](https://legal.thomsonreuters.com/en/products/fraud-detect).
 
-## About Serent Capital
+#### About Serent Capital
 
 Serent Capital invests in growing businesses that have developed compelling solutions that address their customers' needs. As those businesses grow and evolve, the opportunities and challenges that they face change with them. Principals at Serent Capital have firsthand experience at capturing those opportunities and navigating these difficulties through their experiences as CEOs, strategic advisors, and board members to successful growing businesses. By bringing its expertise and capital to bear, Serent helps growing businesses thrive.

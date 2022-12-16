@@ -23,29 +23,29 @@ Scaeva Technologies, founded by Steve and Wendy Curd, offers tools to help music
 
 "Our mission is to restore this 'missing $20 billion' through innovation and new technologies, and ensure that artists, and those that support them, are free to create more amazing new content, and get paid," the company says.
 
-## How it makes money
+#### How it makes money
 
 Scaeva's revenue comes from licensing the intellectual property it develops.
 
-## Business it may disrupt
+#### Business it may disrupt
 
 The company's first target is the music industry, including the fans. In the future, Scaeva says its technology may be used by the film industry to better protect movies from theft, and its product roadmap includes healthcare applications of its technology that will measure the impact music has on how people feel and think.
 
-## Management team
+#### Management team
 
 Scaeva was co-founded by Steve and Wendy Curd. CEO Steve Curd has previously led a number of life science industry companies, going back to when he was chief operating officer at WebMD from 1998 to 2001. More recently he was CEO of Oncoverse and Wanda Inc. Wendy Curd is vice president of administration. Chief Operating Officer Scott Lentz has been an executive in consumer goods and healthcare, including as chief financial officer at CareCloud, Aprima Medical Software Inc. and PracticeOne Inc.
 
-## Advisers
+#### Advisers
 
 Bill Stephney, the first president of Def Jam Recordings; Daniel Levitin, former president of 415 Records and a neuroscientist focused on how music affects the human brain; Krish Sharma, Grammy Award-winning producer and recording engineer on eight Rolling Stones records and other platinum-selling artists; Cameron Frankley, lead sound designer for Warner Bros Studios; Andrew Bojanic, member of the Wizardz of Oz songwriting and production team and founder of the rock band "All Good Things;" and Stewart Copeland, founding member of The Police.
 
-## Money sought
+#### Money sought
 
 Scaeva closed a $2.5 million Series A round in January and plans to begin work on a Series B round later this year.
 
 Potential market
 $18 billion recorded music industry, $15 billion headphone market
 
-## Likely competitors
+#### Likely competitors
 
 Sennheiser, Audio Technica and Grado in the headphone market for professional content creators, along with all others in the consumer market.

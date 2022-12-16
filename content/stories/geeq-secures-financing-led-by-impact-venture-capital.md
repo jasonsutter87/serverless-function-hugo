@@ -20,7 +20,7 @@ Founded by Ric Asselstine, John P. Conley, Stephanie So and Lun-Shin Yuen, Water
 
 photo credit: Geeq Corporation
 
-## News Release
+#### News Release
 
 Impact Venture Capital Leads Geeq's Equity Financing
 
@@ -32,11 +32,11 @@ About the partnership, Stephanie So, Co-Founder and Chief Development Officer of
 
 Eric Ball, Co-Founder and General Partner of Impact Venture Capital, knows the Geeq founding team well. Eric has been an Advisor of Geeq since its beginning. Of the expanded team and the company, Eric says, "the ambitious scale of Geeq's goals are justified by the quality of the team and anchored in its fundamentals. Geeq's core architecture, its focus on economically useful and new information solutions, and its enabling technology for tokens will create the foundation for a new micropayment economy. Impact Venture Capital is excited to be a part of Geeq."
 
-### About Impact Venture Capital
+##### About Impact Venture Capital
 
 Impact Venture Capital is a Silicon Valley-based early-stage venture capital firm that invests alongside corporate venture groups and top tier investors in seed-stage technology startups, with a focus on artificial intelligence applied to cybersecurity, robotics, autonomous vehicles, fintech, digital health, and other fast-growing industry sectors.
 
-### About Geeq
+##### About Geeq
 
 Geeq is a public blockchain infrastructure-as-a-service that is secured by our Proof Of Honesty™ protocol (PoH), ensuring your most valuable data is the safest it can be whilst being accessible in the most cost-effective manner imaginable. All this makes us the most suitable platform for all your IoT and Micropayment needs.
 

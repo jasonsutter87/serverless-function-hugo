@@ -14,7 +14,7 @@ date: 2020-10-22T19:42:00.000Z
 pagetype: article
 share: true
 ---
-## Quantum-Secure Privacy-Preserving Computing on Encrypted Data Sets Is Game Changer for Cloud Security
+#### Quantum-Secure Privacy-Preserving Computing on Encrypted Data Sets Is Game Changer for Cloud Security
 
 **Campbell, CA. Oct. 22, 2020** – Cornami's break-through computing architecture is able to scale performance without penalties to deliver real-time computing for a number of critical and complex applications.  The company's proprietary technology reduces the use of power sources and lowers latency, while vastly increasing the compute performance for today's massive datasets, whether at the edge or the cloud.  This most notably includes accelerating Fully Homomorphic Encryption (FHE) for real-time computing on encrypted data sets, which is especially vital for cloud security.
 
@@ -24,7 +24,7 @@ Enabling FHE is a game-changer in cloud computing as it allows for extracting va
 
 Paul Master, co-founder and CTO of Cornami, is speaking at the Linley Processor Event on October 22 and will be disclosing Cornami's unique, scalable TruStream reconfigurable computational fabric that is a key ingredient of its innovative architecture.   The company has achieved over 90 issued patents supporting its next-generation fully programable software-defined technology.
 
-### Data Is the New Oil – Next Generation Machine Learning (ML)
+##### Data Is the New Oil – Next Generation Machine Learning (ML)
 
 The value of analytics and data-driven insights are undeniable, and it has been coined by many that "Data is the New Oil."  So, what if a company could use your data without ever having direct access to it?  FHE makes it possible to analyze or manipulate encrypted data without revealing the data to anyone.  This facilitates secure information-sharing across authority boundaries without sacrificing the confidentiality and privacy of the data, delivering tremendous value to multiple markets including fintech, healthcare, mega-web, smart cities, governments and more, while supporting next-generation Machine Learning (ML) encrypted neural networks.
 
@@ -38,7 +38,7 @@ Massive security breaches bring regulatory pressure to restrict data collection 
 
 Cornami is currently working with strategic partners for FHE and other ML driven markets, such as autonomous systems and vehicles, as well as robotics, sensors, and image detection. It is expanding its early customer access program. The company will release further details shortly.
 
-## About Cornami
+#### About Cornami
 
 Cornami is focused on the deployment of intelligent computing in real-time environments.  The company has developed a scalable and massively parallel-processor architecture to address the shift in computing needs for the ever-increasing massive data sets of today, and into the future. This game-changing, software-defined technology delivers unprecedented scalability from thousands of cores on a single chip to millions across a system.  All individually programmable. Cornami empowers developers, large enterprise, IoT, and edge-to-cloud computing to deliver high performance anywhere and on any device at the lowest power and latency.  [www.cornami.com](https://cornami.com/)
 

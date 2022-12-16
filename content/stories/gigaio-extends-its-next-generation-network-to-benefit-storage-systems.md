@@ -28,12 +28,12 @@ The benefits of a native NVMe-oF implementation with FabreX include unparalleled
 
 FabreX is a cutting-edge network architecture for compute and storage infrastructure. The platform delivers hyper-performance with unparalleled low latency and flexibility, allowing data centers to boost their throughput while driving down both their capital and operating costs for an attractive total cost of ownership.
 
-## Availability
+#### Availability
 
 FabreX for NVMe-oF will become a standard part of the GigaIO Leader FX/OS software package and will be released for general availability by the end of September 2019. For sales information, please contact [info@gigaio.com](<mailto: info@gigaio.com>). To learn more about FabreX with NVMe-oF, download the white paper “[New Frontiers in NVMe-oF](http://gigaio.com/wp-content/uploads/2019/05/GigaIO-FabreX-and-NVME-oF-Final.pdf)”.
 
 GigaIO will demonstrate FabreX with NVMe-oF on August 6-8 at the 2019 [Flash Memory Summit](https://www.flashmemorysummit.com/), booth #1045 in Santa Clara, California. To schedule a meeting with GigaIO at the Flash Memory Summit, contact [info@gigaio.com](<mailto: info@gigaio.com>).
 
-## About GigaIO
+#### About GigaIO
 
 GigaIO is creating the Next Generation Network providing hyper-performance and extreme flexibility.  The result is optimized rack and cluster system performance and a greatly reduced total cost of ownership. With the innovative GigaIO FabreX™ architecture, data centers can scale up or out the performance of their systems, preserving their existing investment while adding the newest and latest capabilities. For more information, contact the GigaIO team at [info@gigaio.com](<mailto: info@gigaio.com>) or visit [www.gigaio.com](https://gigaio.com/).

@@ -33,6 +33,6 @@ In the role of Chief Revenue Officer, Phil will lead global Sales and Marketing 
 
 Phil said: "Movement is critical to life in 3-D. It creates engagement and connection, both with each other and with our surroundings. We know this IRL: but it applies equally, if not more so, in the digital immersive realm, the so-called Metaverse." Infinadeck's proprietary [TruWalk™](https://www.infinadeck.com/) omni-directional treadmill lets users unleash the interactive power of a physically dynamic virtual presence. Getting on the Infinadeck for the first time, I recognized how transformative this technology will be. Not surprisingly, I am absolutely delighted to be joining Infinadeck as we build the Movement Platform for the Metaverse™.
 
-## More About Infinadeck
+#### More About Infinadeck
 
 Infinadeck Corporation created the Infinadeck Experience Platform™, a mobility platform for the world’s most immersive virtual experiences, back in 2011. Infinadeck's networked TruWalk™ omnidirectional treadmill system allows users to naturally walk or jog in any direction, in the real and virtual worlds. The company’s vision is improving reality through immersive mobility. The Infinadeck immersive experience platform unlocks the full potential of physically dynamic VR & AR presence. Find out more about how Infinadeck built the Movement Platform for the Metaverse.

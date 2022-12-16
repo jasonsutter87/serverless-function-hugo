@@ -30,7 +30,7 @@ Operating primarily out of its 22,000 square-foot manufacturing facility in Mont
 
 Its intellectual property and proprietary technology in cannabinoid extraction and separation, as well as best-in-class in-house analytical capabilities, has positioned Socati as a leader in the U.S. market. It is one of the first scale producers of ‘USDA Organic' certified cannabinoid ingredients with non-detectable levels of THC, the psychoactive component of hemp, which creates compelling brand value and an early-mover advantage as consumers begin to shift towards organic CBD products. The USDA Organic Seal is the gold standard for supply chain integrity in the United States with consumer demand for organic products driving higher prices relative to non-organic products.
 
-## The Transaction
+#### The Transaction
 
 The Transaction was implemented through a merger (the "Merger") between Socati and Yooma Acquisition Inc., a wholly-owned subsidiary of Yooma, under a merger agreement between the three parties dated March 19, 2021 (the "Merger Agreement").  On completion of the Merger, Socati became a wholly-owned subsidiary of Yooma and the Socati shareholders, as well as certain creditors and other parties having convertible or contingent rights to receive Socati shares, have exchanged their securities of Socati for a right to receive common shares of Yooma, subject to delivery of certain documentation required under the Merger Agreement.
 
@@ -38,7 +38,7 @@ In total, the consideration paid by Yooma in connection with the Transaction amo
 
 With the exception of 928,512 Consideration Shares, the Consideration Shares are subject to (a) an 18-month lock-up period, with one third of the shares releasing on the 6-, 12- and 18-month anniversaries of the closing date, and (b) a 12-month escrow indemnity holdback for 10% of the issued Consideration Shares, which allows them to be accessed to satisfy the indemnity obligations of the parties under the Merger Agreement.
 
-## MI 61-101 Disclosure
+#### MI 61-101 Disclosure
 
 The Transaction is considered a "related party transaction" for the purposes of Multilateral Instrument 61-101 – Protection of Minority Security Holders in Special Transactions ("MI 61-101") on the basis that certain of the recipients of Consideration Shares under the Transaction were existing directors or officers of Yooma.  Lorne Abony is the Chairman of Yooma and the Chairman of Socati, and was the direct or indirect owner of more than 10% of the shares of Socati.  The Merger did not have a material impact on his ownership of Yooma.  Anthony Lacavera is a director and holder of 10% of the shares of Yooma and is also the holder of more than 0.5% of the shares of Socati, as well as certain convertible instruments of Socati.  The Merger decreased his ownership of Yooma from 10% to approximately 7.6%. Two other directors of Yooma, Jordan Greenberg and Antonio Costanzo, held minor interests in Socati that were not considered material and the Merger did not materially impact their ownership of Yooma.
 
@@ -48,14 +48,14 @@ Given the related party interests of certain directors of Yooma in the Transacti
 
 Yooma did not obtain and was not aware, after reasonable inquiry, of any formal valuation reports in respect of Socati prepared within the last 24-month period. Yooma has relied on the exemptions in Section 5.5(a) and Section 5.7(1)(a) of MI 61-101 in respect of the formal valuation and majority of minority approval requirements of MI 61-101, on the basis that none of the related parties in the Transaction were considered "interested parties" (as such term is defined in MI 61-101) at the time the Transaction was agreed to.  The concurrent signing and closing of the Transaction did not allow for the filing of a material change report in connection with the Transaction 21 days prior to the closing of the Transaction.  Yooma and Socati determined that an abridged acquisition schedule was necessary in order to limit the costs associated with the Transaction and to address certain short-term working capital needs of Socati, which could otherwise have negatively impacted on the value of the acquisition. Yooma has completed extensive due diligence on Socati and is satisfied that the benefits of completing the Transaction as soon as possible will be material and in the best interest of the shareholders of both entities.
 
-## About Yooma Wellness Inc.
+#### About Yooma Wellness Inc.
 
 Yooma's mission is to build a global leader in the marketing, distribution, and sale of wellness products including hemp seed oil and hemp-derived and cannabinoid (CBD) ingredients. The company leverages strategically curated sales channels and ecommerce networks to deliver a diverse mix of wellness products through subsidiaries in China, Japan, and the United States. Yooma has assembled an international team of multicultural industry professionals with extensive experience in digital marketing, ecommerce and social media in the EU, North America and the pan-Asian region, particularly in the Chinese ecommerce market. Learn more at www.yooma.ca.
 
 Media Contact:
 [Ron Wardle](<mailto: rwardle@yooma.ca>)
 
-### Notice regarding Forward Looking Statements
+##### Notice regarding Forward Looking Statements
 
 *All information included in this press release, including any information as to the future financial or operating performance and other statements of Yooma that express management's expectations or estimates of future performance, other than statements of historical fact, constitute forward-looking information or forward-looking statements within the meaning of applicable securities laws and are based on expectations, estimates and projections as of the date hereof. Forward-looking statements are included for the purpose of providing information about management's current expectations and plans relating to the future. Wherever possible, words such as "begin to", "growing", "opportunities", "as they arise", "will", "to build" or the negative of these words or other variations thereof, have been used to identify such forward-looking information. Specific forward-looking statements include, without limitation, all disclosure regarding future results of operations, economic conditions and anticipated courses of action, including statements about the potential for vertical integration of Yooma and Socati and any intended uses of Socati products by Yooma; Yooma's expansion into new product categories, regions and markets through its acquisition of Socati; any growth in interest in organic or other CBD or wellness products; potential acquisition opportunities; and any improvements in Yooma's unit economics.*
 

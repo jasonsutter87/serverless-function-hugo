@@ -30,7 +30,7 @@ Ball had collected data and wanted to delve more into the issue, but he had post
 
 Together, Ball and UC Berkeley partnered to craft a study that looked at more than 170,000 US-based start- ups since 2000, based on PitchBook data. They found that through Q2 in 2020, about 14,400 exited. They had a large enough sample to then compare the age and gender of the founders to see if there was a correlation to performance.
 
-## Bias vs performance
+#### Bias vs performance
 
 Ball and UC Berkeley shared the data exclusively with Venture Capital Journal and prior to publishing the academic research online. What they found confirms that young males are preferred by VCs. This is consistent with data reported by Forbes and others, which say women make up about 40 percent of entrepreneurs but have received only 7 percent of venture funding.
 

@@ -14,7 +14,7 @@ date: 2022-12-05T20:47:48.520Z
 pagetype: article
 author: Healium
 ---
-## What is Healium and How Does it Work?
+#### What is Healium and How Does it Work?
 
 Healium is a mental fitness tool that offers you a new, active approach to meditation that is powered by your body’s electricity . Utilize real-time data to train your brain so you can self-manage your anxiety, focus more intently, and sleep better.
 
@@ -22,7 +22,7 @@ Healium is a mental fitness tool that offers you a new, active approach to medit
 
 [W﻿atch video](https://www.youtube.com/watch?v=c6-GdN98XPw)
 
-## Remove the Mystery of Meditation
+#### Remove the Mystery of Meditation
 
 With the power of a virtual reality headset, you can think of Healium as your journey towards mapping and training your own brain. Finally, you have a [neurofeedback device at home](https://www.tryhealium.com/2021/08/31/can-you-do-neurofeedback-at-home/) capable of boosting your mental health and overall mental fitness.
 
@@ -32,7 +32,7 @@ No matter which Healium app you're using, as you reach states of focus or quiet 
 
 In other words, your body's electricity fuels your healing experiences, while your data dashboard helps you track your progress as a whole.
 
-## How Healium Works
+#### How Healium Works
 
 Your brain is a muscle. Healium is your workout.
 
@@ -42,11 +42,11 @@ But, data is only useful if you know how to use it!
 
 Healium helps you [understand your brainwave data](https://www.tryhealium.com/2020/09/22/brainwaves-101-with-dr-jeff-tarrant/) by providing a baseline, a glowing firefly of your real-time brainwaves, a score after each session, and even specific brainwave band measurements in your data dashboard.
 
-### How Our Virtual Reality App Works
+##### How Our Virtual Reality App Works
 
 Our virtual reality meditation experiences are beautiful, [nature based escapes](https://www.tryhealium.com/stories/) that have the option to be powered by your brainwaves in order to train specific aspects of your mental fitness such as your feeling of focused calm.
 
-### Step By Step
+##### Step By Step
 
 Before you begin any training, you'll wear the [BrainLink Lite EEG headband](https://www.tryhealium.com/2020/05/22/brainlink-lite-the-new-eeg-headband-wearable-to-power-healium/) and then put your favorite VR headset, like a Meta Quest 2, on over the headband. Healium measures your baseline brainwaves by gathering data from the BrainLink wearable. This baseline is unique to you; think of it as your “before picture”. Your baseline is a snapshot of your brain's electrical activity without trying to change it.
 
@@ -58,7 +58,7 @@ As the experience proceeds, the firefly flows along the baseline based on real-t
 
 Conversely, if your firefly dips below the baseline, the experience will dim red. That's your neurofeedback signal letting you know you need to make some adjustments in order to shift your brainwaves into a more focused calm state. It could be as simple as taking a deep breath, relaxing your shoulders, or focusing on an element in the VR experience.
 
-#### How to Train Your Mental Fitness in VR
+###### How to Train Your Mental Fitness in VR
 
 The VR experience you choose in the main menu will vary based on your ultimate goal. Our content is divided into five [meditation categories](https://www.tryhealium.com/2021/06/28/the-four-types-of-meditation-styles-explained/): focus, calm, mindfulness, positivity, and sleep. No matter what you're trying to accomplish, though, you'll see your brainwave states represented as a glowing firefly and the solid white line as your brainwave baseline.
 
@@ -68,11 +68,11 @@ Let's say you want to improve your feeling of focused calm. As the experience be
 
 To progress and make the training more challenging , you'll simply adjust your baseline higher and keep your firefly above the baseline. As you progress through this brain training, you'll know you're improving when you can maintain a high score even after you've moved your baseline higher.
 
-## How Our Augmented Reality App Works
+#### How Our Augmented Reality App Works
 
 You can experience the benefits of Healium without even purchasing a virtual reality headset! To train on the go (or take a quick mental fitness break during the day) all you really need is a smartphone or tablet.
 
-### Step By Step
+##### Step By Step
 
 Our augmented reality app is compatible with iOS and Android phones and tablets. It pairs with biometric data wearables like an Apple Watch (for heart rate) or the BrainLink Lite EEG headband (for brainwaves) to determine your progress.
 

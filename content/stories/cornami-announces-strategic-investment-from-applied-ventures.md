@@ -14,7 +14,7 @@ share: true
 date: 2022-03-03T23:54:38.141Z
 pagetype: article
 ---
-## Real-Time Privacy-Preserving Computing on Encrypted Datasets Is Critical for Today's Digital Economy
+#### Real-Time Privacy-Preserving Computing on Encrypted Datasets Is Critical for Today's Digital Economy
 
 Cornami, Inc. – Cornami (named for a "tsunami of cores") announced that Applied Ventures, LLC has made a strategic investment in the company's over-subscribed Series C financing led by SoftBank Vision Fund 2. As the venture capital arm of Applied Materials, Inc., Applied Ventures invests in companies with high growth potential that can help develop technologies and markets that provide natural extensions to Applied's core business – stimulating the growth of applications for semiconductors and related products and services.
 

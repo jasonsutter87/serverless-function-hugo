@@ -220,7 +220,7 @@ h1::before,
   background: repeating-linear-gradient(135deg, transparent, #4d39e9 1px, #4d39e9 1px, transparent 2px, transparent 8px);
 }
 
-h1.h3-heading::before {
+h1.h2-heading::before {
   content: unset;
 }
 

@@ -17,7 +17,7 @@ Here is another installment regarding presentations at the Linley Fall Processor
 
 The presentation was delivered by Paul Master, CTO and co-founder of Cornami. Paul began by talking about post-Von-Neumann algorithms. These are algorithms that cannot be implemented with current computing architectures typically due to their computational complexity and memory access requirements.  Machine learning is like this, but the focus of Paul's talk was implementing fully homomorphic encryption. This algorithm is definitely a post-Von-Neumann candidate as it breaks current computing architectures. The Forbes article cited here talks about this barrier. Hang in there, this will all start to make sense in a moment.
 
-## Valuable and Fragile Data
+#### Valuable and Fragile Data
 
 Paul then touched on the value of data in the connected, AI/ML-driven world. He pointed out that "data is the new oil" in the AI/ML economy. Vast amounts of data are uploaded to the cloud each minute. The processing of that data informs tremendous potential for new products and services. But how is all this value protected? Paul offered a laundry list of things to consider:
 

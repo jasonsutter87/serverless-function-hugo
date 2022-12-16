@@ -35,11 +35,11 @@ For Scaeva, VSX is just the beginning. "We're thrilled to show the world what we
 
 For more information on VSX and its availability, go to stevenslateaudio.com/vsx
 
-## About Scaeva Technologies
+#### About Scaeva Technologies
 
 Scaeva Technologies is a Silicon Valley-based audio & music technology company that delivers 3-dimensional audio and real-time spatial emulations allowing content creators to create from iconic studios virtually. Through innovative research and engineering, Scaeva has created breakthrough audio technology for music and entertainment creators on the go, in their home, or anywhere their creativity takes them.
 
-## What is the Scaeva-powered VSX Headphone Platform?
+#### What is the Scaeva-powered VSX Headphone Platform?
 
 Imagine a way to mix and master from iconic recording studios from around the globe allowing you the capability to select control rooms and studio monitors from your computer, from any location. Imagine now, being able to test your mixes on a car stereo, a boombox, or popular consumer headphones with just a click of a button. This is the freedom that the Scaeva Powered VSX platform allows musicians and creators to experience. This powerful platform delivers tools that would be unreachable to 99% of creators. Scaeva Technologies delivers the power, precision, and freedom to unleash every detail and emotion as the artist or creator intended.
 

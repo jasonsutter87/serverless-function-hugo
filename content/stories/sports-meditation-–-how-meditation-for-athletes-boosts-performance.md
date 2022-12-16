@@ -25,7 +25,7 @@ Mental stress depletes athletes of their drive and their focus, ultimately leadi
 
 One way to reduce mental stress and exhaustion (while also improving overall physical performance) is through sports meditation and mental training for athletes.
 
-## Defining Sports Meditation
+#### Defining Sports Meditation
 
 Sports meditation is a form of mindfulness and mental training that is aimed specifically at helping athletes and active individuals with performance in mind.
 
@@ -41,7 +41,7 @@ In recent years, exciting new possibilities have emerged from the intermingling 
 
 The [immersive qualities of virtual reality](https://www.tryhealium.com/2022/05/27/virtual-reality-mental-health/), for example, have amplified the effectiveness of meditation sessions for users, while additional [neurofeedback](https://tryhealium.com/neurofeedback) technology is revealing new ways to treat meditation like training.
 
-### How Sports Meditation Helps Athletes
+##### How Sports Meditation Helps Athletes
 
 As mental health draws further into the focus of society at large, more and more athletes are realizing how the benefits of consistent meditation can apply to them.
 
@@ -61,7 +61,7 @@ Athletes who use our app Healium, for example, [benefit from brainwave training 
 
 By analyzing the raw brainwave data from your own body and tracking your progress over time, you can remove the mystery from meditation and begin treating your meditation sessions the same way you would a typical workout.
 
-## The Different Brain States Helped by Meditation
+#### The Different Brain States Helped by Meditation
 
 Did you know you have different brain or mental states?
 
@@ -71,7 +71,7 @@ Brainwaves are the result of the neurons in our brain communicating and producin
 
 Three relevant brainwave states for athletes are the alpha, beta, and theta states. Increasing both the alpha and theta brainwave activity introduces our brain into a new, yet similar state: the flow state.
 
-### What is the Flow State?
+##### What is the Flow State?
 
 [The flow state of mind](https://www.tryhealium.com/2022/07/29/flow-state/) describes a mental state where we are completely focused on one task or activity. All our attention goes into what we are currently doing.
 
@@ -93,7 +93,7 @@ As such, the benefits of the flow state include:
 * Out-of-the-box problem solving
 * Better learning and skill mastery
 
-### How to Trigger Your Flow State
+##### How to Trigger Your Flow State
 
 We typically enter the flow state unintentionally or unconsciously. Considering all the benefits of being in the flow state though, it is advantageous to know how to induce it when we want or need it.
 
@@ -105,9 +105,9 @@ Practicing mindfulness sports meditation and entering the flow state before a gr
 
 Despite all the benefits, it is also crucial to understand that it is not always possible to put ourselves into a flow mental state. Rather than a tried and true method, meditation is more about creating the right circumstances and inducing our mind to enter the flow state.
 
-## The Best Meditation Styles for Athletes
+#### The Best Meditation Styles for Athletes
 
-### Mindfulness for Athletes
+##### Mindfulness for Athletes
 
 If we want to learn how to meditate for athletes, it is first important to learn about the different ways to practice meditation. Exploring and familiarizing ourselves with [various meditation styles](https://www.tryhealium.com/2021/06/28/the-four-types-of-meditation-styles-explained/) can help us find the optimal sports meditation practice to use.
 
@@ -117,7 +117,7 @@ Mindfulness meditation involves paying close attention to our breathing and expa
 
 Practicing mindfulness sports meditation is usually done while sitting down, closing our eyes, and paying attention to our breathing.
 
-### Focus Meditation for Athletes
+##### Focus Meditation for Athletes
 
 Focus meditation for athletes typically involves an exercise in maintaining concentration on a single thing. 
 
@@ -125,13 +125,13 @@ For example, focusing on specific body patterns (like breathing), sounds in your
 
 This style of meditation improves focus, memory, and decreases mind wandering–all of which can be extremely beneficial for athletes, whether they're looking for a performance boost on gameday or need help with the mental aspect of training for their particular sport.
 
-### Quiet Mind Meditation for Athletes
+##### Quiet Mind Meditation for Athletes
 
 Quiet mind meditations enhance your awareness of your “self” and minimizes your internal "self-talk", which grants ample room for more regenerative thoughts towards yourself.
 
 With how pivotal a role self-confidence and pure, uninterrupted states of mind can be when it comes to sports performance, athletes understand how beneficial simply turning off your brain can be perhaps more than most.
 
-### Mindful Movement: Yoga and Martial Arts
+##### Mindful Movement: Yoga and Martial Arts
 
 We can also practice mindfulness sports meditation in other ways. [Qi gong](https://www.nccih.nih.gov/health/qigong-what-you-need-to-know), [tai chi](https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/tai-chi/art-20045184), and [yoga](https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/yoga/art-20044733) are popular physical activities that complement mindfulness meditation. 
 
@@ -139,7 +139,7 @@ Qi gong and tai chi are Chinese martial arts that combine breathing exercises, b
 
 Practicing any of these three together with mindful sports meditation is ideal for both pre-and post-workout meditation. Before workouts, it can help athletes warm-up. Afterward, it can help them cool down and relax their muscles.
 
-### Is Meditation Used in Professional Sports?
+##### Is Meditation Used in Professional Sports?
 
 There are plenty of professional athletes that practice sports meditation.
 
@@ -149,7 +149,7 @@ The late Kobe Bryant is another athlete who was well-known for advocating the im
 
 The benefits of mental training for athletes were [highlighted in a study](https://www.nytimes.com/2017/06/21/well/live/to-train-an-athlete-add-12-minutes-of-meditation-to-the-daily-mix.html) involving a group of elite National Collegiate Athletic Association (NCAA) Division I football players. Even with just a minimum of 12 minutes per day, mindfulness sports meditation helped the young football players maintain their focus, keep their moods up, and fortify their mental resilience.
 
-### Treating Meditation like Training
+##### Treating Meditation like Training
 
 Meditation for sports success is not exactly a new concept. However, it has grown increasingly popular in recent years, thanks to well-known athletes who practice and advocate for it.
 

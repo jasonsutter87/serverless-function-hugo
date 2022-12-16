@@ -25,11 +25,11 @@ Michael D. Lesh, SM MD FACC, founder and CEO of Syntegra commented, "We are exci
 
 Leeland Ekstrom, PhD, COO and cofounder of Nashville Biosciences said, "We are constantly looking for innovative new tools and approaches that we can deploy against our clients' R&D problems. The Syntegra Medical Mind is an analytic approach that does exactly that, and we are excited to test it in this specific application."
 
-## About Syntegra
+#### About Syntegra
 
 Syntegra is unlocking the promise of healthcare data by employing groundbreaking machine learning models to enable low-burden access to high-quality, privacy-preserved data. The result? AI-enabled synthetic data with the potential to dramatically accelerate the development of novel treatments and improve patient care by making data easily shareable without compromising patient privacy. Syntegra's ever-expanding, pre-trained model — the "Syntegra Medical Mind" — is built from the statistical patterns of data across healthcare modalities, serving the diverse needs of stakeholders across the healthcare industry, including large health systems, life sciences companies, payers, data scientists and clinical research organizations. Syntegra is backed by well-established investment firms, including Sweat Equity Ventures, Hike Ventures, Impact Venture Capital, Village Global, Wisconsin Valley Ventures and Innovation Global Capital. Learn more at [www.syntegra.io](https://www.syntegra.io/).
 
-## About Nashville Biosciences
+#### About Nashville Biosciences
 
 Nashville Biosciences, a wholly owned subsidiary of Vanderbilt University Medical Center (VUMC), was created to harness the Medical Center's extensive genomic and bioinformatics resources for drug and diagnostics discovery and development. Leveraging Vanderbilt University Innovation™, Nashville Biosciences serves as a commercial interface between outside companies and the formidable research capabilities represented by BioVU®, one of the world's most comprehensive genetic databases linked to de-identified medical records with years of longitudinal clinical data. This unique asset is one of the largest and highest quality of its kind, providing an unprecedented opportunity to guide R&D activity in biotech, pharma, diagnostics, medical devices and other life sciences applications.
 

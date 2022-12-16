@@ -18,7 +18,7 @@ share: true
 date: 2022-12-13T00:12:32.753Z
 pagetype: article
 ---
-## Big Data in Medicine
+#### Big Data in Medicine
 
 Big data and data analytics are transforming the way we manage, analyze, and leverage the vast amounts of data associated with and generated from multiple application sectors. One of these sectors is the healthcare industry, which is working to significantly improve disease diagnostics, clinical research, as well as patient care and outcomes.
 
@@ -28,7 +28,7 @@ Big data, as it applies to the healthcare industry refers to the enormous amount
 
 This is driven largely by, but not limited to, the rapid development and adoption of IoMT (internet of medical things) devices, e.g., connected medical devices, data collection, and computing both at the edge and in the cloud.
 
-## What’s to be done with all this data?
+#### What’s to be done with all this data?
 
 Big data in healthcare benefits both patients and providers. Patient data can be used to identify and/or predict risks to individuals or communities and develop better and more targeted treatment plans. Staffing and operations data can be used to analyze trends for forecasting patient admissions and predictive staff scheduling for peak or slow periods. Data sharing can foster research and innovation that reduce time-to-market for new prescription medications and medical devices, as well as tracking risks and side effects to increase patients’ safety and reduce liability. Insurance companies can leverage medical data to detect and prevent crimes and insurance fraud while making claims processes faster and more streamlined.
 
@@ -64,13 +64,13 @@ According to a report from Business Insider, there are 21 key areas where medica
 
 For healthcare data to be useful and actionable, it must be accessed and analyzed. Without proper protections, this can be at best, risky and costly; at worst it can result in privacy breaches of millions of patients, loss of valuable data, regulatory penalties for not adhering to HIPAA and other regulatory guidelines, and significant loss of business and revenue.
 
-## So, what’s the problem?
+#### So, what’s the problem?
 
 The biggest obstacle to effectively using big data in the medical field is how that data is spread out across sometimes dozens of separate entities; how it is governed by different countries, states, or jurisdictions, how it is managed and protected by hospitals, and their internal and external administrative organizations. The cohesive integration of these data sources would be physically, practically, and technically nearly impossible. The only practical solution for such distributed data sources is to make them sharable. One way of sharing sensitive data is through an encryption mechanism that lets users encrypt data and share it with a third party for analysis.
 
 While sensitive data is encrypted when sharing, processing the data requires delegating that data to an untrusted source and operating on it after it is decrypted. In other words, current encryption schemes to protect data only do so while that data is ***at rest*** or ***in transit***. The challenge arises when we try to perform analysis or query functions on that encrypted data and currently in healthcare applications, we cannot without decrypting the data. The moment the data is exposed, employees, contractors, hackers, and 3rd parties can steal or misappropriate that data.
 
-## This is where FHE comes in
+#### This is where FHE comes in
 
 FHE or Fully Homomorphic Encryption was originally developed at Stanford University by Craig Gentry to enable computing on encrypted data sets, keeping the underlying confidential data secure. Gentry’s scheme uses lattice-based cryptography, addition, and multiplication operations on ciphertexts, introducing noise, and bootstrapping, ultimately resulting in the indecipherable ciphertext which can only be decrypted by the party that owns the data.
 
@@ -78,11 +78,11 @@ Patient health records are digital records of a patient’s medical history kept
 
 Fully homomorphic encryption enables analytical functions to be performed on encrypted data yielding encrypted results as if the functions were being performed in plaintext.
 
-## A real-world example
+#### A real-world example
 
 Consider the example of the medical or pharmaceutical researcher that wants to analyze statistics on the efficacy of a new procedure or drug on a specific demographic or segment of patients. The hospital that owns the medical records is unable to share them due to privacy regulations. The solution is to use FHE encryption on this sensitive data so that it can remain secure during the analysis.
 
-## Why is FHE Important?
+#### Why is FHE Important?
 
 FHE enables computation on encrypted data without exposing any information about the underlying data. In short, a party can encrypt input data, while another party, that does not have access to the decryption key, can perform computation on the encrypted data. The final result is also encrypted, and it can be unencrypted only by the party that possesses a unique key. Thus, data can remain encrypted and obfuscated while it is processed, enabling useful analytical output results to be obtained securely even if the data resides in untrusted environments.
 

@@ -31,7 +31,7 @@ Where: Registration for the free event is available here
 
 Attendees will also receive a copy of TaskHuman's corresponding eBook "Lead and Succeed Through Uncertainty: The Five Core Management Competencies Leaders Need to Master," available for download here.
 
-## About TaskHuman
+#### About TaskHuman
 
 Founded in 2017, TaskHuman is the world's first real-time digital coaching platform, allowing users to amplify their daily work and personal life with 1:1 personalized guidance from LIVE specialists over video calls. With TaskHuman, instantly discover and connect with the world's most comprehensive global network of coaches, instructors, and specialists covering over 1,000 aspects of your well-being, such as physical fitness, mental well-being, spiritual, emotional, financial, career & leadership coaching, and more. With this platform, users can focus on selfcare anytime — privately and cost effectively. The company has over 100 full-time team members and more than 1,000 coaches around the world across nearly 50 different countries. TaskHuman is backed by USVP, Impact Ventures, Madrona, RingCentral Ventures, and several notable individual investors. To learn more, follow TaskHuman on Twitter [@taskhuman](https://twitter.com/taskhuman), download on the App Store or Google Play, and visit the company's website at <https://taskhuman.com/>.
 

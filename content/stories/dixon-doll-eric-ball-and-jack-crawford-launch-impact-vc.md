@@ -36,7 +36,7 @@ Both Ball and Crawford are graduates of the Kauffman Fellows program, an elite v
 
 "Access to the knowledge, professional networks and financial capital of venture investors is the lifeblood of the entrepreneurial ecosystem. Without it, most startup founders lack the resources they need to scale and grow their ideas into the next generation of great American companies," said Bobby Franklin, President and CEO of NVCA. "We congratulate the team at Impact Venture Capital on a successful launch and wish them luck as they start this journey."
 
-## About Impact Venture Capital
+#### About Impact Venture Capital
 
 Impact Venture Capital is an investment firm focused on early stage information technology startups, with a focus on software and data analytics, and a commitment to serving one of four "global challenges": security and government; energy and transportation; agriculture and health; and education and media. The firm has California investment offices in Burlingame and Sacramento.
 

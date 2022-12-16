@@ -13,7 +13,7 @@ share: true
 date: 2020-01-20T22:23:00.000Z
 pagetype: article
 ---
-## Old-guard retailers are looking for technology systems that can make visits to physical stores better or more relevant
+#### Old-guard retailers are looking for technology systems that can make visits to physical stores better or more relevant
 
 By Jared Council
 Updated Jan. 15, 2020 8:01 am ET

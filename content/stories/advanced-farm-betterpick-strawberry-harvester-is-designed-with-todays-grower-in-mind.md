@@ -25,7 +25,7 @@ The advanced.farm BetterPick strawberry harvester is designed with today's growe
 
 ![Image of Advanced Farm BetterPick Strawberry Harvester in a strawberry field at night.](/images/uploads/advanced-farm-betterpick-strawberry-harvester.jpg)
 
-## Product Reliability
+#### Product Reliability
 
 Our machines are battle-tested in the field, with tens of thousands of runtime hours on strawberry farms. But, here's a look at the rigorous testing we perform before we even leave the lab to make sure you can depend on us.
 

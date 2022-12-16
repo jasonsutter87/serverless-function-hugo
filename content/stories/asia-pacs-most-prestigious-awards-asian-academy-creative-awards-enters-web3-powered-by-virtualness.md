@@ -27,13 +27,13 @@ Asian Academy Creative Awards serves the creative industries as the pinnacle of 
 
 To ensure accuracy and fidelity, the digital collectible Virtualness powers will be drawn from the same 3D model as the actual trophy. The grand final winners of the Asian Academy Creative Awards will receive these coveted collectibles, along with the physical golden ‘Goddess of Creativity' statuette. By combining digital and physical versions of the award, honorees can not only display their statuette in a prominent place, but can badge their social platforms with their award and add it to a variety of digital instantiations of their real life, thus extending this incredible recognition.
 
-## About Virtualness
+#### About Virtualness
 
 Virtualness is a mobile-first platform designed to help creators and brands navigate the complex world of Web3. Founded in 2022 by industry leaders Kirthiga Reddy and Saurabh Doshi, Virtualness puts creators first and is building the playbook for easy design, efficient sharing and seamless digital commerce. Authenticated creators and brands can use Virtualness to design, mint, showcase and sell branded digital collectibles; easily share across their social media channels; directly interact with their community; enable unique experiences and unlock new channels for monetization. Funding led by Blockchange Ventures with participation from Polygon Ventures, F7 Ventures, Micron Ventures, Better Ventures, FalconX, Impact Venture Capital, Neythri Futures Fund, Oceans Ventures, Perot Jain, VC3 DAO, Carolyn Everson, Randi Zuckerberg, Nusier Yassin (Nas Daily), Amit Jain, Harsh Jain, Marina Mogilko, Nikki Farb, Stacy Brown-Philpot, Tom Cheung, Vani Kola and other thought-leaders.
 
 To learn more visit [www.virtualness.io](https://c212.net/c/link/?t=0&l=en&o=3721908-1&h=178852717&u=https%3A%2F%2Fvirtualness.io%2F&a=www.virtualness.io). Media Contact: [Email](<mailto: press@virtualness.io>)
 
-## About Asian Academy Creative Awards
+#### About Asian Academy Creative Awards
 
 The Asian Academy Creative Awards (AAA) was established to honour creative excellence and serve as a peer judged pinnacle of achievement in content creation, performance and media production. Open to countries throughout the Asia Pacific region, the AAA honours excellence across television, film, digital, streaming and emerging technologies. Through its Academy Campus it also strives to develop and encourage the next generation of industry professionals. For more details on the AAA, please visit [www.asianacademycreativeawards.com](https://www.asianacademycreativeawards.com). Media contact: [Email](<mailto: hello@asianacademycreativeawards.com>)
 

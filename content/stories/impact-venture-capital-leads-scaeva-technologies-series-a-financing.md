@@ -18,7 +18,7 @@ pagetype: article
 ---
 **[AIT News Desk](https://www.aithority.com/author/ait-news-desk/)  22 Jan 2020** 
 
-## Scaeva's $2.5 Million Series a Will Turbocharge High-Margin Revenue Growth
+#### Scaeva's $2.5 Million Series a Will Turbocharge High-Margin Revenue Growth
 
 [Scaeva Technologies Inc](https://scaevatech.com/), inventor of ground-breaking new headphone technology and the ScaevaSAFE content protection platform, announces that it has closed its first institutional funding, with Impact Venture Capital leading the round.
 

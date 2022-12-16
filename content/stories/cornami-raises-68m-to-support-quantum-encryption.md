@@ -19,7 +19,7 @@ Cornami has generated significant investor interest because it offers a TruStrea
 
 Its solution provides enterprises with a foundation they can use to accelerate [Fully Homomorphic Encryption](https://venturebeat.com/2021/04/03/ibm-bets-homomorphic-encryption-is-ready-to-deliver-stronger-data-security-for-early-adopters/) (FHE) to encrypt data against post-quantum threats faster. Cornami's approach not only reduces application latency in the cloud and at the network's edge, but also lowers the overall power consumption of apps.
 
-## The FHE race
+#### The FHE race
 
 The announcement comes as organizations are starting to recognize the potential risks of post-quantum threats. This comes after the [White House](https://www.whitehouse.gov/briefing-room/statements-releases/2022/05/04/national-security-memorandum-on-promoting-united-states-leadership-in-quantum-computing-while-mitigating-risks-to-vulnerable-cryptographic-systems/) released a memorandum noting that quantum computing poses a "significant risk" to the economic and [national security](https://venturebeat.com/2021/03/01/national-security-commission-on-artificial-intelligence-issues-report-on-how-to-maintain-u-s-dominance/) of the United States.
 
@@ -31,7 +31,7 @@ Cornami is aiming to accelerate the race toward FHE by providing a high-performa
 
 According to Rhines, Cornami's focus on FHE enables organizations to extract valuable data analytics from enterprise apps without decrypting data and exposing it in plaintext, whether its intellectual property, personally identifiable information, or financial information.
 
-## A brief look at the quantum cryptography market 
+#### A brief look at the quantum cryptography market 
 
 Just as Cornami is in a state of growth, researchers valued the global market for [quantum cryptography](https://www.globenewswire.com/news-release/2022/05/11/2440707/0/en/Global-Quantum-Cryptography-Market-to-Reach-US-291-9-Million-by-the-Year-2026.html#:~:text=In%20addition%2C%20the%20market%20growth,next%2Dgeneration%20wireless%20network%20technologies.&text=%2D%20The%20Quantum%20Cryptography%20market%20in,share%20in%20the%20global%20market.) at $128.9 million in 2022. They anticipate that it will reach a total value of $291.9 million by 2026 as more organizations invest in quantum computing to enhance their computing power and quantum cryptography to protect their data.
 

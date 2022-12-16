@@ -29,17 +29,17 @@ Dimitar Jetchev, CTO and co-founder of Inpher, Inc.
 
 The two companies are collaborating to enable Inpher's advanced cryptographic products, in which data remains protected while being processed, to execute on the Cornami computing platform. Cornami's unique next-generation post-von Neumann architecture enables massive parallelism and pipelining capabilities at scale, delivering compute-intensive FHE for commercially viable real-time products and services.
 
-## FHE Brings Three Significant Sea-Change Advances to the Information Processing Industry
+#### FHE Brings Three Significant Sea-Change Advances to the Information Processing Industry
 
-### Massive and Costly Data Breaches become a thing of the Past
+##### Massive and Costly Data Breaches become a thing of the Past
 
 Commercially viable FHE provides quantum-secure privacy-preserving computing on encrypted data sets, keeping the underlying data secure. In essence, assume that computing environments are compromised; so, secure the data. The data, including its unrestricted computational derivatives, remain encrypted at rest and throughout its processing life cycle. Data is only decrypted to plaintext in data owner-controlled environments.
 
-### Data Secure from Quantum Computer-Based Attacks
+##### Data Secure from Quantum Computer-Based Attacks
 
 FHE is based on notoriously hard mathematical lattice problems that are secure against attacks even by quantum computers. This feature allows provable data security – even in untrusted computing environments like public cloud platforms.
 
-### AI Training, AI Inference, and Analytics Gain Data Insights without Data Exposure
+##### AI Training, AI Inference, and Analytics Gain Data Insights without Data Exposure
 
 Datasets from single or multiple sources can be encrypted using the same public FHE key. The data is then aggregated into an encrypted database, where AI (both training and inference) and analytic algorithms can be applied at commercially viable speeds. Results can be decrypted by a third-party without ever exposing plaintext data. This feature enables the cooperation of multiple, independent organizations such as healthcare companies, governments, financial institutions and more to gain insights into their collective data while preserving the privacy of that data's contents.
 
@@ -51,14 +51,14 @@ Cornami and Inpher have completed several technical exploratory milestones to un
 
 Want to know more about FHE? Please join Michael Azoff, chief analyst, Kisaco Research, Dr. Tom Rondeau, program manager, Strategic Technology Office (STO) DARPA, and Dr. Walden "Wally" Rhines, president and CEO, Cornami Inc. for a one (1) hour webinar Feb. 10, 2021 at 10am PST.
 
-## About Cornami
+#### About Cornami
 
 Cornami is focused on the deployment of intelligent computing in real-time environments. The company has developed a massively parallel-processor computing architecture that addresses the shift in computational needs for today's ever-increasing vast data sets. This game-changing, software-defined computational fabric delivers unprecedented scalability from thousands of cores on a single chip to millions across a system, all individually programmable. Cornami empowers developers, large enterprise, IoT, and edge-to-cloud computing to deliver high performance anywhere, on any device, and at the lowest power and latency. [www.cornami.com](https://cornami.com/)
 
-## About Inpher
+#### About Inpher
 
 Inpher has pioneered cryptographic Secret Computing® that enables advanced analytics and machine learning models while keeping data private, secure, and distributed. At Inpher, we believe that privacy and security are foundational to the future of computing and have built enterprise products to make this vision a reality. Our world-class cryptographers have won numerous [international encrypted data competitions](https://inpher.io/news/inpher-wins-international-encrypted-data-competition/), [regulatory techsprints](https://inpher.io/news/inpher-wins-peoples-choice-award-at-fca-financial-crime-techsprint/), and [Gartner Cool Vendor awards](https://inpher.io/news/inpher-named-a-2019-gartner-cool-vendor-in-privacy-preservation-in-analytics/). We are a global company with offices in New York City, San Francisco, and Lausanne, Switzerland.
 
-## Contacts
+#### Contacts
 
 [Darlene Kindler](<mailto: media@cornami.com>)

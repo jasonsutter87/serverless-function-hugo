@@ -30,7 +30,7 @@ Deploying its TX Robotic Strawberry Harvester fleet to work in fields in the maj
 
 "We are fortunate to have the opportunity to work with the best in our industry and continue to be impressed by the practical, hands-on approach of Advanced Farm – a proven team that is building upon their past success to bring meaningful automation solutions to farming," said Dave Murray, Partner at GoodFarms. "Automating our harvest with the Advanced Farm TX Robotic Strawberry Harvester helps us serve our customers, allowing us to better support our farmworkers, and expand operations to meet the consumer demand for high quality, affordable fresh fruit."
 
-## About Advanced Farm Technologies
+#### About Advanced Farm Technologies
 
 Advanced Farm Technologies develops robotic technology for farmers. In 2019, Advanced Farm became the first U.S. company to commercialize robotic strawberry harvesting, bringing fresh fruit to market using its innovative T-6 platform designed specifically for soil-planted beds. With more than $70 million in customer commitments, Advanced Farm is working to innovate its technology through collaborative partnerships, including one with the U.C. Davis breeding program, to develop a full spectrum of automated solutions for in-field strawberry harvesting from picking to sorting and packing.
 
