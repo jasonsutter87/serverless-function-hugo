@@ -290,6 +290,12 @@ h1,
   }
 }
 
+h1.h3-heading {
+  &::before {
+    content: unset;
+  }
+}
+
 .h1-home-heading {
     font-size: calc(#{$font-size} * 2) !important;
     font-weight: $font-weight-500;

@@ -220,6 +220,10 @@ h1::before,
   background: repeating-linear-gradient(135deg, transparent, #4d39e9 1px, #4d39e9 1px, transparent 2px, transparent 8px);
 }
 
+h1.h3-heading::before {
+  content: unset;
+}
+
 .h1-home-heading {
   font-size: calc(18px * 2) !important;
   font-weight: 500;
