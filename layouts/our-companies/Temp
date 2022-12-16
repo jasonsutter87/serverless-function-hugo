@@ -1,0 +1,40 @@
+{{ range last 6 (where .Site.RegularPages "Type" "stories" ) }}
+
+
+<div class="col-12 col-md-6 mt-4">
+  <div class="p-3 position-relative">
+          <lottie-player class="lottie-animation top-left-grid-lines"  src="https://lottie.host/f756b689-5736-47a9-a44b-8985c71be394/YlVA8YCC8K.json" background="transparent" speed="1"  ></lottie-player>
+          <lottie-player class="lottie-animation top-right-grid-lines" src="https://lottie.host/f041c641-c628-4550-8ed8-041306f1aabf/QuvfuHb5Fk.json" background="transparent" speed="1" ></lottie-player>
+
+          <lottie-player class="lottie-animation bottom-left-grid-lines" src="https://lottie.host/e484b534-6ae3-4528-942f-7604f581c7f9/IGo5pz2FTU.json" background="transparent" speed="1" ></lottie-player>
+          <lottie-player class="lottie-animation bottom-right-grid-lines " src="https://lottie.host/9ebd8ff4-837d-4697-88dd-dd38916943aa/U4sBxKrnzF.json" background="transparent" speed="1" ></lottie-player>
+
+
+          <a href="/stories/{{ .Slug }}" class="position-relative">
+           <img src="{{ .Params.ThumbImage }}" alt="{{ .Params.Alt }}" class="w-100 opactity-antimation">
+          </a>
+
+          <div class="blog-category">
+              {{ with .Params.tags }}
+              {{ range . }}
+              <a class="white-link mr-2" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">
+                <i class="far fa-plus mr-2"></i>{{ . }}
+              </a>
+              {{ end }}
+              </p>
+           {{ end }}
+            </div>
+
+
+
+          <a href="/stories/{{ .Slug }}" >
+          <div class="blog-roll-title">
+              <h5 class="w-75 mx-auto">{{.Title }}</h5>
+          </div>
+          </a>
+
+
+  </div>
+</div>
+
+{{ end}}
