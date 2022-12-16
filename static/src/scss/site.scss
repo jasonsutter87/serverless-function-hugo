@@ -1212,7 +1212,9 @@ footer {
     "companies1"
     "people1"
     "spotlight4"
-    "strategy2";
+    "strategy2"
+    "strategy3"
+    "news2" ;
     @media (min-width: 768px) {
       grid-template-columns: 50% 50%;
       grid-template-areas:
@@ -1221,7 +1223,8 @@ footer {
       "news1 people1"
       "spotlight3 people1"
       "spotlight4 spotlight4"
-      "companies1  strategy2";
+      "companies1  strategy2"
+      "strategy3 news2";
     }
     @media (min-width: 992px) {
       grid-template-columns: 25% 25% 25% 25%;
