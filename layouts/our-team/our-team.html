@@ -130,49 +130,7 @@
 <script>
   setTimeout(() =>{
     $(() => {
-      let investmentParters = [
-          {
-            name: "Eric Ball",
-            title: "GENERAL PARTNER",
-            photo: "/assets/team/impact-venture-capital-team-eric-ball.jpg",
-            linkedin: "https://www.linkedin.com/in/eric-ball-ba688b3/",
-            twitter: "",
-            link:  "eric-ball"
 
-          },
-          {
-            name:  "Jack Crawford",
-            title:  "GENERAL PARTNER",
-            photo: "/assets/team/impact-venture-capital-team-jack-crawford.jpg",
-            linkedin:  "https://www.linkedin.com/in/jackc2/",
-            twitter: "https://twitter.com/TheJackCrawford",
-            link: "/jack-crawford"
-          },
-          {
-            name: "Jean Mou",
-            title: "AI Software",
-            photo: "/assets/team/impact-venture-capital-team-jean-mou.jpg",
-            linkedin: "https://www.linkedin.com/in/jeanmou/",
-            twitter: "",
-            link: ""
-          },
-          {
-            name: "Yatish Mishra",
-            title: "AI Database & Chips",
-            photo: "/assets/team/impact-venture-capital-team-yatish-mishra.jpg",
-            linkedin: "https://www.linkedin.com/in/yatish-mishra-5508707/",
-            twitter: "",
-            link: ""
-          },
-          {
-            name: "Jan Geldmacher",
-            title: "AI TeleComm & Robotics",
-            photo: "/assets/team/impact-venture-capital-team-jan-geldmacher.jpg",
-            linkedin: "https://www.linkedin.com/in/jangeldmacher/",
-            twitter: "",
-            link: ""
-          }
-      ]
       let investmentTeam = [
           {
             name: "Aaron Anderson",
@@ -423,175 +381,182 @@
 
       let initLoad = () => {
               investmentParters.forEach((val, inx) => {
-                  if(val.link == '') {
-                    $('#team-memeber-row').append(`
-                    <div class="col-12 col-md-6 mt-4 text-center">
-                        <div class="position-relative p-3">
-                          <lottie-player class="lottie-animation top-left-grid-lines"  src="https://lottie.host/f756b689-5736-47a9-a44b-8985c71be394/YlVA8YCC8K.json" background="transparent" speed="1"  autoplay></lottie-player>
+                if(!val.link) {
+                  $('#team-memeber-row').append(`
+                  <div class="col-12 col-md-6 mt-4 text-center">
+                      <div class="position-relative p-3">
+                        <lottie-player class="lottie-animation top-left-grid-lines"  src="https://lottie.host/f756b689-5736-47a9-a44b-8985c71be394/YlVA8YCC8K.json" background="transparent" speed="1"  autoplay></lottie-player>
+                        <lottie-player class="lottie-animation top-right-grid-lines" src="https://lottie.host/f041c641-c628-4550-8ed8-041306f1aabf/QuvfuHb5Fk.json" background="transparent" speed="1" autoplay></lottie-player>
+
+                        <lottie-player class="lottie-animation bottom-left-grid-lines" src="https://lottie.host/e484b534-6ae3-4528-942f-7604f581c7f9/IGo5pz2FTU.json" background="transparent" speed="1" autoplay></lottie-player>
+                        <lottie-player class="lottie-animation bottom-right-grid-lines " src="https://lottie.host/9ebd8ff4-837d-4697-88dd-dd38916943aa/U4sBxKrnzF.json" background="transparent" speed="1" autoplay></lottie-player>
 
 
-                          <a href="${val.linkedin}" class="team-memeber-link" target="_blank" target="_blank">
-                            <img src="${val.photo}" alt="${val.name}" class="w-100">
-                            <div class="team-memeber-content">
-                              <h5 class="white-text">${val.name}</h5>
-                              <h6 class="white-text text-uppercase">${val.title}</h6>
-                            </div>
-                          </a>
+                        <a href="${val.linkedin}" class="team-memeber-link" target="_blank" target="_blank">
+                          <img src="${val.photo}" alt="${val.name}" class="w-100">
+                          <div class="team-memeber-content">
+                            <h5 class="white-text">${val.name}</h5>
+                            <h6 class="white-text text-uppercase">${val.title}</h6>
+                          </div>
+                        </a>
+                      </div>
+
+                  </div>
+                  `)
+
+                } else {
+                  $('#team-memeber-row').append(`
+                  <div class="col-12 col-md-6 mt-4 text-center">
+                      <div class="position-relative p-3">
+                        <lottie-player class="lottie-animation top-left-grid-lines"  src="https://lottie.host/f756b689-5736-47a9-a44b-8985c71be394/YlVA8YCC8K.json" background="transparent" speed="1"  autoplay></lottie-player>
+                        <lottie-player class="lottie-animation top-right-grid-lines" src="https://lottie.host/f041c641-c628-4550-8ed8-041306f1aabf/QuvfuHb5Fk.json" background="transparent" speed="1" autoplay></lottie-player>
+
+                        <lottie-player class="lottie-animation bottom-left-grid-lines" src="https://lottie.host/e484b534-6ae3-4528-942f-7604f581c7f9/IGo5pz2FTU.json" background="transparent" speed="1" autoplay></lottie-player>
+                        <lottie-player class="lottie-animation bottom-right-grid-lines " src="https://lottie.host/9ebd8ff4-837d-4697-88dd-dd38916943aa/U4sBxKrnzF.json" background="transparent" speed="1" autoplay></lottie-player>
+
+                        <a href="/our-team/${val.link}" class="team-memeber-link">
+                          <img src="${val.photo}" alt="${val.name}" class="w-100">
+                          <div class="team-memeber-content">
+                            <h5 class="white-text">${val.name}</h5>
+                            <h6 class="white-text text-uppercase">${val.title}</h6>
+                          </div>
+                        </a>
+                      </div>
+                  </div>
+                  `)
+                }
+              })
+            }
+
+
+      $('#teamSelect').on('change', (e)=>{
+            switch(e.target.value) {
+              case "InvestmentPartners":
+                $('#team-memeber-row').empty();
+                initLoad();
+                break;
+              case "InvestmentTeam":
+                $('#team-memeber-row').empty();
+                investmentTeam.forEach((val, inx) => {
+                    if(!val.link) {
+                      $('#team-memeber-row').append(`
+                      <div class="col-12 col-md-6 mt-4 text-center">
+                          <div class="position-relative p-3">
+
+
+                            <a href="${val.linkedin}" class="team-memeber-link" target="_blank">
+                              <img src="${val.photo}" alt="${val.name}" class="w-100">
+                              <div class="team-memeber-content">
+                                <h5 class="white-text">${val.name}</h5>
+                                <h6 class="white-text text-uppercase">${val.title}</h6>
+                              </div>
+                            </a>
+                          </div>
+
+                      </div>
+                      `)
+
+                    } else {
+                      $('#team-memeber-row').append(`
+                      <div class="col-12 col-md-6 mt-4 text-center">
+                          <div class="position-relative p-3">
+
+
+                            <a href="/our-team/${val.link}" class="team-memeber-link">
+                              <img src="${val.photo}" alt="${val.name}" class="w-100">
+                              <div class="team-memeber-content">
+                                <h5 class="white-text">${val.name}</h5>
+                                <h6 class="white-text text-uppercase">${val.title}</h6>
+                              </div>
+                            </a>
+                          </div>
+                      </div>
+                      `)
+                    }
+                })
+                break;
+              case "VentureAdvisors":
+                $('#team-memeber-row').empty();
+                ventureAdvisor.forEach((val, inx) => {
+                    if(!val.link) {
+                      $('#team-memeber-row').append(`
+                        <div class="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0 text-center">
+                          <div class="position-relative p-3">
+
+
+                            <a href="${val.linkedin}" class="team-memeber-link" target="_blank">
+                              <img src="${val.photo}" alt="${val.name}" class="w-100">
+                              <div class="team-memeber-content">
+                                <h6 class="white-text mb-0">${val.name}</h6>
+                                <p class="white-text">${val.title}</p>
+                              </div>
+                            </a>
+                          </div>
+
                         </div>
-
-                    </div>
-                    `)
-
-                  } else {
-                    $('#team-memeber-row').append(`
-                    <div class="col-12 col-md-6 mt-4 text-center">
+                      `)
+                    } else {
+                      $('#team-memeber-row').append(`
+                      <div class="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0 text-center">
                         <div class="position-relative p-3">
-                          <lottie-player class="lottie-animation top-left-grid-lines"  src="https://lottie.host/f756b689-5736-47a9-a44b-8985c71be394/YlVA8YCC8K.json" background="transparent" speed="1"  autoplay></lottie-player>
 
 
                           <a href="/our-team/${val.link}" class="team-memeber-link">
                             <img src="${val.photo}" alt="${val.name}" class="w-100">
                             <div class="team-memeber-content">
-                              <h5 class="white-text">${val.name}</h5>
-                              <h6 class="white-text text-uppercase">${val.title}</h6>
+                              <h6 class="white-text mb-0">${val.name}</h6>
+                              <p class="white-text">${val.title}</p>
                             </div>
                           </a>
                         </div>
-                    </div>
-                    `)
-                  }
-              })
-            }
 
-      //
-      // $('#teamSelect').on('change', (e)=>{
-      //       switch(e.target.value) {
-      //         case "InvestmentPartners":
-      //           $('#team-memeber-row').empty();
-      //           initLoad();
-      //           break;
-      //         case "InvestmentTeam":
-      //           $('#team-memeber-row').empty();
-      //           investmentTeam.forEach((val, inx) => {
-      //               if(!val.link) {
-      //                 $('#team-memeber-row').append(`
-      //                 <div class="col-12 col-md-6 mt-4 text-center">
-      //                     <div class="position-relative p-3">
-      //
-      //
-      //                       <a href="${val.linkedin}" class="team-memeber-link" target="_blank">
-      //                         <img src="${val.photo}" alt="${val.name}" class="w-100">
-      //                         <div class="team-memeber-content">
-      //                           <h5 class="white-text">${val.name}</h5>
-      //                           <h6 class="white-text text-uppercase">${val.title}</h6>
-      //                         </div>
-      //                       </a>
-      //                     </div>
-      //
-      //                 </div>
-      //                 `)
-      //
-      //               } else {
-      //                 $('#team-memeber-row').append(`
-      //                 <div class="col-12 col-md-6 mt-4 text-center">
-      //                     <div class="position-relative p-3">
-      //
-      //
-      //                       <a href="/our-team/${val.link}" class="team-memeber-link">
-      //                         <img src="${val.photo}" alt="${val.name}" class="w-100">
-      //                         <div class="team-memeber-content">
-      //                           <h5 class="white-text">${val.name}</h5>
-      //                           <h6 class="white-text text-uppercase">${val.title}</h6>
-      //                         </div>
-      //                       </a>
-      //                     </div>
-      //                 </div>
-      //                 `)
-      //               }
-      //           })
-      //           break;
-      //         case "VentureAdvisors":
-      //           $('#team-memeber-row').empty();
-      //           ventureAdvisor.forEach((val, inx) => {
-      //               if(!val.link) {
-      //                 $('#team-memeber-row').append(`
-      //                   <div class="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0 text-center">
-      //                     <div class="position-relative p-3">
-      //
-      //
-      //                       <a href="${val.linkedin}" class="team-memeber-link" target="_blank">
-      //                         <img src="${val.photo}" alt="${val.name}" class="w-100">
-      //                         <div class="team-memeber-content">
-      //                           <h6 class="white-text mb-0">${val.name}</h6>
-      //                           <p class="white-text">${val.title}</p>
-      //                         </div>
-      //                       </a>
-      //                     </div>
-      //
-      //                   </div>
-      //                 `)
-      //               } else {
-      //                 $('#team-memeber-row').append(`
-      //                 <div class="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0 text-center">
-      //                   <div class="position-relative p-3">
-      //
-      //
-      //                     <a href="/our-team/${val.link}" class="team-memeber-link">
-      //                       <img src="${val.photo}" alt="${val.name}" class="w-100">
-      //                       <div class="team-memeber-content">
-      //                         <h6 class="white-text mb-0">${val.name}</h6>
-      //                         <p class="white-text">${val.title}</p>
-      //                       </div>
-      //                     </a>
-      //                   </div>
-      //
-      //                 </div>
-      //                 `)
-      //               }
-      //           })
-      //           break;
-      //         default:
-      //           $('#team-memeber-row').empty();
-      //           entrepreneurResidence.forEach((val, inx) => {
-      //               if(!val.link) {
-      //                 $('#team-memeber-row').append(`
-      //                   <div class="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0 text-center ">
-      //                     <div class="position-relative p-3">
-      //
-      //
-      //                       <a href="${val.linkedin}" class="team-memeber-link" target="_blank">
-      //                         <img src="${val.photo}" alt="${val.name}" class="w-100">
-      //                         <div class="team-memeber-content">
-      //                           <h6 class="white-text">${val.name}</h6>
-      //                           <p class="white-text">${val.title}</p>
-      //                         </div>
-      //                       </a>
-      //                     </div>
-      //
-      //                   </div>
-      //                 `)
-      //
-      //               } else {
-      //                 $('#team-memeber-row').append(`
-      //                 <div class="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0 text-center">
-      //                   <div class="position-relative p-3">
-      //
-      //
-      //                     <a href="/our-team/${val.link}" class="team-memeber-link">
-      //                       <img src="${val.photo}" alt="${val.name}" class="w-100">
-      //                       <div class="team-memeber-content">
-      //                         <h6 class="white-text">${val.name}</h6>
-      //                         <p class="white-text">${val.title}</p>
-      //                       </div>
-      //                     </a>
-      //                   </div>
-      //
-      //                 </div>
-      //                 `)
-      //               }
-      //           })
-      //       }
-      //   })
+                      </div>
+                      `)
+                    }
+                })
+                break;
+              default:
+                $('#team-memeber-row').empty();
+                entrepreneurResidence.forEach((val, inx) => {
+                    if(!val.link) {
+                      $('#team-memeber-row').append(`
+                        <div class="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0 text-center ">
+                          <div class="position-relative p-3">
+
+
+                            <a href="${val.linkedin}" class="team-memeber-link" target="_blank">
+                              <img src="${val.photo}" alt="${val.name}" class="w-100">
+                              <div class="team-memeber-content">
+                                <h6 class="white-text">${val.name}</h6>
+                                <p class="white-text">${val.title}</p>
+                              </div>
+                            </a>
+                          </div>
+
+                        </div>
+                      `)
+
+                    } else {
+                      $('#team-memeber-row').append(`
+                      <div class="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0 text-center">
+                        <div class="position-relative p-3">
+
+
+                          <a href="/our-team/${val.link}" class="team-memeber-link">
+                            <img src="${val.photo}" alt="${val.name}" class="w-100">
+                            <div class="team-memeber-content">
+                              <h6 class="white-text">${val.name}</h6>
+                              <p class="white-text">${val.title}</p>
+                            </div>
+                          </a>
+                        </div>
+
+                      </div>
+                      `)
+                    }
+                })
+            }
+        })
 
       $('#InvestmentPartners').on('click', e => {
         e.preventDefault();
@@ -604,11 +569,15 @@
         $('#team-memeber-row').empty();
 
         investmentTeam.forEach((val, inx) => {
-          if(val.link == '') {
+          if(!val.link) {
             $('#team-memeber-row').append(`
             <div class="col-12 col-md-6 mt-4 text-center">
                 <div class="position-relative p-3">
                   <lottie-player class="lottie-animation top-left-grid-lines"  src="https://lottie.host/f756b689-5736-47a9-a44b-8985c71be394/YlVA8YCC8K.json" background="transparent" speed="1"  autoplay></lottie-player>
+                  <lottie-player class="lottie-animation top-right-grid-lines" src="https://lottie.host/f041c641-c628-4550-8ed8-041306f1aabf/QuvfuHb5Fk.json" background="transparent" speed="1" autoplay></lottie-player>
+
+                  <lottie-player class="lottie-animation bottom-left-grid-lines" src="https://lottie.host/e484b534-6ae3-4528-942f-7604f581c7f9/IGo5pz2FTU.json" background="transparent" speed="1" autoplay></lottie-player>
+                  <lottie-player class="lottie-animation bottom-right-grid-lines " src="https://lottie.host/9ebd8ff4-837d-4697-88dd-dd38916943aa/U4sBxKrnzF.json" background="transparent" speed="1" autoplay></lottie-player>
 
 
                   <a href="${val.linkedin}" class="team-memeber-link" target="_blank" target="_blank">
@@ -628,6 +597,10 @@
             <div class="col-12 col-md-6 mt-4 text-center">
                 <div class="position-relative p-3">
                   <lottie-player class="lottie-animation top-left-grid-lines"  src="https://lottie.host/f756b689-5736-47a9-a44b-8985c71be394/YlVA8YCC8K.json" background="transparent" speed="1"  autoplay></lottie-player>
+                  <lottie-player class="lottie-animation top-right-grid-lines" src="https://lottie.host/f041c641-c628-4550-8ed8-041306f1aabf/QuvfuHb5Fk.json" background="transparent" speed="1" autoplay></lottie-player>
+
+                  <lottie-player class="lottie-animation bottom-left-grid-lines" src="https://lottie.host/e484b534-6ae3-4528-942f-7604f581c7f9/IGo5pz2FTU.json" background="transparent" speed="1" autoplay></lottie-player>
+                  <lottie-player class="lottie-animation bottom-right-grid-lines " src="https://lottie.host/9ebd8ff4-837d-4697-88dd-dd38916943aa/U4sBxKrnzF.json" background="transparent" speed="1" autoplay></lottie-player>
 
 
                   <a href="/our-team/${val.link}" class="team-memeber-link">
@@ -649,39 +622,49 @@
         $('#team-memeber-row').empty();
 
         ventureAdvisor.forEach((val, inx) => {
-            if(!val.link) {
-              $('#team-memeber-row').append(`
-                <div class="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0 text-center">
-                  <div class="position-relative p-3">
-
-                    <a href="${val.linkedin}" class="team-memeber-link" target="_blank">
-                      <img src="${val.photo}" alt="${val.name}" class="w-100">
-                      <div class="team-memeber-content">
-                        <h6 class="white-text mb-0">${val.name}</h6>
-                        <p class="white-text">${val.title}</p>
-                      </div>
-                    </a>
-                  </div>
-
-                </div>
-              `)
-            } else {
-              $('#team-memeber-row').append(`
-              <div class="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0 text-center">
+          if(!val.link) {
+            $('#team-memeber-row').append(`
+            <div class="col-12 col-md-6 mt-4 text-center">
                 <div class="position-relative p-3">
+                  <lottie-player class="lottie-animation top-left-grid-lines"  src="https://lottie.host/f756b689-5736-47a9-a44b-8985c71be394/YlVA8YCC8K.json" background="transparent" speed="1"  autoplay></lottie-player>
+                  <lottie-player class="lottie-animation top-right-grid-lines" src="https://lottie.host/f041c641-c628-4550-8ed8-041306f1aabf/QuvfuHb5Fk.json" background="transparent" speed="1" autoplay></lottie-player>
 
-                  <a href="/our-team/${val.link}" class="team-memeber-link">
+                  <lottie-player class="lottie-animation bottom-left-grid-lines" src="https://lottie.host/e484b534-6ae3-4528-942f-7604f581c7f9/IGo5pz2FTU.json" background="transparent" speed="1" autoplay></lottie-player>
+                  <lottie-player class="lottie-animation bottom-right-grid-lines " src="https://lottie.host/9ebd8ff4-837d-4697-88dd-dd38916943aa/U4sBxKrnzF.json" background="transparent" speed="1" autoplay></lottie-player>
+
+                  <a href="${val.linkedin}" class="team-memeber-link" target="_blank" target="_blank">
                     <img src="${val.photo}" alt="${val.name}" class="w-100">
                     <div class="team-memeber-content">
-                      <h6 class="white-text mb-0">${val.name}</h6>
-                      <p class="white-text">${val.title}</p>
+                      <h5 class="white-text">${val.name}</h5>
+                      <h6 class="white-text text-uppercase">${val.title}</h6>
                     </div>
                   </a>
                 </div>
 
-              </div>
-              `)
-            }
+            </div>
+            `)
+
+          } else {
+            $('#team-memeber-row').append(`
+            <div class="col-12 col-md-6 mt-4 text-center">
+                <div class="position-relative p-3">
+                  <lottie-player class="lottie-animation top-left-grid-lines"  src="https://lottie.host/f756b689-5736-47a9-a44b-8985c71be394/YlVA8YCC8K.json" background="transparent" speed="1"  autoplay></lottie-player>
+                  <lottie-player class="lottie-animation top-right-grid-lines" src="https://lottie.host/f041c641-c628-4550-8ed8-041306f1aabf/QuvfuHb5Fk.json" background="transparent" speed="1" autoplay></lottie-player>
+
+                  <lottie-player class="lottie-animation bottom-left-grid-lines" src="https://lottie.host/e484b534-6ae3-4528-942f-7604f581c7f9/IGo5pz2FTU.json" background="transparent" speed="1" autoplay></lottie-player>
+                  <lottie-player class="lottie-animation bottom-right-grid-lines " src="https://lottie.host/9ebd8ff4-837d-4697-88dd-dd38916943aa/U4sBxKrnzF.json" background="transparent" speed="1" autoplay></lottie-player>
+                  <a href="/our-team/${val.link}" class="team-memeber-link">
+
+                    <img src="${val.photo}" alt="${val.name}" class="w-100">
+                    <div class="team-memeber-content">
+                      <h5 class="white-text">${val.name}</h5>
+                      <h6 class="white-text text-uppercase">${val.title}</h6>
+                    </div>
+                  </a>
+                </div>
+            </div>
+            `)
+          }
         })
       })
 
@@ -690,40 +673,29 @@
         $('#team-memeber-row').empty();
 
         entrepreneurResidence.forEach((val, inx) => {
-            if(!val.link) {
+
               $('#team-memeber-row').append(`
                 <div class="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0 text-center">
                   <div class="position-relative p-3">
+                    <lottie-player class="lottie-animation top-left-grid-lines"  src="https://lottie.host/f756b689-5736-47a9-a44b-8985c71be394/YlVA8YCC8K.json" background="transparent" speed="1"  autoplay></lottie-player>
+                    <lottie-player class="lottie-animation top-right-grid-lines" src="https://lottie.host/f041c641-c628-4550-8ed8-041306f1aabf/QuvfuHb5Fk.json" background="transparent" speed="1" autoplay></lottie-player>
 
-                    <a href="${val.linkedin}" class="team-memeber-link" target="_blank">
-                      <img src="${val.photo}" alt="${val.name}" class="w-100">
-                      <div class="team-memeber-content">
-                        <h6 class="white-text">${val.name}</h6>
-                        <p class="white-text">${val.title}</p>
-                      </div>
-                    </a>
-                  </div>
-
-                </div>
-              `)
-
-            } else {
-              $('#team-memeber-row').append(`
-              <div class="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0 text-center">
-                <div class="position-relative p-3">
-
-                  <a href="/our-team/${val.link}" class="team-memeber-link">
+                    <lottie-player class="lottie-animation bottom-left-grid-lines" src="https://lottie.host/e484b534-6ae3-4528-942f-7604f581c7f9/IGo5pz2FTU.json" background="transparent" speed="1" autoplay></lottie-player>
+                    <lottie-player class="lottie-animation bottom-right-grid-lines " src="https://lottie.host/9ebd8ff4-837d-4697-88dd-dd38916943aa/U4sBxKrnzF.json" background="transparent" speed="1" autoplay></lottie-player>
+                    
+                  <a href="${val.linkedin}" class="team-memeber-link" target="_blank">
                     <img src="${val.photo}" alt="${val.name}" class="w-100">
                     <div class="team-memeber-content">
                       <h6 class="white-text">${val.name}</h6>
                       <p class="white-text">${val.title}</p>
                     </div>
                   </a>
-                </div>
+                  </div>
 
-              </div>
+                </div>
               `)
-            }
+
+
         })
       })
 
