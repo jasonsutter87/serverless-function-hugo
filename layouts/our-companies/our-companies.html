@@ -212,11 +212,11 @@
             <h4><i class="far fa-plus mr-2 primary-text opactity-antimation"></i> Spotlight</h4>
         </div>
       </div>
-      <div class="row mt-lg-5">
+      <div class="row mt-lg-5 team-memeber-page-padding">
 
          {{ $spotlight := slice "spotlight" }}
          {{ range last 6 (where .Site.RegularPages "Params.tags" "intersect" $spotlight) }}
-           <div class="col-12 col-md-6 mt-4">
+           <div class="col-12 col-md-6 px-md-0">
                <div class="p-3 position-relative">
                        <lottie-player class="lottie-animation top-left-grid-lines"  src="https://lottie.host/f756b689-5736-47a9-a44b-8985c71be394/YlVA8YCC8K.json" background="transparent" speed="1"  ></lottie-player>
                        <lottie-player class="lottie-animation top-right-grid-lines" src="https://lottie.host/f041c641-c628-4550-8ed8-041306f1aabf/QuvfuHb5Fk.json" background="transparent" speed="1" ></lottie-player>
