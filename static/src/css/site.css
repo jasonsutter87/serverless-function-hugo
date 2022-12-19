@@ -225,9 +225,9 @@ h1.h2-heading::before {
 }
 
 .h1-home-heading {
-  font-size: calc(18px * 1.777777777777778) !important;
+  font-size: calc(18px * 1.555555555555556) !important;
   font-weight: 500;
-  line-height: calc(30px * 1.466666666666667) !important;
+  line-height: calc(30px * 1) !important;
   font-family: "Poppins", sans-serif !important;
 }
 .h1-home-heading:before {
