@@ -297,7 +297,7 @@ h1.h2-heading {
 }
 
 .h1-home-heading {
-    font-size: calc(#{$font-size} * 2) !important;
+    font-size: calc(#{$font-size} * 1.777777777777778) !important;
     font-weight: $font-weight-500;
     line-height: calc(#{$line-height} * 1.466666666666667) !important;
     font-family: 'Poppins', sans-serif !important;
