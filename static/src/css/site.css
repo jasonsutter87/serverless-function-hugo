@@ -1298,7 +1298,12 @@ footer .footer-social a:hover, footer .footer-social a:active {
 .inner-investment-strategy-section {
   padding-top: 50px;
 }
-.inner-investment-strategy-section lottie-player {
+.inner-investment-strategy-section lottie-player:nth-child(odd) {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+}
+.inner-investment-strategy-section lottie-player:nth-child(even) {
   width: 100%;
   max-width: 300px;
   margin: 0 auto;

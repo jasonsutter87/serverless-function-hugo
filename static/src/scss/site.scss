@@ -1603,7 +1603,13 @@ footer {
 .inner-investment-strategy-section {
     padding-top: 50px;
 
-    lottie-player {
+    lottie-player:nth-child(odd) {
+      width: 100%;
+      max-width: 450px;
+      margin: 0 auto;
+    }
+
+    lottie-player:nth-child(even) {
       width: 100%;
       max-width: 300px;
       margin: 0 auto;
@@ -1828,3 +1834,18 @@ footer {
 .opactity-antimation-active {
   opacity: 1;
 }
+
+// #our-team-section {
+//   & .middle-right-grid-lines,
+//   & .middle-left-grid-lines {
+//     top: unset;
+//     bottom: -1rem;
+//
+//   }
+//
+//     & .middle-middle-grid-lines{
+//       top: unset;
+//       bottom: -1rem;
+//       left: -1rem;
+//     }
+// }
