@@ -1097,6 +1097,7 @@ footer .footer-social a:hover, footer .footer-social a:active {
 }
 #site-cta-section .container .cta-padding {
   padding: 2rem 1rem;
+  margin: 0;
 }
 @media (min-width: 992px) {
   #site-cta-section .container .cta-padding {
@@ -1105,7 +1106,7 @@ footer .footer-social a:hover, footer .footer-social a:active {
 }
 #site-cta-section .container .item {
   align-items: stretch;
-  padding: 2rem;
+  padding: 1rem;
   height: 100%;
   position: relative;
 }
