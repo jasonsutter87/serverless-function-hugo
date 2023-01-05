@@ -1603,16 +1603,14 @@ footer {
 .inner-investment-strategy-section {
     padding-top: 50px;
 
-    lottie-player:nth-child(odd) {
-      width: 100%;
-      max-width: 450px;
-      margin: 0 auto;
-    }
-
-    lottie-player:nth-child(even) {
+    lottie-player:nth-child(n) {
       width: 100%;
       max-width: 300px;
       margin: 0 auto;
+    }
+
+    .third-aniatmation {
+      max-width: 450px !important;
     }
 }
 
