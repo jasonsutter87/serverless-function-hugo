@@ -1473,6 +1473,15 @@ footer .footer-social a:hover, footer .footer-social a:active {
   background-color: #4d39e9;
 }
 
+.impactTVsubscribe {
+  height: 200px;
+}
+@media (min-width: 992px) {
+  .impactTVsubscribe {
+    height: 0;
+  }
+}
+
 .opactity-antimation {
   opacity: 0;
   transition: 0.8s;

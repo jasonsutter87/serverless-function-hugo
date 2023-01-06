@@ -1821,6 +1821,14 @@ footer {
   }
 }
 
+.impactTVsubscribe {
+  height: 200px;
+
+  @media (min-width: 992px) {
+      height: 0; 
+  }
+}
+
 
 //////////////////////////////////////////////////////////////
 //                                                          ||
