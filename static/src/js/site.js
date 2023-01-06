@@ -103,8 +103,6 @@ setTimeout(function(){
 
 
 
-
-
       let allGridLines = document.querySelectorAll('.lottie-animation');
 
       const observer = new IntersectionObserver(entries => {
