@@ -1283,6 +1283,7 @@ footer .footer-social a:hover, footer .footer-social a:active {
   color: #171717;
   font-weight: 500;
   text-decoration: none;
+  padding: 0 7px;
 }
 .inner-team-member-page a.social:active, .inner-team-member-page a.social:hover {
   color: #4d39e9;
