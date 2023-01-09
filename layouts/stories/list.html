@@ -58,58 +58,61 @@
   <section id="blog-roll-section" class="blog-page-section mt-5">
     <div class="site-container-1340">
       <div class="row team-memeber-page-padding">
+
+        <!-- First 5 Cards -->
         {{- $odd := true}}
         {{ range $index, $pages := first 5 .Pages }}
           {{$odd = not $odd}}
             <div class="col-12 col-md-6 px-0 text-center">
               <div class="position-relative p-3">
-                    <!-- return inx === 0 -->
-                    {{ if eq $index 0 }}
-                      <lottie-player class="lottie-animation top-left-grid-lines"  src="https://lottie.host/f756b689-5736-47a9-a44b-8985c71be394/YlVA8YCC8K.json" background="transparent" speed="1"  autoplay></lottie-player>
-                      <lottie-player class="lottie-animation top-right-grid-lines d-lg-none" src="https://lottie.host/f041c641-c628-4550-8ed8-041306f1aabf/QuvfuHb5Fk.json" background="transparent" speed="1" autoplay></lottie-player>
 
-                    <!-- inx === 1 -->
-                    {{ else if eq $index 1 }}
-                      <lottie-player class="lottie-animation middle-left-grid-lines d-lg-none" src="https://lottie.host/8d581456-26c4-492f-9b6c-8dd7a9561659/0WVKyiaGx7.json" background="transparent" speed="1" autoplay></lottie-player>
-                      <lottie-player class="lottie-animation middle-right-grid-lines d-lg-none" src="https://lottie.host/c811dc4d-3601-48b6-848c-7949b19ec5fd/R7UK7DXxyI.json" background="transparent" speed="1" autoplay></lottie-player>
+                <!-- return inx === 0 -->
+                {{ if eq $index 0 }}
+                  <lottie-player class="lottie-animation top-left-grid-lines"  src="https://lottie.host/f756b689-5736-47a9-a44b-8985c71be394/YlVA8YCC8K.json" background="transparent" speed="1"  autoplay></lottie-player>
+                  <lottie-player class="lottie-animation top-right-grid-lines d-lg-none" src="https://lottie.host/f041c641-c628-4550-8ed8-041306f1aabf/QuvfuHb5Fk.json" background="transparent" speed="1" autoplay></lottie-player>
 
-                      <lottie-player class="lottie-animation top-right-grid-lines d-none d-lg-block" src="https://lottie.host/f041c641-c628-4550-8ed8-041306f1aabf/QuvfuHb5Fk.json" background="transparent" speed="1" autoplay></lottie-player>
-                      <lottie-player class="lottie-animation top-middle-grid-lines d-none d-lg-block" src="https://lottie.host/02c9751d-d330-4706-b633-57c32b93c220/A9ZDgC7vmX.json" background="transparent" speed="1" autoplay></lottie-player>
+                <!-- inx === 1 -->
+                {{ else if eq $index 1 }}
+                  <lottie-player class="lottie-animation middle-left-grid-lines d-lg-none" src="https://lottie.host/8d581456-26c4-492f-9b6c-8dd7a9561659/0WVKyiaGx7.json" background="transparent" speed="1" autoplay></lottie-player>
+                  <lottie-player class="lottie-animation middle-right-grid-lines d-lg-none" src="https://lottie.host/c811dc4d-3601-48b6-848c-7949b19ec5fd/R7UK7DXxyI.json" background="transparent" speed="1" autoplay></lottie-player>
 
-                   <!-- inx === self.length - 1 && inx % 2 !== 0 -->
-                    {{else if eq $index 4 }}
+                  <lottie-player class="lottie-animation top-right-grid-lines d-none d-lg-block" src="https://lottie.host/f041c641-c628-4550-8ed8-041306f1aabf/QuvfuHb5Fk.json" background="transparent" speed="1" autoplay></lottie-player>
+                  <lottie-player class="lottie-animation top-middle-grid-lines d-none d-lg-block" src="https://lottie.host/02c9751d-d330-4706-b633-57c32b93c220/A9ZDgC7vmX.json" background="transparent" speed="1" autoplay></lottie-player>
 
-                      <lottie-player class="lottie-animation middle-right-grid-lines d-lg-none" src="https://lottie.host/c811dc4d-3601-48b6-848c-7949b19ec5fd/R7UK7DXxyI.json" background="transparent" speed="1" autoplay></lottie-player>
+                <!-- inx === self.length - 1 && inx % 2 !== 0 -->
+                {{else if eq $index 4 }}
 
-                      <lottie-player class="lottie-animation middle-left-grid-lines" src="https://lottie.host/8d581456-26c4-492f-9b6c-8dd7a9561659/0WVKyiaGx7.json" background="transparent" speed="1" autoplay></lottie-player>
-                      <lottie-player class="lottie-animation middle-middle-grid-lines d-none d-lg-block" src="https://lottie.host/9b0979e9-7c43-4c26-b6e9-9fc4b6ff1d77/gLR2yehPil.json" background="transparent" speed="1" autoplay></lottie-player>
+                  <lottie-player class="lottie-animation middle-right-grid-lines d-lg-none" src="https://lottie.host/c811dc4d-3601-48b6-848c-7949b19ec5fd/R7UK7DXxyI.json" background="transparent" speed="1" autoplay></lottie-player>
 
-
-                    <!-- inx % 2 === 0 && inx !== 0 && inx !== self.length - 1 && inx !== self.length - 2 -->
-                    {{ else if and (eq $odd false) (ne $index 0) (ne $index 4) (ne $index 3) }}
-
-                      <lottie-player class="lottie-animation middle-left-grid-lines" src="https://lottie.host/8d581456-26c4-492f-9b6c-8dd7a9561659/0WVKyiaGx7.json" background="transparent" speed="1" autoplay></lottie-player>
-                      <lottie-player class="lottie-animation middle-right-grid-lines d-lg-none" src="https://lottie.host/c811dc4d-3601-48b6-848c-7949b19ec5fd/R7UK7DXxyI.json" background="transparent" speed="1" autoplay></lottie-player>
-
-                       <lottie-player class="lottie-animation middle-middle-grid-lines d-none d-lg-block" src="https://lottie.host/9b0979e9-7c43-4c26-b6e9-9fc4b6ff1d77/gLR2yehPil.json" background="transparent" speed="1" autoplay></lottie-player>
+                  <lottie-player class="lottie-animation middle-left-grid-lines" src="https://lottie.host/8d581456-26c4-492f-9b6c-8dd7a9561659/0WVKyiaGx7.json" background="transparent" speed="1" autoplay></lottie-player>
+                  <lottie-player class="lottie-animation middle-middle-grid-lines d-none d-lg-block" src="https://lottie.host/9b0979e9-7c43-4c26-b6e9-9fc4b6ff1d77/gLR2yehPil.json" background="transparent" speed="1" autoplay></lottie-player>
 
 
-                    <!-- inx === self.length - 2 && inx % 2 === 0 -->
-                    {{ else if and (eq $index 3) (eq $odd false)  }}
-                    <lottie-player class="lottie-animation middle-left-grid-lines d-lg-none" src="https://lottie.host/8d581456-26c4-492f-9b6c-8dd7a9561659/0WVKyiaGx7.json" background="transparent" speed="1" autoplay></lottie-player>
-                    <lottie-player class="lottie-animation middle-right-grid-lines d-lg-none" src="https://lottie.host/c811dc4d-3601-48b6-848c-7949b19ec5fd/R7UK7DXxyI.json" background="transparent" speed="1" autoplay></lottie-player>
+                <!-- inx % 2 === 0 && inx !== 0 && inx !== self.length - 1 && inx !== self.length - 2 -->
+                {{ else if and (eq $odd false) (ne $index 0) (ne $index 4) (ne $index 3) }}
 
-                      <lottie-player class="lottie-animation middle-left-grid-lines d-none d-lg-block" src="https://lottie.host/8d581456-26c4-492f-9b6c-8dd7a9561659/0WVKyiaGx7.json" background="transparent" speed="1" autoplay></lottie-player>
-                      <lottie-player class="lottie-animation middle-middle-grid-lines d-none d-lg-block" src="https://lottie.host/9b0979e9-7c43-4c26-b6e9-9fc4b6ff1d77/gLR2yehPil.json" background="transparent" speed="1" autoplay></lottie-player>
-                      <lottie-player class="lottie-animation bottom-left-grid-lines d-none d-lg-block" src="https://lottie.host/e484b534-6ae3-4528-942f-7604f581c7f9/IGo5pz2FTU.json" background="transparent" speed="1" autoplay ></lottie-player>
+                  <lottie-player class="lottie-animation middle-left-grid-lines" src="https://lottie.host/8d581456-26c4-492f-9b6c-8dd7a9561659/0WVKyiaGx7.json" background="transparent" speed="1" autoplay></lottie-player>
+                  <lottie-player class="lottie-animation middle-right-grid-lines d-lg-none" src="https://lottie.host/c811dc4d-3601-48b6-848c-7949b19ec5fd/R7UK7DXxyI.json" background="transparent" speed="1" autoplay></lottie-player>
+
+                   <lottie-player class="lottie-animation middle-middle-grid-lines d-none d-lg-block" src="https://lottie.host/9b0979e9-7c43-4c26-b6e9-9fc4b6ff1d77/gLR2yehPil.json" background="transparent" speed="1" autoplay></lottie-player>
 
 
-                    {{ else }}
-                      <lottie-player class="lottie-animation middle-left-grid-lines d-lg-none" src="https://lottie.host/8d581456-26c4-492f-9b6c-8dd7a9561659/0WVKyiaGx7.json" background="transparent" speed="1" autoplay></lottie-player>
-                      <lottie-player class="lottie-animation middle-right-grid-lines d-lg-none" src="https://lottie.host/c811dc4d-3601-48b6-848c-7949b19ec5fd/R7UK7DXxyI.json" background="transparent" speed="1" autoplay></lottie-player>
+                <!-- inx === self.length - 2 && inx % 2 === 0 -->
+                {{ else if and (eq $index 3) (eq $odd false)  }}
+                <lottie-player class="lottie-animation middle-left-grid-lines d-lg-none" src="https://lottie.host/8d581456-26c4-492f-9b6c-8dd7a9561659/0WVKyiaGx7.json" background="transparent" speed="1" autoplay></lottie-player>
+                <lottie-player class="lottie-animation middle-right-grid-lines d-lg-none" src="https://lottie.host/c811dc4d-3601-48b6-848c-7949b19ec5fd/R7UK7DXxyI.json" background="transparent" speed="1" autoplay></lottie-player>
 
-                      <lottie-player class="lottie-animation middle-right-grid-lines" src="https://lottie.host/c811dc4d-3601-48b6-848c-7949b19ec5fd/R7UK7DXxyI.json" background="transparent" speed="1" autoplay></lottie-player>
-                    {{ end }}
+                  <lottie-player class="lottie-animation middle-left-grid-lines d-none d-lg-block" src="https://lottie.host/8d581456-26c4-492f-9b6c-8dd7a9561659/0WVKyiaGx7.json" background="transparent" speed="1" autoplay></lottie-player>
+                  <lottie-player class="lottie-animation middle-middle-grid-lines d-none d-lg-block" src="https://lottie.host/9b0979e9-7c43-4c26-b6e9-9fc4b6ff1d77/gLR2yehPil.json" background="transparent" speed="1" autoplay></lottie-player>
+                  <lottie-player class="lottie-animation bottom-left-grid-lines d-none d-lg-block" src="https://lottie.host/e484b534-6ae3-4528-942f-7604f581c7f9/IGo5pz2FTU.json" background="transparent" speed="1" autoplay ></lottie-player>
+
+
+                {{ else }}
+                  <lottie-player class="lottie-animation middle-left-grid-lines d-lg-none" src="https://lottie.host/8d581456-26c4-492f-9b6c-8dd7a9561659/0WVKyiaGx7.json" background="transparent" speed="1" autoplay></lottie-player>
+                  <lottie-player class="lottie-animation middle-right-grid-lines d-lg-none" src="https://lottie.host/c811dc4d-3601-48b6-848c-7949b19ec5fd/R7UK7DXxyI.json" background="transparent" speed="1" autoplay></lottie-player>
+
+                  <lottie-player class="lottie-animation middle-right-grid-lines" src="https://lottie.host/c811dc4d-3601-48b6-848c-7949b19ec5fd/R7UK7DXxyI.json" background="transparent" speed="1" autoplay></lottie-player>
+                {{ end }}
 
 
 
@@ -137,17 +140,102 @@
             </div>
         {{ end }}
 
+
+        <!-- SUBSCRIBE Card -->
         <div class="col-12 col-md-6 px-0">
           {{ .Render "subscribe" }}
         </div>
 
 
 
-        {{ range  (after 5 .Pages) }}
-        <div class="col-12 col-md-6 px-0">
-          {{ .Render "card" }}
-        </div>
+
+
+        {{- $odd2 := true }}
+        {{ $totalpageafter5posts := len  (after 5 .Pages) }}
+
+        {{ $lastPost := sub $totalpageafter5posts 1 }}
+        {{ $secondTolastPost := sub $totalpageafter5posts 2}}
+
+
+        {{  range $index, $pages := (after 5 .Pages) }}
+          <div class="col-12 col-md-6 px-0 text-center">
+            <div class="position-relative p-3">
+
+                {{ if eq $index 0 }}
+                <lottie-player class="lottie-animation middle-left-grid-lines" src="https://lottie.host/8d581456-26c4-492f-9b6c-8dd7a9561659/0WVKyiaGx7.json" background="transparent" speed="1" autoplay></lottie-player>
+                <lottie-player class="lottie-animation middle-middle-grid-lines d-none d-lg-block" src="https://lottie.host/9b0979e9-7c43-4c26-b6e9-9fc4b6ff1d77/gLR2yehPil.json" background="transparent" speed="1" autoplay></lottie-player>
+
+                {{else if eq $index 1}}
+                  <lottie-player class="lottie-animation middle-right-grid-lines" src="https://lottie.host/c811dc4d-3601-48b6-848c-7949b19ec5fd/R7UK7DXxyI.json" background="transparent" speed="1" autoplay></lottie-player>
+
+                 <!-- inx === self.length - 1 && inx % 2 !== 0 -->
+                  {{ else if and (eq $index $lastPost) ( not (modBool $index 2)) }}
+                    <lottie-player class="lottie-animation middle-right-grid-lines d-lg-none" src="https://lottie.host/c811dc4d-3601-48b6-848c-7949b19ec5fd/R7UK7DXxyI.json" background="transparent" speed="1" autoplay></lottie-player>
+
+                    <lottie-player class="lottie-animation middle-left-grid-lines" src="https://lottie.host/8d581456-26c4-492f-9b6c-8dd7a9561659/0WVKyiaGx7.json" background="transparent" speed="1" autoplay></lottie-player>
+                    <lottie-player class="lottie-animation middle-middle-grid-lines d-none d-lg-block" src="https://lottie.host/9b0979e9-7c43-4c26-b6e9-9fc4b6ff1d77/gLR2yehPil.json" background="transparent" speed="1" autoplay></lottie-player>
+
+
+                {{ else if and (eq $index $lastPost) (modBool $index 2) }}
+
+                      <lottie-player class="lottie-animation middle-right-grid-lines d-lg-none" src="https://lottie.host/c811dc4d-3601-48b6-848c-7949b19ec5fd/R7UK7DXxyI.json" background="transparent" speed="1" autoplay></lottie-player>
+
+                      <lottie-player class="lottie-animation middle-left-grid-lines" src="https://lottie.host/8d581456-26c4-492f-9b6c-8dd7a9561659/0WVKyiaGx7.json" background="transparent" speed="1" autoplay></lottie-player>
+                      <lottie-player class="lottie-animation middle-middle-grid-lines d-none d-lg-block" src="https://lottie.host/9b0979e9-7c43-4c26-b6e9-9fc4b6ff1d77/gLR2yehPil.json" background="transparent" speed="1" autoplay></lottie-player>
+                      <lottie-player class="lottie-animation bottom-left-grid-lines d-none d-lg-block" src="https://lottie.host/e484b534-6ae3-4528-942f-7604f581c7f9/IGo5pz2FTU.json" background="transparent" speed="1" autoplay ></lottie-player>
+                      <lottie-player class="lottie-animation bottom-right-grid-lines d-none d-lg-block" src="https://lottie.host/9ebd8ff4-837d-4697-88dd-dd38916943aa/U4sBxKrnzF.json" background="transparent" speed="1"></lottie-player>
+
+                  <!-- inx % 2 === 0 && inx !== 0 && inx !== self.length - 1 && inx !== self.length - 2 -->
+                  {{ else if and (modBool $index 2) (ne $index 0) (ne $index $lastPost) (ne $index $secondTolastPost) }}
+
+                    <lottie-player class="lottie-animation middle-left-grid-lines" src="https://lottie.host/8d581456-26c4-492f-9b6c-8dd7a9561659/0WVKyiaGx7.json" background="transparent" speed="1" autoplay></lottie-player>
+                    <lottie-player class="lottie-animation middle-right-grid-lines d-lg-none" src="https://lottie.host/c811dc4d-3601-48b6-848c-7949b19ec5fd/R7UK7DXxyI.json" background="transparent" speed="1" autoplay></lottie-player>
+                    <lottie-player class="lottie-animation middle-middle-grid-lines d-none d-lg-block" src="https://lottie.host/9b0979e9-7c43-4c26-b6e9-9fc4b6ff1d77/gLR2yehPil.json" background="transparent" speed="1" autoplay></lottie-player>
+
+
+                  <!-- inx === self.length - 2 && inx % 2 === 0 -->
+                  {{ else if eq $index $secondTolastPost   }}
+                    <lottie-player class="lottie-animation middle-left-grid-lines d-lg-none" src="https://lottie.host/8d581456-26c4-492f-9b6c-8dd7a9561659/0WVKyiaGx7.json" background="transparent" speed="1" autoplay></lottie-player>
+                    <lottie-player class="lottie-animation middle-right-grid-lines" src="https://lottie.host/c811dc4d-3601-48b6-848c-7949b19ec5fd/R7UK7DXxyI.json" background="transparent" speed="1" autoplay></lottie-player>
+                    <lottie-player class="lottie-animation bottom-right-grid-lines d-none d-lg-block" src="https://lottie.host/9ebd8ff4-837d-4697-88dd-dd38916943aa/U4sBxKrnzF.json" background="transparent" speed="1"></lottie-player>
+
+                  {{ else }}
+                    <lottie-player class="lottie-animation middle-left-grid-lines d-lg-none" src="https://lottie.host/8d581456-26c4-492f-9b6c-8dd7a9561659/0WVKyiaGx7.json" background="transparent" speed="1" autoplay></lottie-player>
+                    <lottie-player class="lottie-animation middle-right-grid-lines d-lg-none" src="https://lottie.host/c811dc4d-3601-48b6-848c-7949b19ec5fd/R7UK7DXxyI.json" background="transparent" speed="1" autoplay></lottie-player>
+
+                    <lottie-player class="lottie-animation middle-right-grid-lines" src="https://lottie.host/c811dc4d-3601-48b6-848c-7949b19ec5fd/R7UK7DXxyI.json" background="transparent" speed="1" autoplay></lottie-player>
+                  {{ end }}
+
+
+
+              <a href="/stories/{{ .Slug }}" class="position-relative">
+               <img src="{{ .Params.ThumbImage }}" alt="{{ .Params.Alt }}" class="w-100 opactity-antimation">
+              </a>
+
+              <div class="blog-category">
+                  {{ with .Params.tags }}
+                  {{ range . }}
+                  <a class="white-link mr-2" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">
+                    <i class="far fa-plus mr-2"></i>{{ . }}
+                  </a>
+                  {{ end }}
+                  </p>
+               {{ end }}
+                </div>
+
+              <a href="/stories/{{ .Slug }}" >
+              <div class="blog-roll-title">
+                  <h5 class="w-75 mx-auto">{{.Title }}</h5>
+              </div>
+              </a>
+            </div>
+          </div>
+
+
+
         {{ end }}
+
+
 
       </div>
     </div>
