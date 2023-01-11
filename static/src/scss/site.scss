@@ -1611,6 +1611,10 @@ footer {
       margin: 0 auto;
     }
 
+    .first-aniatmation-IS {
+      max-width: 400px !important;
+    }
+
     .third-aniatmation {
       max-width: 450px !important;
     }
@@ -1825,7 +1829,7 @@ footer {
   height: 200px;
 
   @media (min-width: 992px) {
-      height: 0; 
+      height: 0;
   }
 }
 
