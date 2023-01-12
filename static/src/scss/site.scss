@@ -9,6 +9,7 @@ $deepBlue: #1b2942; //DeepBlue
 $yellow: #FFC03A; //Yellow
 $pink: #d57081;  //pink
 $faqGreen: #e7f5f2; //FAQ light Green
+$newBlue: #0c436c; //link hover blue.
 
 $white: #ffffff; //White
 $light: #F4F4F4; //light grey
@@ -749,7 +750,7 @@ p {
 
         &:hover,
         &:active {
-            color: $purple;
+            color: $newBlue;
 
             &:after {
               transform: scaleX(1);
@@ -761,13 +762,12 @@ p {
         &:after {
           display:block;
           content: '';
-          border-bottom: solid 3px $purple;
+          border-bottom: solid 3px $newBlue;
           transform: scaleX(0);
           transition: transform 250ms ease-in-out;
           transform-origin:100% 50%;
         }
     }
-
 
     a.active {
         display: block;
@@ -777,15 +777,13 @@ p {
         transition: $transition-speed !important;
         font-weight: $font-weight-400;
         text-transform: uppercase;
-        color: $purple;
-
-
+        color: $newBlue;
 
 
         &:after {
           display:block;
           content: '';
-          border-bottom: solid 3px $purple;
+          border-bottom: solid 3px $newBlue;
           transform: scaleX(1);
           transition: transform 250ms ease-in-out;
           transform-origin:100% 50%;
@@ -929,7 +927,7 @@ footer {
 
     &:hover,
     &:active{
-      color: $purple;
+      color: $newBlue;
     }
   }
 
@@ -944,7 +942,7 @@ footer {
 
       &:hover,
       &:active{
-        color: $purple;
+        color: $newBlue;
       }
     }
   }
@@ -960,7 +958,7 @@ footer {
 
       &:hover,
       &:active{
-        color: $purple;
+        color: $newBlue;
       }
     }
   }
