@@ -1053,6 +1053,7 @@ footer .footer-social a:hover, footer .footer-social a:active {
   width: 100%;
   text-align: center;
   margin: 0 auto;
+  flex-direction: column;
 }
 #index-products-section .container .item .regular {
   max-width: 280px;
@@ -1060,6 +1061,11 @@ footer .footer-social a:hover, footer .footer-social a:active {
 @media (min-width: 992px) {
   #index-products-section .container .item .regular {
     max-width: 450px;
+  }
+}
+@media (min-width: 1200px) {
+  #index-products-section .container .item .regular {
+    max-width: 475px;
   }
 }
 #index-products-section .container .item .wide {

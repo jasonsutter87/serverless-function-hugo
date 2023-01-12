@@ -1272,6 +1272,7 @@ footer {
           width: 100%;
           text-align: center;
           margin: 0 auto;
+          flex-direction: column;
         }
 
         .regular {
@@ -1280,6 +1281,11 @@ footer {
           @media (min-width: 992px) {
             max-width: 450px;
           }
+
+          @media (min-width: 1200px) {
+            max-width: 475px;
+          }
+
 
         }
 
