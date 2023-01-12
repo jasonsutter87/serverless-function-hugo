@@ -25,10 +25,10 @@ priority: 1.0
           <div class="row">
             <div class="col-9 mx-auto d-lg-none">
               <select name="storiesSelect" id="storiesSelect">
-                <option value="all">All</option>
-                <option value="Investment">Investment</option>
-                <option value="Spotlight">Spotlight</option>
-                <option value="impactTv" selected>Impact TV</option>
+                <option value="/stories">All</option>
+                <option value="/tags/investment/">Investment</option>
+                <option value="/tags/spotlight/">Spotlight</option>
+                <option value="/impacttv" selected>Impact TV</option>
               </select>
             </div>
             <div class="col-12 px-3 d-none d-lg-block">
@@ -262,3 +262,15 @@ priority: 1.0
           </div>
         </div>
       </section>
+
+
+
+      <script type="text/javascript">
+        setTimeout(() => {
+          $(() => {
+            $('#storiesSelect').on('change', (e) => {
+              window.location.href =  e.target.value
+            })
+          })
+        }, 500)
+      </script>

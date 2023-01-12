@@ -257,27 +257,11 @@
   <script type="text/javascript">
     $(() => {
 
-    $('#storiesSelect').on('change', (e)=>{
-        switch(e.target.value) {
-          case "Investment":
-              window.location.href = '/tags/investment/';
-            break;
-          case "Spotlight":
-              window.location.href = '/tags/spotlight/';
-            break;
 
+      $('#storiesSelect').on('change', (e) => {
+        window.location.href =  e.target.value
+      })
 
-          case "impactTV":
-              window.location.href = '/stories/';
-            break;
-
-          case "exited":
-
-            break;
-          default:
-            window.location.href = '/impacttv/';
-        }
-    })
 
     let url = window.location.href.split('/tags/')[1]
     if(url == 'investment/'){
