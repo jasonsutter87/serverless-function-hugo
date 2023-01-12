@@ -862,9 +862,11 @@ p {
 #removePrivacyNav {
   background-color: transparent;
   border: none;
-  margin-left: 13px;
+  
+  svg{
+    color: $newBlue;
+  }
 }
-
 
 .nav-btn-close,
 .nav-btn-open,
@@ -911,6 +913,10 @@ p {
   padding: 0 30px;
   margin-top: 50px;
 }
+
+
+
+
 //////////////////////////////////////////////////////////////
 //                                                          ||
 //                        Footer                            ||
