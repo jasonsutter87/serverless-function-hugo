@@ -724,6 +724,7 @@ p {
 #removePrivacyNav {
   background-color: transparent;
   border: none;
+  color: #171717;
 }
 #removePrivacyNav svg {
   color: #0c436c;
