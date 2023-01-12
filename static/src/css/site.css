@@ -1252,8 +1252,10 @@ footer .footer-social a:hover, footer .footer-social a:active {
   color: #4d39e9;
 }
 
-#our-team-section {
-  margin-top: 50px;
+@media (min-width: 992px) {
+  #our-team-section {
+    margin-top: 50px;
+  }
 }
 
 #storiesSelect {

@@ -1531,7 +1531,11 @@ footer {
 
 
 #our-team-section {
-  margin-top: 50px;
+
+
+  @media (min-width: 992px) {
+      margin-top: 50px;
+  }
 
 }
 
