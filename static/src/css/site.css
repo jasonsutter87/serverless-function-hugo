@@ -1316,14 +1316,29 @@ footer .footer-social a:hover, footer .footer-social a:active {
 }
 .inner-investment-strategy-section lottie-player:nth-child(n) {
   width: 100%;
-  max-width: 300px;
+  max-width: 240px;
   margin: 0 auto;
 }
+@media (min-width: 992px) {
+  .inner-investment-strategy-section lottie-player:nth-child(n) {
+    max-width: 300px;
+  }
+}
 .inner-investment-strategy-section .first-animation-IS {
-  max-width: 400px !important;
+  max-width: 300px !important;
+}
+@media (min-width: 992px) {
+  .inner-investment-strategy-section .first-animation-IS {
+    max-width: 300px;
+  }
 }
 .inner-investment-strategy-section .third-aniatmation {
-  max-width: 450px !important;
+  max-width: 300px !important;
+}
+@media (min-width: 992px) {
+  .inner-investment-strategy-section .third-aniatmation {
+    max-width: 450px !important;
+  }
 }
 
 .form-input-style {

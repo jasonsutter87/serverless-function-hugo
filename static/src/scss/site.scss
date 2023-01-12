@@ -1624,16 +1624,28 @@ footer {
 
     lottie-player:nth-child(n) {
       width: 100%;
-      max-width: 300px;
+      max-width: 240px;
       margin: 0 auto;
+
+      @media (min-width: 992px) {
+        max-width: 300px;
+      }
     }
 
     .first-animation-IS {
-      max-width: 400px !important;
+      max-width: 300px !important;
+
+      @media (min-width: 992px) {
+        max-width: 300px;
+      }
     }
 
     .third-aniatmation {
-      max-width: 450px !important;
+      max-width: 300px !important;
+
+      @media (min-width: 992px) {
+        max-width: 450px !important;
+      }
     }
 }
 
