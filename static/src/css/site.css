@@ -1182,6 +1182,7 @@ footer .footer-social a:hover, footer .footer-social a:active {
   width: 100%;
   background-color: #ffffff !important;
   padding: 15px 0;
+  border-radius: 0;
 }
 
 #our-companies-logo-section {
@@ -1192,6 +1193,19 @@ footer .footer-social a:hover, footer .footer-social a:active {
   #our-companies-spotlight-seection {
     margin-top: 2rem;
   }
+}
+
+#stories-category-selection-section select,
+#our-team-selection-section select,
+#our-companies-section select {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%230c436c' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/></svg>");
+  background-size: 10px auto;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #0c436c;
 }
 
 @media (min-width: 992px) {
