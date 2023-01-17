@@ -24,6 +24,9 @@ const handler = async function (event, context) {
     return {
       statusCode: 200,
       body: JSON.stringify({ identity, user, msg: data.value }),
+      headers: {
+        "access-control-allow-origin": "*",
+      },
     }
   } catch (error) {
     // output to netlify function log
