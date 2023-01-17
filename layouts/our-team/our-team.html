@@ -500,7 +500,11 @@
 
 
       let initLoad = () => {
-        investmentParters.forEach((val, inx, self) => {
+
+        if(window.location.href.split('/our-team/').length > 1) {
+          $('#InvestmentTeam').click();
+        } else {
+          investmentParters.forEach((val, inx, self) => {
           if (!val.link) {
             $("#team-memeber-row").append(`
                   <div class="col-12 col-md-6 px-md-0 text-center">
@@ -612,6 +616,7 @@
                   `);
           }
         });
+        }
       };
 
       $("#teamSelect").on("change", (e) => {
