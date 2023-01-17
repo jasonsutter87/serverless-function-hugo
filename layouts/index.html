@@ -22,7 +22,7 @@
           $.ajax({
             url: "https://effortless-cat-bf0214.netlify.app/.netlify/functions/affinity",
             success: (msg) => {
-              console.log(msg)
+              $('#output').append(msg.split('{"msg":"'))
             }
           })
         })

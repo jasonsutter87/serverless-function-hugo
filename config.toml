@@ -1,11 +1,2 @@
-baseURL = 'https://impactvc.netlify.app/'
+baseURL = '/'
 languageCode = 'en-us'
-
-[[redirects]]
-	from = "/*"
-	to = "/404/"
-	status = 404
-
-	[taxonomies]
-	  tag = "tags"
-	  author = "authors"

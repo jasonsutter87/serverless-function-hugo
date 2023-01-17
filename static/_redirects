@@ -1,6 +1,2 @@
 # Redirects from what the browser requests to what we serve
 /home                                         /
-/talk-to-sales                       /find-your-solution
-/platform-tour                       /courseware
-/features                           /courseware
-/*  /404
