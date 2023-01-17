@@ -169,9 +169,11 @@
                 {{ if eq $index 0 }}
                 <lottie-player class="lottie-animation middle-left-grid-lines" src="https://lottie.host/8d581456-26c4-492f-9b6c-8dd7a9561659/0WVKyiaGx7.json" background="transparent" speed="1" autoplay></lottie-player>
                 <lottie-player class="lottie-animation middle-middle-grid-lines d-none d-lg-block" src="https://lottie.host/9b0979e9-7c43-4c26-b6e9-9fc4b6ff1d77/gLR2yehPil.json" background="transparent" speed="1" autoplay></lottie-player>
+                <lottie-player class="lottie-animation middle-right-grid-lines d-lg-none" src="https://lottie.host/c811dc4d-3601-48b6-848c-7949b19ec5fd/R7UK7DXxyI.json" background="transparent" speed="1" autoplay></lottie-player>
 
                 {{else if eq $index 1}}
                   <lottie-player class="lottie-animation middle-right-grid-lines" src="https://lottie.host/c811dc4d-3601-48b6-848c-7949b19ec5fd/R7UK7DXxyI.json" background="transparent" speed="1" autoplay></lottie-player>
+                    <lottie-player class="lottie-animation middle-left-grid-lines d-lg-none" src="https://lottie.host/8d581456-26c4-492f-9b6c-8dd7a9561659/0WVKyiaGx7.json" background="transparent" speed="1" autoplay></lottie-player>
 
                  <!-- inx === self.length - 1 && inx % 2 !== 0 -->
                   {{ else if and (eq $index $lastPost) ( not (modBool $index 2)) }}
@@ -187,8 +189,8 @@
 
                       <lottie-player class="lottie-animation middle-left-grid-lines" src="https://lottie.host/8d581456-26c4-492f-9b6c-8dd7a9561659/0WVKyiaGx7.json" background="transparent" speed="1" autoplay></lottie-player>
                       <lottie-player class="lottie-animation middle-middle-grid-lines d-none d-lg-block" src="https://lottie.host/9b0979e9-7c43-4c26-b6e9-9fc4b6ff1d77/gLR2yehPil.json" background="transparent" speed="1" autoplay></lottie-player>
-                      <lottie-player class="lottie-animation bottom-left-grid-lines d-none d-lg-block" src="https://lottie.host/e484b534-6ae3-4528-942f-7604f581c7f9/IGo5pz2FTU.json" background="transparent" speed="1" autoplay ></lottie-player>
-                      <lottie-player class="lottie-animation bottom-right-grid-lines d-none d-lg-block" src="https://lottie.host/9ebd8ff4-837d-4697-88dd-dd38916943aa/U4sBxKrnzF.json" background="transparent" speed="1"></lottie-player>
+                      <lottie-player class="lottie-animation bottom-left-grid-lines" src="https://lottie.host/e484b534-6ae3-4528-942f-7604f581c7f9/IGo5pz2FTU.json" background="transparent" speed="1" autoplay ></lottie-player>
+                      <lottie-player class="lottie-animation bottom-right-grid-lines" src="https://lottie.host/9ebd8ff4-837d-4697-88dd-dd38916943aa/U4sBxKrnzF.json" background="transparent" speed="1"></lottie-player>
 
                   <!-- inx % 2 === 0 && inx !== 0 && inx !== self.length - 1 && inx !== self.length - 2 -->
                   {{ else if and (modBool $index 2) (ne $index 0) (ne $index $lastPost) (ne $index $secondTolastPost) }}
@@ -207,8 +209,8 @@
 
                 {{ else if and ( eq $index $secondTolastPost) (modBool $index 1)   }}
                 <lottie-player class="lottie-animation middle-right-grid-lines" src="https://lottie.host/c811dc4d-3601-48b6-848c-7949b19ec5fd/R7UK7DXxyI.json" background="transparent" speed="1" autoplay></lottie-player>
-                <lottie-player class="lottie-animation bottom-right-grid-lines" src="https://lottie.host/9ebd8ff4-837d-4697-88dd-dd38916943aa/U4sBxKrnzF.json" background="transparent" speed="1"></lottie-player>
-
+                <lottie-player class="lottie-animation bottom-right-grid-lines d-none d-lg-block" src="https://lottie.host/9ebd8ff4-837d-4697-88dd-dd38916943aa/U4sBxKrnzF.json" background="transparent" speed="1"></lottie-player>
+                <lottie-player class="lottie-animation middle-left-grid-lines d-lg-none" src="https://lottie.host/8d581456-26c4-492f-9b6c-8dd7a9561659/0WVKyiaGx7.json" background="transparent" speed="1" autoplay></lottie-player>
 
 
                   {{ else }}
