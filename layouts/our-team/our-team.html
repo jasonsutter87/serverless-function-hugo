@@ -498,12 +498,13 @@
           },
       ];
 
+      if(window.location.href.split('/our-team/').length > 1 && window.location.href.split('/our-team/')[1] !== '') {
+        setTimeout(() => {
+          $('#InvestmentTeam').click();
+        }, 50)
+      }
 
       let initLoad = () => {
-
-        if(window.location.href.split('/our-team/').length > 1) {
-          $('#InvestmentTeam').click();
-        } else {
           investmentParters.forEach((val, inx, self) => {
           if (!val.link) {
             $("#team-memeber-row").append(`
@@ -616,7 +617,6 @@
                   `);
           }
         });
-        }
       };
 
       $("#teamSelect").on("change", (e) => {
